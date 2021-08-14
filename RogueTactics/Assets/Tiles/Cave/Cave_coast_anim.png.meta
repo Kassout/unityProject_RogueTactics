@@ -1,0 +1,5331 @@
+fileFormatVersion: 2
+guid: b44b6638864078146aa32d930c80d554
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4724115627686943964
+    second: CB-Land-Coast-Animated_0
+  - first:
+      213: -8978157639686820929
+    second: CB-Land-Coast-Animated_1
+  - first:
+      213: -5019954420386315285
+    second: CB-Land-Coast-Animated_2
+  - first:
+      213: 5932702791175714866
+    second: CB-Land-Coast-Animated_3
+  - first:
+      213: -2108134123162410134
+    second: CB-Land-Coast-Animated_4
+  - first:
+      213: 8426082425796914857
+    second: CB-Land-Coast-Animated_5
+  - first:
+      213: 6151652801360954193
+    second: CB-Land-Coast-Animated_6
+  - first:
+      213: -5736235936545677594
+    second: CB-Land-Coast-Animated_7
+  - first:
+      213: 6666025672801700026
+    second: CB-Land-Coast-Animated_8
+  - first:
+      213: -5832257925066692026
+    second: CB-Land-Coast-Animated_9
+  - first:
+      213: -3337642713621272389
+    second: CB-Land-Coast-Animated_10
+  - first:
+      213: 3928175596706142525
+    second: CB-Land-Coast-Animated_11
+  - first:
+      213: 1922729623685953406
+    second: CB-Land-Coast-Animated_12
+  - first:
+      213: 6585370812834184464
+    second: CB-Land-Coast-Animated_13
+  - first:
+      213: 4210752415744601289
+    second: CB-Land-Coast-Animated_14
+  - first:
+      213: -5088822325570612266
+    second: CB-Land-Coast-Animated_15
+  - first:
+      213: 4109015579984767885
+    second: CB-Land-Coast-Animated_16
+  - first:
+      213: -5613819730163735326
+    second: CB-Land-Coast-Animated_17
+  - first:
+      213: 3750337739137670519
+    second: CB-Land-Coast-Animated_18
+  - first:
+      213: 5737741130403346379
+    second: CB-Land-Coast-Animated_19
+  - first:
+      213: 1392830524202547871
+    second: CB-Land-Coast-Animated_20
+  - first:
+      213: -8498427272513914284
+    second: CB-Land-Coast-Animated_21
+  - first:
+      213: 3282064503786139191
+    second: CB-Land-Coast-Animated_22
+  - first:
+      213: -563804529654627315
+    second: CB-Land-Coast-Animated_23
+  - first:
+      213: -579503481056195415
+    second: CB-Land-Coast-Animated_24
+  - first:
+      213: -3855220028203333723
+    second: CB-Land-Coast-Animated_25
+  - first:
+      213: 2575391100236013173
+    second: CB-Land-Coast-Animated_26
+  - first:
+      213: -6366521842983814328
+    second: CB-Land-Coast-Animated_27
+  - first:
+      213: -3201309171350577385
+    second: CB-Land-Coast-Animated_28
+  - first:
+      213: -172044310348133509
+    second: CB-Land-Coast-Animated_29
+  - first:
+      213: 3521703012756737926
+    second: CB-Land-Coast-Animated_30
+  - first:
+      213: 7398196905672134264
+    second: CB-Land-Coast-Animated_31
+  - first:
+      213: 3816947849940852837
+    second: CB-Land-Coast-Animated_32
+  - first:
+      213: -2381048201978152041
+    second: CB-Land-Coast-Animated_33
+  - first:
+      213: -1948788564010272821
+    second: CB-Land-Coast-Animated_34
+  - first:
+      213: 6127068868448472922
+    second: CB-Land-Coast-Animated_35
+  - first:
+      213: -4668802021314424607
+    second: CB-Land-Coast-Animated_36
+  - first:
+      213: -6177137443725589460
+    second: CB-Land-Coast-Animated_37
+  - first:
+      213: 7589334289003652376
+    second: CB-Land-Coast-Animated_38
+  - first:
+      213: -8271732228651800275
+    second: CB-Land-Coast-Animated_39
+  - first:
+      213: -5010963807580226206
+    second: CB-Land-Coast-Animated_40
+  - first:
+      213: 5968124066091162835
+    second: CB-Land-Coast-Animated_41
+  - first:
+      213: -1412605894294815795
+    second: CB-Land-Coast-Animated_42
+  - first:
+      213: -1413880714010233438
+    second: CB-Land-Coast-Animated_43
+  - first:
+      213: -5420472135599419263
+    second: CB-Land-Coast-Animated_44
+  - first:
+      213: -1687171651574450819
+    second: CB-Land-Coast-Animated_45
+  - first:
+      213: -2153099178775767131
+    second: CB-Land-Coast-Animated_46
+  - first:
+      213: 6839035287410778588
+    second: CB-Land-Coast-Animated_47
+  - first:
+      213: -1520990195200954938
+    second: CB-Land-Coast-Animated_48
+  - first:
+      213: 2873038799040922175
+    second: CB-Land-Coast-Animated_49
+  - first:
+      213: 7451375539458562090
+    second: CB-Land-Coast-Animated_50
+  - first:
+      213: -37412658290336715
+    second: CB-Land-Coast-Animated_51
+  - first:
+      213: 1102381771624089422
+    second: CB-Land-Coast-Animated_52
+  - first:
+      213: -7237857775239320636
+    second: CB-Land-Coast-Animated_53
+  - first:
+      213: 8218637485778023871
+    second: CB-Land-Coast-Animated_54
+  - first:
+      213: 7401076869952122380
+    second: CB-Land-Coast-Animated_55
+  - first:
+      213: 1227221816563009498
+    second: CB-Land-Coast-Animated_56
+  - first:
+      213: -2093160013486807678
+    second: CB-Land-Coast-Animated_57
+  - first:
+      213: -6700257343272807523
+    second: CB-Land-Coast-Animated_58
+  - first:
+      213: -867098625480488822
+    second: CB-Land-Coast-Animated_59
+  - first:
+      213: -1959298535770084501
+    second: CB-Land-Coast-Animated_60
+  - first:
+      213: -7498984879045003120
+    second: CB-Land-Coast-Animated_61
+  - first:
+      213: -4160310014127660065
+    second: CB-Land-Coast-Animated_62
+  - first:
+      213: -8751333579449370616
+    second: CB-Land-Coast-Animated_63
+  - first:
+      213: 1549290548579433385
+    second: CB-Land-Coast-Animated_64
+  - first:
+      213: -3322516825434253210
+    second: CB-Land-Coast-Animated_65
+  - first:
+      213: 1522453643562555418
+    second: CB-Land-Coast-Animated_66
+  - first:
+      213: 5075104267388050859
+    second: CB-Land-Coast-Animated_67
+  - first:
+      213: -5118130269216753980
+    second: CB-Land-Coast-Animated_68
+  - first:
+      213: 9023788735436224248
+    second: CB-Land-Coast-Animated_69
+  - first:
+      213: -448063546997216777
+    second: CB-Land-Coast-Animated_70
+  - first:
+      213: 8082692914229545477
+    second: CB-Land-Coast-Animated_71
+  - first:
+      213: 2643899699269545899
+    second: CB-Land-Coast-Animated_72
+  - first:
+      213: 3153287920266298123
+    second: CB-Land-Coast-Animated_73
+  - first:
+      213: -8121246773452026344
+    second: CB-Land-Coast-Animated_74
+  - first:
+      213: 4015558979257411812
+    second: CB-Land-Coast-Animated_75
+  - first:
+      213: 6234675949185958968
+    second: CB-Land-Coast-Animated_76
+  - first:
+      213: -1396910011839222275
+    second: CB-Land-Coast-Animated_77
+  - first:
+      213: -7608400177851288145
+    second: CB-Land-Coast-Animated_78
+  - first:
+      213: 8612677550577259844
+    second: CB-Land-Coast-Animated_79
+  - first:
+      213: 6706697531150487037
+    second: CB-Land-Coast-Animated_80
+  - first:
+      213: 8049730113519007636
+    second: CB-Land-Coast-Animated_81
+  - first:
+      213: -1963289877628467846
+    second: CB-Land-Coast-Animated_82
+  - first:
+      213: -4940950658696035086
+    second: CB-Land-Coast-Animated_83
+  - first:
+      213: 6751338616213717767
+    second: CB-Land-Coast-Animated_84
+  - first:
+      213: 4749839898406213194
+    second: CB-Land-Coast-Animated_85
+  - first:
+      213: -1619131073304226059
+    second: CB-Land-Coast-Animated_86
+  - first:
+      213: 5100573734369025782
+    second: CB-Land-Coast-Animated_87
+  - first:
+      213: 4952878765004194840
+    second: CB-Land-Coast-Animated_88
+  - first:
+      213: -4811468490165185098
+    second: CB-Land-Coast-Animated_89
+  - first:
+      213: -8462356002814416387
+    second: CB-Land-Coast-Animated_90
+  - first:
+      213: 6242251968071072868
+    second: CB-Land-Coast-Animated_91
+  - first:
+      213: 3250053941691338127
+    second: CB-Land-Coast-Animated_92
+  - first:
+      213: -2184029096826644304
+    second: CB-Land-Coast-Animated_93
+  - first:
+      213: -7115244264883903841
+    second: CB-Land-Coast-Animated_94
+  - first:
+      213: -705800615481020952
+    second: CB-Land-Coast-Animated_95
+  - first:
+      213: 993579625585854109
+    second: CB-Land-Coast-Animated_96
+  - first:
+      213: -7779654543625951398
+    second: CB-Land-Coast-Animated_97
+  - first:
+      213: 6183272850095384626
+    second: CB-Land-Coast-Animated_98
+  - first:
+      213: 7152990604632314699
+    second: CB-Land-Coast-Animated_99
+  - first:
+      213: -316798516612556753
+    second: CB-Land-Coast-Animated_100
+  - first:
+      213: -3491834403287623077
+    second: CB-Land-Coast-Animated_101
+  - first:
+      213: 8458058119785848219
+    second: CB-Land-Coast-Animated_102
+  - first:
+      213: 1229185225319473729
+    second: CB-Land-Coast-Animated_103
+  - first:
+      213: 4037474286690381597
+    second: CB-Land-Coast-Animated_104
+  - first:
+      213: -2413725761750947465
+    second: CB-Land-Coast-Animated_105
+  - first:
+      213: -4495168014198807965
+    second: CB-Land-Coast-Animated_106
+  - first:
+      213: -4031082932768934276
+    second: CB-Land-Coast-Animated_107
+  - first:
+      213: -2564915021445232573
+    second: CB-Land-Coast-Animated_108
+  - first:
+      213: 2508669627140618198
+    second: CB-Land-Coast-Animated_109
+  - first:
+      213: -3293175246440158311
+    second: CB-Land-Coast-Animated_110
+  - first:
+      213: 1679543192534524571
+    second: CB-Land-Coast-Animated_111
+  - first:
+      213: 5908090179962388289
+    second: CB-Land-Coast-Animated_112
+  - first:
+      213: 8359174193547967919
+    second: CB-Land-Coast-Animated_113
+  - first:
+      213: -1581485849976606249
+    second: CB-Land-Coast-Animated_114
+  - first:
+      213: -2952767745438858752
+    second: CB-Land-Coast-Animated_115
+  - first:
+      213: 5541903711151011012
+    second: CB-Land-Coast-Animated_116
+  - first:
+      213: -8591594430289391479
+    second: CB-Land-Coast-Animated_117
+  - first:
+      213: 6497768644891859770
+    second: CB-Land-Coast-Animated_118
+  - first:
+      213: -7987550950258767494
+    second: CB-Land-Coast-Animated_119
+  - first:
+      213: -1306557022760635276
+    second: CB-Land-Coast-Animated_120
+  - first:
+      213: -8869766190264567177
+    second: CB-Land-Coast-Animated_121
+  - first:
+      213: -6370167204689128441
+    second: CB-Land-Coast-Animated_122
+  - first:
+      213: 3274631290432578934
+    second: CB-Land-Coast-Animated_123
+  - first:
+      213: -6416462280847819506
+    second: CB-Land-Coast-Animated_124
+  - first:
+      213: 3922305226409683254
+    second: CB-Land-Coast-Animated_125
+  - first:
+      213: 6294848529801821536
+    second: CB-Land-Coast-Animated_126
+  - first:
+      213: 8629725321575440701
+    second: CB-Land-Coast-Animated_127
+  - first:
+      213: -3389523489266286912
+    second: CB-Land-Coast-Animated_128
+  - first:
+      213: 2826688782832953073
+    second: CB-Land-Coast-Animated_129
+  - first:
+      213: -8882216274482520409
+    second: CB-Land-Coast-Animated_130
+  - first:
+      213: -4805683144991436025
+    second: CB-Land-Coast-Animated_131
+  - first:
+      213: 1542953987747266694
+    second: CB-Land-Coast-Animated_132
+  - first:
+      213: -7044727072516259562
+    second: CB-Land-Coast-Animated_133
+  - first:
+      213: 2935480157312747345
+    second: CB-Land-Coast-Animated_134
+  - first:
+      213: -4354984566726204743
+    second: CB-Land-Coast-Animated_135
+  - first:
+      213: 6943278235973987897
+    second: CB-Land-Coast-Animated_136
+  - first:
+      213: -7625939147100555272
+    second: CB-Land-Coast-Animated_137
+  - first:
+      213: -7255204702475132483
+    second: CB-Land-Coast-Animated_138
+  - first:
+      213: 7133921696647020883
+    second: CB-Land-Coast-Animated_139
+  - first:
+      213: -1046426391643499549
+    second: CB-Land-Coast-Animated_140
+  - first:
+      213: 8524322548059703610
+    second: CB-Land-Coast-Animated_141
+  - first:
+      213: -3604533176796983992
+    second: CB-Land-Coast-Animated_142
+  - first:
+      213: -2108236771958447485
+    second: CB-Land-Coast-Animated_143
+  - first:
+      213: -2655554764013179113
+    second: CB-Land-Coast-Animated_144
+  - first:
+      213: -3931558458350750207
+    second: CB-Land-Coast-Animated_145
+  - first:
+      213: -4330958658813198167
+    second: CB-Land-Coast-Animated_146
+  - first:
+      213: 6745876420953174279
+    second: CB-Land-Coast-Animated_147
+  - first:
+      213: 6280519980973140581
+    second: CB-Land-Coast-Animated_148
+  - first:
+      213: -6173723410570428917
+    second: CB-Land-Coast-Animated_149
+  - first:
+      213: -6477455665730780764
+    second: CB-Land-Coast-Animated_150
+  - first:
+      213: -4913132303215264319
+    second: CB-Land-Coast-Animated_151
+  - first:
+      213: 2271808660384491811
+    second: CB-Land-Coast-Animated_152
+  - first:
+      213: 1570230413676010760
+    second: CB-Land-Coast-Animated_153
+  - first:
+      213: -765206909376297428
+    second: CB-Land-Coast-Animated_154
+  - first:
+      213: -6870056084638059732
+    second: CB-Land-Coast-Animated_155
+  - first:
+      213: -5649187637029561516
+    second: CB-Land-Coast-Animated_156
+  - first:
+      213: 8418080064844062488
+    second: CB-Land-Coast-Animated_157
+  - first:
+      213: 8539744438123051293
+    second: CB-Land-Coast-Animated_158
+  - first:
+      213: -7648849634474238375
+    second: CB-Land-Coast-Animated_159
+  - first:
+      213: -1290182085456738170
+    second: CB-Land-Coast-Animated_160
+  - first:
+      213: 5514086616931359915
+    second: CB-Land-Coast-Animated_161
+  - first:
+      213: 1621753204925069383
+    second: CB-Land-Coast-Animated_162
+  - first:
+      213: 7318991642774736501
+    second: CB-Land-Coast-Animated_163
+  - first:
+      213: 4725839521442183784
+    second: CB-Land-Coast-Animated_164
+  - first:
+      213: -3337752177794221738
+    second: CB-Land-Coast-Animated_165
+  - first:
+      213: -522239846506314250
+    second: CB-Land-Coast-Animated_166
+  - first:
+      213: -5717127382342989130
+    second: CB-Land-Coast-Animated_167
+  - first:
+      213: 2871628442802581751
+    second: CB-Land-Coast-Animated_168
+  - first:
+      213: -175652135080893271
+    second: CB-Land-Coast-Animated_169
+  - first:
+      213: -9120675691196911419
+    second: CB-Land-Coast-Animated_170
+  - first:
+      213: 601345054185427974
+    second: CB-Land-Coast-Animated_171
+  - first:
+      213: -5315211103268113426
+    second: CB-Land-Coast-Animated_172
+  - first:
+      213: -7223389380319062899
+    second: CB-Land-Coast-Animated_173
+  - first:
+      213: -3374244026461557856
+    second: CB-Land-Coast-Animated_174
+  - first:
+      213: 1884664330773538073
+    second: CB-Land-Coast-Animated_175
+  - first:
+      213: -1588107312305780049
+    second: CB-Land-Coast-Animated_176
+  - first:
+      213: 466842798879264247
+    second: CB-Land-Coast-Animated_177
+  - first:
+      213: -7316543620928239307
+    second: CB-Land-Coast-Animated_178
+  - first:
+      213: 6716367335967309782
+    second: CB-Land-Coast-Animated_179
+  - first:
+      213: 5756540909323757075
+    second: CB-Land-Coast-Animated_180
+  - first:
+      213: -8883429343019881668
+    second: CB-Land-Coast-Animated_181
+  - first:
+      213: 486739677133717541
+    second: CB-Land-Coast-Animated_182
+  - first:
+      213: -1941215136283005897
+    second: CB-Land-Coast-Animated_183
+  - first:
+      213: 4335676274164213067
+    second: CB-Land-Coast-Animated_184
+  - first:
+      213: -1691055174548851759
+    second: CB-Land-Coast-Animated_185
+  - first:
+      213: 4807207888867783120
+    second: CB-Land-Coast-Animated_186
+  - first:
+      213: -5247652974031076285
+    second: CB-Land-Coast-Animated_187
+  - first:
+      213: -1471608121249169448
+    second: CB-Land-Coast-Animated_188
+  - first:
+      213: 9001846448014922007
+    second: CB-Land-Coast-Animated_189
+  - first:
+      213: -6185314078239181398
+    second: CB-Land-Coast-Animated_190
+  - first:
+      213: 522570584517873068
+    second: CB-Land-Coast-Animated_191
+  - first:
+      213: -3769482217934996470
+    second: CB-Land-Coast-Animated_192
+  - first:
+      213: 4083770829412119117
+    second: Cave_coast_anim_0
+  - first:
+      213: -6859496343680895741
+    second: Cave_coast_anim_1
+  - first:
+      213: 1396661517315235151
+    second: Cave_coast_anim_2
+  - first:
+      213: -1831053783311283599
+    second: Cave_coast_anim_3
+  - first:
+      213: -7324751911528306856
+    second: Cave_coast_anim_4
+  - first:
+      213: 1179682275010208408
+    second: Cave_coast_anim_5
+  - first:
+      213: 1072943870634007431
+    second: Cave_coast_anim_6
+  - first:
+      213: 4317189373059012528
+    second: Cave_coast_anim_7
+  - first:
+      213: -4667778128341679815
+    second: Cave_coast_anim_8
+  - first:
+      213: 8746260382122213070
+    second: Cave_coast_anim_9
+  - first:
+      213: 7651716794115762532
+    second: Cave_coast_anim_10
+  - first:
+      213: 4688665796173170621
+    second: Cave_coast_anim_11
+  - first:
+      213: 7704837652738344463
+    second: Cave_coast_anim_12
+  - first:
+      213: -7306714055432038590
+    second: Cave_coast_anim_13
+  - first:
+      213: 2265209264551485341
+    second: Cave_coast_anim_14
+  - first:
+      213: 7862492786632202562
+    second: Cave_coast_anim_15
+  - first:
+      213: -4203239366779839352
+    second: Cave_coast_anim_16
+  - first:
+      213: 6208570512791414674
+    second: Cave_coast_anim_17
+  - first:
+      213: -4460433303332628869
+    second: Cave_coast_anim_18
+  - first:
+      213: -9140433149313071981
+    second: Cave_coast_anim_19
+  - first:
+      213: -2086345030263358380
+    second: Cave_coast_anim_20
+  - first:
+      213: -7876908393130802414
+    second: Cave_coast_anim_21
+  - first:
+      213: -7503029672670884627
+    second: Cave_coast_anim_22
+  - first:
+      213: -6222971765040932541
+    second: Cave_coast_anim_23
+  - first:
+      213: -8987205109964806223
+    second: Cave_coast_anim_24
+  - first:
+      213: -1448648766420611515
+    second: Cave_coast_anim_25
+  - first:
+      213: -6017341986004614483
+    second: Cave_coast_anim_26
+  - first:
+      213: 496174022320216151
+    second: Cave_coast_anim_27
+  - first:
+      213: -3768062850419596491
+    second: Cave_coast_anim_28
+  - first:
+      213: -7092695240587239782
+    second: Cave_coast_anim_29
+  - first:
+      213: 8420041309906003003
+    second: Cave_coast_anim_30
+  - first:
+      213: -1701948364276664581
+    second: Cave_coast_anim_31
+  - first:
+      213: -3695991218608366918
+    second: Cave_coast_anim_32
+  - first:
+      213: 4541949375728743822
+    second: Cave_coast_anim_33
+  - first:
+      213: 7929322032469098620
+    second: Cave_coast_anim_34
+  - first:
+      213: 2437602668559696278
+    second: Cave_coast_anim_35
+  - first:
+      213: 8478313455397710316
+    second: Cave_coast_anim_36
+  - first:
+      213: 249224207993772677
+    second: Cave_coast_anim_37
+  - first:
+      213: -3509480199276899533
+    second: Cave_coast_anim_38
+  - first:
+      213: 8263001531443492808
+    second: Cave_coast_anim_39
+  - first:
+      213: 6921766943928400437
+    second: Cave_coast_anim_40
+  - first:
+      213: -4442853985314026254
+    second: Cave_coast_anim_41
+  - first:
+      213: 1817207880524604038
+    second: Cave_coast_anim_42
+  - first:
+      213: -4112503531417783960
+    second: Cave_coast_anim_43
+  - first:
+      213: 250635179597528521
+    second: Cave_coast_anim_44
+  - first:
+      213: 6970827583322279772
+    second: Cave_coast_anim_45
+  - first:
+      213: 6613744771814421305
+    second: Cave_coast_anim_46
+  - first:
+      213: 3238009832800779972
+    second: Cave_coast_anim_47
+  - first:
+      213: -1513719396991110893
+    second: Cave_coast_anim_48
+  - first:
+      213: -3529080199260655603
+    second: Cave_coast_anim_49
+  - first:
+      213: -7973685453384356999
+    second: Cave_coast_anim_50
+  - first:
+      213: 3932265353310620065
+    second: Cave_coast_anim_51
+  - first:
+      213: 4586238093388322576
+    second: Cave_coast_anim_52
+  - first:
+      213: -8740074029478486500
+    second: Cave_coast_anim_53
+  - first:
+      213: -7267997117805063680
+    second: Cave_coast_anim_54
+  - first:
+      213: 8916978313682115048
+    second: Cave_coast_anim_55
+  - first:
+      213: -7503219135293643517
+    second: Cave_coast_anim_56
+  - first:
+      213: 471748025826641619
+    second: Cave_coast_anim_57
+  - first:
+      213: 2208893951132689639
+    second: Cave_coast_anim_58
+  - first:
+      213: 2793673473773155074
+    second: Cave_coast_anim_59
+  - first:
+      213: -2030258973444557944
+    second: Cave_coast_anim_60
+  - first:
+      213: -3248765814553921830
+    second: Cave_coast_anim_61
+  - first:
+      213: -9177056286154232085
+    second: Cave_coast_anim_62
+  - first:
+      213: -3863037269273593533
+    second: Cave_coast_anim_63
+  - first:
+      213: 6848014256286628739
+    second: Cave_coast_anim_64
+  - first:
+      213: 7538498086780445318
+    second: Cave_coast_anim_65
+  - first:
+      213: -3041474042835011340
+    second: Cave_coast_anim_66
+  - first:
+      213: -75625962107209028
+    second: Cave_coast_anim_67
+  - first:
+      213: 3675275004614703690
+    second: Cave_coast_anim_68
+  - first:
+      213: 5276722391569306551
+    second: Cave_coast_anim_69
+  - first:
+      213: 3790789648343865320
+    second: Cave_coast_anim_70
+  - first:
+      213: 1228744546343497750
+    second: Cave_coast_anim_71
+  - first:
+      213: -5170799908071921715
+    second: Cave_coast_anim_72
+  - first:
+      213: -7965038487574144925
+    second: Cave_coast_anim_73
+  - first:
+      213: -4761248031199634401
+    second: Cave_coast_anim_74
+  - first:
+      213: -85776475478404071
+    second: Cave_coast_anim_75
+  - first:
+      213: -6506782803346807372
+    second: Cave_coast_anim_76
+  - first:
+      213: -8206245112678003341
+    second: Cave_coast_anim_77
+  - first:
+      213: -4405068918389466997
+    second: Cave_coast_anim_78
+  - first:
+      213: -2588480305745428496
+    second: Cave_coast_anim_79
+  - first:
+      213: -1228735334572304424
+    second: Cave_coast_anim_80
+  - first:
+      213: 5743923552082212441
+    second: Cave_coast_anim_81
+  - first:
+      213: -3366279459276060706
+    second: Cave_coast_anim_82
+  - first:
+      213: -3628027153142448627
+    second: Cave_coast_anim_83
+  - first:
+      213: -7332506232095537107
+    second: Cave_coast_anim_84
+  - first:
+      213: 973416379933865733
+    second: Cave_coast_anim_85
+  - first:
+      213: -1360042623991247542
+    second: Cave_coast_anim_86
+  - first:
+      213: -7484367364611614929
+    second: Cave_coast_anim_87
+  - first:
+      213: -7492913908653512728
+    second: Cave_coast_anim_88
+  - first:
+      213: -3661555873631446806
+    second: Cave_coast_anim_89
+  - first:
+      213: -4279622402700823473
+    second: Cave_coast_anim_90
+  - first:
+      213: 5142689295587949951
+    second: Cave_coast_anim_91
+  - first:
+      213: 3026826305400233397
+    second: Cave_coast_anim_92
+  - first:
+      213: -990681206684687915
+    second: Cave_coast_anim_93
+  - first:
+      213: -2964444712139077108
+    second: Cave_coast_anim_94
+  - first:
+      213: 919848521475276319
+    second: Cave_coast_anim_95
+  - first:
+      213: -8489992791353436599
+    second: Cave_coast_anim_96
+  - first:
+      213: 7635948182445014939
+    second: Cave_coast_anim_97
+  - first:
+      213: 7011714152967306219
+    second: Cave_coast_anim_98
+  - first:
+      213: -8132938250605667587
+    second: Cave_coast_anim_99
+  - first:
+      213: 2818347983894719670
+    second: Cave_coast_anim_100
+  - first:
+      213: -6146730899571166136
+    second: Cave_coast_anim_101
+  - first:
+      213: 5714914221355002008
+    second: Cave_coast_anim_102
+  - first:
+      213: -4119912682563822978
+    second: Cave_coast_anim_103
+  - first:
+      213: 8500004902188825307
+    second: Cave_coast_anim_104
+  - first:
+      213: -3101194250229844071
+    second: Cave_coast_anim_105
+  - first:
+      213: 4877070024689132106
+    second: Cave_coast_anim_106
+  - first:
+      213: 1168572065687061517
+    second: Cave_coast_anim_107
+  - first:
+      213: 2476649353230496924
+    second: Cave_coast_anim_108
+  - first:
+      213: 978217442062545548
+    second: Cave_coast_anim_109
+  - first:
+      213: -7545424043500981668
+    second: Cave_coast_anim_110
+  - first:
+      213: 8442334298196489263
+    second: Cave_coast_anim_111
+  - first:
+      213: 4993673969030219068
+    second: Cave_coast_anim_112
+  - first:
+      213: 1825745144219727265
+    second: Cave_coast_anim_113
+  - first:
+      213: -5654213204597017843
+    second: Cave_coast_anim_114
+  - first:
+      213: 8837395355409257172
+    second: Cave_coast_anim_115
+  - first:
+      213: -331336265999876801
+    second: Cave_coast_anim_116
+  - first:
+      213: 8488107047314588067
+    second: Cave_coast_anim_117
+  - first:
+      213: 6595522083628607918
+    second: Cave_coast_anim_118
+  - first:
+      213: 1867300892833913587
+    second: Cave_coast_anim_119
+  - first:
+      213: 5471274798220760456
+    second: Cave_coast_anim_120
+  - first:
+      213: 8712359224108210757
+    second: Cave_coast_anim_121
+  - first:
+      213: -3465787555065324628
+    second: Cave_coast_anim_122
+  - first:
+      213: 9075005591819772931
+    second: Cave_coast_anim_123
+  - first:
+      213: -8919304517082252867
+    second: Cave_coast_anim_124
+  - first:
+      213: -1475861790452514493
+    second: Cave_coast_anim_125
+  - first:
+      213: 3114579869388621280
+    second: Cave_coast_anim_126
+  - first:
+      213: 5482795186120155852
+    second: Cave_coast_anim_127
+  - first:
+      213: 8513371500103099617
+    second: Cave_coast_anim_128
+  - first:
+      213: 5416765512525045199
+    second: Cave_coast_anim_129
+  - first:
+      213: 6885997596786290625
+    second: Cave_coast_anim_130
+  - first:
+      213: -2074731642684984709
+    second: Cave_coast_anim_131
+  - first:
+      213: 7799330734452794231
+    second: Cave_coast_anim_132
+  - first:
+      213: 6498262788853831102
+    second: Cave_coast_anim_133
+  - first:
+      213: -6268817882851121783
+    second: Cave_coast_anim_134
+  - first:
+      213: -3268351611008533447
+    second: Cave_coast_anim_135
+  - first:
+      213: 1644725947044957333
+    second: Cave_coast_anim_136
+  - first:
+      213: -705681754757268967
+    second: Cave_coast_anim_137
+  - first:
+      213: -8532983065899455143
+    second: Cave_coast_anim_138
+  - first:
+      213: -5798457537502952846
+    second: Cave_coast_anim_139
+  - first:
+      213: -8925708520034584716
+    second: Cave_coast_anim_140
+  - first:
+      213: 628726425991866768
+    second: Cave_coast_anim_141
+  - first:
+      213: 6607109825597056985
+    second: Cave_coast_anim_142
+  - first:
+      213: -2744501928125002719
+    second: Cave_coast_anim_143
+  - first:
+      213: 182414009782841536
+    second: Cave_coast_anim_144
+  - first:
+      213: 5038695389868422647
+    second: Cave_coast_anim_145
+  - first:
+      213: -9172412499422732845
+    second: Cave_coast_anim_146
+  - first:
+      213: 1020995890873977440
+    second: Cave_coast_anim_147
+  - first:
+      213: -7616315245929431513
+    second: Cave_coast_anim_148
+  - first:
+      213: 6830344629028690718
+    second: Cave_coast_anim_149
+  - first:
+      213: 4777289955664000961
+    second: Cave_coast_anim_150
+  - first:
+      213: -3618424903250882710
+    second: Cave_coast_anim_151
+  - first:
+      213: 8502989745825219160
+    second: Cave_coast_anim_152
+  - first:
+      213: -8556388616841949503
+    second: Cave_coast_anim_153
+  - first:
+      213: -3643493179835849009
+    second: Cave_coast_anim_154
+  - first:
+      213: 7410928961776891664
+    second: Cave_coast_anim_155
+  - first:
+      213: 1670561063784714454
+    second: Cave_coast_anim_156
+  - first:
+      213: 2033028901398257724
+    second: Cave_coast_anim_157
+  - first:
+      213: -9058027442510461634
+    second: Cave_coast_anim_158
+  - first:
+      213: 8530360909663913584
+    second: Cave_coast_anim_159
+  - first:
+      213: -8582328337788287914
+    second: Cave_coast_anim_160
+  - first:
+      213: -7929036190667062825
+    second: Cave_coast_anim_161
+  - first:
+      213: -3965611906686776558
+    second: Cave_coast_anim_162
+  - first:
+      213: -5335748883495919943
+    second: Cave_coast_anim_163
+  - first:
+      213: -2960633451250649225
+    second: Cave_coast_anim_164
+  - first:
+      213: -2738530628848417803
+    second: Cave_coast_anim_165
+  - first:
+      213: 6454226109350651086
+    second: Cave_coast_anim_166
+  - first:
+      213: -5231707021658009775
+    second: Cave_coast_anim_167
+  - first:
+      213: -3947272168773201933
+    second: Cave_coast_anim_168
+  - first:
+      213: -1276261624193279638
+    second: Cave_coast_anim_169
+  - first:
+      213: -7778722112803460214
+    second: Cave_coast_anim_170
+  - first:
+      213: 3192140802348296108
+    second: Cave_coast_anim_171
+  - first:
+      213: -4894390431263786505
+    second: Cave_coast_anim_172
+  - first:
+      213: 2387607726052658244
+    second: Cave_coast_anim_173
+  - first:
+      213: 7715452727234654509
+    second: Cave_coast_anim_174
+  - first:
+      213: 9086934390800536869
+    second: Cave_coast_anim_175
+  - first:
+      213: 626914528780287146
+    second: Cave_coast_anim_176
+  - first:
+      213: 6903889703065760400
+    second: Cave_coast_anim_177
+  - first:
+      213: -7292924195155058219
+    second: Cave_coast_anim_178
+  - first:
+      213: -2713279967545355167
+    second: Cave_coast_anim_179
+  - first:
+      213: -5186372156934442714
+    second: Cave_coast_anim_180
+  - first:
+      213: -7107795097506804754
+    second: Cave_coast_anim_181
+  - first:
+      213: -95783383436514972
+    second: Cave_coast_anim_182
+  - first:
+      213: -7865080300847043789
+    second: Cave_coast_anim_183
+  - first:
+      213: -1126136232239905744
+    second: Cave_coast_anim_184
+  - first:
+      213: -958498594032396066
+    second: Cave_coast_anim_185
+  - first:
+      213: 8206730349859148807
+    second: Cave_coast_anim_186
+  - first:
+      213: -5321311414297930890
+    second: Cave_coast_anim_187
+  - first:
+      213: 4922145667695160905
+    second: Cave_coast_anim_188
+  - first:
+      213: 8804867137211792018
+    second: Cave_coast_anim_189
+  - first:
+      213: -3610446084761573955
+    second: Cave_coast_anim_190
+  - first:
+      213: -8510567855507987959
+    second: Cave_coast_anim_191
+  - first:
+      213: 701313898667813477
+    second: Cave_coast_anim_192
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave_coast_anim_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42363fbee77ca830800000000000000
+      internalID: 4083770829412119117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3053fc82b6c2ec0a0800000000000000
+      internalID: -6859496343680895741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d580b0040f16310800000000000000
+      internalID: 1396661517315235151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a8811194ac696e0800000000000000
+      internalID: -1831053783311283599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857ed75d1f0495a90800000000000000
+      internalID: -7324751911528306856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892eec567c21f5010800000000000000
+      internalID: 1179682275010208408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b921104ccd3ee00800000000000000
+      internalID: 1072943870634007431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b716418cdcb9eb30800000000000000
+      internalID: 4317189373059012528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9314bd1f588b83fb0800000000000000
+      internalID: -4667778128341679815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece77755a75f06970800000000000000
+      internalID: 8746260382122213070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469292b32eb503a60800000000000000
+      internalID: 7651716794115762532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db70d6333bc711140800000000000000
+      internalID: 4688665796173170621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06068fe5051dea60800000000000000
+      internalID: 7704837652738344463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2479e9a7746599a90800000000000000
+      internalID: -7306714055432038590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fd38313d3af6f10800000000000000
+      internalID: 2265209264551485341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249984c388f2d1d60800000000000000
+      internalID: 7862492786632202562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c562dc0181ba5c0800000000000000
+      internalID: -4203239366779839352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297a5e9acf5492650800000000000000
+      internalID: 6208570512791414674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7659820b8b5912c0800000000000000
+      internalID: -4460433303332628869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3944df19a78a62180800000000000000
+      internalID: -9140433149313071981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c3048bf30db03e0800000000000000
+      internalID: -2086345030263358380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2134523dc899fa290800000000000000
+      internalID: -7876908393130802414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec8c35f342efd790800000000000000
+      internalID: -7503029672670884627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3491371862093a9a0800000000000000
+      internalID: -6222971765040932541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7e8f89198074380800000000000000
+      internalID: -8987205109964806223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e01394f9d55ebe0800000000000000
+      internalID: -1448648766420611515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2c620585b1e7ca0800000000000000
+      internalID: -6017341986004614483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7585c2bf4a3c2e600800000000000000
+      internalID: 496174022320216151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533e4653dc625bbc0800000000000000
+      internalID: -3768062850419596491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e91b4e14fa19d90800000000000000
+      internalID: -7092695240587239782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34ef07c5fef9d470800000000000000
+      internalID: 8420041309906003003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf67b31eaf67168e0800000000000000
+      internalID: -1701948364276664581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba92e1a19335bcc0800000000000000
+      internalID: -3695991218608366918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e857e1894ee380f30800000000000000
+      internalID: 4541949375728743822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70cffe806c9a0e60800000000000000
+      internalID: 7929322032469098620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6918b0b46ba14d120800000000000000
+      internalID: 2437602668559696278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9256bea2509a570800000000000000
+      internalID: 8478313455397710316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a95e2c81c657300800000000000000
+      internalID: 249224207993772677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33355df4a52db4fc0800000000000000
+      internalID: -3509480199276899533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7b2341d141ca270800000000000000
+      internalID: 8263001531443492808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ab4e6cc5e0f0060800000000000000
+      internalID: 6921766943928400437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fccd60f6dfc752c0800000000000000
+      internalID: -4442853985314026254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a5b970f4083910800000000000000
+      internalID: 1817207880524604038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861bd40c3d37de6c0800000000000000
+      internalID: -4112503531417783960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cd70203e5f6a7300800000000000000
+      internalID: 250635179597528521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f4b6601ca5db060800000000000000
+      internalID: 6970827583322279772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933781f24ddb8cb50800000000000000
+      internalID: 6613744771814421305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceff4789c8bfec20800000000000000
+      internalID: 3238009832800779972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_48
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311f9bc7a303efae0800000000000000
+      internalID: -1513719396991110893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d003433b140360fc0800000000000000
+      internalID: -3529080199260655603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97b63589357c75190800000000000000
+      internalID: -7973685453384356999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9c7aa3186329630800000000000000
+      internalID: 3932265353310620065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01796cb3f3795af30800000000000000
+      internalID: 4586238093388322576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e51522af405b680800000000000000
+      internalID: -8740074029478486500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0029aacf023e22b90800000000000000
+      internalID: -7267997117805063680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e952e838887fbb70800000000000000
+      internalID: 8916978313682115048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305a8e043f53fd790800000000000000
+      internalID: -7503219135293643517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d683ee745cfb8600800000000000000
+      internalID: 471748025826641619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4e5c7685197ae10800000000000000
+      internalID: 2208893951132689639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033eae093f15c620800000000000000
+      internalID: 2793673473773155074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883b9cd683213d3e0800000000000000
+      internalID: -2030258973444557944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6b41154b01ae2d0800000000000000
+      internalID: -3248765814553921830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beee20c0eeb84a080800000000000000
+      internalID: -9177056286154232085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3493ad2221cb36ac0800000000000000
+      internalID: -3863037269273593533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b76ca0fa8090f50800000000000000
+      internalID: 6848014256286628739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a28ab1102e9860800000000000000
+      internalID: 7538498086780445318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f87f33f8738ac5d0800000000000000
+      internalID: -3041474042835011340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba7dc0969253fef0800000000000000
+      internalID: -75625962107209028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a7eede423310330800000000000000
+      internalID: 3675275004614703690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b396dfce0faa3940800000000000000
+      internalID: 5276722391569306551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e793c7c9179b9430800000000000000
+      internalID: 3790789648343865320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610b08c97a06d0110800000000000000
+      internalID: 1228744546343497750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc720c231e0ad38b0800000000000000
+      internalID: -5170799908071921715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36814d532bf767190800000000000000
+      internalID: -7965038487574144925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c51dc4426acedb0800000000000000
+      internalID: -4761248031199634401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 914560100c24fcef0800000000000000
+      internalID: -85776475478404071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b5a4e7c38343b5a0800000000000000
+      internalID: -6506782803346807372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dca0f6c8f8d1e80800000000000000
+      internalID: -8206245112678003341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b881844682d0ed2c0800000000000000
+      internalID: -4405068918389466997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fff2f350eed31cd0800000000000000
+      internalID: -2588480305745428496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7d8db29b7a2fee0800000000000000
+      internalID: -1228735334572304424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9563cdab90486bf40800000000000000
+      internalID: 5743923552082212441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed70827caa29841d0800000000000000
+      internalID: -3366279459276060706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ef87db688a6adc0800000000000000
+      internalID: -3628027153142448627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d288b926e64bd3a90800000000000000
+      internalID: -7332506232095537107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50731884a05428d00800000000000000
+      internalID: 973416379933865733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d8c957078202de0800000000000000
+      internalID: -1360042623991247542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f275cc7298f222890800000000000000
+      internalID: -7484367364611614929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7af1ecf72d30890800000000000000
+      internalID: -7492913908653512728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8d3fa255a8f2dc0800000000000000
+      internalID: -3661555873631446806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44b632691abb94c0800000000000000
+      internalID: -4279622402700823473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d39bdcaa08e5740800000000000000
+      internalID: 5142689295587949951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd503aec72710a20800000000000000
+      internalID: 3026826305400233397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d167edf0b46042f0800000000000000
+      internalID: -990681206684687915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a4aa89d3d2cd6d0800000000000000
+      internalID: -2964444712139077108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eb3b15b55f3cc00800000000000000
+      internalID: 919848521475276319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94650c5c98c7d2a80800000000000000
+      internalID: -8489992791353436599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fbce93a6658f960800000000000000
+      internalID: 7635948182445014939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebf13a5fdc9e4160800000000000000
+      internalID: 7011714152967306219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa567050cff12f80800000000000000
+      internalID: -8132938250605667587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcab712f88cc1720800000000000000
+      internalID: 2818347983894719670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844b42940dc62baa0800000000000000
+      internalID: -6146730899571166136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_102
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89861b594347f4f40800000000000000
+      internalID: 5714914221355002008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a18225e3123d6c0800000000000000
+      internalID: -4119912682563822978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_104
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda3b007c6516f570800000000000000
+      internalID: 8500004902188825307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997f09f924856f4d0800000000000000
+      internalID: -3101194250229844071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a422d4ef855dea340800000000000000
+      internalID: 4877070024689132106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04c8b53a1a973010800000000000000
+      internalID: 1168572065687061517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_108
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9431840773de5220800000000000000
+      internalID: 2476649353230496924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c82ba3ba493539d00800000000000000
+      internalID: 978217442062545548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52be6f4fc4494790800000000000000
+      internalID: -7545424043500981668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2439179052392570800000000000000
+      internalID: 8442334298196489263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_112
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35492864081d4540800000000000000
+      internalID: 4993673969030219068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a57c931989565910800000000000000
+      internalID: 1825745144219727265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03fba73c033881b0800000000000000
+      internalID: -5654213204597017843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_115
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d21bd2d04cb4aa70800000000000000
+      internalID: 8837395355409257172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_116
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d7fdbeb6bd66bf0800000000000000
+      internalID: -331336265999876801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a10daa3360dbc570800000000000000
+      internalID: 8488107047314588067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea96de6f360088b50800000000000000
+      internalID: 6595522083628607918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa9226c44cf9e910800000000000000
+      internalID: 1867300892833913587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885de70e07fddeb40800000000000000
+      internalID: 5471274798220760456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a5194ed8488e870800000000000000
+      internalID: 8712359224108210757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab9c59c49c07efc0800000000000000
+      internalID: -3465787555065324628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304e91b1185e0fd70800000000000000
+      internalID: 9075005591819772931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_124
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db976c75cc3483480800000000000000
+      internalID: -8919304517082252867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3418182658fa48be0800000000000000
+      internalID: -1475861790452514493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_126
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5cd73b3e5393b20800000000000000
+      internalID: 3114579869388621280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2e9e43c2dc61c40800000000000000
+      internalID: 5482795186120155852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_128
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e464980642952670800000000000000
+      internalID: 8513371500103099617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd54adc8873c2b40800000000000000
+      internalID: 5416765512525045199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_130
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cfe3a8a45aff8f50800000000000000
+      internalID: 6885997596786290625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72bf7930921533e0800000000000000
+      internalID: -2074731642684984709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_132
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77368d8faf9cc3c60800000000000000
+      internalID: 7799330734452794231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb595c2c3977e2a50800000000000000
+      internalID: 6498262788853831102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985ea03695fa009a0800000000000000
+      internalID: -6268817882851121783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cb2c8b68b74a2d0800000000000000
+      internalID: -3268351611008533447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_136
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c8b72e88d33d610800000000000000
+      internalID: 1644725947044957333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91af733de2ae436f0800000000000000
+      internalID: -705681754757268967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_138
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95da3aa7c11c49980800000000000000
+      internalID: -8532983065899455143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27243f7579db78fa0800000000000000
+      internalID: -5798457537502952846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_140
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47739a63463812480800000000000000
+      internalID: -8925708520034584716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09965227a5fa9b800800000000000000
+      internalID: 628726425991866768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_142
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7a4b2616b21bb50800000000000000
+      internalID: 6607109825597056985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c0cb0990299e9d0800000000000000
+      internalID: -2744501928125002719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_144
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0392f4390188200800000000000000
+      internalID: 182414009782841536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5718cc2ca0de540800000000000000
+      internalID: 5038695389868422647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd1e86ed6b05b080800000000000000
+      internalID: -9172412499422732845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a4da07a5e4b2e00800000000000000
+      internalID: 1020995890873977440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_148
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72efbf403a96d4690800000000000000
+      internalID: -7616315245929431513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b90ca50424ace50800000000000000
+      internalID: 6830344629028690718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_150
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7f46c47e75c4240800000000000000
+      internalID: 4777289955664000961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_151
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fcd43c8b5c8cdc0800000000000000
+      internalID: -3618424903250882710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_152
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85283b08f10b00670800000000000000
+      internalID: 8502989745825219160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce80fcf2e9914980800000000000000
+      internalID: -8556388616841949503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_154
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6635ac146bf6dc0800000000000000
+      internalID: -3643493179835849009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_155
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017bd5e30a8e8d660800000000000000
+      internalID: 7410928961776891664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_156
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d09c7ebf660f2710800000000000000
+      internalID: 1670561063784714454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3022fda305c63c10800000000000000
+      internalID: 2033028901398257724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_158
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e358c63580c6b4280800000000000000
+      internalID: -9058027442510461634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_159
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07645623d0ee16670800000000000000
+      internalID: 8530360909663913584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_160
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6544c5019d175e880800000000000000
+      internalID: -8582328337788287914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1c21c289766f190800000000000000
+      internalID: -7929036190667062825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b00e84bf057f8c0800000000000000
+      internalID: -3965611906686776558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bed98419ac93f5b0800000000000000
+      internalID: -5335748883495919943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_164
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777f01cef87b9e6d0800000000000000
+      internalID: -2960633451250649225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f386f407e8cef9d0800000000000000
+      internalID: -2738530628848417803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_166
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4a5e35374029950800000000000000
+      internalID: 6454226109350651086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_167
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f482dbe2e3567b0800000000000000
+      internalID: -5231707021658009775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_168
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffcc7440e87839c0800000000000000
+      internalID: -3947272168773201933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a691f7190dec94ee0800000000000000
+      internalID: -1276261624193279638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_170
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bafdba37d6c0490800000000000000
+      internalID: -7778722112803460214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_171
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca72005a523cc4c20800000000000000
+      internalID: 3192140802348296108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_172
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9737895d1a31cb0800000000000000
+      internalID: -4894390431263786505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cc856a39c722120800000000000000
+      internalID: 2387607726052658244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_174
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21f320906bc21b60800000000000000
+      internalID: 7715452727234654509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_175
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52552fc0fa64b1e70800000000000000
+      internalID: 9086934390800536869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_176
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacfa70417f33b800800000000000000
+      internalID: 626914528780287146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09236b74b1b8fcf50800000000000000
+      internalID: 6903889703065760400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_178
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d16ee585145aca90800000000000000
+      internalID: -7292924195155058219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164964ebe3e785ad0800000000000000
+      internalID: -2713279967545355167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_180
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62132f8700e4608b0800000000000000
+      internalID: -5186372156934442714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_181
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb08dc740a0c5d90800000000000000
+      internalID: -7107795097506804754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_182
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469a1ee2585bbaef0800000000000000
+      internalID: -95783383436514972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_183
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33be61a232f99d290800000000000000
+      internalID: -7865080300847043789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_184
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034c4a430192f50f0800000000000000
+      internalID: -1126136232239905744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8dcf86b9ab2b2f0800000000000000
+      internalID: -958498594032396066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_186
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70495c6a5c924e170800000000000000
+      internalID: 8206730349859148807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6735a835677e626b0800000000000000
+      internalID: -5321311414297930890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_188
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ea2b7f769fe4440800000000000000
+      internalID: 4922145667695160905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29af408d20c213a70800000000000000
+      internalID: 8804867137211792018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_190
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db526153a6e15edc0800000000000000
+      internalID: -3610446084761573955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_191
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902a69750a364e980800000000000000
+      internalID: -8510567855507987959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_coast_anim_192
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aa32e66419bb900800000000000000
+      internalID: 701313898667813477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

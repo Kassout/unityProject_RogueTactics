@@ -1,0 +1,5331 @@
+fileFormatVersion: 2
+guid: cf384f90f129fff4b9b347299b2c697e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6879931991601573293
+    second: CB-Rock-Coast-Animated_0
+  - first:
+      213: 7295050940569301582
+    second: CB-Rock-Coast-Animated_1
+  - first:
+      213: 2581636728971750760
+    second: CB-Rock-Coast-Animated_2
+  - first:
+      213: 6995785761350035124
+    second: CB-Rock-Coast-Animated_3
+  - first:
+      213: 6711585425151387021
+    second: CB-Rock-Coast-Animated_4
+  - first:
+      213: -1952533343627528085
+    second: CB-Rock-Coast-Animated_5
+  - first:
+      213: 2167753780858535687
+    second: CB-Rock-Coast-Animated_6
+  - first:
+      213: -4128982629927444252
+    second: CB-Rock-Coast-Animated_7
+  - first:
+      213: 5983707531896772768
+    second: CB-Rock-Coast-Animated_8
+  - first:
+      213: 4336428230092828537
+    second: CB-Rock-Coast-Animated_9
+  - first:
+      213: 7122002839404658280
+    second: CB-Rock-Coast-Animated_10
+  - first:
+      213: 8169889739828069134
+    second: CB-Rock-Coast-Animated_11
+  - first:
+      213: -8599950946284787073
+    second: CB-Rock-Coast-Animated_12
+  - first:
+      213: 6952007898340242568
+    second: CB-Rock-Coast-Animated_13
+  - first:
+      213: -6044327420345649768
+    second: CB-Rock-Coast-Animated_14
+  - first:
+      213: -2027423282178162275
+    second: CB-Rock-Coast-Animated_15
+  - first:
+      213: -6021861144396139198
+    second: CB-Rock-Coast-Animated_16
+  - first:
+      213: 487837867537436412
+    second: CB-Rock-Coast-Animated_17
+  - first:
+      213: -4680415993460868149
+    second: CB-Rock-Coast-Animated_18
+  - first:
+      213: -8400144647079281766
+    second: CB-Rock-Coast-Animated_19
+  - first:
+      213: 1631806598860032103
+    second: CB-Rock-Coast-Animated_20
+  - first:
+      213: 7094932304157398815
+    second: CB-Rock-Coast-Animated_21
+  - first:
+      213: 80302654791190003
+    second: CB-Rock-Coast-Animated_22
+  - first:
+      213: 6350501988827730066
+    second: CB-Rock-Coast-Animated_23
+  - first:
+      213: 3842239513292918770
+    second: CB-Rock-Coast-Animated_24
+  - first:
+      213: -3185910691466908235
+    second: CB-Rock-Coast-Animated_25
+  - first:
+      213: -1326181621117102522
+    second: CB-Rock-Coast-Animated_26
+  - first:
+      213: -2626932670581761880
+    second: CB-Rock-Coast-Animated_27
+  - first:
+      213: 3501379547465695765
+    second: CB-Rock-Coast-Animated_28
+  - first:
+      213: 7711269993736800484
+    second: CB-Rock-Coast-Animated_29
+  - first:
+      213: -8608799145486232150
+    second: CB-Rock-Coast-Animated_30
+  - first:
+      213: -8733633175214761246
+    second: CB-Rock-Coast-Animated_31
+  - first:
+      213: 2669539314955566731
+    second: CB-Rock-Coast-Animated_32
+  - first:
+      213: 5872831928512958441
+    second: CB-Rock-Coast-Animated_33
+  - first:
+      213: -2688050350060996527
+    second: CB-Rock-Coast-Animated_34
+  - first:
+      213: 6073413035017951500
+    second: CB-Rock-Coast-Animated_35
+  - first:
+      213: 7909374090885932763
+    second: CB-Rock-Coast-Animated_36
+  - first:
+      213: 4007873864738879551
+    second: CB-Rock-Coast-Animated_37
+  - first:
+      213: 623219418477925837
+    second: CB-Rock-Coast-Animated_38
+  - first:
+      213: -7950407160017360896
+    second: CB-Rock-Coast-Animated_39
+  - first:
+      213: 8040113905750685074
+    second: CB-Rock-Coast-Animated_40
+  - first:
+      213: 1173536695369370443
+    second: CB-Rock-Coast-Animated_41
+  - first:
+      213: 2608437303557571419
+    second: CB-Rock-Coast-Animated_42
+  - first:
+      213: 171901506434433867
+    second: CB-Rock-Coast-Animated_43
+  - first:
+      213: -2892561741030584956
+    second: CB-Rock-Coast-Animated_44
+  - first:
+      213: 2422435495549949490
+    second: CB-Rock-Coast-Animated_45
+  - first:
+      213: 472416898659948542
+    second: CB-Rock-Coast-Animated_46
+  - first:
+      213: -7579135908561140392
+    second: CB-Rock-Coast-Animated_47
+  - first:
+      213: 7704394030856352493
+    second: CB-Rock-Coast-Animated_48
+  - first:
+      213: 7328601759289247215
+    second: CB-Rock-Coast-Animated_49
+  - first:
+      213: 1186022399371335010
+    second: CB-Rock-Coast-Animated_50
+  - first:
+      213: -3329444465816367933
+    second: CB-Rock-Coast-Animated_51
+  - first:
+      213: -8138305586901973047
+    second: CB-Rock-Coast-Animated_52
+  - first:
+      213: -1084525417905286252
+    second: CB-Rock-Coast-Animated_53
+  - first:
+      213: 925126081146342437
+    second: CB-Rock-Coast-Animated_54
+  - first:
+      213: -5318423258693157050
+    second: CB-Rock-Coast-Animated_55
+  - first:
+      213: 9217802745949215175
+    second: CB-Rock-Coast-Animated_56
+  - first:
+      213: -6040768214512749100
+    second: CB-Rock-Coast-Animated_57
+  - first:
+      213: -3394041548226166083
+    second: CB-Rock-Coast-Animated_58
+  - first:
+      213: -8223409488670107007
+    second: CB-Rock-Coast-Animated_59
+  - first:
+      213: 665825935183996781
+    second: CB-Rock-Coast-Animated_60
+  - first:
+      213: 7644229898518728445
+    second: CB-Rock-Coast-Animated_61
+  - first:
+      213: 842011280226727900
+    second: CB-Rock-Coast-Animated_62
+  - first:
+      213: -1795306046334579866
+    second: CB-Rock-Coast-Animated_63
+  - first:
+      213: 5457049608923877244
+    second: CB-Rock-Coast-Animated_64
+  - first:
+      213: -6596582576028358573
+    second: CB-Rock-Coast-Animated_65
+  - first:
+      213: 3191973872102053108
+    second: CB-Rock-Coast-Animated_66
+  - first:
+      213: -2737481829812270599
+    second: CB-Rock-Coast-Animated_67
+  - first:
+      213: -9065493809510547974
+    second: CB-Rock-Coast-Animated_68
+  - first:
+      213: -7680347112835052890
+    second: CB-Rock-Coast-Animated_69
+  - first:
+      213: -5834203360162685837
+    second: CB-Rock-Coast-Animated_70
+  - first:
+      213: -6003229908199300985
+    second: CB-Rock-Coast-Animated_71
+  - first:
+      213: -803648598772543121
+    second: CB-Rock-Coast-Animated_72
+  - first:
+      213: -5801191046764992635
+    second: CB-Rock-Coast-Animated_73
+  - first:
+      213: 2139984384896808979
+    second: CB-Rock-Coast-Animated_74
+  - first:
+      213: -3395500407754489781
+    second: CB-Rock-Coast-Animated_75
+  - first:
+      213: 7822257117247259592
+    second: CB-Rock-Coast-Animated_76
+  - first:
+      213: -2681132904309997850
+    second: CB-Rock-Coast-Animated_77
+  - first:
+      213: 2544595699626876634
+    second: CB-Rock-Coast-Animated_78
+  - first:
+      213: 31170080301985332
+    second: CB-Rock-Coast-Animated_79
+  - first:
+      213: -3961382612134855193
+    second: CB-Rock-Coast-Animated_80
+  - first:
+      213: -376810637818447508
+    second: CB-Rock-Coast-Animated_81
+  - first:
+      213: -6879864667162563122
+    second: CB-Rock-Coast-Animated_82
+  - first:
+      213: -3353964372105528718
+    second: CB-Rock-Coast-Animated_83
+  - first:
+      213: 1149471127799475413
+    second: CB-Rock-Coast-Animated_84
+  - first:
+      213: -5508805371920674909
+    second: CB-Rock-Coast-Animated_85
+  - first:
+      213: 4252085881998034937
+    second: CB-Rock-Coast-Animated_86
+  - first:
+      213: -2325868830810101177
+    second: CB-Rock-Coast-Animated_87
+  - first:
+      213: 7952930755487279036
+    second: CB-Rock-Coast-Animated_88
+  - first:
+      213: 5687807616907020263
+    second: CB-Rock-Coast-Animated_89
+  - first:
+      213: -3368610824485734910
+    second: CB-Rock-Coast-Animated_90
+  - first:
+      213: 8476291756111159673
+    second: CB-Rock-Coast-Animated_91
+  - first:
+      213: -773756955637909290
+    second: CB-Rock-Coast-Animated_92
+  - first:
+      213: -4782106956082091456
+    second: CB-Rock-Coast-Animated_93
+  - first:
+      213: -4288510673654713915
+    second: CB-Rock-Coast-Animated_94
+  - first:
+      213: 2335853110486269098
+    second: CB-Rock-Coast-Animated_95
+  - first:
+      213: 652009367027723841
+    second: CB-Rock-Coast-Animated_96
+  - first:
+      213: 5794014646993836005
+    second: CB-Rock-Coast-Animated_97
+  - first:
+      213: -4879951464595080940
+    second: CB-Rock-Coast-Animated_98
+  - first:
+      213: -2649988124227344936
+    second: CB-Rock-Coast-Animated_99
+  - first:
+      213: 6307884892084697954
+    second: CB-Rock-Coast-Animated_100
+  - first:
+      213: -1794036323112911875
+    second: CB-Rock-Coast-Animated_101
+  - first:
+      213: 446454756199137942
+    second: CB-Rock-Coast-Animated_102
+  - first:
+      213: -7546715687587021377
+    second: CB-Rock-Coast-Animated_103
+  - first:
+      213: -4732089777852562960
+    second: CB-Rock-Coast-Animated_104
+  - first:
+      213: 4232259361648662589
+    second: CB-Rock-Coast-Animated_105
+  - first:
+      213: 6306535639444567007
+    second: CB-Rock-Coast-Animated_106
+  - first:
+      213: 7426085352565214265
+    second: CB-Rock-Coast-Animated_107
+  - first:
+      213: 6116175219878281139
+    second: CB-Rock-Coast-Animated_108
+  - first:
+      213: 529438618154327382
+    second: CB-Rock-Coast-Animated_109
+  - first:
+      213: 8856197739506855668
+    second: CB-Rock-Coast-Animated_110
+  - first:
+      213: 3967514144094299099
+    second: CB-Rock-Coast-Animated_111
+  - first:
+      213: 1361614372006089010
+    second: CB-Rock-Coast-Animated_112
+  - first:
+      213: 3260536950724598325
+    second: CB-Rock-Coast-Animated_113
+  - first:
+      213: -7368482963270087750
+    second: CB-Rock-Coast-Animated_114
+  - first:
+      213: -3792043407384954504
+    second: CB-Rock-Coast-Animated_115
+  - first:
+      213: -2891613215684454093
+    second: CB-Rock-Coast-Animated_116
+  - first:
+      213: -7471910461635089106
+    second: CB-Rock-Coast-Animated_117
+  - first:
+      213: -1014513414098495446
+    second: CB-Rock-Coast-Animated_118
+  - first:
+      213: 1260601090157317470
+    second: CB-Rock-Coast-Animated_119
+  - first:
+      213: -1901626948758727663
+    second: CB-Rock-Coast-Animated_120
+  - first:
+      213: 2531568721132750712
+    second: CB-Rock-Coast-Animated_121
+  - first:
+      213: 3490687904030517672
+    second: CB-Rock-Coast-Animated_122
+  - first:
+      213: 7084440394299527421
+    second: CB-Rock-Coast-Animated_123
+  - first:
+      213: -6471178456518112003
+    second: CB-Rock-Coast-Animated_124
+  - first:
+      213: -7575000178087275340
+    second: CB-Rock-Coast-Animated_125
+  - first:
+      213: 5081457945597586241
+    second: CB-Rock-Coast-Animated_126
+  - first:
+      213: 9180877533980301013
+    second: CB-Rock-Coast-Animated_127
+  - first:
+      213: -9033752079442365263
+    second: CB-Rock-Coast-Animated_128
+  - first:
+      213: -6359376078600009038
+    second: CB-Rock-Coast-Animated_129
+  - first:
+      213: -6821477833852414319
+    second: CB-Rock-Coast-Animated_130
+  - first:
+      213: -5402466172664870015
+    second: CB-Rock-Coast-Animated_131
+  - first:
+      213: 3465116850698871456
+    second: CB-Rock-Coast-Animated_132
+  - first:
+      213: -8096743330597620252
+    second: CB-Rock-Coast-Animated_133
+  - first:
+      213: -8859152700802729190
+    second: CB-Rock-Coast-Animated_134
+  - first:
+      213: -331884442965353417
+    second: CB-Rock-Coast-Animated_135
+  - first:
+      213: -178882527250438381
+    second: CB-Rock-Coast-Animated_136
+  - first:
+      213: 5863748617997147305
+    second: CB-Rock-Coast-Animated_137
+  - first:
+      213: 4205078745950488965
+    second: CB-Rock-Coast-Animated_138
+  - first:
+      213: -6086035164048944063
+    second: CB-Rock-Coast-Animated_139
+  - first:
+      213: 8061290776780005475
+    second: CB-Rock-Coast-Animated_140
+  - first:
+      213: -7481860453046694499
+    second: CB-Rock-Coast-Animated_141
+  - first:
+      213: 4156101460354022765
+    second: CB-Rock-Coast-Animated_142
+  - first:
+      213: 7070341879955781910
+    second: CB-Rock-Coast-Animated_143
+  - first:
+      213: -2215050959133373108
+    second: CB-Rock-Coast-Animated_144
+  - first:
+      213: -4988443644120151489
+    second: CB-Rock-Coast-Animated_145
+  - first:
+      213: 197294000629326408
+    second: CB-Rock-Coast-Animated_146
+  - first:
+      213: -1627423141063040366
+    second: CB-Rock-Coast-Animated_147
+  - first:
+      213: -5402466234691053191
+    second: CB-Rock-Coast-Animated_148
+  - first:
+      213: -7926377859412003103
+    second: CB-Rock-Coast-Animated_149
+  - first:
+      213: -4277767715989136147
+    second: CB-Rock-Coast-Animated_150
+  - first:
+      213: 8321388211046111436
+    second: CB-Rock-Coast-Animated_151
+  - first:
+      213: -8153629976957549961
+    second: CB-Rock-Coast-Animated_152
+  - first:
+      213: 3505187523366317389
+    second: CB-Rock-Coast-Animated_153
+  - first:
+      213: -3878377141434982166
+    second: CB-Rock-Coast-Animated_154
+  - first:
+      213: -6520541886140440674
+    second: CB-Rock-Coast-Animated_155
+  - first:
+      213: -34725713059220953
+    second: CB-Rock-Coast-Animated_156
+  - first:
+      213: 249876295883155356
+    second: CB-Rock-Coast-Animated_157
+  - first:
+      213: 8825482162633608223
+    second: CB-Rock-Coast-Animated_158
+  - first:
+      213: -7300484698210693859
+    second: CB-Rock-Coast-Animated_159
+  - first:
+      213: -5817733974534523900
+    second: CB-Rock-Coast-Animated_160
+  - first:
+      213: -3286504362176908328
+    second: CB-Rock-Coast-Animated_161
+  - first:
+      213: 3603868125319198013
+    second: CB-Rock-Coast-Animated_162
+  - first:
+      213: -2746623402487014754
+    second: CB-Rock-Coast-Animated_163
+  - first:
+      213: 303625328643765805
+    second: CB-Rock-Coast-Animated_164
+  - first:
+      213: -7988674128228514136
+    second: CB-Rock-Coast-Animated_165
+  - first:
+      213: 4673362766728159491
+    second: CB-Rock-Coast-Animated_166
+  - first:
+      213: 4491106186906639175
+    second: CB-Rock-Coast-Animated_167
+  - first:
+      213: -8700992126898192725
+    second: CB-Rock-Coast-Animated_168
+  - first:
+      213: -8255673213147006966
+    second: CB-Rock-Coast-Animated_169
+  - first:
+      213: -4504729177767681011
+    second: CB-Rock-Coast-Animated_170
+  - first:
+      213: -4527026849043112556
+    second: CB-Rock-Coast-Animated_171
+  - first:
+      213: 2126215636025229286
+    second: CB-Rock-Coast-Animated_172
+  - first:
+      213: 1780782442051601051
+    second: CB-Rock-Coast-Animated_173
+  - first:
+      213: -5294984943925417331
+    second: CB-Rock-Coast-Animated_174
+  - first:
+      213: 4216403618988965216
+    second: CB-Rock-Coast-Animated_175
+  - first:
+      213: 863691191809072458
+    second: CB-Rock-Coast-Animated_176
+  - first:
+      213: 3242981163955265431
+    second: CB-Rock-Coast-Animated_177
+  - first:
+      213: -4116613378168925592
+    second: CB-Rock-Coast-Animated_178
+  - first:
+      213: -8208276373793641801
+    second: CB-Rock-Coast-Animated_179
+  - first:
+      213: 248027329297650259
+    second: CB-Rock-Coast-Animated_180
+  - first:
+      213: 4137939465855987171
+    second: CB-Rock-Coast-Animated_181
+  - first:
+      213: -2033712528010354682
+    second: CB-Rock-Coast-Animated_182
+  - first:
+      213: -3934621637814644693
+    second: CB-Rock-Coast-Animated_183
+  - first:
+      213: 5695197555464766389
+    second: CB-Rock-Coast-Animated_184
+  - first:
+      213: -6520758021903049477
+    second: CB-Rock-Coast-Animated_185
+  - first:
+      213: 418011665941017871
+    second: CB-Rock-Coast-Animated_186
+  - first:
+      213: 1744674458759500697
+    second: CB-Rock-Coast-Animated_187
+  - first:
+      213: -3379120123058368591
+    second: CB-Rock-Coast-Animated_188
+  - first:
+      213: -7479612590788412014
+    second: CB-Rock-Coast-Animated_189
+  - first:
+      213: -1717909643990580638
+    second: CB-Rock-Coast-Animated_190
+  - first:
+      213: -1451743969131078217
+    second: CB-Rock-Coast-Animated_191
+  - first:
+      213: -3002781491143166969
+    second: CB-Rock-Coast-Animated_192
+  - first:
+      213: -7506902895588593165
+    second: Cave_rock_anim_0
+  - first:
+      213: -6423680418561868788
+    second: Cave_rock_anim_1
+  - first:
+      213: 925842636117111946
+    second: Cave_rock_anim_2
+  - first:
+      213: -5372393454990421203
+    second: Cave_rock_anim_3
+  - first:
+      213: 4841656570814410161
+    second: Cave_rock_anim_4
+  - first:
+      213: 6598888860741170817
+    second: Cave_rock_anim_5
+  - first:
+      213: -8862805475935974372
+    second: Cave_rock_anim_6
+  - first:
+      213: 2573086069393667294
+    second: Cave_rock_anim_7
+  - first:
+      213: -3851530522995969869
+    second: Cave_rock_anim_8
+  - first:
+      213: -7246374826010857080
+    second: Cave_rock_anim_9
+  - first:
+      213: -3308758633025172358
+    second: Cave_rock_anim_10
+  - first:
+      213: -5445418788966328495
+    second: Cave_rock_anim_11
+  - first:
+      213: 5314445012078622154
+    second: Cave_rock_anim_12
+  - first:
+      213: 422340402105546333
+    second: Cave_rock_anim_13
+  - first:
+      213: -3498464364231842517
+    second: Cave_rock_anim_14
+  - first:
+      213: 4072682983515570710
+    second: Cave_rock_anim_15
+  - first:
+      213: -1985699404417194134
+    second: Cave_rock_anim_16
+  - first:
+      213: -6166616658875703668
+    second: Cave_rock_anim_17
+  - first:
+      213: -1962160735671569261
+    second: Cave_rock_anim_18
+  - first:
+      213: 8198750909389540407
+    second: Cave_rock_anim_19
+  - first:
+      213: -2862994123955104453
+    second: Cave_rock_anim_20
+  - first:
+      213: 6104902851281954780
+    second: Cave_rock_anim_21
+  - first:
+      213: -2535165026072140673
+    second: Cave_rock_anim_22
+  - first:
+      213: 1632580226894548485
+    second: Cave_rock_anim_23
+  - first:
+      213: -5213416838049733533
+    second: Cave_rock_anim_24
+  - first:
+      213: 4462663029479385642
+    second: Cave_rock_anim_25
+  - first:
+      213: 7730253584700080921
+    second: Cave_rock_anim_26
+  - first:
+      213: -8987008190232502213
+    second: Cave_rock_anim_27
+  - first:
+      213: -4781059703609851145
+    second: Cave_rock_anim_28
+  - first:
+      213: 948033647141727577
+    second: Cave_rock_anim_29
+  - first:
+      213: -356459123159112740
+    second: Cave_rock_anim_30
+  - first:
+      213: -4461566883212897724
+    second: Cave_rock_anim_31
+  - first:
+      213: 5994937068854363703
+    second: Cave_rock_anim_32
+  - first:
+      213: -871255557958203108
+    second: Cave_rock_anim_33
+  - first:
+      213: 7273327613809102974
+    second: Cave_rock_anim_34
+  - first:
+      213: 4099527988563008837
+    second: Cave_rock_anim_35
+  - first:
+      213: 6437179232068510186
+    second: Cave_rock_anim_36
+  - first:
+      213: -4342841499353948587
+    second: Cave_rock_anim_37
+  - first:
+      213: 4439692201108382291
+    second: Cave_rock_anim_38
+  - first:
+      213: 3258666476503517613
+    second: Cave_rock_anim_39
+  - first:
+      213: 6882007425305140372
+    second: Cave_rock_anim_40
+  - first:
+      213: -8336228553121456475
+    second: Cave_rock_anim_41
+  - first:
+      213: -4348444768994276178
+    second: Cave_rock_anim_42
+  - first:
+      213: -6941904980076464553
+    second: Cave_rock_anim_43
+  - first:
+      213: -3570565855039438178
+    second: Cave_rock_anim_44
+  - first:
+      213: -6178651754433767736
+    second: Cave_rock_anim_45
+  - first:
+      213: -2719488555927828771
+    second: Cave_rock_anim_46
+  - first:
+      213: -6409523114734448677
+    second: Cave_rock_anim_47
+  - first:
+      213: 8868151424136767443
+    second: Cave_rock_anim_48
+  - first:
+      213: -1784894137208216987
+    second: Cave_rock_anim_49
+  - first:
+      213: -8884561993099725967
+    second: Cave_rock_anim_50
+  - first:
+      213: 3560484953903163132
+    second: Cave_rock_anim_51
+  - first:
+      213: 8254282769293842988
+    second: Cave_rock_anim_52
+  - first:
+      213: 815114301208865177
+    second: Cave_rock_anim_53
+  - first:
+      213: -3790880666710474460
+    second: Cave_rock_anim_54
+  - first:
+      213: 6999201557301683479
+    second: Cave_rock_anim_55
+  - first:
+      213: -2438518701922726385
+    second: Cave_rock_anim_56
+  - first:
+      213: 4228826760997001173
+    second: Cave_rock_anim_57
+  - first:
+      213: -2230025044674532574
+    second: Cave_rock_anim_58
+  - first:
+      213: 5838805044268078282
+    second: Cave_rock_anim_59
+  - first:
+      213: 4009423179985676629
+    second: Cave_rock_anim_60
+  - first:
+      213: 8745384689646935788
+    second: Cave_rock_anim_61
+  - first:
+      213: -1019363026031704233
+    second: Cave_rock_anim_62
+  - first:
+      213: -591365564312925919
+    second: Cave_rock_anim_63
+  - first:
+      213: -1392615257762379628
+    second: Cave_rock_anim_64
+  - first:
+      213: -6509799580475381595
+    second: Cave_rock_anim_65
+  - first:
+      213: -8396626011452111385
+    second: Cave_rock_anim_66
+  - first:
+      213: 3675727057472154959
+    second: Cave_rock_anim_67
+  - first:
+      213: 6400504308714285929
+    second: Cave_rock_anim_68
+  - first:
+      213: 7938333930067831688
+    second: Cave_rock_anim_69
+  - first:
+      213: -5301526416424001762
+    second: Cave_rock_anim_70
+  - first:
+      213: -982012727685227712
+    second: Cave_rock_anim_71
+  - first:
+      213: -6627992346304220867
+    second: Cave_rock_anim_72
+  - first:
+      213: 7749703851940682342
+    second: Cave_rock_anim_73
+  - first:
+      213: 4618875118532167652
+    second: Cave_rock_anim_74
+  - first:
+      213: 3820851763766445411
+    second: Cave_rock_anim_75
+  - first:
+      213: 1637897313889813979
+    second: Cave_rock_anim_76
+  - first:
+      213: 7581432107171309478
+    second: Cave_rock_anim_77
+  - first:
+      213: -8219369433091474766
+    second: Cave_rock_anim_78
+  - first:
+      213: -1642381263791773724
+    second: Cave_rock_anim_79
+  - first:
+      213: 2431323030005938525
+    second: Cave_rock_anim_80
+  - first:
+      213: -6825391896986028639
+    second: Cave_rock_anim_81
+  - first:
+      213: 4909481827491372024
+    second: Cave_rock_anim_82
+  - first:
+      213: -8350268782241425822
+    second: Cave_rock_anim_83
+  - first:
+      213: 6579692984029500641
+    second: Cave_rock_anim_84
+  - first:
+      213: -6961068215559246840
+    second: Cave_rock_anim_85
+  - first:
+      213: 1631425377053164335
+    second: Cave_rock_anim_86
+  - first:
+      213: -951266664660514984
+    second: Cave_rock_anim_87
+  - first:
+      213: 7700152910396668327
+    second: Cave_rock_anim_88
+  - first:
+      213: -2446621370795742841
+    second: Cave_rock_anim_89
+  - first:
+      213: 5131041002291512276
+    second: Cave_rock_anim_90
+  - first:
+      213: 6549855984222540442
+    second: Cave_rock_anim_91
+  - first:
+      213: -7722315057685310553
+    second: Cave_rock_anim_92
+  - first:
+      213: -6397731750847786084
+    second: Cave_rock_anim_93
+  - first:
+      213: -862819486524987521
+    second: Cave_rock_anim_94
+  - first:
+      213: 3532818303480468355
+    second: Cave_rock_anim_95
+  - first:
+      213: -7215135292098579794
+    second: Cave_rock_anim_96
+  - first:
+      213: -3231485021078449802
+    second: Cave_rock_anim_97
+  - first:
+      213: -3404252080613727574
+    second: Cave_rock_anim_98
+  - first:
+      213: 2532530486024310226
+    second: Cave_rock_anim_99
+  - first:
+      213: 2336279750404597007
+    second: Cave_rock_anim_100
+  - first:
+      213: 756715828339916190
+    second: Cave_rock_anim_101
+  - first:
+      213: -8127193452897606989
+    second: Cave_rock_anim_102
+  - first:
+      213: -4925631844489917159
+    second: Cave_rock_anim_103
+  - first:
+      213: -7244111994238391643
+    second: Cave_rock_anim_104
+  - first:
+      213: -8063333579214094964
+    second: Cave_rock_anim_105
+  - first:
+      213: -4861433915323690085
+    second: Cave_rock_anim_106
+  - first:
+      213: 6270282950103902375
+    second: Cave_rock_anim_107
+  - first:
+      213: 94152688455517541
+    second: Cave_rock_anim_108
+  - first:
+      213: -4895245867768303641
+    second: Cave_rock_anim_109
+  - first:
+      213: -8696780091321951382
+    second: Cave_rock_anim_110
+  - first:
+      213: -7577464430190229565
+    second: Cave_rock_anim_111
+  - first:
+      213: -1020526245475818320
+    second: Cave_rock_anim_112
+  - first:
+      213: -4867667361712489846
+    second: Cave_rock_anim_113
+  - first:
+      213: 5092181548553662879
+    second: Cave_rock_anim_114
+  - first:
+      213: 1665736356902963207
+    second: Cave_rock_anim_115
+  - first:
+      213: 7613950754691482368
+    second: Cave_rock_anim_116
+  - first:
+      213: 5961274488533515809
+    second: Cave_rock_anim_117
+  - first:
+      213: 8722708224879671329
+    second: Cave_rock_anim_118
+  - first:
+      213: 5486361034845352523
+    second: Cave_rock_anim_119
+  - first:
+      213: -3861568086478899295
+    second: Cave_rock_anim_120
+  - first:
+      213: -2247042924151655851
+    second: Cave_rock_anim_121
+  - first:
+      213: 2180613450840790039
+    second: Cave_rock_anim_122
+  - first:
+      213: 3403169148465329724
+    second: Cave_rock_anim_123
+  - first:
+      213: 15441906988803984
+    second: Cave_rock_anim_124
+  - first:
+      213: 4503113603087115930
+    second: Cave_rock_anim_125
+  - first:
+      213: -1987993010764630621
+    second: Cave_rock_anim_126
+  - first:
+      213: 4445612981691197620
+    second: Cave_rock_anim_127
+  - first:
+      213: 3757670921369011478
+    second: Cave_rock_anim_128
+  - first:
+      213: -9141822349947226187
+    second: Cave_rock_anim_129
+  - first:
+      213: 5863958576564354659
+    second: Cave_rock_anim_130
+  - first:
+      213: 6599958086036843458
+    second: Cave_rock_anim_131
+  - first:
+      213: 8818181358021866957
+    second: Cave_rock_anim_132
+  - first:
+      213: -6818818377200787265
+    second: Cave_rock_anim_133
+  - first:
+      213: 7165871446765435135
+    second: Cave_rock_anim_134
+  - first:
+      213: 361871977543844633
+    second: Cave_rock_anim_135
+  - first:
+      213: 4328281552216718439
+    second: Cave_rock_anim_136
+  - first:
+      213: 6456405947757851410
+    second: Cave_rock_anim_137
+  - first:
+      213: 401108357522540264
+    second: Cave_rock_anim_138
+  - first:
+      213: -36313747061614615
+    second: Cave_rock_anim_139
+  - first:
+      213: 1106933659783574370
+    second: Cave_rock_anim_140
+  - first:
+      213: -8741063936177575521
+    second: Cave_rock_anim_141
+  - first:
+      213: -8064226312820655599
+    second: Cave_rock_anim_142
+  - first:
+      213: 8958043029846533169
+    second: Cave_rock_anim_143
+  - first:
+      213: -2042295519263162556
+    second: Cave_rock_anim_144
+  - first:
+      213: -3766359761898411752
+    second: Cave_rock_anim_145
+  - first:
+      213: 2010169492941851596
+    second: Cave_rock_anim_146
+  - first:
+      213: 1828300954509899605
+    second: Cave_rock_anim_147
+  - first:
+      213: 531822815847634218
+    second: Cave_rock_anim_148
+  - first:
+      213: 6568986419404705205
+    second: Cave_rock_anim_149
+  - first:
+      213: -1763261296094314522
+    second: Cave_rock_anim_150
+  - first:
+      213: 7571052342251462908
+    second: Cave_rock_anim_151
+  - first:
+      213: -6536122291364734983
+    second: Cave_rock_anim_152
+  - first:
+      213: 2124947775726946923
+    second: Cave_rock_anim_153
+  - first:
+      213: -1242403364948109807
+    second: Cave_rock_anim_154
+  - first:
+      213: 4094778255695182125
+    second: Cave_rock_anim_155
+  - first:
+      213: -68110731523173527
+    second: Cave_rock_anim_156
+  - first:
+      213: 6015440994421143145
+    second: Cave_rock_anim_157
+  - first:
+      213: -7558920313760100439
+    second: Cave_rock_anim_158
+  - first:
+      213: -3559454830206895926
+    second: Cave_rock_anim_159
+  - first:
+      213: -7935609967448015421
+    second: Cave_rock_anim_160
+  - first:
+      213: 5461772724581980542
+    second: Cave_rock_anim_161
+  - first:
+      213: 1234226322005946353
+    second: Cave_rock_anim_162
+  - first:
+      213: -7790697514526756908
+    second: Cave_rock_anim_163
+  - first:
+      213: 6214756068771811579
+    second: Cave_rock_anim_164
+  - first:
+      213: 7808446606835151482
+    second: Cave_rock_anim_165
+  - first:
+      213: -6691476078725464095
+    second: Cave_rock_anim_166
+  - first:
+      213: -3821106994041034706
+    second: Cave_rock_anim_167
+  - first:
+      213: -8603061385476296636
+    second: Cave_rock_anim_168
+  - first:
+      213: -6979518929687298002
+    second: Cave_rock_anim_169
+  - first:
+      213: 5608377198359970442
+    second: Cave_rock_anim_170
+  - first:
+      213: 2696818359970462595
+    second: Cave_rock_anim_171
+  - first:
+      213: 3966464753710771404
+    second: Cave_rock_anim_172
+  - first:
+      213: 5119063052091186952
+    second: Cave_rock_anim_173
+  - first:
+      213: -3070987881911391101
+    second: Cave_rock_anim_174
+  - first:
+      213: 3732612017653566477
+    second: Cave_rock_anim_175
+  - first:
+      213: -5554563937843689207
+    second: Cave_rock_anim_176
+  - first:
+      213: -6902511250434019803
+    second: Cave_rock_anim_177
+  - first:
+      213: -5891341390657154222
+    second: Cave_rock_anim_178
+  - first:
+      213: 8069046017746801247
+    second: Cave_rock_anim_179
+  - first:
+      213: -5768641791614415698
+    second: Cave_rock_anim_180
+  - first:
+      213: -6946508600798542072
+    second: Cave_rock_anim_181
+  - first:
+      213: -2598719953550844612
+    second: Cave_rock_anim_182
+  - first:
+      213: -5980961480051867998
+    second: Cave_rock_anim_183
+  - first:
+      213: -7558992309057090938
+    second: Cave_rock_anim_184
+  - first:
+      213: -3337738591907652630
+    second: Cave_rock_anim_185
+  - first:
+      213: 7984099967042616730
+    second: Cave_rock_anim_186
+  - first:
+      213: 3346129313662478161
+    second: Cave_rock_anim_187
+  - first:
+      213: 6891188918691714378
+    second: Cave_rock_anim_188
+  - first:
+      213: 6229401893911273666
+    second: Cave_rock_anim_189
+  - first:
+      213: -9125431808847882997
+    second: Cave_rock_anim_190
+  - first:
+      213: 2452759476939061363
+    second: Cave_rock_anim_191
+  - first:
+      213: 7114906782328588212
+    second: Cave_rock_anim_192
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave_rock_anim_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 384
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f13719f69f12d790800000000000000
+      internalID: -7506902895588593165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cbcf481b08ad6a0800000000000000
+      internalID: -6423680418561868788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_2
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84fba3e8f049dc00800000000000000
+      internalID: 925842636117111946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2399a9ed9c6175b0800000000000000
+      internalID: -5372393454990421203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd24dbbff4013340800000000000000
+      internalID: 4841656570814410161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18672c8d476f39b50800000000000000
+      internalID: 6598888860741170817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c0375706df00580800000000000000
+      internalID: -8862805475935974372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed437b6b52075b320800000000000000
+      internalID: 2573086069393667294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b03047456d9c8ac0800000000000000
+      internalID: -3851530522995969869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8813a4a1d74bf6b90800000000000000
+      internalID: -7246374826010857080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c0707cd8de412d0800000000000000
+      internalID: -3308758633025172358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1579c66667cfd64b0800000000000000
+      internalID: -5445418788966328495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac5fa43d493b0c940800000000000000
+      internalID: 5314445012078622154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56fbc9ab547cd500800000000000000
+      internalID: 422340402105546333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2529964235f27fc0800000000000000
+      internalID: -3498464364231842517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61249337893158830800000000000000
+      internalID: 4072682983515570710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67220199e06174e0800000000000000
+      internalID: -1985699404417194134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e15b522d6cb6aa0800000000000000
+      internalID: -6166616658875703668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394b316f43105c4e0800000000000000
+      internalID: -1962160735671569261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c03146380d7c170800000000000000
+      internalID: 8198750909389540407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3510a7530a9448d0800000000000000
+      internalID: -2862994123955104453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd72eee4cc8f8b450800000000000000
+      internalID: 6104902851281954780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_22
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f74e9f537d841dcd0800000000000000
+      internalID: -2535165026072140673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e406b011718a610800000000000000
+      internalID: 1632580226894548485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3646106f10936a7b0800000000000000
+      internalID: -5213416838049733533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a236091609eed30800000000000000
+      internalID: 4462663029479385642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9130dbbbda0674b60800000000000000
+      internalID: 7730253584700080921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b306aab8aabb74380800000000000000
+      internalID: -8987008190232502213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_28
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2866cd78346adb0800000000000000
+      internalID: -4781059703609851145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d20054497182d00800000000000000
+      internalID: 948033647141727577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_30
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3672be05a9d0bf0800000000000000
+      internalID: -356459123159112740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 442d270ee845512c0800000000000000
+      internalID: -4461566883212897724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_32
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736c2e7608b423350800000000000000
+      internalID: 5994937068854363703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c190157afada8e3f0800000000000000
+      internalID: -871255557958203108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_34
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e709124ddec00f460800000000000000
+      internalID: 7273327613809102974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_35
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd1114cf274e830800000000000000
+      internalID: 4099527988563008837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_36
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae127fae764755950800000000000000
+      internalID: 6437179232068510186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ede2b6aa02bb3c0800000000000000
+      internalID: -4342841499353948587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352232fc884fc9d30800000000000000
+      internalID: 4439692201108382291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_39
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9477d25eb193d20800000000000000
+      internalID: 3258666476503517613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_40
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cd9e67a4dc18f50800000000000000
+      internalID: 6882007425305140372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae1ab45c44cf4c80800000000000000
+      internalID: -8336228553121456475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_42
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacc0ba858837a3c0800000000000000
+      internalID: -4348444768994276178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756f60e433669af90800000000000000
+      internalID: -6941904980076464553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e924c33c54dc27ec0800000000000000
+      internalID: -3570565855039438178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6912a17f4014aa0800000000000000
+      internalID: -6178651754433767736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd68e2d119f624ad0800000000000000
+      internalID: -2719488555927828771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdf099eafaccc07a0800000000000000
+      internalID: -6409523114734448677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_48
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7eb0a1cb0021b70800000000000000
+      internalID: 8868151424136767443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562e60e2d38ca37e0800000000000000
+      internalID: -1784894137208216987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173ba5090f1b3b480800000000000000
+      internalID: -8884561993099725967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf665898332696130800000000000000
+      internalID: 3560484953903163132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a1363127a1d8270800000000000000
+      internalID: 8254282769293842988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99925e6632edf4b00800000000000000
+      internalID: 815114301208865177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42183da5e16146bc0800000000000000
+      internalID: -3790880666710474460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e356abb8222160800000000000000
+      internalID: 6999201557301683479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ecfb11924a82ed0800000000000000
+      internalID: -2438518701922726385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d754e9a88fcfaa30800000000000000
+      internalID: 4228826760997001173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_58
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b23fb790c5d01e0800000000000000
+      internalID: -2230025044674532574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac49b50a04a970150800000000000000
+      internalID: 5838805044268078282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_60
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559634da32554a730800000000000000
+      internalID: 4009423179985676629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee9b8a4a09dd5970800000000000000
+      internalID: 8745384689646935788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75786388abe7ad1f0800000000000000
+      internalID: -1019363026031704233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129cab6072c0bc7f0800000000000000
+      internalID: -591365564312925919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498c84c2dcf6cace0800000000000000
+      internalID: -1392615257762379628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a827ce95cb88a5a0800000000000000
+      internalID: -6509799580475381595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5879b3121397b80800000000000000
+      internalID: -8396626011452111385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_67
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d6befa84ec20330800000000000000
+      internalID: 3675727057472154959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ba548e1c823d850800000000000000
+      internalID: 6400504308714285929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88baf1a76a0aa2e60800000000000000
+      internalID: 7938333930067831688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_70
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f92bd10d13d66b0800000000000000
+      internalID: -5301526416424001762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bd86980a03f52f0800000000000000
+      internalID: -982012727685227712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_72
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d317780e314a404a0800000000000000
+      internalID: -6627992346304220867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_73
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a9669f79a7c8b60800000000000000
+      internalID: 7749703851940682342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_74
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7000ec27a891040800000000000000
+      internalID: 4618875118532167652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36549b67f64660530800000000000000
+      internalID: 3820851763766445411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_76
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd508f4ddeafab610800000000000000
+      internalID: 1637897313889813979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7efa45558a63960800000000000000
+      internalID: 7581432107171309478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2baf0e67c0feeed80800000000000000
+      internalID: -8219369433091474766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e72fe931f61539e0800000000000000
+      internalID: -1642381263791773724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_80
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59fab10a6bcdb120800000000000000
+      internalID: 2431323030005938525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a5715f6b365741a0800000000000000
+      internalID: -6825391896986028639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_82
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbdbd6e5bbf12440800000000000000
+      internalID: 4909481827491372024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266577fb8c2ed1c80800000000000000
+      internalID: -8350268782241425822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4553488e3cf4b50800000000000000
+      internalID: 6579692984029500641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80c245ad651556f90800000000000000
+      internalID: -6961068215559246840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23cfcc9cbcf3a610800000000000000
+      internalID: 1631425377053164335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8574d3e220c6cc2f0800000000000000
+      internalID: -951266664660514984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9326c56407cda60800000000000000
+      internalID: 7700152910396668327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78927d573dadb0ed0800000000000000
+      internalID: -2446621370795742841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3cc8d2b9e153740800000000000000
+      internalID: 5131041002291512276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a921d85a053c5ea50800000000000000
+      internalID: 6549855984222540442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3540f9e53d4d490800000000000000
+      internalID: -7722315057685310553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93da768ed0b637a0800000000000000
+      internalID: -6397731750847786084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77a4689f36a604f0800000000000000
+      internalID: -862819486524987521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38393f28787170130800000000000000
+      internalID: 3532818303480468355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea27414eda0bedb90800000000000000
+      internalID: -7215135292098579794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6719f959e757723d0800000000000000
+      internalID: -3231485021078449802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_98
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa26229e4caa1c0d0800000000000000
+      internalID: -3404252080613727574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd83522f0b552320800000000000000
+      internalID: 2532530486024310226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_100
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05edca0e022c6020800000000000000
+      internalID: 2336279750404597007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_101
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dbd106905608a00800000000000000
+      internalID: 756715828339916190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_102
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b268234d98663f80800000000000000
+      internalID: -8127193452897606989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d83de3fe3a4abb0800000000000000
+      internalID: -4925631844489917159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_104
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa264ea58eb77b90800000000000000
+      internalID: -7244111994238391643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8df671c4d8491090800000000000000
+      internalID: -8063333579214094964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93581a6c97b88cb0800000000000000
+      internalID: -4861433915323690085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8a12a2f15840750800000000000000
+      internalID: 6270282950103902375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_108
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5650a0e0f5f7e4100800000000000000
+      internalID: 94152688455517541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7efa873c1d7901cb0800000000000000
+      internalID: -4895245867768303641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_110
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6bd01f9594de4780800000000000000
+      internalID: -8696780091321951382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c78a547f3077d690800000000000000
+      internalID: -7577464430190229565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_112
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b4637669cc56d1f0800000000000000
+      internalID: -1020526245475818320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_113
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a3d541352927cb0800000000000000
+      internalID: -4867667361712489846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91f65d83201ba640800000000000000
+      internalID: 5092181548553662879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_115
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70887a22462ed1710800000000000000
+      internalID: 1665736356902963207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_116
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00304b6fedf2aa960800000000000000
+      internalID: 7613950754691482368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e73a92093bab250800000000000000
+      internalID: 5961274488533515809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_118
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128b4576ae84d0970800000000000000
+      internalID: 8722708224879671329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42708f0b48732c40800000000000000
+      internalID: 5486361034845352523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7b079e844f86ac0800000000000000
+      internalID: -3861568086478899295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_121
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552b2e6ad56e0d0e0800000000000000
+      internalID: -2247042924151655851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_122
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 714ddc15168134e10800000000000000
+      internalID: 2180613450840790039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3638dc4f4c7a3f20800000000000000
+      internalID: 3403169148465329724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_124
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097e8b4255cd63000800000000000000
+      internalID: 15441906988803984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96ac37a6f54e7e30800000000000000
+      internalID: 4503113603087115930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_126
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a53a69b3ea3964e0800000000000000
+      internalID: -1987993010764630621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a196f37df1bd30800000000000000
+      internalID: 4445612981691197620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_128
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615c3034bcde52430800000000000000
+      internalID: 3757670921369011478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_129
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b73ba71209b12180800000000000000
+      internalID: -9141822349947226187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_130
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e39bdb147f06150800000000000000
+      internalID: 5863958576564354659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb61b249e2c79b50800000000000000
+      internalID: 6599958086036843458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_132
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc57dd17939706a70800000000000000
+      internalID: 8818181358021866957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0aa0740d0be51a0800000000000000
+      internalID: -6818818377200787265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8719a4d1a427360800000000000000
+      internalID: 7165871446765435135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9134ba375a0a50500800000000000000
+      internalID: 361871977543844633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_136
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76cf0c7b325211c30800000000000000
+      internalID: 4328281552216718439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21373d18003c99950800000000000000
+      internalID: 6456405947757851410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_138
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6429e0de5019500800000000000000
+      internalID: 401108357522540264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7dde5e6dcfe7ff0800000000000000
+      internalID: -36313747061614615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_140
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263b25d7c4e9c5f00800000000000000
+      internalID: 1106933659783574370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99682589a081b680800000000000000
+      internalID: -8741063936177575521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_142
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a77f305ec161090800000000000000
+      internalID: -8064226312820655599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134aaa48cac515c70800000000000000
+      internalID: 8958043029846533169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_144
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f72f7bb0f48a3e0800000000000000
+      internalID: -2042295519263162556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81968b760c33bbbc0800000000000000
+      internalID: -3766359761898411752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_146
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb4025e08e85eb10800000000000000
+      internalID: 2010169492941851596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_147
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f118080e6f5910800000000000000
+      internalID: 1828300954509899605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_148
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25db06880a616700800000000000000
+      internalID: 531822815847634218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd8bfe285ab92b50800000000000000
+      internalID: 6568986419404705205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_150
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef7a108133a787e0800000000000000
+      internalID: -1763261296094314522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_151
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0a9cbfdf7c11960800000000000000
+      internalID: 7571052342251462908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_152
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f751b6e7670b45a0800000000000000
+      internalID: -6536122291364734983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a067a5eb45d7d10800000000000000
+      internalID: 2124947775726946923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_154
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116948cd8b812cee0800000000000000
+      internalID: -1242403364948109807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_155
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2974b4e02393d830800000000000000
+      internalID: 4094778255695182125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_156
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9635b2a86a50e0ff0800000000000000
+      internalID: -68110731523173527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_157
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9667bc796b32b7350800000000000000
+      internalID: 6015440994421143145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_158
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af48d40602591790800000000000000
+      internalID: -7558920313760100439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_159
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac83873d0b64a9ec0800000000000000
+      internalID: -3559454830206895926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_160
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd363e77cc0fd190800000000000000
+      internalID: -7935609967448015421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7950a4fa5d1ccb40800000000000000
+      internalID: 5461772724581980542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ffe997fc4ad02110800000000000000
+      internalID: 1234226322005946353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df2d1e23e1e1e390800000000000000
+      internalID: -7790697514526756908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_164
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0d8d4a7bf3f3650800000000000000
+      internalID: 6214756068771811579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72730861dc2d5c60800000000000000
+      internalID: 7808446606835151482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_166
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef7b8895f91323a0800000000000000
+      internalID: -6691476078725464095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_167
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e286c6b1f63b8fac0800000000000000
+      internalID: -3821106994041034706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_168
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4403ec93049cb9880800000000000000
+      internalID: -8603061385476296636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_169
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20cfd43384c32f90800000000000000
+      internalID: -6979518929687298002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_170
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8285a2f855f4dd40800000000000000
+      internalID: 5608377198359970442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_171
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b7ac192060d6520800000000000000
+      internalID: 2696818359970462595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_172
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccca903ada6bb0730800000000000000
+      internalID: 3966464753710771404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fd8b259b09a0740800000000000000
+      internalID: 5119063052091186952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_174
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c642dcac8a165d0800000000000000
+      internalID: -3070987881911391101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_175
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c48949ad6ecc330800000000000000
+      internalID: 3732612017653566477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_176
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909c1a227893ae2b0800000000000000
+      internalID: -5554563937843689207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e2ebbb69a5530a0800000000000000
+      internalID: -6902511250434019803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_178
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25313570830cd3ea0800000000000000
+      internalID: -5891341390657154222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f52141cf9920bff60800000000000000
+      internalID: 8069046017746801247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_180
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac8956aadaa1ffa0800000000000000
+      internalID: -5768641791614415698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_181
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80705345b3b099f90800000000000000
+      internalID: -6946508600798542072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_182
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dd1e988fd7febd0800000000000000
+      internalID: -2598719953550844612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_183
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aeb63ee83b5ffca0800000000000000
+      internalID: -5980961480051867998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_184
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a0ebe4b80191790800000000000000
+      internalID: -7558992309057090938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_185
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb5b3c4f68fda1d0800000000000000
+      internalID: -3337738591907652630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_186
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d78c25e983dce60800000000000000
+      internalID: 7984099967042616730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157af59d1e6df6e20800000000000000
+      internalID: 3346129313662478161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_188
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a455aba7fcb62af50800000000000000
+      internalID: 6891188918691714378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_189
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c02ab98408437650800000000000000
+      internalID: 6229401893911273666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_190
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0552935e14fb5180800000000000000
+      internalID: -9125431808847882997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_191
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378fc6ebfb3f90220800000000000000
+      internalID: 2452759476939061363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_rock_anim_192
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b786baa50a3db260800000000000000
+      internalID: 7114906782328588212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
