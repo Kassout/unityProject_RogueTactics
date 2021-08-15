@@ -1,0 +1,5763 @@
+fileFormatVersion: 2
+guid: 264b5b0a30307724bb557a23908c1d1a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5975377529039543758
+    second: ChristmasBuilding_0
+  - first:
+      213: 6586774240516390599
+    second: ChristmasBuilding_1
+  - first:
+      213: -3471796918929404005
+    second: ChristmasBuilding_2
+  - first:
+      213: -369187218867020786
+    second: ChristmasBuilding_3
+  - first:
+      213: 3983411592519491998
+    second: ChristmasBuilding_4
+  - first:
+      213: -1648575732765972220
+    second: ChristmasBuilding_5
+  - first:
+      213: -4004514870744111484
+    second: ChristmasBuilding_6
+  - first:
+      213: -4650330826484132232
+    second: ChristmasBuilding_7
+  - first:
+      213: 1752217616840159556
+    second: ChristmasBuilding_8
+  - first:
+      213: 900140001798539583
+    second: ChristmasBuilding_9
+  - first:
+      213: -7117519354512399622
+    second: ChristmasBuilding_10
+  - first:
+      213: -5758923797516180160
+    second: ChristmasBuilding_11
+  - first:
+      213: 1388865567561395731
+    second: ChristmasBuilding_12
+  - first:
+      213: -6880983695647545330
+    second: ChristmasBuilding_13
+  - first:
+      213: 5214385738278123316
+    second: ChristmasBuilding_14
+  - first:
+      213: -289366636573441101
+    second: ChristmasBuilding_15
+  - first:
+      213: 7791687210885688059
+    second: ChristmasBuilding_16
+  - first:
+      213: -613424427136923442
+    second: ChristmasBuilding_17
+  - first:
+      213: 2975686049461044021
+    second: ChristmasBuilding_18
+  - first:
+      213: -4694639800464705313
+    second: ChristmasBuilding_19
+  - first:
+      213: -764987472488032894
+    second: ChristmasBuilding_20
+  - first:
+      213: 1158545902951592595
+    second: ChristmasBuilding_21
+  - first:
+      213: -6345051244423346503
+    second: ChristmasBuilding_22
+  - first:
+      213: 5195305117816294001
+    second: ChristmasBuilding_23
+  - first:
+      213: 4295235632075777432
+    second: ChristmasBuilding_24
+  - first:
+      213: -6564075553506117288
+    second: ChristmasBuilding_25
+  - first:
+      213: -441743920909885614
+    second: ChristmasBuilding_26
+  - first:
+      213: -7899147600394068191
+    second: ChristmasBuilding_27
+  - first:
+      213: 164403826270425976
+    second: ChristmasBuilding_28
+  - first:
+      213: 3982173390780458881
+    second: ChristmasBuilding_29
+  - first:
+      213: -4782655736404254388
+    second: ChristmasBuilding_30
+  - first:
+      213: 152905711057004713
+    second: ChristmasBuilding_31
+  - first:
+      213: -6985012554260235330
+    second: ChristmasBuilding_32
+  - first:
+      213: 7629892202070272548
+    second: ChristmasBuilding_33
+  - first:
+      213: -8727406119063456992
+    second: ChristmasBuilding_34
+  - first:
+      213: 2302049856691194420
+    second: ChristmasBuilding_35
+  - first:
+      213: -2913076057385017527
+    second: ChristmasBuilding_36
+  - first:
+      213: 656762663875991324
+    second: ChristmasBuilding_37
+  - first:
+      213: -1986323108702595383
+    second: ChristmasBuilding_38
+  - first:
+      213: -6958714755642646534
+    second: ChristmasBuilding_39
+  - first:
+      213: -5535968036516483216
+    second: ChristmasBuilding_40
+  - first:
+      213: -6938975896267166890
+    second: ChristmasBuilding_41
+  - first:
+      213: 3923339955277563796
+    second: ChristmasBuilding_42
+  - first:
+      213: -3141237564755002151
+    second: ChristmasBuilding_43
+  - first:
+      213: 7888505029813749585
+    second: ChristmasBuilding_44
+  - first:
+      213: 5298104501016477551
+    second: ChristmasBuilding_45
+  - first:
+      213: -5723834721858544669
+    second: ChristmasBuilding_46
+  - first:
+      213: -7216399413612591331
+    second: ChristmasBuilding_47
+  - first:
+      213: -2945473666725629277
+    second: ChristmasBuilding_48
+  - first:
+      213: -3309170025308870891
+    second: ChristmasBuilding_49
+  - first:
+      213: -852818873559643473
+    second: ChristmasBuilding_50
+  - first:
+      213: -7527850985416001711
+    second: ChristmasBuilding_51
+  - first:
+      213: 6031106304506329055
+    second: ChristmasBuilding_52
+  - first:
+      213: -3199440962224806265
+    second: ChristmasBuilding_53
+  - first:
+      213: -7605803586050871130
+    second: ChristmasBuilding_54
+  - first:
+      213: -283591868514468737
+    second: ChristmasBuilding_55
+  - first:
+      213: -3072396350845889540
+    second: ChristmasBuilding_56
+  - first:
+      213: 6811180233755255259
+    second: ChristmasBuilding_57
+  - first:
+      213: 1472920989361486117
+    second: ChristmasBuilding_58
+  - first:
+      213: 1123835480143325730
+    second: ChristmasBuilding_59
+  - first:
+      213: -7827806131063343407
+    second: ChristmasBuilding_60
+  - first:
+      213: -6967246241117153375
+    second: ChristmasBuilding_61
+  - first:
+      213: -858050955479899403
+    second: ChristmasBuilding_62
+  - first:
+      213: -4640429354240155188
+    second: ChristmasBuilding_63
+  - first:
+      213: 1959539393581202256
+    second: ChristmasBuilding_64
+  - first:
+      213: 7550233584289410203
+    second: ChristmasBuilding_65
+  - first:
+      213: -3095778607497097170
+    second: ChristmasBuilding_66
+  - first:
+      213: -7949205150505576914
+    second: ChristmasBuilding_67
+  - first:
+      213: -7030939834723555443
+    second: ChristmasBuilding_68
+  - first:
+      213: 2374973559738478395
+    second: ChristmasBuilding_69
+  - first:
+      213: -8232110182721849576
+    second: ChristmasBuilding_70
+  - first:
+      213: -6273582890054303127
+    second: ChristmasBuilding_71
+  - first:
+      213: 8017038260588447269
+    second: ChristmasBuilding_72
+  - first:
+      213: -6813045379431175534
+    second: ChristmasBuilding_73
+  - first:
+      213: -4877873931513975280
+    second: ChristmasBuilding_74
+  - first:
+      213: 73674812890443660
+    second: ChristmasBuilding_75
+  - first:
+      213: 8515325204067072750
+    second: ChristmasBuilding_76
+  - first:
+      213: 7932062681543464409
+    second: ChristmasBuilding_77
+  - first:
+      213: -3233717325652873851
+    second: ChristmasBuilding_78
+  - first:
+      213: 7616526256554385712
+    second: ChristmasBuilding_79
+  - first:
+      213: 730284105979402609
+    second: ChristmasBuilding_80
+  - first:
+      213: 6455451892041120750
+    second: ChristmasBuilding_81
+  - first:
+      213: 313146407063825106
+    second: ChristmasBuilding_82
+  - first:
+      213: -6313022383411636574
+    second: ChristmasBuilding_83
+  - first:
+      213: -522915629849228991
+    second: ChristmasBuilding_84
+  - first:
+      213: -5583215360050446463
+    second: ChristmasBuilding_85
+  - first:
+      213: 836875062213270506
+    second: ChristmasBuilding_86
+  - first:
+      213: 9100618893708315273
+    second: ChristmasBuilding_87
+  - first:
+      213: 6560354271447997663
+    second: ChristmasBuilding_88
+  - first:
+      213: 1815934269810871515
+    second: ChristmasBuilding_89
+  - first:
+      213: -136018252012370553
+    second: ChristmasBuilding_90
+  - first:
+      213: 2138909065478641299
+    second: ChristmasBuilding_91
+  - first:
+      213: 5735589375162250163
+    second: ChristmasBuilding_92
+  - first:
+      213: -637886215453585540
+    second: ChristmasBuilding_93
+  - first:
+      213: -8322779059495531786
+    second: ChristmasBuilding_94
+  - first:
+      213: 8894643406174702522
+    second: ChristmasBuilding_95
+  - first:
+      213: 2832779805535129533
+    second: ChristmasBuilding_96
+  - first:
+      213: 7902478440168682077
+    second: ChristmasBuilding_97
+  - first:
+      213: -4762952060367657445
+    second: ChristmasBuilding_98
+  - first:
+      213: -2898173044218211303
+    second: ChristmasBuilding_99
+  - first:
+      213: 7562412249427867303
+    second: ChristmasBuilding_100
+  - first:
+      213: 7581739120696011309
+    second: ChristmasBuilding_101
+  - first:
+      213: 234025098961689477
+    second: ChristmasBuilding_102
+  - first:
+      213: 4689290819003669689
+    second: ChristmasBuilding_103
+  - first:
+      213: -2802218549397392480
+    second: ChristmasBuilding_104
+  - first:
+      213: 6681520522512677678
+    second: ChristmasBuilding_105
+  - first:
+      213: 9197791263088286504
+    second: ChristmasBuilding_106
+  - first:
+      213: 682370978522334950
+    second: ChristmasBuilding_107
+  - first:
+      213: -2220948237589978390
+    second: ChristmasBuilding_108
+  - first:
+      213: -3912253935053698309
+    second: ChristmasBuilding_109
+  - first:
+      213: 1777011971481154912
+    second: ChristmasBuilding_110
+  - first:
+      213: -6711637097693753684
+    second: ChristmasBuilding_111
+  - first:
+      213: -8401604558834935035
+    second: ChristmasBuilding_112
+  - first:
+      213: 5686613453254425584
+    second: ChristmasBuilding_113
+  - first:
+      213: -2911140132908012990
+    second: ChristmasBuilding_114
+  - first:
+      213: 7029203873269277180
+    second: ChristmasBuilding_115
+  - first:
+      213: 4702421176290026618
+    second: ChristmasBuilding_116
+  - first:
+      213: -2619972344958341297
+    second: ChristmasBuilding_117
+  - first:
+      213: 4655486507379125924
+    second: ChristmasBuilding_118
+  - first:
+      213: -3057016787755251238
+    second: ChristmasBuilding_119
+  - first:
+      213: 4423527067200809939
+    second: ChristmasBuilding_120
+  - first:
+      213: -3284712003923338523
+    second: ChristmasBuilding_121
+  - first:
+      213: -6240385840634536362
+    second: ChristmasBuilding_122
+  - first:
+      213: 2525344479759423273
+    second: ChristmasBuilding_123
+  - first:
+      213: -3054989365486050290
+    second: ChristmasBuilding_124
+  - first:
+      213: -8304931958350648422
+    second: ChristmasBuilding_125
+  - first:
+      213: 8636304835841348545
+    second: ChristmasBuilding_126
+  - first:
+      213: -360052357034539269
+    second: ChristmasBuilding_127
+  - first:
+      213: -6456708226081104601
+    second: ChristmasBuilding_128
+  - first:
+      213: 2255960281882413912
+    second: ChristmasBuilding_129
+  - first:
+      213: 4357407599772536337
+    second: ChristmasBuilding_130
+  - first:
+      213: 6051068156877721967
+    second: ChristmasBuilding_131
+  - first:
+      213: 8202195364131652205
+    second: ChristmasBuilding_132
+  - first:
+      213: 1458308234625903888
+    second: ChristmasBuilding_133
+  - first:
+      213: 4253558966108329366
+    second: ChristmasBuilding_134
+  - first:
+      213: 2888496548023440443
+    second: ChristmasBuilding_135
+  - first:
+      213: -5057900504893577218
+    second: ChristmasBuilding_136
+  - first:
+      213: -2257834201396328195
+    second: ChristmasBuilding_137
+  - first:
+      213: -5110984370373355463
+    second: ChristmasBuilding_138
+  - first:
+      213: -7643026893912028658
+    second: ChristmasBuilding_139
+  - first:
+      213: 7313347728111133232
+    second: ChristmasBuilding_140
+  - first:
+      213: 3087007835031728928
+    second: ChristmasBuilding_141
+  - first:
+      213: -1192926584799713479
+    second: ChristmasBuilding_142
+  - first:
+      213: -8586902125520925899
+    second: ChristmasBuilding_143
+  - first:
+      213: -5390177385591434474
+    second: ChristmasBuilding_144
+  - first:
+      213: -3985388875998730350
+    second: ChristmasBuilding_145
+  - first:
+      213: 4081450815716417307
+    second: ChristmasBuilding_146
+  - first:
+      213: 3929724541926730662
+    second: ChristmasBuilding_147
+  - first:
+      213: -8584461885244839988
+    second: ChristmasBuilding_148
+  - first:
+      213: 6389923614440590865
+    second: ChristmasBuilding_149
+  - first:
+      213: 1702232799716890768
+    second: ChristmasBuilding_150
+  - first:
+      213: -6316791011893099633
+    second: ChristmasBuilding_151
+  - first:
+      213: 6952456117042894388
+    second: ChristmasBuilding_152
+  - first:
+      213: -6463329228784422620
+    second: ChristmasBuilding_153
+  - first:
+      213: -2803597056889262183
+    second: ChristmasBuilding_154
+  - first:
+      213: 1480732816502059770
+    second: ChristmasBuilding_155
+  - first:
+      213: -4257669605738369194
+    second: ChristmasBuilding_156
+  - first:
+      213: -1783769871108344083
+    second: ChristmasBuilding_157
+  - first:
+      213: -2883156579645254353
+    second: ChristmasBuilding_158
+  - first:
+      213: -5297711033748264833
+    second: ChristmasBuilding_159
+  - first:
+      213: -7347994225959354404
+    second: ChristmasBuilding_160
+  - first:
+      213: -6718433302081545759
+    second: ChristmasBuilding_161
+  - first:
+      213: -4207016395751700147
+    second: ChristmasBuilding_162
+  - first:
+      213: 7836399834597653937
+    second: ChristmasBuilding_163
+  - first:
+      213: 6409631592874192609
+    second: ChristmasBuilding_164
+  - first:
+      213: -1915758119668771027
+    second: ChristmasBuilding_165
+  - first:
+      213: 6953379192026500442
+    second: ChristmasBuilding_166
+  - first:
+      213: -3933766472964302179
+    second: ChristmasBuilding_167
+  - first:
+      213: -839466780045422323
+    second: ChristmasBuilding_168
+  - first:
+      213: -2954212678801166497
+    second: ChristmasBuilding_169
+  - first:
+      213: 6868082220318240203
+    second: ChristmasBuilding_170
+  - first:
+      213: 2356753904917627114
+    second: ChristmasBuilding_171
+  - first:
+      213: 6192334310600615217
+    second: ChristmasBuilding_172
+  - first:
+      213: 816960196226565226
+    second: ChristmasBuilding_173
+  - first:
+      213: -6106209616310813876
+    second: ChristmasBuilding_174
+  - first:
+      213: -3037510117145775909
+    second: ChristmasBuilding_175
+  - first:
+      213: -573123916752133357
+    second: ChristmasBuilding_176
+  - first:
+      213: -589192139209686365
+    second: ChristmasBuilding_177
+  - first:
+      213: -641141616561912929
+    second: ChristmasBuilding_178
+  - first:
+      213: -9208611334640737689
+    second: ChristmasBuilding_179
+  - first:
+      213: 3423964644340992345
+    second: ChristmasBuilding_180
+  - first:
+      213: -7485268713880318330
+    second: ChristmasBuilding_181
+  - first:
+      213: 7747107192586478599
+    second: ChristmasBuilding_182
+  - first:
+      213: 1396881636723926217
+    second: ChristmasBuilding_183
+  - first:
+      213: -8464744617959961257
+    second: ChristmasBuilding_184
+  - first:
+      213: 490599704504172859
+    second: ChristmasBuilding_185
+  - first:
+      213: 7272219273471017803
+    second: ChristmasBuilding_186
+  - first:
+      213: 3381336647305108248
+    second: ChristmasBuilding_187
+  - first:
+      213: 1178677153716900532
+    second: ChristmasBuilding_188
+  - first:
+      213: -5705841825741065951
+    second: ChristmasBuilding_189
+  - first:
+      213: 4403683688708195194
+    second: ChristmasBuilding_190
+  - first:
+      213: -4266424610305147481
+    second: ChristmasBuilding_191
+  - first:
+      213: 5421478876966232351
+    second: ChristmasBuilding_192
+  - first:
+      213: 2328389054108444740
+    second: ChristmasBuilding_193
+  - first:
+      213: -121899993288402597
+    second: ChristmasBuilding_194
+  - first:
+      213: 8671179773609012497
+    second: ChristmasBuilding_195
+  - first:
+      213: 5734579846635538270
+    second: ChristmasBuilding_196
+  - first:
+      213: -6654059209081649702
+    second: ChristmasBuilding_197
+  - first:
+      213: -3691136752450862345
+    second: ChristmasBuilding_198
+  - first:
+      213: -3490370064097243724
+    second: ChristmasBuilding_199
+  - first:
+      213: -4568599692657807220
+    second: ChristmasBuilding_200
+  - first:
+      213: -2391699693580984388
+    second: ChristmasBuilding_201
+  - first:
+      213: -2997186709168179500
+    second: ChristmasBuilding_202
+  - first:
+      213: 5577175080926052792
+    second: ChristmasBuilding_203
+  - first:
+      213: 8269733546293647307
+    second: ChristmasBuilding_204
+  - first:
+      213: -7318923100650131237
+    second: ChristmasBuilding_205
+  - first:
+      213: 1025020436677864108
+    second: ChristmasBuilding_206
+  - first:
+      213: 7071395913077915632
+    second: ChristmasBuilding_207
+  - first:
+      213: 7427202236682219669
+    second: ChristmasBuilding_208
+  - first:
+      213: -8872759258319552304
+    second: IceBuilding_0
+  - first:
+      213: -4700318038834863697
+    second: IceBuilding_1
+  - first:
+      213: -6966332550962064927
+    second: IceBuilding_2
+  - first:
+      213: -6822078209924326384
+    second: IceBuilding_3
+  - first:
+      213: 409867960963444348
+    second: IceBuilding_4
+  - first:
+      213: -1071955779615512684
+    second: IceBuilding_5
+  - first:
+      213: 3721224204079343484
+    second: IceBuilding_6
+  - first:
+      213: -5770378465457572660
+    second: IceBuilding_7
+  - first:
+      213: 4860831351917266779
+    second: IceBuilding_8
+  - first:
+      213: 7370525144477122660
+    second: IceBuilding_9
+  - first:
+      213: 2220008775051485778
+    second: IceBuilding_10
+  - first:
+      213: -90827116949460999
+    second: IceBuilding_11
+  - first:
+      213: -8874283068210696607
+    second: IceBuilding_12
+  - first:
+      213: 6243286608804671927
+    second: IceBuilding_13
+  - first:
+      213: 1901030279001610266
+    second: IceBuilding_14
+  - first:
+      213: 5135091347786375779
+    second: IceBuilding_15
+  - first:
+      213: -4923615924124437321
+    second: IceBuilding_16
+  - first:
+      213: -2478690733555329349
+    second: IceBuilding_17
+  - first:
+      213: 3216097285864785544
+    second: IceBuilding_18
+  - first:
+      213: 8679557242238052171
+    second: IceBuilding_19
+  - first:
+      213: 2090558801287411203
+    second: IceBuilding_20
+  - first:
+      213: 7182177109836689120
+    second: IceBuilding_21
+  - first:
+      213: -8236026535440769737
+    second: IceBuilding_22
+  - first:
+      213: -4955300764984363003
+    second: IceBuilding_23
+  - first:
+      213: 9048112623877729124
+    second: IceBuilding_24
+  - first:
+      213: -4742991808194526853
+    second: IceBuilding_25
+  - first:
+      213: 4853527459913941153
+    second: IceBuilding_26
+  - first:
+      213: -1922895116478140803
+    second: IceBuilding_27
+  - first:
+      213: -2359260461714605989
+    second: IceBuilding_28
+  - first:
+      213: 4664284704682854463
+    second: IceBuilding_29
+  - first:
+      213: 1061834866767547347
+    second: IceBuilding_30
+  - first:
+      213: -1846672840530785797
+    second: IceBuilding_31
+  - first:
+      213: -9160286788065240636
+    second: IceBuilding_32
+  - first:
+      213: -3932431511252884874
+    second: IceBuilding_33
+  - first:
+      213: -4909312409844351436
+    second: IceBuilding_34
+  - first:
+      213: -5223836835321013436
+    second: IceBuilding_35
+  - first:
+      213: 4334542220594765607
+    second: IceBuilding_36
+  - first:
+      213: 7650380179763795938
+    second: IceBuilding_37
+  - first:
+      213: 8115639971445426524
+    second: IceBuilding_38
+  - first:
+      213: 803127009371489485
+    second: IceBuilding_39
+  - first:
+      213: 5079126499505278842
+    second: IceBuilding_40
+  - first:
+      213: 6459785309479403896
+    second: IceBuilding_41
+  - first:
+      213: 4207580808963054852
+    second: IceBuilding_42
+  - first:
+      213: -8841121509238502459
+    second: IceBuilding_43
+  - first:
+      213: 6453364785867531062
+    second: IceBuilding_44
+  - first:
+      213: -5676580854464095977
+    second: IceBuilding_45
+  - first:
+      213: -5199431557633834171
+    second: IceBuilding_46
+  - first:
+      213: 3858975990920915030
+    second: IceBuilding_47
+  - first:
+      213: 1060680083002878553
+    second: IceBuilding_48
+  - first:
+      213: -6941875098929015483
+    second: IceBuilding_49
+  - first:
+      213: 5728044114160040185
+    second: IceBuilding_50
+  - first:
+      213: 3206985777768706338
+    second: IceBuilding_51
+  - first:
+      213: 2502084408511639597
+    second: IceBuilding_52
+  - first:
+      213: 8426516077532617773
+    second: IceBuilding_53
+  - first:
+      213: -7801785885303934737
+    second: IceBuilding_54
+  - first:
+      213: -8190670585706586540
+    second: IceBuilding_55
+  - first:
+      213: -3095986688524236087
+    second: IceBuilding_56
+  - first:
+      213: 7377170512221820691
+    second: IceBuilding_57
+  - first:
+      213: 7330606808478732071
+    second: IceBuilding_58
+  - first:
+      213: -5363748354505414421
+    second: IceBuilding_59
+  - first:
+      213: -4862944560354048550
+    second: IceBuilding_60
+  - first:
+      213: -6246353399727026326
+    second: IceBuilding_61
+  - first:
+      213: 4371945497894911684
+    second: IceBuilding_62
+  - first:
+      213: -3302720072902563954
+    second: IceBuilding_63
+  - first:
+      213: -6803482947089908739
+    second: IceBuilding_64
+  - first:
+      213: -5123593613930979413
+    second: IceBuilding_65
+  - first:
+      213: 6619127404502430805
+    second: IceBuilding_66
+  - first:
+      213: -6098160217399244742
+    second: IceBuilding_67
+  - first:
+      213: 1979101971003870156
+    second: IceBuilding_68
+  - first:
+      213: 4589687495379643633
+    second: IceBuilding_69
+  - first:
+      213: -8891065635172147608
+    second: IceBuilding_70
+  - first:
+      213: -826281235102050481
+    second: IceBuilding_71
+  - first:
+      213: 1468944169180403464
+    second: IceBuilding_72
+  - first:
+      213: 7788732003911404842
+    second: IceBuilding_73
+  - first:
+      213: -1649937386796003218
+    second: IceBuilding_74
+  - first:
+      213: -5250277607560744511
+    second: IceBuilding_75
+  - first:
+      213: 1063752046481666765
+    second: IceBuilding_76
+  - first:
+      213: 4066416024601906263
+    second: IceBuilding_77
+  - first:
+      213: 4358608018038066325
+    second: IceBuilding_78
+  - first:
+      213: 1831470445473950473
+    second: IceBuilding_79
+  - first:
+      213: 4934925074259002079
+    second: IceBuilding_80
+  - first:
+      213: -2691448363832601277
+    second: IceBuilding_81
+  - first:
+      213: 8581520952844874816
+    second: IceBuilding_82
+  - first:
+      213: 6188503298109239888
+    second: IceBuilding_83
+  - first:
+      213: 8318085522915955857
+    second: IceBuilding_84
+  - first:
+      213: 8225221304330953857
+    second: IceBuilding_85
+  - first:
+      213: -8332005333133573644
+    second: IceBuilding_86
+  - first:
+      213: 1935470787765034804
+    second: IceBuilding_87
+  - first:
+      213: -1055133629010870530
+    second: IceBuilding_88
+  - first:
+      213: 5515000701909457200
+    second: IceBuilding_89
+  - first:
+      213: -2340258048259533111
+    second: IceBuilding_90
+  - first:
+      213: -911899144522216485
+    second: IceBuilding_91
+  - first:
+      213: 1297236374328084311
+    second: IceBuilding_92
+  - first:
+      213: 2943414622073325773
+    second: IceBuilding_93
+  - first:
+      213: 7478030124975756546
+    second: IceBuilding_94
+  - first:
+      213: 2751976884684452813
+    second: IceBuilding_95
+  - first:
+      213: -4443445714375076068
+    second: IceBuilding_96
+  - first:
+      213: 2580829719114556196
+    second: IceBuilding_97
+  - first:
+      213: 6890170372246734908
+    second: IceBuilding_98
+  - first:
+      213: 8979956628069089050
+    second: IceBuilding_99
+  - first:
+      213: -664953136342875564
+    second: IceBuilding_100
+  - first:
+      213: -6628480508870706406
+    second: IceBuilding_101
+  - first:
+      213: 7234980430291838381
+    second: IceBuilding_102
+  - first:
+      213: 9166110116803356280
+    second: IceBuilding_103
+  - first:
+      213: -8966954586457789762
+    second: IceBuilding_104
+  - first:
+      213: 9117442184557173117
+    second: IceBuilding_105
+  - first:
+      213: 3915447929081008411
+    second: IceBuilding_106
+  - first:
+      213: 1554174229669173451
+    second: IceBuilding_107
+  - first:
+      213: 5431364389529854968
+    second: IceBuilding_108
+  - first:
+      213: 7797687650906772067
+    second: IceBuilding_109
+  - first:
+      213: 4941938288523925651
+    second: IceBuilding_110
+  - first:
+      213: -4458914462507228402
+    second: IceBuilding_111
+  - first:
+      213: 1560956209912173765
+    second: IceBuilding_112
+  - first:
+      213: 7688193375059822922
+    second: IceBuilding_113
+  - first:
+      213: 8512569619140884452
+    second: IceBuilding_114
+  - first:
+      213: -593611532037508162
+    second: IceBuilding_115
+  - first:
+      213: 5457696873134665527
+    second: IceBuilding_116
+  - first:
+      213: 4986343000692060390
+    second: IceBuilding_117
+  - first:
+      213: 5768648481524382318
+    second: IceBuilding_118
+  - first:
+      213: 1747150850833989970
+    second: IceBuilding_119
+  - first:
+      213: -7607692525137298000
+    second: IceBuilding_120
+  - first:
+      213: -2474803064127530543
+    second: IceBuilding_121
+  - first:
+      213: -9002174818070603308
+    second: IceBuilding_122
+  - first:
+      213: 6456760702619282121
+    second: IceBuilding_123
+  - first:
+      213: 1925128902139181241
+    second: IceBuilding_124
+  - first:
+      213: 5447292618053289835
+    second: IceBuilding_125
+  - first:
+      213: -5176896997130326024
+    second: IceBuilding_126
+  - first:
+      213: 1051506440686417425
+    second: IceBuilding_127
+  - first:
+      213: 9002656503738767212
+    second: IceBuilding_128
+  - first:
+      213: 1293968600789062662
+    second: IceBuilding_129
+  - first:
+      213: 1316354906260109643
+    second: IceBuilding_130
+  - first:
+      213: 4783553543339845243
+    second: IceBuilding_131
+  - first:
+      213: -522705860431307750
+    second: IceBuilding_132
+  - first:
+      213: -5193227821753544899
+    second: IceBuilding_133
+  - first:
+      213: 4218625357291932754
+    second: IceBuilding_134
+  - first:
+      213: 8264882578305543951
+    second: IceBuilding_135
+  - first:
+      213: -7639279951716187476
+    second: IceBuilding_136
+  - first:
+      213: 7311748007375619245
+    second: IceBuilding_137
+  - first:
+      213: -5657557251814551987
+    second: IceBuilding_138
+  - first:
+      213: -9123186229544806648
+    second: IceBuilding_139
+  - first:
+      213: -5880423520920750975
+    second: IceBuilding_140
+  - first:
+      213: 2963491061944358124
+    second: IceBuilding_141
+  - first:
+      213: -6144995824483951099
+    second: IceBuilding_142
+  - first:
+      213: -5834337967661926369
+    second: IceBuilding_143
+  - first:
+      213: 4252563544714008550
+    second: IceBuilding_144
+  - first:
+      213: -6444275896520724098
+    second: IceBuilding_145
+  - first:
+      213: 5617389273415973023
+    second: IceBuilding_146
+  - first:
+      213: -1886799799169794242
+    second: IceBuilding_147
+  - first:
+      213: 1225322178161208117
+    second: IceBuilding_148
+  - first:
+      213: 1600816302009850717
+    second: IceBuilding_149
+  - first:
+      213: -7895944865376506477
+    second: IceBuilding_150
+  - first:
+      213: -7442769144024606366
+    second: IceBuilding_151
+  - first:
+      213: -1355253724198325709
+    second: IceBuilding_152
+  - first:
+      213: 7761561020355201562
+    second: IceBuilding_153
+  - first:
+      213: 6917960317456657444
+    second: IceBuilding_154
+  - first:
+      213: -4440897116238317763
+    second: IceBuilding_155
+  - first:
+      213: 2951318910177449596
+    second: IceBuilding_156
+  - first:
+      213: -1198631959846425747
+    second: IceBuilding_157
+  - first:
+      213: -7703217398087278562
+    second: IceBuilding_158
+  - first:
+      213: -4115292786687541054
+    second: IceBuilding_159
+  - first:
+      213: 3462279609515200175
+    second: IceBuilding_160
+  - first:
+      213: 1508677957542553285
+    second: IceBuilding_161
+  - first:
+      213: 7747128601571598821
+    second: IceBuilding_162
+  - first:
+      213: -5534323131399192440
+    second: IceBuilding_163
+  - first:
+      213: -967846652258684317
+    second: IceBuilding_164
+  - first:
+      213: -6442036839510681221
+    second: IceBuilding_165
+  - first:
+      213: 7176748287882248782
+    second: IceBuilding_166
+  - first:
+      213: 7698518043931908197
+    second: IceBuilding_167
+  - first:
+      213: -1699778081512255225
+    second: IceBuilding_168
+  - first:
+      213: 1272087924994848866
+    second: IceBuilding_169
+  - first:
+      213: -7371133607722363358
+    second: IceBuilding_170
+  - first:
+      213: 4309897038427584924
+    second: IceBuilding_171
+  - first:
+      213: 8086427807789634133
+    second: IceBuilding_172
+  - first:
+      213: 7408719778721110498
+    second: IceBuilding_173
+  - first:
+      213: -3026406806332651425
+    second: IceBuilding_174
+  - first:
+      213: -1626284029898463722
+    second: IceBuilding_175
+  - first:
+      213: 756755620821344679
+    second: IceBuilding_176
+  - first:
+      213: 916178055366301117
+    second: IceBuilding_177
+  - first:
+      213: -3982580840039220893
+    second: IceBuilding_178
+  - first:
+      213: -1705374606603995626
+    second: IceBuilding_179
+  - first:
+      213: -3570563072607646543
+    second: IceBuilding_180
+  - first:
+      213: -6988661453867412115
+    second: IceBuilding_181
+  - first:
+      213: 42685978116482853
+    second: IceBuilding_182
+  - first:
+      213: 3456754581781836684
+    second: IceBuilding_183
+  - first:
+      213: -4740523380767398564
+    second: IceBuilding_184
+  - first:
+      213: 8998481037167932701
+    second: IceBuilding_185
+  - first:
+      213: 869923343299235422
+    second: IceBuilding_186
+  - first:
+      213: 92250758154072566
+    second: IceBuilding_187
+  - first:
+      213: -1771140193973722518
+    second: IceBuilding_188
+  - first:
+      213: -8387691427782338558
+    second: IceBuilding_189
+  - first:
+      213: 8015693437763089828
+    second: IceBuilding_190
+  - first:
+      213: -5734539227838332284
+    second: IceBuilding_191
+  - first:
+      213: -1323539235533090021
+    second: IceBuilding_192
+  - first:
+      213: 5640678189660789879
+    second: IceBuilding_193
+  - first:
+      213: 5221150771749487361
+    second: IceBuilding_194
+  - first:
+      213: -2057831446172786970
+    second: IceBuilding_195
+  - first:
+      213: 1681692618636332923
+    second: IceBuilding_196
+  - first:
+      213: 8032669753953817959
+    second: IceBuilding_197
+  - first:
+      213: 8705409720964088629
+    second: IceBuilding_198
+  - first:
+      213: 7397780192937634006
+    second: IceBuilding_199
+  - first:
+      213: 2774527957236256781
+    second: IceBuilding_200
+  - first:
+      213: 3412589286834436648
+    second: IceBuilding_201
+  - first:
+      213: 4821987619546340157
+    second: IceBuilding_202
+  - first:
+      213: -750690803236520005
+    second: IceBuilding_203
+  - first:
+      213: 5243732020695066575
+    second: IceBuilding_204
+  - first:
+      213: -7602723896759816915
+    second: IceBuilding_205
+  - first:
+      213: 2578000301714597613
+    second: IceBuilding_206
+  - first:
+      213: 8191121127835631930
+    second: IceBuilding_207
+  - first:
+      213: -505134819915703197
+    second: IceBuilding_208
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IceBuilding_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d00e46e670add480800000000000000
+      internalID: -8872759258319552304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa123e3a5ad15ceb0800000000000000
+      internalID: -4700318038834863697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e15aa0447d925f90800000000000000
+      internalID: -6966332550962064927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c1783530c1351a0800000000000000
+      internalID: -6822078209924326384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e2a0a2db420b500800000000000000
+      internalID: 409867960963444348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_5
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497271dd5e5af11f0800000000000000
+      internalID: -1071955779615512684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c772cbd92b174a330800000000000000
+      internalID: 3721224204079343484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc476d2cb5f7befa0800000000000000
+      internalID: -5770378465457572660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b574c1c5c54257340800000000000000
+      internalID: 4860831351917266779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460c4a4719d594660800000000000000
+      internalID: 7370525144477122660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252a133083e0fce10800000000000000
+      internalID: 2220008775051485778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f72146e7315dbef0800000000000000
+      internalID: -90827116949460999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_12
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ea903419638d480800000000000000
+      internalID: -8874283068210696607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b171c4a71c94a650800000000000000
+      internalID: 6243286608804671927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18172777f0d16a10800000000000000
+      internalID: 1901030279001610266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3622df9bf52834740800000000000000
+      internalID: 5135091347786375779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b43b18476dcbabb0800000000000000
+      internalID: -4923615924124437321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_17
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6d16619ebe99dd0800000000000000
+      internalID: -2478690733555329349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886811f117fd1ac20800000000000000
+      internalID: 3216097285864785544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47a447535bf37870800000000000000
+      internalID: 8679557242238052171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3067dcc4728230d10800000000000000
+      internalID: 2090558801287411203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eee1c157083ca360800000000000000
+      internalID: 7182177109836689120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_22
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d9c5a9081c3bd80800000000000000
+      internalID: -8236026535440769737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508b2e3653c3b3bb0800000000000000
+      internalID: -4955300764984363003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ba5f11e7a519d70800000000000000
+      internalID: 9048112623877729124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_25
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b714af374128d2eb0800000000000000
+      internalID: -4742991808194526853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_26
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a046cb72813b5340800000000000000
+      internalID: 4853527459913941153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eacf954118055e0800000000000000
+      internalID: -1922895116478140803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_28
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5870e62c19324fd0800000000000000
+      internalID: -2359260461714605989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38c8e9f93edab040800000000000000
+      internalID: 4664284704682854463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_30
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbcdcb7f256cbe00800000000000000
+      internalID: 1061834866767547347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf90dcbe5dc4f56e0800000000000000
+      internalID: -1846672840530785797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_32
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9daa413bf10e080800000000000000
+      internalID: -9160286788065240636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_33
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672283c10623d69c0800000000000000
+      internalID: -3932431511252884874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_34
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e7fc7bf5e9edbb0800000000000000
+      internalID: -4909312409844351436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b171a43143187b0800000000000000
+      internalID: -5223836835321013436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_36
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fdb7a2f23672c30800000000000000
+      internalID: 4334542220594765607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e792837d3c9b2a60800000000000000
+      internalID: 7650380179763795938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_38
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5947f63e8b80a070800000000000000
+      internalID: 8115639971445426524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc40c1782c7452b00800000000000000
+      internalID: 803127009371489485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f094414aeac7640800000000000000
+      internalID: 5079126499505278842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8718ec87384c5a950800000000000000
+      internalID: 6459785309479403896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_42
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d5ef9f374546a30800000000000000
+      internalID: 4207580808963054852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb06c164d60e4580800000000000000
+      internalID: -8841121509238502459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63326a3d415fe8950800000000000000
+      internalID: 6453364785867531062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71952e6e9cbb831b0800000000000000
+      internalID: -5676580854464095977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543874dcb88e7d7b0800000000000000
+      internalID: -5199431557633834171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_47
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6582a9fc736dd8530800000000000000
+      internalID: 3858975990920915030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ae7bf6aea48be00800000000000000
+      internalID: 1060680083002878553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545d43d806189af90800000000000000
+      internalID: -6941875098929015483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8b64af5c91e7f40800000000000000
+      internalID: 5728044114160040185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_51
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22132a3d290818c20800000000000000
+      internalID: 3206985777768706338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20316f438039b220800000000000000
+      internalID: 2502084408511639597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c13771abff0f470800000000000000
+      internalID: 8426516077532617773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe07dcca21d7ab390800000000000000
+      internalID: -7801785885303934737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ed7b29f74e45e80800000000000000
+      internalID: -8190670585706586540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cacc219288d805d0800000000000000
+      internalID: -3095986688524236087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_57
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317d774be79f06660800000000000000
+      internalID: 7377170512221820691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f4f679d0c8bb560800000000000000
+      internalID: 7330606808478732071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_59
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be86e193a432095b0800000000000000
+      internalID: -5363748354505414421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_60
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5cda5ffa9538cb0800000000000000
+      internalID: -4862944560354048550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f87b37dae7059a0800000000000000
+      internalID: -6246353399727026326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cef46b44454cac30800000000000000
+      internalID: 4371945497894911684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87271e97916a22d0800000000000000
+      internalID: -3302720072902563954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb37475e4c2591a0800000000000000
+      internalID: -6803482947089908739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf1f2c01c655e8b0800000000000000
+      internalID: -5123593613930979413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554bb640e4ddbdb50800000000000000
+      internalID: 6619127404502430805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38cf7a779bfe5ba0800000000000000
+      internalID: -6098160217399244742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_68
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb06f3c1ce277b10800000000000000
+      internalID: 1979101971003870156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fce728b578d1bf30800000000000000
+      internalID: 4589687495379643633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e91e469e69c9480800000000000000
+      internalID: -8891065635172147608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47db2138957884f0800000000000000
+      internalID: -826281235102050481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80711e660fcb26410800000000000000
+      internalID: 1468944169180403464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d0bd7bd72271c60800000000000000
+      internalID: 7788732003911404842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_74
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60536e30be3a19e0800000000000000
+      internalID: -1649937386796003218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_75
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1772545544327b0800000000000000
+      internalID: -5250277607560744511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc272aba9d433ce00800000000000000
+      internalID: 1063752046481666765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c4a5f54dfce6830800000000000000
+      internalID: 4066416024601906263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c045646e2ec7c30800000000000000
+      internalID: 4358608018038066325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be917aaa0ba6910800000000000000
+      internalID: 1831470445473950473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2406c65306c7440800000000000000
+      internalID: 4934925074259002079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_81
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345937619fd06aad0800000000000000
+      internalID: -2691448363832601277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044f3eaf6dfa71770800000000000000
+      internalID: 8581520952844874816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_83
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052722726faf1e550800000000000000
+      internalID: 6188503298109239888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19499b446b6cf6370800000000000000
+      internalID: 8318085522915955857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_85
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1842f9b723bd52270800000000000000
+      internalID: 8225221304330953857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1c9eb5b45ce5c80800000000000000
+      internalID: -8332005333133573644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_87
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f51e94d6c2cda10800000000000000
+      internalID: 1935470787765034804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efefc340e896b51f0800000000000000
+      internalID: -1055133629010870530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_89
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039d75d2be7398c40800000000000000
+      internalID: 5515000701909457200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6ddbe44bbb58fd0800000000000000
+      internalID: -2340258048259533111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_91
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb45cb3f884853f0800000000000000
+      internalID: -911899144522216485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_92
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7578a810c95b00210800000000000000
+      internalID: 1297236374328084311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_93
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc80f5ff00c19d820800000000000000
+      internalID: 2943414622073325773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20599d247cc47c760800000000000000
+      internalID: 7478030124975756546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3f3b1656cf03620800000000000000
+      internalID: 2751976884684452813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_96
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1711f74aa5b552c0800000000000000
+      internalID: -4443445714375076068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4232899a4f2f0d320800000000000000
+      internalID: 2580829719114556196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3800b7a27dce9f50800000000000000
+      internalID: 6890170372246734908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_99
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ff872b9f63f9c70800000000000000
+      internalID: 8979956628069089050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_100
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 452400445ac95c6f0800000000000000
+      internalID: -664953136342875564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b392ca818e204a0800000000000000
+      internalID: -6628480508870706406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5a2786e50d76460800000000000000
+      internalID: 7234980430291838381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_103
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876ad2c4690943f70800000000000000
+      internalID: 9166110116803356280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_104
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebaaf15005afe8380800000000000000
+      internalID: -8966954586457789762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7911be4c59a78e70800000000000000
+      internalID: 9117442184557173117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1199658527765630800000000000000
+      internalID: 3915447929081008411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85f7e3a39819510800000000000000
+      internalID: 1554174229669173451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_108
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f322abb225106b40800000000000000
+      internalID: 5431364389529854968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3629fb5ca93f63c60800000000000000
+      internalID: 7797687650906772067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398de5d90ba459440800000000000000
+      internalID: 4941938288523925651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03a762bbe0ce12c0800000000000000
+      internalID: -4458914462507228402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_112
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c451c11761a9a510800000000000000
+      internalID: 1560956209912173765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49c3fc0423f1ba60800000000000000
+      internalID: 7688193375059822922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_114
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7bca297f8b22670800000000000000
+      internalID: 8512569619140884452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3345ae47113c7f0800000000000000
+      internalID: -593611532037508162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_116
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fa3f6d362adbb40800000000000000
+      internalID: 5457696873134665527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e071845a8c033540800000000000000
+      internalID: 4986343000692060390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_118
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a7b57fa3b5e0050800000000000000
+      internalID: 5768648481524382318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2514bf821702f3810800000000000000
+      internalID: 1747150850833989970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_120
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdfbc6a4fb0c6690800000000000000
+      internalID: -7607692525137298000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d951a9a9bbb7add0800000000000000
+      internalID: -2474803064127530543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d95fe2d2b9d11380800000000000000
+      internalID: -9002174818070603308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cae25f46a50b9950800000000000000
+      internalID: 6456760702619282121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8f7d6698e67ba10800000000000000
+      internalID: 1925128902139181241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b678cae66cba89b40800000000000000
+      internalID: 5447292618053289835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffa2470c97f728b0800000000000000
+      internalID: -5176896997130326024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_127
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11636246983b79e00800000000000000
+      internalID: 1051506440686417425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67953c546cdfec70800000000000000
+      internalID: 9002656503738767212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_129
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6049a80369915f110800000000000000
+      internalID: 1293968600789062662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49f9f910d1a44210800000000000000
+      internalID: 1316354906260109643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_131
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7625d27a98926240800000000000000
+      internalID: 4783553543339845243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c1af21ac9feb8f0800000000000000
+      internalID: -522705860431307750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_133
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f44be9fc2fde7b0800000000000000
+      internalID: -5193227821753544899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c47d549619b8a30800000000000000
+      internalID: 4218625357291932754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_135
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f673e6ae2c2b270800000000000000
+      internalID: 8264882578305543951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_136
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2813acb53dbf590800000000000000
+      internalID: -7639279951716187476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_137
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da44bcac21c887560800000000000000
+      internalID: 7311748007375619245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e882d87a15c71b0800000000000000
+      internalID: -5657557251814551987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_139
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8071f30067ee36180800000000000000
+      internalID: -9123186229544806648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_140
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184baaaa6f9846ea0800000000000000
+      internalID: -5880423520920750975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_141
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce41d3a6b6f602920800000000000000
+      internalID: 2963491061944358124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_142
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e106fead698baa0800000000000000
+      internalID: -6144995824483951099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_143
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18bfe1b784480fa0800000000000000
+      internalID: -5834337967661926369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_144
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7547b4304240b30800000000000000
+      internalID: 4252563544714008550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71354127355196a0800000000000000
+      internalID: -6444275896520724098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_146
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f987c0f28c9f4fd40800000000000000
+      internalID: 5617389273415973023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fb430549db0d5e0800000000000000
+      internalID: -1886799799169794242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53be4bc6708310110800000000000000
+      internalID: 1225322178161208117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_149
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b93f7f1fd373610800000000000000
+      internalID: 1600816302009850717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_150
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39de92dbaf7fb6290800000000000000
+      internalID: -7895944865376506477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269dc21a5e8f5b890800000000000000
+      internalID: -7442769144024606366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_152
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33232a41beb213de0800000000000000
+      internalID: -1355253724198325709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_153
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a4ac020aa96bb60800000000000000
+      internalID: 7761561020355201562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_154
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca04c7148810060800000000000000
+      internalID: 6917960317456657444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_155
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37fe860a93ce52c0800000000000000
+      internalID: -4440897116238317763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76150c79e035f820800000000000000
+      internalID: 2951318910177449596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_157
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b6ce8459a9d5fe0800000000000000
+      internalID: -1198631959846425747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_158
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10266ff69ca81590800000000000000
+      internalID: -7703217398087278562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_159
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c003c6a30b83e6c0800000000000000
+      internalID: -4115292786687541054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_160
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae4b3ef5fc7c0030800000000000000
+      internalID: 3462279609515200175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_161
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c629cbeb96efe410800000000000000
+      internalID: 1508677957542553285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1a1f5ca64538b60800000000000000
+      internalID: 7747128601571598821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_163
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88049b02f622233b0800000000000000
+      internalID: -5534323131399192440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_164
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 362f11ff8948192f0800000000000000
+      internalID: -967846652258684317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b795cf630a94996a0800000000000000
+      internalID: -6442036839510681221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e424d953b8ee89360800000000000000
+      internalID: 7176748287882248782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5681f795f51a6da60800000000000000
+      internalID: 7698518043931908197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701977637dc2968e0800000000000000
+      internalID: -1699778081512255225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268b16c5a3d57a110800000000000000
+      internalID: 1272087924994848866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_170
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226d3c7a90974b990800000000000000
+      internalID: -7371133607722363358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_171
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99fbf98584dfcb30800000000000000
+      internalID: 4309897038427584924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_172
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55254295f33c83070800000000000000
+      internalID: 8086427807789634133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9151bb26f01d660800000000000000
+      internalID: 7408719778721110498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58c7b25b0b0006d0800000000000000
+      internalID: -3026406806332651425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616e20e8a474e69e0800000000000000
+      internalID: -1626284029898463722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a126d84a39808a00800000000000000
+      internalID: 756755620821344679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_177
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5dd15561be6bc00800000000000000
+      internalID: 916178055366301117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_178
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3697f2c93d70bb8c0800000000000000
+      internalID: -3982580840039220893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_179
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b56ca4da4558e0800000000000000
+      internalID: -1705374606603995626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_180
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc08199dcfc27ec0800000000000000
+      internalID: -3570563072607646543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_181
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6594ca6f69430f90800000000000000
+      internalID: -6988661453867412115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_182
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527e582cba6a79000800000000000000
+      internalID: 42685978116482853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_183
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c837fca3afbd8ff20800000000000000
+      internalID: 3456754581781836684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_184
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55eceff917463eb0800000000000000
+      internalID: -4740523380767398564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_185
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15bb7ac3d601ec70800000000000000
+      internalID: 8998481037167932701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_186
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ecb23fba6921c00800000000000000
+      internalID: 869923343299235422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_187
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1b806639db74100800000000000000
+      internalID: 92250758154072566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_188
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62a7c2a065ab67e0800000000000000
+      internalID: -1771140193973722518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_189
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208d179161fe89b80800000000000000
+      internalID: -8387691427782338558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a57c4276b67d3f60800000000000000
+      internalID: 8015693437763089828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_191
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482472684f2da60b0800000000000000
+      internalID: -5734539227838332284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_192
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1312c3e318d1ade0800000000000000
+      internalID: -1323539235533090021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_193
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c560b8de6b74e40800000000000000
+      internalID: 5640678189660789879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_194
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10382ecc6f0457840800000000000000
+      internalID: 5221150771749487361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_195
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee1e3bd33d1173e0800000000000000
+      internalID: -2057831446172786970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_196
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f0733d682965710800000000000000
+      internalID: 1681692618636332923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_197
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76511721596c97f60800000000000000
+      internalID: 8032669753953817959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_198
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5330c4a9404dfc870800000000000000
+      internalID: 8705409720964088629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_199
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8e77ee3e13aa660800000000000000
+      internalID: 7397780192937634006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_200
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00157e1a7a118620800000000000000
+      internalID: 2774527957236256781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_201
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82af11e20e3fb5f20800000000000000
+      internalID: 3412589286834436648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b146621342be240800000000000000
+      internalID: 4821987619546340157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_203
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf3fe811b20595f0800000000000000
+      internalID: -750690803236520005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_204
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7eed68d7a75c840800000000000000
+      internalID: 5243732020695066575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_205
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2de14895e2bd7690800000000000000
+      internalID: -7602723896759816915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de66c869d95e6c320800000000000000
+      internalID: 2578000301714597613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_207
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3107d07445bca170800000000000000
+      internalID: 8191121127835631930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IceBuilding_208
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5e3fbe866df8f0800000000000000
+      internalID: -505134819915703197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

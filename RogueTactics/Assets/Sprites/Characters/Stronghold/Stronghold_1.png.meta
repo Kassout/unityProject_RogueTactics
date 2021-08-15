@@ -1,0 +1,7896 @@
+fileFormatVersion: 2
+guid: b0f958a5492d9304da3f0c894560e7a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7051240762726057767
+    second: StrongholdSpriteSheet_24
+  - first:
+      213: -7239539337648190985
+    second: StrongholdSpriteSheet_25
+  - first:
+      213: -399877013275691900
+    second: StrongholdSpriteSheet_26
+  - first:
+      213: -2667272193070690057
+    second: StrongholdSpriteSheet_27
+  - first:
+      213: 1559028539440667295
+    second: StrongholdSpriteSheet_28
+  - first:
+      213: 8819891091306581828
+    second: StrongholdSpriteSheet_29
+  - first:
+      213: 651246320893270508
+    second: StrongholdSpriteSheet_30
+  - first:
+      213: -2033448518014249890
+    second: StrongholdSpriteSheet_31
+  - first:
+      213: -8251873928296750333
+    second: StrongholdSpriteSheet_32
+  - first:
+      213: -5584523548059740207
+    second: StrongholdSpriteSheet_33
+  - first:
+      213: -1483877079317526709
+    second: StrongholdSpriteSheet_34
+  - first:
+      213: -7567413857307901278
+    second: StrongholdSpriteSheet_35
+  - first:
+      213: 1392243895004231828
+    second: StrongholdSpriteSheet_36
+  - first:
+      213: -5308602785195936761
+    second: StrongholdSpriteSheet_37
+  - first:
+      213: -5468976978115070532
+    second: StrongholdSpriteSheet_38
+  - first:
+      213: -3092554447191697986
+    second: StrongholdSpriteSheet_39
+  - first:
+      213: 3298246000003913230
+    second: StrongholdSpriteSheet_40
+  - first:
+      213: 3616576299240618725
+    second: StrongholdSpriteSheet_41
+  - first:
+      213: 5929192274181285320
+    second: StrongholdSpriteSheet_42
+  - first:
+      213: 4684753124325665244
+    second: StrongholdSpriteSheet_43
+  - first:
+      213: 1537550054080807453
+    second: StrongholdSpriteSheet_44
+  - first:
+      213: -3439901938165061137
+    second: StrongholdSpriteSheet_45
+  - first:
+      213: 2654977100197960883
+    second: StrongholdSpriteSheet_46
+  - first:
+      213: 8429217255227319651
+    second: StrongholdSpriteSheet_47
+  - first:
+      213: 449860607606132370
+    second: StrongholdSpriteSheet_48
+  - first:
+      213: 1306122184147835922
+    second: StrongholdSpriteSheet_49
+  - first:
+      213: 4399906965346052486
+    second: StrongholdSpriteSheet_50
+  - first:
+      213: 2179787742443698173
+    second: StrongholdSpriteSheet_51
+  - first:
+      213: 5321649116319249682
+    second: StrongholdSpriteSheet_52
+  - first:
+      213: -4871526852731624653
+    second: StrongholdSpriteSheet_53
+  - first:
+      213: -8983871023859057342
+    second: StrongholdSpriteSheet_54
+  - first:
+      213: 2729614142609624844
+    second: StrongholdSpriteSheet_55
+  - first:
+      213: -960044914396967657
+    second: StrongholdSpriteSheet_56
+  - first:
+      213: 4526820785355294464
+    second: StrongholdSpriteSheet_57
+  - first:
+      213: 8704183975209428629
+    second: StrongholdSpriteSheet_58
+  - first:
+      213: 6655558660921030636
+    second: StrongholdSpriteSheet_59
+  - first:
+      213: -4996738928253982614
+    second: StrongholdSpriteSheet_60
+  - first:
+      213: -778850156108414101
+    second: StrongholdSpriteSheet_61
+  - first:
+      213: -5254354075090428272
+    second: StrongholdSpriteSheet_62
+  - first:
+      213: -1933400839656520823
+    second: StrongholdSpriteSheet_63
+  - first:
+      213: 4343846940161037013
+    second: StrongholdSpriteSheet_64
+  - first:
+      213: 2464913520559655443
+    second: StrongholdSpriteSheet_65
+  - first:
+      213: -6135172479255832755
+    second: StrongholdSpriteSheet_66
+  - first:
+      213: -1274649925672392000
+    second: StrongholdSpriteSheet_67
+  - first:
+      213: -829496338933443501
+    second: StrongholdSpriteSheet_68
+  - first:
+      213: 2968106054491920918
+    second: StrongholdSpriteSheet_69
+  - first:
+      213: 6976150803624089441
+    second: StrongholdSpriteSheet_70
+  - first:
+      213: 3009756707706348124
+    second: StrongholdSpriteSheet_71
+  - first:
+      213: -1904876608756332629
+    second: StrongholdSpriteSheet_72
+  - first:
+      213: 5344524385231309233
+    second: StrongholdSpriteSheet_73
+  - first:
+      213: 3218889636149010857
+    second: StrongholdSpriteSheet_74
+  - first:
+      213: 4204968746238502817
+    second: StrongholdSpriteSheet_75
+  - first:
+      213: 3136624351749532081
+    second: StrongholdSpriteSheet_76
+  - first:
+      213: 9111679634700745126
+    second: StrongholdSpriteSheet_77
+  - first:
+      213: 2784947750035705424
+    second: StrongholdSpriteSheet_78
+  - first:
+      213: 8203142095431188396
+    second: StrongholdSpriteSheet_79
+  - first:
+      213: 6825406419681753472
+    second: StrongholdSpriteSheet_80
+  - first:
+      213: -1947489706760364326
+    second: StrongholdSpriteSheet_81
+  - first:
+      213: -8361252182325681693
+    second: StrongholdSpriteSheet_82
+  - first:
+      213: -3337319660108264832
+    second: StrongholdSpriteSheet_83
+  - first:
+      213: 165707837119537721
+    second: StrongholdSpriteSheet_84
+  - first:
+      213: -8120620087402735591
+    second: StrongholdSpriteSheet_85
+  - first:
+      213: -4958884059208069245
+    second: StrongholdSpriteSheet_86
+  - first:
+      213: 9018408307136501620
+    second: StrongholdSpriteSheet_87
+  - first:
+      213: -2083468980098184034
+    second: StrongholdSpriteSheet_88
+  - first:
+      213: 5803384523004243420
+    second: StrongholdSpriteSheet_89
+  - first:
+      213: -5145039107220888010
+    second: StrongholdSpriteSheet_90
+  - first:
+      213: -3858321825366389345
+    second: StrongholdSpriteSheet_91
+  - first:
+      213: -6261341895488468247
+    second: StrongholdSpriteSheet_92
+  - first:
+      213: -129386694703228324
+    second: StrongholdSpriteSheet_93
+  - first:
+      213: 8420772887816222670
+    second: StrongholdSpriteSheet_94
+  - first:
+      213: 1835998813892820362
+    second: StrongholdSpriteSheet_95
+  - first:
+      213: -4246472086357773213
+    second: StrongholdSpriteSheet_96
+  - first:
+      213: -4408961182530757935
+    second: StrongholdSpriteSheet_97
+  - first:
+      213: -4805828110312443721
+    second: StrongholdSpriteSheet_98
+  - first:
+      213: -7042564700556956566
+    second: StrongholdSpriteSheet_99
+  - first:
+      213: 6379174644462256652
+    second: StrongholdSpriteSheet_100
+  - first:
+      213: -1794666344711859295
+    second: StrongholdSpriteSheet_101
+  - first:
+      213: 9195142810806694882
+    second: StrongholdSpriteSheet_102
+  - first:
+      213: -4530837703805596116
+    second: StrongholdSpriteSheet_103
+  - first:
+      213: 7466178612707573668
+    second: StrongholdSpriteSheet_104
+  - first:
+      213: 7891051580686025126
+    second: StrongholdSpriteSheet_105
+  - first:
+      213: -8078731036989799685
+    second: StrongholdSpriteSheet_106
+  - first:
+      213: 8657798765628919231
+    second: StrongholdSpriteSheet_107
+  - first:
+      213: -2607189614631357841
+    second: StrongholdSpriteSheet_108
+  - first:
+      213: 1331862931759080544
+    second: StrongholdSpriteSheet_109
+  - first:
+      213: 6845163135102896086
+    second: StrongholdSpriteSheet_110
+  - first:
+      213: -8029677183781977516
+    second: StrongholdSpriteSheet_111
+  - first:
+      213: -6907062062054057910
+    second: StrongholdSpriteSheet_112
+  - first:
+      213: 3993390958156659764
+    second: StrongholdSpriteSheet_113
+  - first:
+      213: 3451002524181627622
+    second: StrongholdSpriteSheet_114
+  - first:
+      213: -1483788923351722035
+    second: StrongholdSpriteSheet_115
+  - first:
+      213: -1294992980453538532
+    second: StrongholdSpriteSheet_116
+  - first:
+      213: -8121969573498910318
+    second: StrongholdSpriteSheet_117
+  - first:
+      213: 7855386215918634721
+    second: StrongholdSpriteSheet_118
+  - first:
+      213: -2218809350121576810
+    second: StrongholdSpriteSheet_119
+  - first:
+      213: -8564421568249640940
+    second: StrongholdSpriteSheet_120
+  - first:
+      213: 6356866184539166105
+    second: StrongholdSpriteSheet_121
+  - first:
+      213: -8795806774140281643
+    second: StrongholdSpriteSheet_122
+  - first:
+      213: -6726338952284720931
+    second: StrongholdSpriteSheet_123
+  - first:
+      213: -2667215809944171627
+    second: StrongholdSpriteSheet_124
+  - first:
+      213: -2263426612979564980
+    second: StrongholdSpriteSheet_125
+  - first:
+      213: 3773935670387890329
+    second: StrongholdSpriteSheet_126
+  - first:
+      213: -6806258283877258838
+    second: StrongholdSpriteSheet_127
+  - first:
+      213: -811681135995083883
+    second: StrongholdSpriteSheet_128
+  - first:
+      213: -7103163751325595668
+    second: StrongholdSpriteSheet_129
+  - first:
+      213: -8109353347903488084
+    second: StrongholdSpriteSheet_130
+  - first:
+      213: -3871143222589775027
+    second: StrongholdSpriteSheet_131
+  - first:
+      213: 3915466408983603517
+    second: StrongholdSpriteSheet_132
+  - first:
+      213: -7175042905968107884
+    second: StrongholdSpriteSheet_133
+  - first:
+      213: 8738316180553530006
+    second: StrongholdSpriteSheet_134
+  - first:
+      213: -7459728887041376096
+    second: StrongholdSpriteSheet_135
+  - first:
+      213: 1558839366111972258
+    second: StrongholdSpriteSheet_136
+  - first:
+      213: 991912876781906386
+    second: StrongholdSpriteSheet_137
+  - first:
+      213: 7614967762107428675
+    second: StrongholdSpriteSheet_138
+  - first:
+      213: 2867555692330932187
+    second: StrongholdSpriteSheet_139
+  - first:
+      213: -6865975311504692580
+    second: StrongholdSpriteSheet_140
+  - first:
+      213: 6562750692943990065
+    second: StrongholdSpriteSheet_141
+  - first:
+      213: -9214738097685313865
+    second: StrongholdSpriteSheet_142
+  - first:
+      213: -3866077560449292562
+    second: StrongholdSpriteSheet_143
+  - first:
+      213: -6222794900876030529
+    second: StrongholdSpriteSheet_144
+  - first:
+      213: 8761712488475251405
+    second: StrongholdSpriteSheet_145
+  - first:
+      213: -7664634430063633204
+    second: StrongholdSpriteSheet_146
+  - first:
+      213: 1862267746558787228
+    second: StrongholdSpriteSheet_147
+  - first:
+      213: 7237376380120466897
+    second: StrongholdSpriteSheet_148
+  - first:
+      213: -4267114739051129398
+    second: StrongholdSpriteSheet_149
+  - first:
+      213: 1596125695955265179
+    second: StrongholdSpriteSheet_150
+  - first:
+      213: 4288841884929938370
+    second: StrongholdSpriteSheet_151
+  - first:
+      213: 2752544072945444717
+    second: StrongholdSpriteSheet_152
+  - first:
+      213: 3613702761380896597
+    second: StrongholdSpriteSheet_153
+  - first:
+      213: 768796177520500698
+    second: StrongholdSpriteSheet_154
+  - first:
+      213: 8700129276749507868
+    second: StrongholdSpriteSheet_155
+  - first:
+      213: 3728514336554413104
+    second: StrongholdSpriteSheet_156
+  - first:
+      213: 4635894643704202799
+    second: StrongholdSpriteSheet_157
+  - first:
+      213: -582850856555283501
+    second: StrongholdSpriteSheet_158
+  - first:
+      213: 835622695074086873
+    second: StrongholdSpriteSheet_159
+  - first:
+      213: -3496074477994459195
+    second: StrongholdSpriteSheet_160
+  - first:
+      213: 6151967211946440365
+    second: StrongholdSpriteSheet_161
+  - first:
+      213: -4907057701995940809
+    second: StrongholdSpriteSheet_162
+  - first:
+      213: 3657372225599946
+    second: StrongholdSpriteSheet_163
+  - first:
+      213: -4470941107727160954
+    second: StrongholdSpriteSheet_164
+  - first:
+      213: -2455414956490431297
+    second: StrongholdSpriteSheet_165
+  - first:
+      213: 216770286381319016
+    second: StrongholdSpriteSheet_166
+  - first:
+      213: 1153058255366517740
+    second: StrongholdSpriteSheet_167
+  - first:
+      213: 4655200580258071688
+    second: StrongholdSpriteSheet_192
+  - first:
+      213: 7343878489006119445
+    second: StrongholdSpriteSheet_193
+  - first:
+      213: 4506914254153809119
+    second: StrongholdSpriteSheet_194
+  - first:
+      213: 3583935961103366685
+    second: StrongholdSpriteSheet_195
+  - first:
+      213: 1293842208720813832
+    second: StrongholdSpriteSheet_196
+  - first:
+      213: 6315602018224841818
+    second: StrongholdSpriteSheet_197
+  - first:
+      213: -6939309956403182107
+    second: StrongholdSpriteSheet_198
+  - first:
+      213: -5389879072205377015
+    second: StrongholdSpriteSheet_199
+  - first:
+      213: -8044545349216959928
+    second: StrongholdSpriteSheet_200
+  - first:
+      213: -2241778168022023254
+    second: StrongholdSpriteSheet_201
+  - first:
+      213: -5203817413934839902
+    second: StrongholdSpriteSheet_202
+  - first:
+      213: 1477556747506306617
+    second: StrongholdSpriteSheet_203
+  - first:
+      213: -2811124153753049755
+    second: StrongholdSpriteSheet_204
+  - first:
+      213: -2146386900095389781
+    second: StrongholdSpriteSheet_205
+  - first:
+      213: -4354922015974543736
+    second: StrongholdSpriteSheet_206
+  - first:
+      213: -5184276162089188492
+    second: StrongholdSpriteSheet_207
+  - first:
+      213: 3527046082300634635
+    second: StrongholdSpriteSheet_208
+  - first:
+      213: 6919029369210169004
+    second: StrongholdSpriteSheet_209
+  - first:
+      213: -3732538212409676261
+    second: StrongholdSpriteSheet_210
+  - first:
+      213: -6481515213862131323
+    second: StrongholdSpriteSheet_211
+  - first:
+      213: -5332532828321937007
+    second: StrongholdSpriteSheet_212
+  - first:
+      213: -7613509490484682782
+    second: StrongholdSpriteSheet_213
+  - first:
+      213: -7685613343619374910
+    second: StrongholdSpriteSheet_214
+  - first:
+      213: -1088716545225633952
+    second: StrongholdSpriteSheet_215
+  - first:
+      213: -2617010918324569925
+    second: StrongholdSpriteSheet_216
+  - first:
+      213: -89262201436459977
+    second: StrongholdSpriteSheet_217
+  - first:
+      213: -56678399205198578
+    second: StrongholdSpriteSheet_218
+  - first:
+      213: 4595358368347366344
+    second: StrongholdSpriteSheet_219
+  - first:
+      213: 8545140788636399104
+    second: StrongholdSpriteSheet_220
+  - first:
+      213: -1200197057526654808
+    second: StrongholdSpriteSheet_221
+  - first:
+      213: 6864529798352406935
+    second: StrongholdSpriteSheet_222
+  - first:
+      213: -957858636970174254
+    second: StrongholdSpriteSheet_223
+  - first:
+      213: 8441618209455081941
+    second: StrongholdSpriteSheet_224
+  - first:
+      213: -6145582942214803460
+    second: StrongholdSpriteSheet_225
+  - first:
+      213: 5539740563571629267
+    second: StrongholdSpriteSheet_226
+  - first:
+      213: 1917695596489287062
+    second: StrongholdSpriteSheet_227
+  - first:
+      213: 4972891329860622721
+    second: StrongholdSpriteSheet_228
+  - first:
+      213: 4366856771858990968
+    second: StrongholdSpriteSheet_229
+  - first:
+      213: 81525542958375049
+    second: StrongholdSpriteSheet_230
+  - first:
+      213: 6661882993953026830
+    second: StrongholdSpriteSheet_231
+  - first:
+      213: -9162793904725320501
+    second: StrongholdSpriteSheet_232
+  - first:
+      213: -3355226936389526350
+    second: StrongholdSpriteSheet_233
+  - first:
+      213: -573001607982179387
+    second: StrongholdSpriteSheet_234
+  - first:
+      213: -8809927570400922734
+    second: StrongholdSpriteSheet_235
+  - first:
+      213: 9099961127965980243
+    second: StrongholdSpriteSheet_236
+  - first:
+      213: -4867395023357304310
+    second: StrongholdSpriteSheet_237
+  - first:
+      213: -982012806107408953
+    second: StrongholdSpriteSheet_238
+  - first:
+      213: 421993971019789101
+    second: StrongholdSpriteSheet_239
+  - first:
+      213: -3447305259132744932
+    second: StrongholdSpriteSheet_240
+  - first:
+      213: 797995095968027987
+    second: StrongholdSpriteSheet_241
+  - first:
+      213: 6049334045165058510
+    second: StrongholdSpriteSheet_242
+  - first:
+      213: 4381026794196152483
+    second: StrongholdSpriteSheet_243
+  - first:
+      213: 2373098252874768951
+    second: StrongholdSpriteSheet_244
+  - first:
+      213: -8499659219166051934
+    second: StrongholdSpriteSheet_245
+  - first:
+      213: -2673878036605060668
+    second: StrongholdSpriteSheet_246
+  - first:
+      213: 2458079402552361562
+    second: StrongholdSpriteSheet_247
+  - first:
+      213: -6059879182188192662
+    second: StrongholdSpriteSheet_248
+  - first:
+      213: 948111010146632557
+    second: StrongholdSpriteSheet_249
+  - first:
+      213: -3653896716894893647
+    second: StrongholdSpriteSheet_250
+  - first:
+      213: 2479818855408683441
+    second: StrongholdSpriteSheet_251
+  - first:
+      213: 2363717714579184134
+    second: StrongholdSpriteSheet_252
+  - first:
+      213: -2140524524959380490
+    second: StrongholdSpriteSheet_253
+  - first:
+      213: 2160219525644341226
+    second: StrongholdSpriteSheet_254
+  - first:
+      213: 4647580287029583605
+    second: StrongholdSpriteSheet_255
+  - first:
+      213: 8884569428612185339
+    second: StrongholdSpriteSheet_256
+  - first:
+      213: 6477028214387437957
+    second: StrongholdSpriteSheet_257
+  - first:
+      213: 4463901568260096552
+    second: StrongholdSpriteSheet_258
+  - first:
+      213: -2709093200034654374
+    second: StrongholdSpriteSheet_259
+  - first:
+      213: -3424453509061146835
+    second: StrongholdSpriteSheet_260
+  - first:
+      213: 622881804807021907
+    second: StrongholdSpriteSheet_261
+  - first:
+      213: 2728960267311387810
+    second: StrongholdSpriteSheet_262
+  - first:
+      213: 1089515465020166503
+    second: StrongholdSpriteSheet_263
+  - first:
+      213: 7648756621600625538
+    second: StrongholdSpriteSheet_264
+  - first:
+      213: 2316927563429274302
+    second: StrongholdSpriteSheet_265
+  - first:
+      213: -672030683130663566
+    second: StrongholdSpriteSheet_266
+  - first:
+      213: 203500891821665544
+    second: StrongholdSpriteSheet_267
+  - first:
+      213: -3470509539540181591
+    second: StrongholdSpriteSheet_268
+  - first:
+      213: -4421591444993165925
+    second: StrongholdSpriteSheet_269
+  - first:
+      213: -2390057494021884723
+    second: StrongholdSpriteSheet_270
+  - first:
+      213: -1036824150749178073
+    second: StrongholdSpriteSheet_271
+  - first:
+      213: -7355754986054961197
+    second: StrongholdSpriteSheet_272
+  - first:
+      213: 6525919956705025143
+    second: StrongholdSpriteSheet_273
+  - first:
+      213: 287447023787259975
+    second: StrongholdSpriteSheet_274
+  - first:
+      213: 1717604116195971306
+    second: StrongholdSpriteSheet_275
+  - first:
+      213: -1853868447166671390
+    second: StrongholdSpriteSheet_276
+  - first:
+      213: 2378225371331345914
+    second: StrongholdSpriteSheet_277
+  - first:
+      213: 6503877566196674990
+    second: StrongholdSpriteSheet_278
+  - first:
+      213: 4709506491198757628
+    second: StrongholdSpriteSheet_279
+  - first:
+      213: -2731722891344048334
+    second: StrongholdSpriteSheet_280
+  - first:
+      213: -7319571249867519507
+    second: StrongholdSpriteSheet_281
+  - first:
+      213: 3490676291821346072
+    second: StrongholdSpriteSheet_282
+  - first:
+      213: -6199111942501211348
+    second: StrongholdSpriteSheet_283
+  - first:
+      213: 8684818231374331051
+    second: StrongholdSpriteSheet_284
+  - first:
+      213: -6749961998006635222
+    second: StrongholdSpriteSheet_285
+  - first:
+      213: 7206220361729107701
+    second: StrongholdSpriteSheet_286
+  - first:
+      213: 6066254657137540910
+    second: StrongholdSpriteSheet_287
+  - first:
+      213: 2726213407382731303
+    second: StrongholdSpriteSheet_288
+  - first:
+      213: -8567087757956428896
+    second: StrongholdSpriteSheet_289
+  - first:
+      213: -3503498113726101492
+    second: StrongholdSpriteSheet_290
+  - first:
+      213: -359182177022527490
+    second: StrongholdSpriteSheet_291
+  - first:
+      213: 1321323055507440022
+    second: StrongholdSpriteSheet_292
+  - first:
+      213: -2870362565293088788
+    second: StrongholdSpriteSheet_293
+  - first:
+      213: -3876208634928723837
+    second: StrongholdSpriteSheet_294
+  - first:
+      213: -7007497861679366102
+    second: StrongholdSpriteSheet_295
+  - first:
+      213: -624888548027799459
+    second: StrongholdSpriteSheet_296
+  - first:
+      213: 6723535056481358863
+    second: StrongholdSpriteSheet_297
+  - first:
+      213: -8536224255224809677
+    second: StrongholdSpriteSheet_298
+  - first:
+      213: -2503441884782450746
+    second: StrongholdSpriteSheet_299
+  - first:
+      213: 1441098684596313566
+    second: StrongholdSpriteSheet_300
+  - first:
+      213: -7087522805027574878
+    second: StrongholdSpriteSheet_301
+  - first:
+      213: 2529081478861534285
+    second: StrongholdSpriteSheet_302
+  - first:
+      213: -3036017265999053144
+    second: StrongholdSpriteSheet_303
+  - first:
+      213: -7697417306935818393
+    second: StrongholdSpriteSheet_304
+  - first:
+      213: -7984799428960909344
+    second: StrongholdSpriteSheet_305
+  - first:
+      213: 3470927149444491253
+    second: StrongholdSpriteSheet_306
+  - first:
+      213: -6081910706615601310
+    second: StrongholdSpriteSheet_307
+  - first:
+      213: -5789616743473064761
+    second: StrongholdSpriteSheet_308
+  - first:
+      213: 3838473142152265618
+    second: StrongholdSpriteSheet_309
+  - first:
+      213: -7555009024859499043
+    second: StrongholdSpriteSheet_310
+  - first:
+      213: 4012599133391932755
+    second: StrongholdSpriteSheet_311
+  - first:
+      213: 1539919222802183634
+    second: StrongholdSpriteSheet_312
+  - first:
+      213: 3541536196154374687
+    second: StrongholdSpriteSheet_313
+  - first:
+      213: -7605880140245883010
+    second: StrongholdSpriteSheet_314
+  - first:
+      213: 8879035104322880220
+    second: StrongholdSpriteSheet_315
+  - first:
+      213: 1042095340333814698
+    second: StrongholdSpriteSheet_316
+  - first:
+      213: -212862118379790176
+    second: StrongholdSpriteSheet_317
+  - first:
+      213: 7443386964487750869
+    second: StrongholdSpriteSheet_318
+  - first:
+      213: 1388570038307882089
+    second: StrongholdSpriteSheet_319
+  - first:
+      213: 7048758696431990187
+    second: StrongholdSpriteSheet_320
+  - first:
+      213: -2256238007507986528
+    second: StrongholdSpriteSheet_321
+  - first:
+      213: 6803527606720524323
+    second: StrongholdSpriteSheet_322
+  - first:
+      213: -1988267745341762645
+    second: StrongholdSpriteSheet_323
+  - first:
+      213: -5647128323624292369
+    second: StrongholdSpriteSheet_324
+  - first:
+      213: -6777232835872176832
+    second: StrongholdSpriteSheet_325
+  - first:
+      213: 7680083967516819580
+    second: StrongholdSpriteSheet_326
+  - first:
+      213: 8800383183215206270
+    second: StrongholdSpriteSheet_327
+  - first:
+      213: -813652765445270962
+    second: StrongholdSpriteSheet_328
+  - first:
+      213: 8672373546932538747
+    second: StrongholdSpriteSheet_329
+  - first:
+      213: -6166273915280156619
+    second: StrongholdSpriteSheet_330
+  - first:
+      213: 6731097837760340753
+    second: StrongholdSpriteSheet_331
+  - first:
+      213: 7641835897403341974
+    second: StrongholdSpriteSheet_332
+  - first:
+      213: -1679135535657245796
+    second: StrongholdSpriteSheet_333
+  - first:
+      213: 911908089583620061
+    second: StrongholdSpriteSheet_334
+  - first:
+      213: 4208495208778780940
+    second: StrongholdSpriteSheet_335
+  - first:
+      213: 4456126112988085713
+    second: Stronghold_1_24
+  - first:
+      213: -4073932868252986318
+    second: Stronghold_1_25
+  - first:
+      213: 8645612796130187800
+    second: Stronghold_1_26
+  - first:
+      213: 2309233743902298591
+    second: Stronghold_1_27
+  - first:
+      213: 7073199969354156498
+    second: Stronghold_1_28
+  - first:
+      213: 8330876462783070081
+    second: Stronghold_1_29
+  - first:
+      213: 4448976897664715279
+    second: Stronghold_1_30
+  - first:
+      213: 2858592929800053564
+    second: Stronghold_1_31
+  - first:
+      213: 2587864145712914055
+    second: Stronghold_1_32
+  - first:
+      213: 6550248114151621658
+    second: Stronghold_1_33
+  - first:
+      213: -6650071817369478035
+    second: Stronghold_1_34
+  - first:
+      213: -455737524944254036
+    second: Stronghold_1_35
+  - first:
+      213: 8340252666489309626
+    second: Stronghold_1_36
+  - first:
+      213: -8364908393709244108
+    second: Stronghold_1_37
+  - first:
+      213: -2403253291672210587
+    second: Stronghold_1_38
+  - first:
+      213: 4396697740490129040
+    second: Stronghold_1_39
+  - first:
+      213: -2147773312935383822
+    second: Stronghold_1_40
+  - first:
+      213: -2476811592562060228
+    second: Stronghold_1_41
+  - first:
+      213: -4563848106153611365
+    second: Stronghold_1_42
+  - first:
+      213: -102885336123383684
+    second: Stronghold_1_43
+  - first:
+      213: -8436764262417437266
+    second: Stronghold_1_44
+  - first:
+      213: 1162854478277290132
+    second: Stronghold_1_45
+  - first:
+      213: -3212827866151201435
+    second: Stronghold_1_46
+  - first:
+      213: 1850118855777113934
+    second: Stronghold_1_47
+  - first:
+      213: 6355770838663197321
+    second: Stronghold_1_48
+  - first:
+      213: 7458888675230712430
+    second: Stronghold_1_49
+  - first:
+      213: -3732028008402810101
+    second: Stronghold_1_50
+  - first:
+      213: -8964253153318518391
+    second: Stronghold_1_51
+  - first:
+      213: -6839760519899105475
+    second: Stronghold_1_52
+  - first:
+      213: -2826140012982172118
+    second: Stronghold_1_53
+  - first:
+      213: 7626625305465229353
+    second: Stronghold_1_54
+  - first:
+      213: -6424203568977278211
+    second: Stronghold_1_55
+  - first:
+      213: -5181040212596010975
+    second: Stronghold_1_56
+  - first:
+      213: -923839421376603703
+    second: Stronghold_1_57
+  - first:
+      213: -2510127908682291112
+    second: Stronghold_1_58
+  - first:
+      213: -9103834692548970928
+    second: Stronghold_1_59
+  - first:
+      213: -3302747963302446773
+    second: Stronghold_1_60
+  - first:
+      213: 6311021208062742327
+    second: Stronghold_1_61
+  - first:
+      213: -1750146140664460406
+    second: Stronghold_1_62
+  - first:
+      213: 1883640014148223921
+    second: Stronghold_1_63
+  - first:
+      213: -1602218696006436874
+    second: Stronghold_1_64
+  - first:
+      213: 3641320050263302990
+    second: Stronghold_1_65
+  - first:
+      213: -1996949674505002474
+    second: Stronghold_1_66
+  - first:
+      213: 2331335802141280165
+    second: Stronghold_1_67
+  - first:
+      213: -8868688325871690501
+    second: Stronghold_1_68
+  - first:
+      213: 257938909485123887
+    second: Stronghold_1_69
+  - first:
+      213: -5164050680171722423
+    second: Stronghold_1_70
+  - first:
+      213: -591081619431085380
+    second: Stronghold_1_71
+  - first:
+      213: 6690967954002597234
+    second: Stronghold_1_72
+  - first:
+      213: -5998830616070944763
+    second: Stronghold_1_73
+  - first:
+      213: 5390570054298803096
+    second: Stronghold_1_74
+  - first:
+      213: 7674117712869963213
+    second: Stronghold_1_75
+  - first:
+      213: -4643096020005994487
+    second: Stronghold_1_76
+  - first:
+      213: -2197552549572058227
+    second: Stronghold_1_77
+  - first:
+      213: -6279430875759367405
+    second: Stronghold_1_78
+  - first:
+      213: 5341979219562007876
+    second: Stronghold_1_79
+  - first:
+      213: -5149495785521111484
+    second: Stronghold_1_80
+  - first:
+      213: -1285715208796205255
+    second: Stronghold_1_81
+  - first:
+      213: -5109304122256820419
+    second: Stronghold_1_82
+  - first:
+      213: 2776050762687832673
+    second: Stronghold_1_83
+  - first:
+      213: -3408010771779232883
+    second: Stronghold_1_84
+  - first:
+      213: -5641655024772739137
+    second: Stronghold_1_85
+  - first:
+      213: -362220836135684494
+    second: Stronghold_1_86
+  - first:
+      213: -8301916802358102902
+    second: Stronghold_1_87
+  - first:
+      213: -3755992437421378463
+    second: Stronghold_1_88
+  - first:
+      213: -7598856055810929384
+    second: Stronghold_1_89
+  - first:
+      213: 2228177582264197686
+    second: Stronghold_1_90
+  - first:
+      213: 6921101335333401796
+    second: Stronghold_1_91
+  - first:
+      213: -2284889536641917274
+    second: Stronghold_1_92
+  - first:
+      213: 592765834588427979
+    second: Stronghold_1_93
+  - first:
+      213: -4005103709453507625
+    second: Stronghold_1_94
+  - first:
+      213: 7171074975615318675
+    second: Stronghold_1_95
+  - first:
+      213: -4073620711673828422
+    second: Stronghold_1_96
+  - first:
+      213: -5233877471913103929
+    second: Stronghold_1_97
+  - first:
+      213: 3335480436648792132
+    second: Stronghold_1_98
+  - first:
+      213: 7007211937330580914
+    second: Stronghold_1_99
+  - first:
+      213: -5805362168726282549
+    second: Stronghold_1_100
+  - first:
+      213: -3247202136335914889
+    second: Stronghold_1_101
+  - first:
+      213: -4140088346301291701
+    second: Stronghold_1_102
+  - first:
+      213: 2060872467154010865
+    second: Stronghold_1_103
+  - first:
+      213: -6607432009362546364
+    second: Stronghold_1_104
+  - first:
+      213: 2469271912517281607
+    second: Stronghold_1_105
+  - first:
+      213: 1043004302900589949
+    second: Stronghold_1_106
+  - first:
+      213: -3906644859452297493
+    second: Stronghold_1_107
+  - first:
+      213: -1663675395338965941
+    second: Stronghold_1_108
+  - first:
+      213: -3250310756681196781
+    second: Stronghold_1_109
+  - first:
+      213: 9132623265720941023
+    second: Stronghold_1_110
+  - first:
+      213: -3204886366213270218
+    second: Stronghold_1_111
+  - first:
+      213: 3177614946846231806
+    second: Stronghold_1_112
+  - first:
+      213: -5272168804389399313
+    second: Stronghold_1_113
+  - first:
+      213: -8035122404322296784
+    second: Stronghold_1_114
+  - first:
+      213: 6393048358868546962
+    second: Stronghold_1_115
+  - first:
+      213: -3144175797816702341
+    second: Stronghold_1_116
+  - first:
+      213: 8196635769656159620
+    second: Stronghold_1_117
+  - first:
+      213: 1618993153221175303
+    second: Stronghold_1_118
+  - first:
+      213: 2053227459125151029
+    second: Stronghold_1_119
+  - first:
+      213: 6833316940266045128
+    second: Stronghold_1_120
+  - first:
+      213: 5551155318740098369
+    second: Stronghold_1_121
+  - first:
+      213: 1144373161628094330
+    second: Stronghold_1_122
+  - first:
+      213: 6870933034623365451
+    second: Stronghold_1_123
+  - first:
+      213: 1592343023926824817
+    second: Stronghold_1_124
+  - first:
+      213: 6132108281300992777
+    second: Stronghold_1_125
+  - first:
+      213: -34860202522200829
+    second: Stronghold_1_126
+  - first:
+      213: 4138975803165536390
+    second: Stronghold_1_127
+  - first:
+      213: -4613495404747658585
+    second: Stronghold_1_128
+  - first:
+      213: 8629078382650732784
+    second: Stronghold_1_129
+  - first:
+      213: 1819978124699786619
+    second: Stronghold_1_130
+  - first:
+      213: -6848419554756784833
+    second: Stronghold_1_131
+  - first:
+      213: 2865959519952253563
+    second: Stronghold_1_132
+  - first:
+      213: 7411534900063808743
+    second: Stronghold_1_133
+  - first:
+      213: 1505412886203989617
+    second: Stronghold_1_134
+  - first:
+      213: -7511935274984715978
+    second: Stronghold_1_135
+  - first:
+      213: -1164650576932190879
+    second: Stronghold_1_136
+  - first:
+      213: -6167485566870961055
+    second: Stronghold_1_137
+  - first:
+      213: 1655206449685683546
+    second: Stronghold_1_138
+  - first:
+      213: 6598163688587262711
+    second: Stronghold_1_139
+  - first:
+      213: -2272087164171206084
+    second: Stronghold_1_140
+  - first:
+      213: -7497662382887661620
+    second: Stronghold_1_141
+  - first:
+      213: 2955842345055289994
+    second: Stronghold_1_142
+  - first:
+      213: 1369360749288038224
+    second: Stronghold_1_143
+  - first:
+      213: -147880621614123794
+    second: Stronghold_1_144
+  - first:
+      213: -6478223394278555285
+    second: Stronghold_1_145
+  - first:
+      213: -1358259210377043496
+    second: Stronghold_1_146
+  - first:
+      213: 1760182698568709271
+    second: Stronghold_1_147
+  - first:
+      213: -8987088198549813388
+    second: Stronghold_1_148
+  - first:
+      213: -7017675961128200815
+    second: Stronghold_1_149
+  - first:
+      213: 4823234217038055861
+    second: Stronghold_1_150
+  - first:
+      213: -4360955822577105384
+    second: Stronghold_1_151
+  - first:
+      213: -4966005432926984675
+    second: Stronghold_1_152
+  - first:
+      213: -7240604170925199036
+    second: Stronghold_1_153
+  - first:
+      213: 4455764292253919384
+    second: Stronghold_1_154
+  - first:
+      213: -8137136161772009003
+    second: Stronghold_1_155
+  - first:
+      213: -7390575510624264433
+    second: Stronghold_1_156
+  - first:
+      213: 3246828819083574440
+    second: Stronghold_1_157
+  - first:
+      213: -7530199693919465880
+    second: Stronghold_1_158
+  - first:
+      213: -4670783114739899217
+    second: Stronghold_1_159
+  - first:
+      213: 6675094285931741078
+    second: Stronghold_1_160
+  - first:
+      213: -8283620870938697660
+    second: Stronghold_1_161
+  - first:
+      213: 6070377642816335027
+    second: Stronghold_1_162
+  - first:
+      213: 8927939800816108064
+    second: Stronghold_1_163
+  - first:
+      213: -4792786382254365398
+    second: Stronghold_1_164
+  - first:
+      213: -1622701105423243476
+    second: Stronghold_1_165
+  - first:
+      213: 1348389252559202048
+    second: Stronghold_1_166
+  - first:
+      213: -3205874203964004001
+    second: Stronghold_1_167
+  - first:
+      213: 6639071067246942924
+    second: Stronghold_1_192
+  - first:
+      213: -2393199008182844638
+    second: Stronghold_1_193
+  - first:
+      213: 8289015006082234618
+    second: Stronghold_1_194
+  - first:
+      213: 9070561308810423952
+    second: Stronghold_1_195
+  - first:
+      213: -2408119325018859391
+    second: Stronghold_1_196
+  - first:
+      213: -6441699742787979700
+    second: Stronghold_1_197
+  - first:
+      213: 8955723884068188300
+    second: Stronghold_1_198
+  - first:
+      213: 2282961291992973616
+    second: Stronghold_1_199
+  - first:
+      213: -517494248295950695
+    second: Stronghold_1_200
+  - first:
+      213: -4094198941997869694
+    second: Stronghold_1_201
+  - first:
+      213: 963278980860602329
+    second: Stronghold_1_202
+  - first:
+      213: 8165820625670347177
+    second: Stronghold_1_203
+  - first:
+      213: 5104758951882705504
+    second: Stronghold_1_204
+  - first:
+      213: -2689755347402967039
+    second: Stronghold_1_205
+  - first:
+      213: -8731368438126155799
+    second: Stronghold_1_206
+  - first:
+      213: -5145955500419216955
+    second: Stronghold_1_207
+  - first:
+      213: 2442733327751691968
+    second: Stronghold_1_208
+  - first:
+      213: -5046236686186952267
+    second: Stronghold_1_209
+  - first:
+      213: -4317318360968012519
+    second: Stronghold_1_210
+  - first:
+      213: -6064214982185426556
+    second: Stronghold_1_211
+  - first:
+      213: 4951297393043760766
+    second: Stronghold_1_212
+  - first:
+      213: 7219777411120312882
+    second: Stronghold_1_213
+  - first:
+      213: 7517328904796531033
+    second: Stronghold_1_214
+  - first:
+      213: -7526270817031668791
+    second: Stronghold_1_215
+  - first:
+      213: 3148680488731960687
+    second: Stronghold_1_216
+  - first:
+      213: 2405381591489108055
+    second: Stronghold_1_217
+  - first:
+      213: -6640923959840187174
+    second: Stronghold_1_218
+  - first:
+      213: -4638349496032323250
+    second: Stronghold_1_219
+  - first:
+      213: -8484118435346772716
+    second: Stronghold_1_220
+  - first:
+      213: -7334672489632010209
+    second: Stronghold_1_221
+  - first:
+      213: 3755060481365257951
+    second: Stronghold_1_222
+  - first:
+      213: 6744681405477248137
+    second: Stronghold_1_223
+  - first:
+      213: 2558043508549147222
+    second: Stronghold_1_224
+  - first:
+      213: 7095857832939402847
+    second: Stronghold_1_225
+  - first:
+      213: 2151529582297179643
+    second: Stronghold_1_226
+  - first:
+      213: 7377550886258584648
+    second: Stronghold_1_227
+  - first:
+      213: -2092932193558966306
+    second: Stronghold_1_228
+  - first:
+      213: -8861746571236837897
+    second: Stronghold_1_229
+  - first:
+      213: 3960567454071735720
+    second: Stronghold_1_230
+  - first:
+      213: -2945514870600617302
+    second: Stronghold_1_231
+  - first:
+      213: -4004614074039932605
+    second: Stronghold_1_232
+  - first:
+      213: 4044960851492969544
+    second: Stronghold_1_233
+  - first:
+      213: 4216870624313904061
+    second: Stronghold_1_234
+  - first:
+      213: -7445712957666774488
+    second: Stronghold_1_235
+  - first:
+      213: 96253165479778357
+    second: Stronghold_1_236
+  - first:
+      213: -5871726713209435647
+    second: Stronghold_1_237
+  - first:
+      213: -5571976378264782025
+    second: Stronghold_1_238
+  - first:
+      213: -3774011388099311376
+    second: Stronghold_1_239
+  - first:
+      213: 5659387043701292756
+    second: Stronghold_1_240
+  - first:
+      213: 7056950481640871330
+    second: Stronghold_1_241
+  - first:
+      213: 8782422572071838793
+    second: Stronghold_1_242
+  - first:
+      213: -8419482749264505001
+    second: Stronghold_1_243
+  - first:
+      213: -1504249444381997884
+    second: Stronghold_1_244
+  - first:
+      213: 2135794988283965830
+    second: Stronghold_1_245
+  - first:
+      213: 6301261179716292773
+    second: Stronghold_1_246
+  - first:
+      213: 2219018297420876950
+    second: Stronghold_1_247
+  - first:
+      213: 7281621234399426313
+    second: Stronghold_1_248
+  - first:
+      213: -4422580911774992840
+    second: Stronghold_1_249
+  - first:
+      213: 8140459010224801009
+    second: Stronghold_1_250
+  - first:
+      213: -6209783686583815969
+    second: Stronghold_1_251
+  - first:
+      213: 7368709023602802507
+    second: Stronghold_1_252
+  - first:
+      213: 770485101229229435
+    second: Stronghold_1_253
+  - first:
+      213: -8481780342571027796
+    second: Stronghold_1_254
+  - first:
+      213: -1748996290132721395
+    second: Stronghold_1_255
+  - first:
+      213: -8768904793482305392
+    second: Stronghold_1_256
+  - first:
+      213: -6730211808175905216
+    second: Stronghold_1_257
+  - first:
+      213: 8629025680004640242
+    second: Stronghold_1_258
+  - first:
+      213: 861876662530034477
+    second: Stronghold_1_259
+  - first:
+      213: 8838064333638245436
+    second: Stronghold_1_260
+  - first:
+      213: -6308870962522086669
+    second: Stronghold_1_261
+  - first:
+      213: -8479649199286599599
+    second: Stronghold_1_262
+  - first:
+      213: 6590318002719485981
+    second: Stronghold_1_263
+  - first:
+      213: 5299979949083303590
+    second: Stronghold_1_264
+  - first:
+      213: 6196380093606643775
+    second: Stronghold_1_265
+  - first:
+      213: 138395409613363258
+    second: Stronghold_1_266
+  - first:
+      213: 3052057215184245256
+    second: Stronghold_1_267
+  - first:
+      213: 4541794889587331790
+    second: Stronghold_1_268
+  - first:
+      213: -2930814582137780349
+    second: Stronghold_1_269
+  - first:
+      213: -3468818008247977913
+    second: Stronghold_1_270
+  - first:
+      213: -77116000736149581
+    second: Stronghold_1_271
+  - first:
+      213: -95868129188655991
+    second: Stronghold_1_272
+  - first:
+      213: -9152258215025771226
+    second: Stronghold_1_273
+  - first:
+      213: -4435257628522468309
+    second: Stronghold_1_274
+  - first:
+      213: 5739934192210645112
+    second: Stronghold_1_275
+  - first:
+      213: -4145749868807320169
+    second: Stronghold_1_276
+  - first:
+      213: -2432941346078307737
+    second: Stronghold_1_277
+  - first:
+      213: -255566631536314679
+    second: Stronghold_1_278
+  - first:
+      213: -6866818562500324695
+    second: Stronghold_1_279
+  - first:
+      213: -1193570296617270824
+    second: Stronghold_1_280
+  - first:
+      213: -2700331566970693439
+    second: Stronghold_1_281
+  - first:
+      213: -3046504840968494073
+    second: Stronghold_1_282
+  - first:
+      213: 5876318829788220906
+    second: Stronghold_1_283
+  - first:
+      213: 3293545529943704292
+    second: Stronghold_1_284
+  - first:
+      213: -3746937215617677933
+    second: Stronghold_1_285
+  - first:
+      213: 4958595504643061095
+    second: Stronghold_1_286
+  - first:
+      213: 8273287021693334459
+    second: Stronghold_1_287
+  - first:
+      213: 6597243888324374386
+    second: Stronghold_1_288
+  - first:
+      213: 8007016177997695910
+    second: Stronghold_1_289
+  - first:
+      213: 5769399819824119905
+    second: Stronghold_1_290
+  - first:
+      213: 8736235589052228297
+    second: Stronghold_1_291
+  - first:
+      213: -6908888441137147390
+    second: Stronghold_1_292
+  - first:
+      213: 5581673040002203958
+    second: Stronghold_1_293
+  - first:
+      213: -5420307550628199099
+    second: Stronghold_1_294
+  - first:
+      213: -7190409200310118420
+    second: Stronghold_1_295
+  - first:
+      213: 6639065041636879361
+    second: Stronghold_1_296
+  - first:
+      213: 6369920684395415199
+    second: Stronghold_1_297
+  - first:
+      213: 804532881237243816
+    second: Stronghold_1_298
+  - first:
+      213: 231002052023004143
+    second: Stronghold_1_299
+  - first:
+      213: -6569755298106580022
+    second: Stronghold_1_300
+  - first:
+      213: -1483115277034581999
+    second: Stronghold_1_301
+  - first:
+      213: -4793637217760997337
+    second: Stronghold_1_302
+  - first:
+      213: 4345297734770028038
+    second: Stronghold_1_303
+  - first:
+      213: -4504439077676420520
+    second: Stronghold_1_304
+  - first:
+      213: 8428223654076219659
+    second: Stronghold_1_305
+  - first:
+      213: 4513954674570546363
+    second: Stronghold_1_306
+  - first:
+      213: -3468122238158703176
+    second: Stronghold_1_307
+  - first:
+      213: -4822568674415006922
+    second: Stronghold_1_308
+  - first:
+      213: -8106960995731820554
+    second: Stronghold_1_309
+  - first:
+      213: 4038245159311781647
+    second: Stronghold_1_310
+  - first:
+      213: -1474513095331088970
+    second: Stronghold_1_311
+  - first:
+      213: -3331582649251174155
+    second: Stronghold_1_312
+  - first:
+      213: -491252169865037034
+    second: Stronghold_1_313
+  - first:
+      213: 7813122386297263169
+    second: Stronghold_1_314
+  - first:
+      213: 8147981615157127724
+    second: Stronghold_1_315
+  - first:
+      213: 1767380386084382856
+    second: Stronghold_1_316
+  - first:
+      213: 5744878893781364908
+    second: Stronghold_1_317
+  - first:
+      213: 7710759584304072961
+    second: Stronghold_1_318
+  - first:
+      213: 5758579077767791573
+    second: Stronghold_1_319
+  - first:
+      213: -6760186166423594097
+    second: Stronghold_1_320
+  - first:
+      213: 3489677586651393578
+    second: Stronghold_1_321
+  - first:
+      213: -3789411605169275658
+    second: Stronghold_1_322
+  - first:
+      213: -4886637687746005327
+    second: Stronghold_1_323
+  - first:
+      213: -7130018390925963999
+    second: Stronghold_1_324
+  - first:
+      213: 3904563205330366023
+    second: Stronghold_1_325
+  - first:
+      213: 1836689348087281797
+    second: Stronghold_1_326
+  - first:
+      213: 6780138263911620157
+    second: Stronghold_1_327
+  - first:
+      213: -7314144458403767997
+    second: Stronghold_1_328
+  - first:
+      213: 4300309653906541700
+    second: Stronghold_1_329
+  - first:
+      213: -410212958439616117
+    second: Stronghold_1_330
+  - first:
+      213: -5963605649626975433
+    second: Stronghold_1_331
+  - first:
+      213: -1563333271298925357
+    second: Stronghold_1_332
+  - first:
+      213: -2370680727660901038
+    second: Stronghold_1_333
+  - first:
+      213: -2051083613261767641
+    second: Stronghold_1_334
+  - first:
+      213: 8150978249023713113
+    second: Stronghold_1_335
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Stronghold_1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3ff6171757dd30800000000000000
+      internalID: 4456126112988085713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2341ef414ab7677c0800000000000000
+      internalID: -4073932868252986318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a59ea18036bf770800000000000000
+      internalID: 8645612796130187800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd154a0fadb0c0020800000000000000
+      internalID: 2309233743902298591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d988ae85ed092260800000000000000
+      internalID: 7073199969354156498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ff8d701083d9370800000000000000
+      internalID: 8330876462783070081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a893faae0fdbd30800000000000000
+      internalID: 4448976897664715279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33ec2acf13cba720800000000000000
+      internalID: 2858592929800053564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e103cbab0f9e320800000000000000
+      internalID: 2587864145712914055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a140ea284f727ea50800000000000000
+      internalID: 6550248114151621658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1bda6ae236b3a0800000000000000
+      internalID: -6650071817369478035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabc1eab225eca9f0800000000000000
+      internalID: -455737524944254036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab989139c978eb370800000000000000
+      internalID: 8340252666489309626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431f6469220e9eb80800000000000000
+      internalID: -8364908393709244108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563f69c3ddde5aed0800000000000000
+      internalID: -2403253291672210587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e3daedc45340d30800000000000000
+      internalID: 4396697740490129040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc2c602d839132e0800000000000000
+      internalID: -2147773312935383822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c34d4c1baf890add0800000000000000
+      internalID: -2476811592562060228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fefd7e354f9a0c0800000000000000
+      internalID: -4563848106153611365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70e4c7f45a729ef0800000000000000
+      internalID: -102885336123383684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eade5ec6a979aea80800000000000000
+      internalID: -8436764262417437266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498a037acf9432010800000000000000
+      internalID: 1162854478277290132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565d499f31eb963d0800000000000000
+      internalID: -3212827866151201435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47d8d60c41fca910800000000000000
+      internalID: 1850118855777113934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9827e4847eb343850800000000000000
+      internalID: 6355770838663197321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e628f423bbb438760800000000000000
+      internalID: 7458888675230712430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b875bac4c253cc0800000000000000
+      internalID: -3732028008402810101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98146cf6043989380800000000000000
+      internalID: -8964253153318518391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d373ca6bb0a4411a0800000000000000
+      internalID: -6839760519899105475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a260ea8b1a887c8d0800000000000000
+      internalID: -2826140012982172118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9209247ce4737d960800000000000000
+      internalID: 7626625305465229353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa005214e4a8d6a0800000000000000
+      internalID: -6424203568977278211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1205331806f3918b0800000000000000
+      internalID: -5181040212596010975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c95853e0fcdd23f0800000000000000
+      internalID: -923839421376603703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_58
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858a23e57fb3a2dd0800000000000000
+      internalID: -2510127908682291112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056bdb0d49ea8a180800000000000000
+      internalID: -9103834692548970928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4976b0e9384a22d0800000000000000
+      internalID: -3302747963302446773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_61
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f498cf950459750800000000000000
+      internalID: 6311021208062742327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b8ca49b5b36b7e0800000000000000
+      internalID: -1750146140664460406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_63
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b34408ec98042a10800000000000000
+      internalID: 1883640014148223921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7fb0cb596c3c9e0800000000000000
+      internalID: -1602218696006436874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43a37d0b41988230800000000000000
+      internalID: 3641320050263302990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6122cc0f9d86944e0800000000000000
+      internalID: -1996949674505002474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a708c26f819a5020800000000000000
+      internalID: 2331335802141280165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc93c8b4f61ce480800000000000000
+      internalID: -8868688325871690501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29cc915212649300800000000000000
+      internalID: 257938909485123887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9490046444b9558b0800000000000000
+      internalID: -5164050680171722423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba2c88166e0cc7f0800000000000000
+      internalID: -591081619431085380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275d8d567e71bdc50800000000000000
+      internalID: 6690967954002597234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5088a5d765fdfbca0800000000000000
+      internalID: -5998830616070944763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b965767e62fca40800000000000000
+      internalID: 5390570054298803096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5b5209661ff7a60800000000000000
+      internalID: 7674117712869963213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900438d15c8609fb0800000000000000
+      internalID: -4643096020005994487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83e08b6999b081e0800000000000000
+      internalID: -2197552549572058227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b2eba63eafad8a0800000000000000
+      internalID: -6279430875759367405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d03831cc5822a40800000000000000
+      internalID: 5341979219562007876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e94a3cdd05988b0800000000000000
+      internalID: -5149495785521111484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f826164d8382ee0800000000000000
+      internalID: -1285715208796205255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37717798fa1819b0800000000000000
+      internalID: -5109304122256820419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_83
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162e574e573868620800000000000000
+      internalID: 2776050762687832673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bd46d624054b0d0800000000000000
+      internalID: -3408010771779232883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf8f1f45a0d4b1b0800000000000000
+      internalID: -5641655024772739137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27633e3911229faf0800000000000000
+      internalID: -362220836135684494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84399857aaa9cc80800000000000000
+      internalID: -8301916802358102902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164f17c37c800ebc0800000000000000
+      internalID: -3755992437421378463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d401e7da07b8690800000000000000
+      internalID: -7598856055810929384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 632a857a4b31cee10800000000000000
+      internalID: 2228177582264197686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c47703bef0bc0060800000000000000
+      internalID: 6921101335333401796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae937182117a40e0800000000000000
+      internalID: -2284889536641917274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc691adc26de93800800000000000000
+      internalID: 592765834588427979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d3ac6d65630b68c0800000000000000
+      internalID: -4005103709453507625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a7e3342b6c48360800000000000000
+      internalID: 7171074975615318675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbe103bb879777c0800000000000000
+      internalID: -4073620711673828422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd23b86b288d57b0800000000000000
+      internalID: -5233877471913103929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_98
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44057b5f8c10a4e20800000000000000
+      internalID: 3335480436648792132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd4776912e9e3160800000000000000
+      internalID: 7007211937330580914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce149c9dd53f6fa0800000000000000
+      internalID: -5805362168726282549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_101
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778eec58cde9fe2d0800000000000000
+      internalID: -3247202136335914889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b432afb85937b86c0800000000000000
+      internalID: -4140088346301291701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f209140790b99c10800000000000000
+      internalID: 2060872467154010865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441666c589fad44a0800000000000000
+      internalID: -6607432009362546364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_105
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747217fb8bd944220800000000000000
+      internalID: 2469271912517281607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75f79d23ee797e00800000000000000
+      internalID: 1043004302900589949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee6db8d23fc8c9c0800000000000000
+      internalID: -3906644859452297493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c634fda0079e8e0800000000000000
+      internalID: -1663675395338965941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bd262769394e2d0800000000000000
+      internalID: -3250310756681196781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9b3c439789dbe70800000000000000
+      internalID: 9132623265720941023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_111
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6359d5484d4f583d0800000000000000
+      internalID: -3204886366213270218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efccdbb55f7291c20800000000000000
+      internalID: 3177614946846231806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe45972d76e75d6b0800000000000000
+      internalID: -5272168804389399313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03c3693ceb28d7090800000000000000
+      internalID: -8035122404322296784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_115
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295f04e4c9ba8b850800000000000000
+      internalID: 6393048358868546962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a41cb35c4ad54d0800000000000000
+      internalID: -3144175797816702341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_117
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48dad9b0ecc40c170800000000000000
+      internalID: 8196635769656159620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708a98fe1b1d77610800000000000000
+      internalID: 1618993153221175303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5358b30ee778e7c10800000000000000
+      internalID: 2053227459125151029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce773e7d81d4de50800000000000000
+      internalID: 6833316940266045128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_121
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d1682e95aa90d40800000000000000
+      internalID: 5551155318740098369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_122
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f455dc351a1ef00800000000000000
+      internalID: 1144373161628094330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_123
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41f834f0357a5f50800000000000000
+      internalID: 6870933034623365451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_124
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fcabd2b83291610800000000000000
+      internalID: 1592343023926824817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_125
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9034d271eff991550800000000000000
+      internalID: 6132108281300992777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_126
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305bddb94d6248ff0800000000000000
+      internalID: -34860202522200829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_127
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6807e915098907930800000000000000
+      internalID: 4138975803165536390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa6e1b6f5299ffb0800000000000000
+      internalID: -4613495404747658585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_129
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f036e8f115a0c770800000000000000
+      internalID: 8629078382650732784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_130
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d56b5367cd14910800000000000000
+      internalID: 1819978124699786619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_131
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d02ed03b685f0a0800000000000000
+      internalID: -6848419554756784833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b723767bffee5c720800000000000000
+      internalID: 2865959519952253563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eca6be39bf0bd660800000000000000
+      internalID: 7411534900063808743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17efb724b0d44e410800000000000000
+      internalID: 1505412886203989617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_135
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6394fc6daae30c790800000000000000
+      internalID: -7511935274984715978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165c08a887456dfe0800000000000000
+      internalID: -1164650576932190879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_137
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164ce4dbd80b86aa0800000000000000
+      internalID: -6167485566870961055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d537f0f7978f610800000000000000
+      internalID: 1655206449685683546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_139
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7faff1c8ae2619b50800000000000000
+      internalID: 6598163688587262711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_140
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32c9d023cce770e0800000000000000
+      internalID: -2272087164171206084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_141
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf0c2e79c3f2f790800000000000000
+      internalID: -7497662382887661620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_142
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82041db3f2450920800000000000000
+      internalID: 2955842345055289994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_143
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f1da6a852f00310800000000000000
+      internalID: 1369360749288038224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_144
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4b68fab5f92fdf0800000000000000
+      internalID: -147880621614123794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_145
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61c660652ab816a0800000000000000
+      internalID: -6478223394278555285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_146
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1e29cc17e762de0800000000000000
+      internalID: -1358259210377043496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_147
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794f9f7a6dc6d6810800000000000000
+      internalID: 1760182698568709271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477455826e2774380800000000000000
+      internalID: -8987088198549813388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_149
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195d72405e43c9e90800000000000000
+      internalID: -7017675961128200815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_150
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9001f37f19fe240800000000000000
+      internalID: 4823234217038055861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 816ce12e8c5ca73c0800000000000000
+      internalID: -4360955822577105384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_152
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d162ab9ae54351bb0800000000000000
+      internalID: -4966005432926984675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441bac07ed4348b90800000000000000
+      internalID: -7240604170925199036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8982aa2240e06dd30800000000000000
+      internalID: 4455764292253919384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_155
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d90894f5c5131f80800000000000000
+      internalID: -8137136161772009003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f1a83eab66f6990800000000000000
+      internalID: -7390575510624264433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_157
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac3af7cb9d0f0d20800000000000000
+      internalID: 3246828819083574440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_158
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ecc2c664b5f7790800000000000000
+      internalID: -7530199693919465880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_159
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa42907018b0e2fb0800000000000000
+      internalID: -4670783114739899217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f733b03e2b2ac50800000000000000
+      internalID: 6675094285931741078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_161
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440efa5d4baaa0d80800000000000000
+      internalID: -8283620870938697660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_162
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc6a8ccd405e3450800000000000000
+      internalID: 6070377642816335027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_163
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02247b352f966eb70800000000000000
+      internalID: 8927939800816108064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a252669bd2a9c7db0800000000000000
+      internalID: -4792786382254365398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_165
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c272d9a21f10b79e0800000000000000
+      internalID: -1622701105423243476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_166
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007eeb191e076b210800000000000000
+      internalID: 1348389252559202048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_167
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59232e95627283d0800000000000000
+      internalID: -3205874203964004001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccad3d9d5f7b22c50800000000000000
+      internalID: 6639071067246942924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_193
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223c1788e26a9ced0800000000000000
+      internalID: -2393199008182844638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_194
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8f96f1b3f780370800000000000000
+      internalID: 8289015006082234618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_195
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e2c05d37b11ed70800000000000000
+      internalID: 9070561308810423952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1885f7f8b34a49ed0800000000000000
+      internalID: -2408119325018859391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_197
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46b569a63c7a96a0800000000000000
+      internalID: -6441699742787979700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_198
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80bd505c6f194c70800000000000000
+      internalID: 8955723884068188300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_199
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031453d0335beaf10800000000000000
+      internalID: 2282961291992973616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_200
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996130519bd71d8f0800000000000000
+      internalID: -517494248295950695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_201
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285df6611cb7e27c0800000000000000
+      internalID: -4094198941997869694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7ebc121214e5d00800000000000000
+      internalID: 963278980860602329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_203
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a993ac3892d25170800000000000000
+      internalID: 8165820625670347177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_204
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ac6f6783fb7d640800000000000000
+      internalID: 5104758951882705504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_205
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108b65133c11caad0800000000000000
+      internalID: -2689755347402967039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7ee629aa2f3d680800000000000000
+      internalID: -8731368438126155799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_207
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c98b8f9cb4e598b0800000000000000
+      internalID: -5145955500419216955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_208
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ceb5a9f40556e120800000000000000
+      internalID: 2442733327751691968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_209
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b94843587a28f9b0800000000000000
+      internalID: -5046236686186952267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_210
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dda3823ddc514c0800000000000000
+      internalID: -4317318360968012519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_211
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4816c317a9497dba0800000000000000
+      internalID: -6064214982185426556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_212
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76e0b1feba86b440800000000000000
+      internalID: 4951297393043760766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_213
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232373bad4dc13460800000000000000
+      internalID: 7219777411120312882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_214
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9596c267fcae25860800000000000000
+      internalID: 7517328904796531033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_215
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb307b51905d8790800000000000000
+      internalID: -7526270817031668791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_216
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65621ad83c52bb20800000000000000
+      internalID: 3148680488731960687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_217
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758d8fd20d1a16120800000000000000
+      internalID: 2405381591489108055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_218
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc5859f7d2b6d3a0800000000000000
+      internalID: -6640923959840187174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_219
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4991e855b541afb0800000000000000
+      internalID: -4638349496032323250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_220
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d00dcdb3b524a80800000000000000
+      internalID: -8484118435346772716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_221
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1077af3b32063a90800000000000000
+      internalID: -7334672489632010209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_222
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde22e5dc97ac1430800000000000000
+      internalID: 3755060481365257951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_223
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c57a0e00ce99d50800000000000000
+      internalID: 6744681405477248137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_224
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ad017940fff7320800000000000000
+      internalID: 2558043508549147222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_225
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b6058a1d897260800000000000000
+      internalID: 7095857832939402847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_226
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5619c71c4cbdd10800000000000000
+      internalID: 2151529582297179643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_227
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cafcf6173526660800000000000000
+      internalID: 7377550886258584648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf40ff324964f2e0800000000000000
+      internalID: -2092932193558966306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_229
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f574ebe170c40580800000000000000
+      internalID: -8861746571236837897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_230
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a54be09d13c6f630800000000000000
+      internalID: 3960567454071735720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_231
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa23839c4dd6f17d0800000000000000
+      internalID: -2945514870600617302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349e15e87b0cc68c0800000000000000
+      internalID: -4004614074039932605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_233
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c999b9676922830800000000000000
+      internalID: 4044960851492969544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_234
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb820aad75558a30800000000000000
+      internalID: 4216870624313904061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_235
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822bfba93838ba890800000000000000
+      internalID: -7445712957666774488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_236
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538dde87eb5f55100800000000000000
+      internalID: 96253165479778357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_237
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10acaf00aaf638ea0800000000000000
+      internalID: -5871726713209435647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_238
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73bf8ac610d5ca2b0800000000000000
+      internalID: -5571976378264782025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_239
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8cf0a53a400abc0800000000000000
+      internalID: -3774011388099311376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_240
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de7342188e2a8e40800000000000000
+      internalID: 5659387043701292756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_241
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5d9bfd2135fe160800000000000000
+      internalID: 7056950481640871330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_242
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e6bb4cce61e970800000000000000
+      internalID: 8782422572071838793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_243
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7575f814c0df72b80800000000000000
+      internalID: -8419482749264505001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c44806a915df1be0800000000000000
+      internalID: -1504249444381997884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_245
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681b9b5d93ed3ad10800000000000000
+      internalID: 2135794988283965830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_246
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0d2fd48a3927750800000000000000
+      internalID: 6301261179716292773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_247
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c0dd772698bce10800000000000000
+      internalID: 2219018297420876950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_248
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907b159dee38d0560800000000000000
+      internalID: 7281621234399426313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_249
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8367a33b716df92c0800000000000000
+      internalID: -4422580911774992840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_250
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f4c31df658b8f070800000000000000
+      internalID: 8140459010224801009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_251
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0f72d43aa62d9a0800000000000000
+      internalID: -6209783686583815969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f7f0dd0d9e24660800000000000000
+      internalID: 7368709023602802507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_253
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75cf7b0e1051ba00800000000000000
+      internalID: 770485101229229435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_254
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2b92287b9aa4a80800000000000000
+      internalID: -8481780342571027796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_255
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01c92504215ab7e0800000000000000
+      internalID: -1748996290132721395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_256
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090644bcc879e4680800000000000000
+      internalID: -8768904793482305392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_257
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0462986c40c7992a0800000000000000
+      internalID: -6730211808175905216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_258
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd666e232570c770800000000000000
+      internalID: 8629025680004640242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_259
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b4d46124006fb00800000000000000
+      internalID: 861876662530034477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_260
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c9e847fac17aa70800000000000000
+      internalID: 8838064333638245436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_261
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2281119436278a0800000000000000
+      internalID: -6308870962522086669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_262
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150c898fafb325a80800000000000000
+      internalID: -8479649199286599599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_263
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d10f4f47e43857b50800000000000000
+      internalID: 6590318002719485981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_264
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae9dc5eeaf4d8940800000000000000
+      internalID: 5299979949083303590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_265
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38c9b48dd6fdf550800000000000000
+      internalID: 6196380093606643775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_266
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a389c8c44edabe100800000000000000
+      internalID: 138395409613363258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_267
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8029931edd51b5a20800000000000000
+      internalID: 3052057215184245256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_268
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2998c7362b70f30800000000000000
+      internalID: 4541794889587331790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_269
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38784296aa7a357d0800000000000000
+      internalID: -2930814582137780349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_270
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748b6eb66684cdfc0800000000000000
+      internalID: -3468818008247977913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_271
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf7f99e7670eeef0800000000000000
+      internalID: -77116000736149581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_272
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ccd66c1786baef0800000000000000
+      internalID: -95868129188655991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_273
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dfcb8e4a5acf080800000000000000
+      internalID: -9152258215025771226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_274
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ca3949facc272c0800000000000000
+      internalID: -4435257628522468309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_275
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87095d08cb758af40800000000000000
+      internalID: 5739934192210645112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_276
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d0e1e95765776c0800000000000000
+      internalID: -4145749868807320169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_277
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a44ab6cb47c3ed0800000000000000
+      internalID: -2432941346078307737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_278
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6b5dea08b047cf0800000000000000
+      internalID: -255566631536314679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_279
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a21c1d36e824b0a0800000000000000
+      internalID: -6866818562500324695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_280
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d18ba793269f6fe0800000000000000
+      internalID: -1193570296617270824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_281
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c810fe2fbe768ad0800000000000000
+      internalID: -2700331566970693439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_282
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704a09bfcf3a8b5d0800000000000000
+      internalID: -3046504840968494073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_283
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed477477d0ec8150800000000000000
+      internalID: 5876318829788220906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_284
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e2ced3a53605bd20800000000000000
+      internalID: 3293545529943704292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_285
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395ca6b5474300cc0800000000000000
+      internalID: -3746937215617677933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_286
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7653917f65870d440800000000000000
+      internalID: 4958595504643061095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_287
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb371e466be90d270800000000000000
+      internalID: 8273287021693334459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_288
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27fe03cdc5e1e8b50800000000000000
+      internalID: 6597243888324374386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_289
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6abcb587ac2ae1f60800000000000000
+      internalID: 8007016177997695910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_290
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160c1db8196011050800000000000000
+      internalID: 5769399819824119905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_291
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2659f4bf75d3970800000000000000
+      internalID: 8736235589052228297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_292
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202d7315192be10a0800000000000000
+      internalID: -6908888441137147390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_293
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c4b19e06167d40800000000000000
+      internalID: 5581673040002203958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_294
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545407f200337c4b0800000000000000
+      internalID: -5420307550628199099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_295
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce790d1cde8863c90800000000000000
+      internalID: -7190409200310118420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_296
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10cea77ea72b22c50800000000000000
+      internalID: 6639065041636879361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_297
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f964dc8fc11866850800000000000000
+      internalID: 6369920684395415199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_298
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7744494664a2b00800000000000000
+      internalID: 804532881237243816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_299
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba735742fa43300800000000000000
+      internalID: 231002052023004143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_300
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3ed1b4d5a83d4a0800000000000000
+      internalID: -6569755298106580022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_301
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110166f638aea6be0800000000000000
+      internalID: -1483115277034581999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_302
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72093452954997db0800000000000000
+      internalID: -4793637217760997337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_303
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ee64474499d4c30800000000000000
+      internalID: 4345297734770028038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_304
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85275be36840d71c0800000000000000
+      internalID: -4504439077676420520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_305
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0102cc32c017f470800000000000000
+      internalID: 8428223654076219659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_306
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbccdfd4cd9c4ae30800000000000000
+      internalID: 4513954674570546363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_307
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5fae40331cedfc0800000000000000
+      internalID: -3468122238158703176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_308
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b2198775bc21db0800000000000000
+      internalID: -4822568674415006922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_309
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff25794de94e7f80800000000000000
+      internalID: -8106960995731820554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_310
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0f28bca39aba0830800000000000000
+      internalID: 4038245159311781647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_311
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5f020f62a798be0800000000000000
+      internalID: -1474513095331088970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_312
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f867836b37d3c1d0800000000000000
+      internalID: -3331582649251174155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_313
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61bfd0811c8be29f0800000000000000
+      internalID: -491252169865037034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_314
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14496e52a69cd6c60800000000000000
+      internalID: 7813122386297263169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_315
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2aaadfeb12731170800000000000000
+      internalID: 8147981615157127724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_316
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8886d8fd81ff68810800000000000000
+      internalID: 1767380386084382856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_317
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca03a7d8ae8e9bf40800000000000000
+      internalID: 5744878893781364908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_318
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10902e21dfe120b60800000000000000
+      internalID: 7710759584304072961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_319
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3885539259aef40800000000000000
+      internalID: 5758579077767791573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_320
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8bdfc6af7efe22a0800000000000000
+      internalID: -6760186166423594097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_321
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2eaff4a643dd6030800000000000000
+      internalID: 3489677586651393578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_322
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc7426e83e496bc0800000000000000
+      internalID: -3789411605169275658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_323
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6fcdbd9ec2f2cb0800000000000000
+      internalID: -4886637687746005327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_324
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d0bd6cc061d0d90800000000000000
+      internalID: -7130018390925963999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_325
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ee6c84c8bcf2630800000000000000
+      internalID: 3904563205330366023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_326
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5887c7b1b3b3d7910800000000000000
+      internalID: 1836689348087281797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_327
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e5c7c04d3e71e50800000000000000
+      internalID: 6780138263911620157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_328
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34993f8fd50fe7a90800000000000000
+      internalID: -7314144458403767997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_329
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c4841a8d4cdab30800000000000000
+      internalID: 4300309653906541700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_330
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81d1f9dc71ae4af0800000000000000
+      internalID: -410212958439616117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_331
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733b87912440d3da0800000000000000
+      internalID: -5963605649626975433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_332
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc9da23caced4ae0800000000000000
+      internalID: -1563333271298925357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_333
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d48e74076a91fd0800000000000000
+      internalID: -2370680727660901038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_334
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c58e222561983e0800000000000000
+      internalID: -2051083613261767641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stronghold_1_335
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6ef028871e1170800000000000000
+      internalID: 8150978249023713113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

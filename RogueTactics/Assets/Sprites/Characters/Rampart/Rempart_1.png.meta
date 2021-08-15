@@ -1,0 +1,8112 @@
+fileFormatVersion: 2
+guid: ebc9ade2d8606ae4787305c3b9e379a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8358964070673087373
+    second: RampartSpriteSheet_24
+  - first:
+      213: -5957860087587275801
+    second: RampartSpriteSheet_25
+  - first:
+      213: 2219980478883252364
+    second: RampartSpriteSheet_26
+  - first:
+      213: 2077377163020895103
+    second: RampartSpriteSheet_27
+  - first:
+      213: -3551339312465532330
+    second: RampartSpriteSheet_28
+  - first:
+      213: 2140831405148149145
+    second: RampartSpriteSheet_29
+  - first:
+      213: -2858426317246225581
+    second: RampartSpriteSheet_30
+  - first:
+      213: -8327320974737355495
+    second: RampartSpriteSheet_31
+  - first:
+      213: -1545624807745997117
+    second: RampartSpriteSheet_32
+  - first:
+      213: 7566171536689415643
+    second: RampartSpriteSheet_33
+  - first:
+      213: 7391044680852165928
+    second: RampartSpriteSheet_34
+  - first:
+      213: -1280865963234395544
+    second: RampartSpriteSheet_35
+  - first:
+      213: 5257793405322863262
+    second: RampartSpriteSheet_36
+  - first:
+      213: 7350817608305184057
+    second: RampartSpriteSheet_37
+  - first:
+      213: 1947571815408186505
+    second: RampartSpriteSheet_38
+  - first:
+      213: -4616166636000575799
+    second: RampartSpriteSheet_39
+  - first:
+      213: -3006826799854569671
+    second: RampartSpriteSheet_40
+  - first:
+      213: 1217819456481868363
+    second: RampartSpriteSheet_41
+  - first:
+      213: -457175991773157667
+    second: RampartSpriteSheet_42
+  - first:
+      213: 1607498890167336035
+    second: RampartSpriteSheet_43
+  - first:
+      213: 2191525805557065256
+    second: RampartSpriteSheet_44
+  - first:
+      213: 181852829526853972
+    second: RampartSpriteSheet_45
+  - first:
+      213: 6090648034084990589
+    second: RampartSpriteSheet_46
+  - first:
+      213: 4559823685194089491
+    second: RampartSpriteSheet_47
+  - first:
+      213: -1440031421449812166
+    second: RampartSpriteSheet_48
+  - first:
+      213: -7510693571772315260
+    second: RampartSpriteSheet_49
+  - first:
+      213: 466628950266876792
+    second: RampartSpriteSheet_50
+  - first:
+      213: -2533925702557065190
+    second: RampartSpriteSheet_51
+  - first:
+      213: -4970839064463572815
+    second: RampartSpriteSheet_52
+  - first:
+      213: 8029508045189893843
+    second: RampartSpriteSheet_53
+  - first:
+      213: -1286968288383058003
+    second: RampartSpriteSheet_54
+  - first:
+      213: 6235745914685645177
+    second: RampartSpriteSheet_55
+  - first:
+      213: -8391924571017817275
+    second: RampartSpriteSheet_56
+  - first:
+      213: 6271312563259281906
+    second: RampartSpriteSheet_57
+  - first:
+      213: -1868577154972777414
+    second: RampartSpriteSheet_58
+  - first:
+      213: 6590336204537459651
+    second: RampartSpriteSheet_59
+  - first:
+      213: 6697373061806492726
+    second: RampartSpriteSheet_60
+  - first:
+      213: 7771033872443458940
+    second: RampartSpriteSheet_61
+  - first:
+      213: 2452477153699016553
+    second: RampartSpriteSheet_62
+  - first:
+      213: 5213362416540737287
+    second: RampartSpriteSheet_63
+  - first:
+      213: -1774019658817781087
+    second: RampartSpriteSheet_64
+  - first:
+      213: -8308817796413627927
+    second: RampartSpriteSheet_65
+  - first:
+      213: -3482133404824437865
+    second: RampartSpriteSheet_66
+  - first:
+      213: 7301585941142551325
+    second: RampartSpriteSheet_67
+  - first:
+      213: 136679634368607816
+    second: RampartSpriteSheet_68
+  - first:
+      213: 5366603151722329998
+    second: RampartSpriteSheet_69
+  - first:
+      213: 1016460825807826994
+    second: RampartSpriteSheet_70
+  - first:
+      213: 4861223251334472388
+    second: RampartSpriteSheet_71
+  - first:
+      213: -3642451652950080409
+    second: RampartSpriteSheet_72
+  - first:
+      213: -2869119073337301391
+    second: RampartSpriteSheet_73
+  - first:
+      213: -4651289379606332419
+    second: RampartSpriteSheet_74
+  - first:
+      213: 1122983011343781797
+    second: RampartSpriteSheet_75
+  - first:
+      213: -572982252390732074
+    second: RampartSpriteSheet_76
+  - first:
+      213: -1492231594012814665
+    second: RampartSpriteSheet_77
+  - first:
+      213: -6666261524665552001
+    second: RampartSpriteSheet_78
+  - first:
+      213: -8732737463089477831
+    second: RampartSpriteSheet_79
+  - first:
+      213: 7407139486131423085
+    second: RampartSpriteSheet_80
+  - first:
+      213: -7261215867183947743
+    second: RampartSpriteSheet_81
+  - first:
+      213: -2770998730806442043
+    second: RampartSpriteSheet_82
+  - first:
+      213: -8325074955012051818
+    second: RampartSpriteSheet_83
+  - first:
+      213: -6748280320773414430
+    second: RampartSpriteSheet_84
+  - first:
+      213: -445074710328641295
+    second: RampartSpriteSheet_85
+  - first:
+      213: 2993188604001318107
+    second: RampartSpriteSheet_86
+  - first:
+      213: 1641721415016745327
+    second: RampartSpriteSheet_87
+  - first:
+      213: -4238597504595517446
+    second: RampartSpriteSheet_88
+  - first:
+      213: -6480613732933994750
+    second: RampartSpriteSheet_89
+  - first:
+      213: -5832004053579773411
+    second: RampartSpriteSheet_90
+  - first:
+      213: 3481590984657757369
+    second: RampartSpriteSheet_91
+  - first:
+      213: -5818484400896458927
+    second: RampartSpriteSheet_92
+  - first:
+      213: -4867967933413710169
+    second: RampartSpriteSheet_93
+  - first:
+      213: -3950558795659806362
+    second: RampartSpriteSheet_94
+  - first:
+      213: 1910595978450104829
+    second: RampartSpriteSheet_95
+  - first:
+      213: 5084867156287292881
+    second: RampartSpriteSheet_96
+  - first:
+      213: 6758004846246943029
+    second: RampartSpriteSheet_97
+  - first:
+      213: -906685001643853010
+    second: RampartSpriteSheet_98
+  - first:
+      213: 6772711468750060299
+    second: RampartSpriteSheet_99
+  - first:
+      213: 3014530061651207174
+    second: RampartSpriteSheet_100
+  - first:
+      213: 9202099486235018075
+    second: RampartSpriteSheet_101
+  - first:
+      213: -1560052742146831422
+    second: RampartSpriteSheet_102
+  - first:
+      213: 3592452696784316114
+    second: RampartSpriteSheet_103
+  - first:
+      213: 3082564680828714633
+    second: RampartSpriteSheet_104
+  - first:
+      213: 5515305304259753044
+    second: RampartSpriteSheet_105
+  - first:
+      213: -8039849123655068427
+    second: RampartSpriteSheet_106
+  - first:
+      213: -1741770714480745211
+    second: RampartSpriteSheet_107
+  - first:
+      213: 4854445452011529976
+    second: RampartSpriteSheet_108
+  - first:
+      213: -1296128746716098143
+    second: RampartSpriteSheet_109
+  - first:
+      213: -6925679228818186844
+    second: RampartSpriteSheet_110
+  - first:
+      213: 3258701733507630261
+    second: RampartSpriteSheet_111
+  - first:
+      213: -7300764722011549621
+    second: RampartSpriteSheet_112
+  - first:
+      213: -4174048380518229462
+    second: RampartSpriteSheet_113
+  - first:
+      213: 1599997924752652180
+    second: RampartSpriteSheet_114
+  - first:
+      213: 292808933772837975
+    second: RampartSpriteSheet_115
+  - first:
+      213: -4456667309929140677
+    second: RampartSpriteSheet_116
+  - first:
+      213: -8029746896130311825
+    second: RampartSpriteSheet_117
+  - first:
+      213: 6537321804046763821
+    second: RampartSpriteSheet_118
+  - first:
+      213: -5886304333315127512
+    second: RampartSpriteSheet_119
+  - first:
+      213: 5830298442765386980
+    second: RampartSpriteSheet_120
+  - first:
+      213: 2084977279649357086
+    second: RampartSpriteSheet_121
+  - first:
+      213: 8333410614233186106
+    second: RampartSpriteSheet_122
+  - first:
+      213: -6943066089315009369
+    second: RampartSpriteSheet_123
+  - first:
+      213: -1687473402073456881
+    second: RampartSpriteSheet_124
+  - first:
+      213: -8613648555888172405
+    second: RampartSpriteSheet_125
+  - first:
+      213: -8415709521935380783
+    second: RampartSpriteSheet_126
+  - first:
+      213: -7603524850433746720
+    second: RampartSpriteSheet_127
+  - first:
+      213: 3445253256223891395
+    second: RampartSpriteSheet_128
+  - first:
+      213: -1281301468617632489
+    second: RampartSpriteSheet_129
+  - first:
+      213: 9207696607791026403
+    second: RampartSpriteSheet_130
+  - first:
+      213: -5942558632553059674
+    second: RampartSpriteSheet_131
+  - first:
+      213: -8782546073777439693
+    second: RampartSpriteSheet_132
+  - first:
+      213: -4238688514029436718
+    second: RampartSpriteSheet_133
+  - first:
+      213: -8962639814284359114
+    second: RampartSpriteSheet_134
+  - first:
+      213: 5255973429538738053
+    second: RampartSpriteSheet_135
+  - first:
+      213: 5558944759102491043
+    second: RampartSpriteSheet_136
+  - first:
+      213: 2280216765932738394
+    second: RampartSpriteSheet_137
+  - first:
+      213: -6340535873263133042
+    second: RampartSpriteSheet_138
+  - first:
+      213: -6483018316058612663
+    second: RampartSpriteSheet_139
+  - first:
+      213: -2483581629739412691
+    second: RampartSpriteSheet_140
+  - first:
+      213: 1204344696900377828
+    second: RampartSpriteSheet_141
+  - first:
+      213: 8391849656769815992
+    second: RampartSpriteSheet_142
+  - first:
+      213: 247986773024484053
+    second: RampartSpriteSheet_143
+  - first:
+      213: 8150728320383214069
+    second: RampartSpriteSheet_144
+  - first:
+      213: 5117097451605013868
+    second: RampartSpriteSheet_145
+  - first:
+      213: 7024405185764313251
+    second: RampartSpriteSheet_146
+  - first:
+      213: -3773669660674578416
+    second: RampartSpriteSheet_147
+  - first:
+      213: -2909250988353552920
+    second: RampartSpriteSheet_148
+  - first:
+      213: -6309607759049152388
+    second: RampartSpriteSheet_149
+  - first:
+      213: 7082960982781809937
+    second: RampartSpriteSheet_150
+  - first:
+      213: 5772633282794412281
+    second: RampartSpriteSheet_151
+  - first:
+      213: -6300896058940892112
+    second: RampartSpriteSheet_152
+  - first:
+      213: 2968521866208517725
+    second: RampartSpriteSheet_153
+  - first:
+      213: -6510001923453016797
+    second: RampartSpriteSheet_154
+  - first:
+      213: 3001891266151718289
+    second: RampartSpriteSheet_155
+  - first:
+      213: -2867995592070434328
+    second: RampartSpriteSheet_156
+  - first:
+      213: 918206323047223103
+    second: RampartSpriteSheet_157
+  - first:
+      213: 3659837550057918049
+    second: RampartSpriteSheet_158
+  - first:
+      213: -8176799705440423860
+    second: RampartSpriteSheet_159
+  - first:
+      213: -7780057858717644412
+    second: RampartSpriteSheet_160
+  - first:
+      213: -3211640704023248668
+    second: RampartSpriteSheet_161
+  - first:
+      213: 8940908836234372144
+    second: RampartSpriteSheet_162
+  - first:
+      213: -4777930019436822828
+    second: RampartSpriteSheet_163
+  - first:
+      213: 7813008234198503262
+    second: RampartSpriteSheet_164
+  - first:
+      213: 5235559238673448569
+    second: RampartSpriteSheet_165
+  - first:
+      213: -5171788844683116488
+    second: RampartSpriteSheet_166
+  - first:
+      213: 8177176026919834701
+    second: RampartSpriteSheet_167
+  - first:
+      213: 1663768328488233150
+    second: RampartSpriteSheet_168
+  - first:
+      213: 5590164697446177266
+    second: RampartSpriteSheet_169
+  - first:
+      213: 813666019359035077
+    second: RampartSpriteSheet_170
+  - first:
+      213: -1652552190946870219
+    second: RampartSpriteSheet_171
+  - first:
+      213: 5011623763026275749
+    second: RampartSpriteSheet_196
+  - first:
+      213: 8573071932817836912
+    second: RampartSpriteSheet_197
+  - first:
+      213: -1979086247621828622
+    second: RampartSpriteSheet_198
+  - first:
+      213: -2151583526725256340
+    second: RampartSpriteSheet_199
+  - first:
+      213: 2583066647472961658
+    second: RampartSpriteSheet_200
+  - first:
+      213: -2578982830046280702
+    second: RampartSpriteSheet_201
+  - first:
+      213: -795627312414769028
+    second: RampartSpriteSheet_202
+  - first:
+      213: 3047677308126066417
+    second: RampartSpriteSheet_203
+  - first:
+      213: -3150989950407913003
+    second: RampartSpriteSheet_204
+  - first:
+      213: -2097366930611527888
+    second: RampartSpriteSheet_205
+  - first:
+      213: -4040690152226616594
+    second: RampartSpriteSheet_206
+  - first:
+      213: 4729882272570354775
+    second: RampartSpriteSheet_207
+  - first:
+      213: -382831197897546969
+    second: RampartSpriteSheet_208
+  - first:
+      213: 9117838946716747156
+    second: RampartSpriteSheet_209
+  - first:
+      213: 2744595011760861675
+    second: RampartSpriteSheet_210
+  - first:
+      213: 6172504141838888334
+    second: RampartSpriteSheet_211
+  - first:
+      213: -4512710215049475478
+    second: RampartSpriteSheet_212
+  - first:
+      213: -361923378142081155
+    second: RampartSpriteSheet_213
+  - first:
+      213: -3284032296206104472
+    second: RampartSpriteSheet_214
+  - first:
+      213: -6278888536248842840
+    second: RampartSpriteSheet_215
+  - first:
+      213: -2452236097064766713
+    second: RampartSpriteSheet_216
+  - first:
+      213: -4665999869800253982
+    second: RampartSpriteSheet_217
+  - first:
+      213: 5653735030560886245
+    second: RampartSpriteSheet_218
+  - first:
+      213: -467075390884892833
+    second: RampartSpriteSheet_219
+  - first:
+      213: -1497080396017860860
+    second: RampartSpriteSheet_220
+  - first:
+      213: 5568552304178682505
+    second: RampartSpriteSheet_221
+  - first:
+      213: 3601603524166308754
+    second: RampartSpriteSheet_222
+  - first:
+      213: -248417938857314581
+    second: RampartSpriteSheet_223
+  - first:
+      213: 3380485487631397291
+    second: RampartSpriteSheet_224
+  - first:
+      213: -8317017069899066209
+    second: RampartSpriteSheet_225
+  - first:
+      213: 4236946097380973182
+    second: RampartSpriteSheet_226
+  - first:
+      213: 1464880590508234891
+    second: RampartSpriteSheet_227
+  - first:
+      213: 8224055747588691098
+    second: RampartSpriteSheet_228
+  - first:
+      213: 102171300881473045
+    second: RampartSpriteSheet_229
+  - first:
+      213: 8102598947787823822
+    second: RampartSpriteSheet_230
+  - first:
+      213: -4985919215631917173
+    second: RampartSpriteSheet_231
+  - first:
+      213: -7523941302216916393
+    second: RampartSpriteSheet_232
+  - first:
+      213: -7033613678941454045
+    second: RampartSpriteSheet_233
+  - first:
+      213: -8466970617763949281
+    second: RampartSpriteSheet_234
+  - first:
+      213: 4333899699349695480
+    second: RampartSpriteSheet_235
+  - first:
+      213: 2649562670236959541
+    second: RampartSpriteSheet_236
+  - first:
+      213: -8375381069789624477
+    second: RampartSpriteSheet_237
+  - first:
+      213: -7660216542200296152
+    second: RampartSpriteSheet_238
+  - first:
+      213: 6434744618236032387
+    second: RampartSpriteSheet_239
+  - first:
+      213: 3182123555605090512
+    second: RampartSpriteSheet_240
+  - first:
+      213: -6395859807042865768
+    second: RampartSpriteSheet_241
+  - first:
+      213: 1575810675780431563
+    second: RampartSpriteSheet_242
+  - first:
+      213: -5887521911906975448
+    second: RampartSpriteSheet_243
+  - first:
+      213: -2358829658328590361
+    second: RampartSpriteSheet_244
+  - first:
+      213: -6704163676299268032
+    second: RampartSpriteSheet_245
+  - first:
+      213: 8195817029551615901
+    second: RampartSpriteSheet_246
+  - first:
+      213: -7972614819592926773
+    second: RampartSpriteSheet_247
+  - first:
+      213: 9219144429779356255
+    second: RampartSpriteSheet_248
+  - first:
+      213: 8993875162783527903
+    second: RampartSpriteSheet_249
+  - first:
+      213: 6062080999842191466
+    second: RampartSpriteSheet_250
+  - first:
+      213: 7629624158908071894
+    second: RampartSpriteSheet_251
+  - first:
+      213: -5310673907149881833
+    second: RampartSpriteSheet_252
+  - first:
+      213: -9217227525513595591
+    second: RampartSpriteSheet_253
+  - first:
+      213: -7337865052807310804
+    second: RampartSpriteSheet_254
+  - first:
+      213: -96130741965171899
+    second: RampartSpriteSheet_255
+  - first:
+      213: 9205022835416246677
+    second: RampartSpriteSheet_256
+  - first:
+      213: 209546849996059884
+    second: RampartSpriteSheet_257
+  - first:
+      213: -4794742035742703325
+    second: RampartSpriteSheet_258
+  - first:
+      213: 6919410941223833275
+    second: RampartSpriteSheet_259
+  - first:
+      213: 3843035761063174112
+    second: RampartSpriteSheet_260
+  - first:
+      213: -9117940596923666657
+    second: RampartSpriteSheet_261
+  - first:
+      213: 1935845563329071079
+    second: RampartSpriteSheet_262
+  - first:
+      213: 8425613748303487211
+    second: RampartSpriteSheet_263
+  - first:
+      213: 1518076988014755879
+    second: RampartSpriteSheet_264
+  - first:
+      213: 1648007742700275358
+    second: RampartSpriteSheet_265
+  - first:
+      213: -1050447981040999932
+    second: RampartSpriteSheet_266
+  - first:
+      213: 885359744483446858
+    second: RampartSpriteSheet_267
+  - first:
+      213: 8917508368037687543
+    second: RampartSpriteSheet_268
+  - first:
+      213: -8787014840629445773
+    second: RampartSpriteSheet_269
+  - first:
+      213: -22813083368083541
+    second: RampartSpriteSheet_270
+  - first:
+      213: -4355563367883150453
+    second: RampartSpriteSheet_271
+  - first:
+      213: 2012059109242804822
+    second: RampartSpriteSheet_272
+  - first:
+      213: -8603008559202173537
+    second: RampartSpriteSheet_273
+  - first:
+      213: 2942864391473845911
+    second: RampartSpriteSheet_274
+  - first:
+      213: 7882107875648567548
+    second: RampartSpriteSheet_275
+  - first:
+      213: 8923009191451128996
+    second: RampartSpriteSheet_276
+  - first:
+      213: 7723069219740065105
+    second: RampartSpriteSheet_277
+  - first:
+      213: 4977245344443406334
+    second: RampartSpriteSheet_278
+  - first:
+      213: 3444362338756011117
+    second: RampartSpriteSheet_279
+  - first:
+      213: -3134676663242889133
+    second: RampartSpriteSheet_280
+  - first:
+      213: -9023663134932354141
+    second: RampartSpriteSheet_281
+  - first:
+      213: -2625954879487638482
+    second: RampartSpriteSheet_282
+  - first:
+      213: -906972156954093426
+    second: RampartSpriteSheet_283
+  - first:
+      213: -6258359857687166490
+    second: RampartSpriteSheet_284
+  - first:
+      213: -3609776987020988139
+    second: RampartSpriteSheet_285
+  - first:
+      213: 7623206958610561938
+    second: RampartSpriteSheet_286
+  - first:
+      213: -4155450919241099711
+    second: RampartSpriteSheet_287
+  - first:
+      213: 3453320179131061749
+    second: RampartSpriteSheet_288
+  - first:
+      213: 3689090133635449024
+    second: RampartSpriteSheet_289
+  - first:
+      213: -6313443442458010325
+    second: RampartSpriteSheet_290
+  - first:
+      213: -5397329827043635912
+    second: RampartSpriteSheet_291
+  - first:
+      213: 5691640951900517132
+    second: RampartSpriteSheet_292
+  - first:
+      213: -4782789555692252031
+    second: RampartSpriteSheet_293
+  - first:
+      213: -1816146771803322965
+    second: RampartSpriteSheet_294
+  - first:
+      213: -4140709054927383982
+    second: RampartSpriteSheet_295
+  - first:
+      213: 2065505516812569834
+    second: RampartSpriteSheet_296
+  - first:
+      213: 3837758706647512250
+    second: RampartSpriteSheet_297
+  - first:
+      213: -5006279452954061868
+    second: RampartSpriteSheet_298
+  - first:
+      213: 7515912812995688508
+    second: RampartSpriteSheet_299
+  - first:
+      213: 346896508781440095
+    second: RampartSpriteSheet_300
+  - first:
+      213: 8151177604788073426
+    second: RampartSpriteSheet_301
+  - first:
+      213: 866495546326656707
+    second: RampartSpriteSheet_302
+  - first:
+      213: -8112674693182611152
+    second: RampartSpriteSheet_303
+  - first:
+      213: 6947518950582189844
+    second: RampartSpriteSheet_304
+  - first:
+      213: -6614257236529272508
+    second: RampartSpriteSheet_305
+  - first:
+      213: -8779147212149249660
+    second: RampartSpriteSheet_306
+  - first:
+      213: 3201313742085298725
+    second: RampartSpriteSheet_307
+  - first:
+      213: 3868487264626815120
+    second: RampartSpriteSheet_308
+  - first:
+      213: -2262678999609553794
+    second: RampartSpriteSheet_309
+  - first:
+      213: -4093412284492569761
+    second: RampartSpriteSheet_310
+  - first:
+      213: 3707074989074292884
+    second: RampartSpriteSheet_311
+  - first:
+      213: -1329377389639285364
+    second: RampartSpriteSheet_312
+  - first:
+      213: -6462202945288032696
+    second: RampartSpriteSheet_313
+  - first:
+      213: 2425530130939939646
+    second: RampartSpriteSheet_314
+  - first:
+      213: 8710041749989471824
+    second: RampartSpriteSheet_315
+  - first:
+      213: -1404575164994646718
+    second: RampartSpriteSheet_316
+  - first:
+      213: -3271378894001343983
+    second: RampartSpriteSheet_317
+  - first:
+      213: 1276927630577670237
+    second: RampartSpriteSheet_318
+  - first:
+      213: 5572041853741940036
+    second: RampartSpriteSheet_319
+  - first:
+      213: -7496433651006911163
+    second: RampartSpriteSheet_320
+  - first:
+      213: -8858039297840744744
+    second: RampartSpriteSheet_321
+  - first:
+      213: 8655206372758318156
+    second: RampartSpriteSheet_322
+  - first:
+      213: 8057136372673427224
+    second: RampartSpriteSheet_323
+  - first:
+      213: -1936607763472158689
+    second: RampartSpriteSheet_324
+  - first:
+      213: 1012044614963509950
+    second: RampartSpriteSheet_325
+  - first:
+      213: -1147944872288246017
+    second: RampartSpriteSheet_326
+  - first:
+      213: -5258575285854977146
+    second: RampartSpriteSheet_327
+  - first:
+      213: -1242247942693054031
+    second: RampartSpriteSheet_328
+  - first:
+      213: 6320081836088530686
+    second: RampartSpriteSheet_329
+  - first:
+      213: 3740742832024573996
+    second: RampartSpriteSheet_330
+  - first:
+      213: -1988485395206453402
+    second: RampartSpriteSheet_331
+  - first:
+      213: -4357578765404677165
+    second: RampartSpriteSheet_332
+  - first:
+      213: 2971693966006537668
+    second: RampartSpriteSheet_333
+  - first:
+      213: -8408379991507231611
+    second: RampartSpriteSheet_334
+  - first:
+      213: -1552086311464103953
+    second: RampartSpriteSheet_335
+  - first:
+      213: -1409115920578849614
+    second: RampartSpriteSheet_336
+  - first:
+      213: -5767671851243447340
+    second: RampartSpriteSheet_337
+  - first:
+      213: -4491777935051668689
+    second: RampartSpriteSheet_338
+  - first:
+      213: 1340814236853851805
+    second: RampartSpriteSheet_339
+  - first:
+      213: 3536150527522213088
+    second: RampartSpriteSheet_340
+  - first:
+      213: -6574000177364798800
+    second: RampartSpriteSheet_341
+  - first:
+      213: -8140409562029707608
+    second: RampartSpriteSheet_342
+  - first:
+      213: 5076583336581245768
+    second: RampartSpriteSheet_343
+  - first:
+      213: 7354706420762079552
+    second: Rempart_1_24
+  - first:
+      213: -4273862132577342734
+    second: Rempart_1_25
+  - first:
+      213: -632380878800147349
+    second: Rempart_1_26
+  - first:
+      213: -4721260648677880018
+    second: Rempart_1_27
+  - first:
+      213: 1428554259915629285
+    second: Rempart_1_28
+  - first:
+      213: -7136503989816662713
+    second: Rempart_1_29
+  - first:
+      213: 3034043170729804481
+    second: Rempart_1_30
+  - first:
+      213: -7796580938189530329
+    second: Rempart_1_31
+  - first:
+      213: -9044513719836801889
+    second: Rempart_1_32
+  - first:
+      213: -5847684929984804349
+    second: Rempart_1_33
+  - first:
+      213: 1047319627262857566
+    second: Rempart_1_34
+  - first:
+      213: 8843546787693497060
+    second: Rempart_1_35
+  - first:
+      213: 4131457888224402639
+    second: Rempart_1_36
+  - first:
+      213: 2051817137455251434
+    second: Rempart_1_37
+  - first:
+      213: 1516009709178865423
+    second: Rempart_1_38
+  - first:
+      213: 2537379537288807286
+    second: Rempart_1_39
+  - first:
+      213: -3949673208327968567
+    second: Rempart_1_40
+  - first:
+      213: 6579709403196046611
+    second: Rempart_1_41
+  - first:
+      213: -112520724734135613
+    second: Rempart_1_42
+  - first:
+      213: -7434064267000560535
+    second: Rempart_1_43
+  - first:
+      213: -4760048915639737427
+    second: Rempart_1_44
+  - first:
+      213: 2792488415899788481
+    second: Rempart_1_45
+  - first:
+      213: -2461147429094975225
+    second: Rempart_1_46
+  - first:
+      213: 6703015593406851755
+    second: Rempart_1_47
+  - first:
+      213: -6384250655643600695
+    second: Rempart_1_48
+  - first:
+      213: 1649917643536246990
+    second: Rempart_1_49
+  - first:
+      213: 5896517523591846489
+    second: Rempart_1_50
+  - first:
+      213: 3598430058471541425
+    second: Rempart_1_51
+  - first:
+      213: -3905124744532070318
+    second: Rempart_1_52
+  - first:
+      213: 6518458907508407736
+    second: Rempart_1_53
+  - first:
+      213: 2948166569526092251
+    second: Rempart_1_54
+  - first:
+      213: 7886918503194598697
+    second: Rempart_1_55
+  - first:
+      213: 1232231725256434527
+    second: Rempart_1_56
+  - first:
+      213: -2071772980717251159
+    second: Rempart_1_57
+  - first:
+      213: 7871526569179551666
+    second: Rempart_1_58
+  - first:
+      213: -2316027001156791928
+    second: Rempart_1_59
+  - first:
+      213: -5900209095800323924
+    second: Rempart_1_60
+  - first:
+      213: -821132437792194919
+    second: Rempart_1_61
+  - first:
+      213: 6300284625665387364
+    second: Rempart_1_62
+  - first:
+      213: -8393249330903856653
+    second: Rempart_1_63
+  - first:
+      213: -473613746683911320
+    second: Rempart_1_64
+  - first:
+      213: -8115457641552261565
+    second: Rempart_1_65
+  - first:
+      213: -6622726920472020481
+    second: Rempart_1_66
+  - first:
+      213: 7748016259701453477
+    second: Rempart_1_67
+  - first:
+      213: 705625470227350976
+    second: Rempart_1_68
+  - first:
+      213: 995180919469427920
+    second: Rempart_1_69
+  - first:
+      213: -5485564405924283789
+    second: Rempart_1_70
+  - first:
+      213: -4353101111659798488
+    second: Rempart_1_71
+  - first:
+      213: -5817382357440048691
+    second: Rempart_1_72
+  - first:
+      213: -7724478798597515053
+    second: Rempart_1_73
+  - first:
+      213: -5917657577899476242
+    second: Rempart_1_74
+  - first:
+      213: 5671655379201822093
+    second: Rempart_1_75
+  - first:
+      213: -2023843186503262720
+    second: Rempart_1_76
+  - first:
+      213: -7774461919820154151
+    second: Rempart_1_77
+  - first:
+      213: -2924576866452811277
+    second: Rempart_1_78
+  - first:
+      213: -5588947526936321564
+    second: Rempart_1_79
+  - first:
+      213: 3157185911177978498
+    second: Rempart_1_80
+  - first:
+      213: 2284336747189094204
+    second: Rempart_1_81
+  - first:
+      213: 8750530425822466247
+    second: Rempart_1_82
+  - first:
+      213: -7574064482972287403
+    second: Rempart_1_83
+  - first:
+      213: 6987565591388464582
+    second: Rempart_1_84
+  - first:
+      213: 1717800910889245839
+    second: Rempart_1_85
+  - first:
+      213: -8478576108635577457
+    second: Rempart_1_86
+  - first:
+      213: -8283437007588655222
+    second: Rempart_1_87
+  - first:
+      213: 234087402761334295
+    second: Rempart_1_88
+  - first:
+      213: 5841668477771069473
+    second: Rempart_1_89
+  - first:
+      213: -7472550607407278164
+    second: Rempart_1_90
+  - first:
+      213: -6310022373166849246
+    second: Rempart_1_91
+  - first:
+      213: 2085934360252719240
+    second: Rempart_1_92
+  - first:
+      213: -4850952020678262723
+    second: Rempart_1_93
+  - first:
+      213: -3794695429418779288
+    second: Rempart_1_94
+  - first:
+      213: -970028518229188726
+    second: Rempart_1_95
+  - first:
+      213: -8880596641153248782
+    second: Rempart_1_96
+  - first:
+      213: 150769160036108342
+    second: Rempart_1_97
+  - first:
+      213: 2335348440823554027
+    second: Rempart_1_98
+  - first:
+      213: 5108177452938165590
+    second: Rempart_1_99
+  - first:
+      213: 2876936756592057612
+    second: Rempart_1_100
+  - first:
+      213: -5906169691486730965
+    second: Rempart_1_101
+  - first:
+      213: 5416216749284606375
+    second: Rempart_1_102
+  - first:
+      213: -8855073808818041620
+    second: Rempart_1_103
+  - first:
+      213: -2534390383427891481
+    second: Rempart_1_104
+  - first:
+      213: 687377955702685974
+    second: Rempart_1_105
+  - first:
+      213: 6686379215705076201
+    second: Rempart_1_106
+  - first:
+      213: 7939775004882403811
+    second: Rempart_1_107
+  - first:
+      213: -7194928545336179175
+    second: Rempart_1_108
+  - first:
+      213: -7316388600048804330
+    second: Rempart_1_109
+  - first:
+      213: -8618082004491944144
+    second: Rempart_1_110
+  - first:
+      213: -8856139031226491907
+    second: Rempart_1_111
+  - first:
+      213: 8001895292460733662
+    second: Rempart_1_112
+  - first:
+      213: -2084902195442633532
+    second: Rempart_1_113
+  - first:
+      213: -5801689158135871349
+    second: Rempart_1_114
+  - first:
+      213: 7984882943909749857
+    second: Rempart_1_115
+  - first:
+      213: 7604700194850091354
+    second: Rempart_1_116
+  - first:
+      213: 7956875373891064354
+    second: Rempart_1_117
+  - first:
+      213: 1693536177528896538
+    second: Rempart_1_118
+  - first:
+      213: 8053524071144826967
+    second: Rempart_1_119
+  - first:
+      213: 5140602525659537199
+    second: Rempart_1_120
+  - first:
+      213: -5899777049924497955
+    second: Rempart_1_121
+  - first:
+      213: 1979584312844185038
+    second: Rempart_1_122
+  - first:
+      213: 6644776594613318815
+    second: Rempart_1_123
+  - first:
+      213: 749721007848683004
+    second: Rempart_1_124
+  - first:
+      213: 5807677405181463446
+    second: Rempart_1_125
+  - first:
+      213: -1911044000053737250
+    second: Rempart_1_126
+  - first:
+      213: 4636143079521888862
+    second: Rempart_1_127
+  - first:
+      213: -1716415707532103807
+    second: Rempart_1_128
+  - first:
+      213: 4168296807372125228
+    second: Rempart_1_129
+  - first:
+      213: -8664127514657228128
+    second: Rempart_1_130
+  - first:
+      213: 8598589005414958869
+    second: Rempart_1_131
+  - first:
+      213: 6300917632971385272
+    second: Rempart_1_132
+  - first:
+      213: -3895695197449564591
+    second: Rempart_1_133
+  - first:
+      213: 6721512514161473121
+    second: Rempart_1_134
+  - first:
+      213: 3267028667247302203
+    second: Rempart_1_135
+  - first:
+      213: 6319483719273317324
+    second: Rempart_1_136
+  - first:
+      213: -2255780458289924856
+    second: Rempart_1_137
+  - first:
+      213: -6451880997259118180
+    second: Rempart_1_138
+  - first:
+      213: 1807175360845594257
+    second: Rempart_1_139
+  - first:
+      213: 1690976701076102114
+    second: Rempart_1_140
+  - first:
+      213: -511123168102659816
+    second: Rempart_1_141
+  - first:
+      213: 3172795473788126950
+    second: Rempart_1_142
+  - first:
+      213: 1241007481006900680
+    second: Rempart_1_143
+  - first:
+      213: 6909037526045313632
+    second: Rempart_1_144
+  - first:
+      213: -3275020153957308842
+    second: Rempart_1_145
+  - first:
+      213: -8343821876992977691
+    second: Rempart_1_146
+  - first:
+      213: -8895643194762490768
+    second: Rempart_1_147
+  - first:
+      213: 3720957473643945285
+    second: Rempart_1_148
+  - first:
+      213: -740101214337269998
+    second: Rempart_1_149
+  - first:
+      213: -176128319240416878
+    second: Rempart_1_150
+  - first:
+      213: 3697205606804501561
+    second: Rempart_1_151
+  - first:
+      213: -9218640087540677401
+    second: Rempart_1_152
+  - first:
+      213: -3586687497286954062
+    second: Rempart_1_153
+  - first:
+      213: -8334578944844475074
+    second: Rempart_1_154
+  - first:
+      213: 6848538074520698424
+    second: Rempart_1_155
+  - first:
+      213: -8059690639136006714
+    second: Rempart_1_156
+  - first:
+      213: 3633050197836478625
+    second: Rempart_1_157
+  - first:
+      213: -8766557802659498574
+    second: Rempart_1_158
+  - first:
+      213: -2675794262215067765
+    second: Rempart_1_159
+  - first:
+      213: -8373338306931279624
+    second: Rempart_1_160
+  - first:
+      213: 142853784299684203
+    second: Rempart_1_161
+  - first:
+      213: 2918055863669938384
+    second: Rempart_1_162
+  - first:
+      213: 8174349641932859904
+    second: Rempart_1_163
+  - first:
+      213: -617648448945072224
+    second: Rempart_1_164
+  - first:
+      213: -5549440472292853567
+    second: Rempart_1_165
+  - first:
+      213: 8379453332330456609
+    second: Rempart_1_166
+  - first:
+      213: 4945027540833860067
+    second: Rempart_1_167
+  - first:
+      213: -1733319856936137061
+    second: Rempart_1_168
+  - first:
+      213: 7628068329347537439
+    second: Rempart_1_169
+  - first:
+      213: -2085552257817937053
+    second: Rempart_1_170
+  - first:
+      213: -4114281988447897406
+    second: Rempart_1_171
+  - first:
+      213: -7537490287142369897
+    second: Rempart_1_196
+  - first:
+      213: 4670811356851004887
+    second: Rempart_1_197
+  - first:
+      213: -6055809813402749090
+    second: Rempart_1_198
+  - first:
+      213: -5693117598985089735
+    second: Rempart_1_199
+  - first:
+      213: -5720504792467146369
+    second: Rempart_1_200
+  - first:
+      213: 1252341897069848311
+    second: Rempart_1_201
+  - first:
+      213: 1045272822825020527
+    second: Rempart_1_202
+  - first:
+      213: -1375648335170540821
+    second: Rempart_1_203
+  - first:
+      213: -9175037347086696583
+    second: Rempart_1_204
+  - first:
+      213: -4171196535818842876
+    second: Rempart_1_205
+  - first:
+      213: 4596898565093870734
+    second: Rempart_1_206
+  - first:
+      213: 5299812858799588170
+    second: Rempart_1_207
+  - first:
+      213: -4375130359110583624
+    second: Rempart_1_208
+  - first:
+      213: 7615273904465814675
+    second: Rempart_1_209
+  - first:
+      213: -4498075666475959865
+    second: Rempart_1_210
+  - first:
+      213: 3542445846566651568
+    second: Rempart_1_211
+  - first:
+      213: 4127253557353708064
+    second: Rempart_1_212
+  - first:
+      213: 5810449657529562187
+    second: Rempart_1_213
+  - first:
+      213: -921767513426083928
+    second: Rempart_1_214
+  - first:
+      213: -6985757124318455791
+    second: Rempart_1_215
+  - first:
+      213: 7439830087370313319
+    second: Rempart_1_216
+  - first:
+      213: 1996168489651498886
+    second: Rempart_1_217
+  - first:
+      213: -85597094714323142
+    second: Rempart_1_218
+  - first:
+      213: -6866663838995499108
+    second: Rempart_1_219
+  - first:
+      213: 2435548553527367204
+    second: Rempart_1_220
+  - first:
+      213: 6313804543112049120
+    second: Rempart_1_221
+  - first:
+      213: 6327181634282495335
+    second: Rempart_1_222
+  - first:
+      213: -8587472720575826317
+    second: Rempart_1_223
+  - first:
+      213: 5746315868937412393
+    second: Rempart_1_224
+  - first:
+      213: 6044505957149008956
+    second: Rempart_1_225
+  - first:
+      213: 8438151432660655533
+    second: Rempart_1_226
+  - first:
+      213: -4836355049955326908
+    second: Rempart_1_227
+  - first:
+      213: -1972502104810984558
+    second: Rempart_1_228
+  - first:
+      213: -2638695283475692075
+    second: Rempart_1_229
+  - first:
+      213: -3781728002485763262
+    second: Rempart_1_230
+  - first:
+      213: 6860219897955218405
+    second: Rempart_1_231
+  - first:
+      213: 7384242503073995338
+    second: Rempart_1_232
+  - first:
+      213: -4202290214235344325
+    second: Rempart_1_233
+  - first:
+      213: -4269707697517891396
+    second: Rempart_1_234
+  - first:
+      213: 5574724921530967275
+    second: Rempart_1_235
+  - first:
+      213: 8754328271515655145
+    second: Rempart_1_236
+  - first:
+      213: 3007764514203120977
+    second: Rempart_1_237
+  - first:
+      213: -7431226046991230761
+    second: Rempart_1_238
+  - first:
+      213: 184147553898579163
+    second: Rempart_1_239
+  - first:
+      213: 2374016054236641600
+    second: Rempart_1_240
+  - first:
+      213: -6644582508474828575
+    second: Rempart_1_241
+  - first:
+      213: -4844610679290138834
+    second: Rempart_1_242
+  - first:
+      213: 6048966806248102108
+    second: Rempart_1_243
+  - first:
+      213: 5467089078725867158
+    second: Rempart_1_244
+  - first:
+      213: 3234274364217868304
+    second: Rempart_1_245
+  - first:
+      213: -2994707682053085618
+    second: Rempart_1_246
+  - first:
+      213: 3757296684021239724
+    second: Rempart_1_247
+  - first:
+      213: 5041329691485329267
+    second: Rempart_1_248
+  - first:
+      213: 8976809902815980821
+    second: Rempart_1_249
+  - first:
+      213: 2403321158882244371
+    second: Rempart_1_250
+  - first:
+      213: -7954669578644256509
+    second: Rempart_1_251
+  - first:
+      213: -1722559857445203335
+    second: Rempart_1_252
+  - first:
+      213: 1982333545660633544
+    second: Rempart_1_253
+  - first:
+      213: -1855286632833692515
+    second: Rempart_1_254
+  - first:
+      213: 243742150746389514
+    second: Rempart_1_255
+  - first:
+      213: -6941478373456881718
+    second: Rempart_1_256
+  - first:
+      213: 580794110038181355
+    second: Rempart_1_257
+  - first:
+      213: 9143755274593882487
+    second: Rempart_1_258
+  - first:
+      213: 3337997623161530775
+    second: Rempart_1_259
+  - first:
+      213: -2595703602406885328
+    second: Rempart_1_260
+  - first:
+      213: -8207046207144750323
+    second: Rempart_1_261
+  - first:
+      213: 2020920177533245690
+    second: Rempart_1_262
+  - first:
+      213: -4464751118518707215
+    second: Rempart_1_263
+  - first:
+      213: -7240426514559037899
+    second: Rempart_1_264
+  - first:
+      213: 7234528785193401731
+    second: Rempart_1_265
+  - first:
+      213: 2903418200814841247
+    second: Rempart_1_266
+  - first:
+      213: -9089453487858993916
+    second: Rempart_1_267
+  - first:
+      213: 7009741533547233421
+    second: Rempart_1_268
+  - first:
+      213: 255996546055903374
+    second: Rempart_1_269
+  - first:
+      213: -611631101698842716
+    second: Rempart_1_270
+  - first:
+      213: 4724761311649882311
+    second: Rempart_1_271
+  - first:
+      213: -727472497367216698
+    second: Rempart_1_272
+  - first:
+      213: 8152074117203297736
+    second: Rempart_1_273
+  - first:
+      213: 5859098904469690739
+    second: Rempart_1_274
+  - first:
+      213: 3661670888165264427
+    second: Rempart_1_275
+  - first:
+      213: -5327485816363840946
+    second: Rempart_1_276
+  - first:
+      213: 5137888858462125750
+    second: Rempart_1_277
+  - first:
+      213: -6046767736278826958
+    second: Rempart_1_278
+  - first:
+      213: -1616933973358325384
+    second: Rempart_1_279
+  - first:
+      213: -2406499124703640531
+    second: Rempart_1_280
+  - first:
+      213: -7718028149387562182
+    second: Rempart_1_281
+  - first:
+      213: -5838320955020941988
+    second: Rempart_1_282
+  - first:
+      213: -9043246912781755240
+    second: Rempart_1_283
+  - first:
+      213: -6637349974565621436
+    second: Rempart_1_284
+  - first:
+      213: -4095698417674073104
+    second: Rempart_1_285
+  - first:
+      213: 995848838840699969
+    second: Rempart_1_286
+  - first:
+      213: 8672934174910743389
+    second: Rempart_1_287
+  - first:
+      213: 6203959727164942965
+    second: Rempart_1_288
+  - first:
+      213: 363209890655890052
+    second: Rempart_1_289
+  - first:
+      213: 8538039472203011123
+    second: Rempart_1_290
+  - first:
+      213: 7940173168168094145
+    second: Rempart_1_291
+  - first:
+      213: -1843217331601463037
+    second: Rempart_1_292
+  - first:
+      213: -2964420661352003891
+    second: Rempart_1_293
+  - first:
+      213: -5243126459232766050
+    second: Rempart_1_294
+  - first:
+      213: -2386466503598097601
+    second: Rempart_1_295
+  - first:
+      213: 614967032333040341
+    second: Rempart_1_296
+  - first:
+      213: 3266674360379917026
+    second: Rempart_1_297
+  - first:
+      213: 8939647763339524589
+    second: Rempart_1_298
+  - first:
+      213: -6890578037578712219
+    second: Rempart_1_299
+  - first:
+      213: -1314821411468130577
+    second: Rempart_1_300
+  - first:
+      213: -6620212244840519033
+    second: Rempart_1_301
+  - first:
+      213: -8256300881125092985
+    second: Rempart_1_302
+  - first:
+      213: -5550786799136183897
+    second: Rempart_1_303
+  - first:
+      213: -2530419685921507733
+    second: Rempart_1_304
+  - first:
+      213: 4419066475059464178
+    second: Rempart_1_305
+  - first:
+      213: 233804794391221850
+    second: Rempart_1_306
+  - first:
+      213: -906203406530415604
+    second: Rempart_1_307
+  - first:
+      213: -7769192018440333288
+    second: Rempart_1_308
+  - first:
+      213: -9086287952051172118
+    second: Rempart_1_309
+  - first:
+      213: 5949318199311678732
+    second: Rempart_1_310
+  - first:
+      213: -1337006439443188334
+    second: Rempart_1_311
+  - first:
+      213: 51561094150629112
+    second: Rempart_1_312
+  - first:
+      213: 6316465084841175157
+    second: Rempart_1_313
+  - first:
+      213: -1279396403602551474
+    second: Rempart_1_314
+  - first:
+      213: 2311073422996274959
+    second: Rempart_1_315
+  - first:
+      213: 4129470028549599357
+    second: Rempart_1_316
+  - first:
+      213: -653589239667101952
+    second: Rempart_1_317
+  - first:
+      213: 3019494237815773173
+    second: Rempart_1_318
+  - first:
+      213: -4404032325801494977
+    second: Rempart_1_319
+  - first:
+      213: -5939884245063428776
+    second: Rempart_1_320
+  - first:
+      213: 1123808312874164113
+    second: Rempart_1_321
+  - first:
+      213: 1785207303426431715
+    second: Rempart_1_322
+  - first:
+      213: -938324694063530520
+    second: Rempart_1_323
+  - first:
+      213: -2037957477825743413
+    second: Rempart_1_324
+  - first:
+      213: 4318122459386906577
+    second: Rempart_1_325
+  - first:
+      213: 444629579347793878
+    second: Rempart_1_326
+  - first:
+      213: -8458463293845675107
+    second: Rempart_1_327
+  - first:
+      213: 6223266340435029352
+    second: Rempart_1_328
+  - first:
+      213: 6729222730203194097
+    second: Rempart_1_329
+  - first:
+      213: 4793675232560581984
+    second: Rempart_1_330
+  - first:
+      213: -7355743760910087076
+    second: Rempart_1_331
+  - first:
+      213: 4712205642285533968
+    second: Rempart_1_332
+  - first:
+      213: -7189542445719190087
+    second: Rempart_1_333
+  - first:
+      213: -2847869114394316256
+    second: Rempart_1_334
+  - first:
+      213: 5285420570025522078
+    second: Rempart_1_335
+  - first:
+      213: 8952198386324506359
+    second: Rempart_1_336
+  - first:
+      213: 9007507350468060904
+    second: Rempart_1_337
+  - first:
+      213: 3525903181058045370
+    second: Rempart_1_338
+  - first:
+      213: 2844022888685822606
+    second: Rempart_1_339
+  - first:
+      213: -6440682808918905834
+    second: Rempart_1_340
+  - first:
+      213: 4380118823951959041
+    second: Rempart_1_341
+  - first:
+      213: 9027878597093341201
+    second: Rempart_1_342
+  - first:
+      213: -3417579602864440818
+    second: Rempart_1_343
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rempart_1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041fec4d58a211660800000000000000
+      internalID: 7354706420762079552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faebb8c80130b4c0800000000000000
+      internalID: -4273862132577342734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c2e54f0f45937f0800000000000000
+      internalID: -632380878800147349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f468f4476ba7eb0800000000000000
+      internalID: -4721260648677880018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e264a4d78e33d310800000000000000
+      internalID: 1428554259915629285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e1dc9e6b06fc90800000000000000
+      internalID: -7136503989816662713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2cc8050361b1a20800000000000000
+      internalID: 3034043170729804481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b91acd1fafcc390800000000000000
+      internalID: -7796580938189530329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f940bf211be6b7280800000000000000
+      internalID: -9044513719836801889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac9ddd989d8dea0800000000000000
+      internalID: -5847684929984804349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e511c4de6a3d88e00800000000000000
+      internalID: 1047319627262857566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea8403c2f69aba70800000000000000
+      internalID: 8843546787693497060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccd9185f03e55930800000000000000
+      internalID: 4131457888224402639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_37
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef3416c0d4897c10800000000000000
+      internalID: 2051817137455251434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_38
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0746af5cc2f90510800000000000000
+      internalID: 1516009709178865423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_39
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673c17cde35963320800000000000000
+      internalID: 2537379537288807286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ebbea421ff29c0800000000000000
+      internalID: -3949673208327968567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d3cc667d2df4b50800000000000000
+      internalID: 6579709403196046611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_42
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c23a5c3ffe307ef0800000000000000
+      internalID: -112520724734135613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_43
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964c100cfe5e4d890800000000000000
+      internalID: -7434064267000560535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da36fc52bb8e0fdb0800000000000000
+      internalID: -4760048915639737427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_45
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4a9154b69e0c620800000000000000
+      internalID: 2792488415899788481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7099de4f37f38ddd0800000000000000
+      internalID: -2461147429094975225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_47
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa6be80b25e50d50800000000000000
+      internalID: 6703015593406851755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8fe499ad59667a0800000000000000
+      internalID: -6384250655643600695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8a0abea5fa5e610800000000000000
+      internalID: 1649917643536246990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ade855273a4d150800000000000000
+      internalID: 5896517523591846489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bac848a21130f130800000000000000
+      internalID: 3598430058471541425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250f39e2cb53ec9c0800000000000000
+      internalID: -3905124744532070318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bdf40117d7367a50800000000000000
+      internalID: 6518458907508407736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_54
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1e84bffddf9e820800000000000000
+      internalID: 2948166569526092251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d9e5b8796f37d60800000000000000
+      internalID: 7886918503194598697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_56
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5360e8b934c91110800000000000000
+      internalID: 1232231725256434527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_57
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5981563759f33e0800000000000000
+      internalID: -2071772980717251159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_58
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b71ff3a5b74d3d60800000000000000
+      internalID: 7871526569179551666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_59
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88116d996b1dbdfd0800000000000000
+      internalID: -2316027001156791928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca00b48861f3e1ea0800000000000000
+      internalID: -5900209095800323924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_61
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e78dbf560ca94f0800000000000000
+      internalID: -821132437792194919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_62
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46be3a89c7b1f6750800000000000000
+      internalID: 6300284625665387364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_63
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9c030f330358b80800000000000000
+      internalID: -8393249330903856653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863e9248ec26d69f0800000000000000
+      internalID: -473613746683911320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_65
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e4c85c54a106f80800000000000000
+      internalID: -8115457641552261565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff939dc54f85714a0800000000000000
+      internalID: -6622726920472020481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_67
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2b479ccbb768b60800000000000000
+      internalID: 7748016259701453477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_68
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c58e5960a2eac900800000000000000
+      internalID: 705625470227350976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_69
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcc83806c79fcd00800000000000000
+      internalID: 995180919469427920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a3b509c3c5fd3b0800000000000000
+      internalID: -5485564405924283789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_71
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820e8284a9da693c0800000000000000
+      internalID: -4353101111659798488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc159265191844fa0800000000000000
+      internalID: -5817382357440048691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_73
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d81f8e65732dc490800000000000000
+      internalID: -7724478798597515053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea37e639c140eda0800000000000000
+      internalID: -5917657577899476242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_75
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d02c58484c5be40800000000000000
+      internalID: 5671655379201822093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ed06b385dd9e3e0800000000000000
+      internalID: -2023843186503262720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_77
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da715523109b1490800000000000000
+      internalID: -7774461919820154151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_78
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f151c4c5d0d967d0800000000000000
+      internalID: -2924576866452811277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_79
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1a9a4f5d11072b0800000000000000
+      internalID: -5588947526936321564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282a1a5dbd390db20800000000000000
+      internalID: 3157185911177978498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_81
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37c39b2b2893bf10800000000000000
+      internalID: 2284336747189094204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_82
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0556b5f01207970800000000000000
+      internalID: 8750530425822466247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_83
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb88a5b7483e690800000000000000
+      internalID: -7574064482972287403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5a37732e1d8f060800000000000000
+      internalID: 6987565591388464582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_85
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c5560c3dad6d710800000000000000
+      internalID: 1717800910889245839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_86
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83a9ab53fb065a80800000000000000
+      internalID: -8478576108635577457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_87
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f7a5bdde15b0d80800000000000000
+      internalID: -8283437007588655222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eabf7a045af3300800000000000000
+      internalID: 234087402761334295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_89
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1283421b786c11150800000000000000
+      internalID: 5841668477771069473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca71c5750da2c4890800000000000000
+      internalID: -7472550607407278164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2236f92651c4e68a0800000000000000
+      internalID: -6310022373166849246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88025a7bf3ab2fc10800000000000000
+      internalID: 2085934360252719240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d304201b6d4fdacb0800000000000000
+      internalID: -4850952020678262723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86df1b2bc98865bc0800000000000000
+      internalID: -3794695429418779288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f53fcb334c982f0800000000000000
+      internalID: -970028518229188726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f198820868c1c480800000000000000
+      internalID: -8880596641153248782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638490390c3a71200800000000000000
+      internalID: 150769160036108342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_98
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: befdc02a803d86020800000000000000
+      internalID: 2335348440823554027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_99
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65df9044454e3e640800000000000000
+      internalID: 5108177452938165590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d1fe9ccbeece720800000000000000
+      internalID: 2876936756592057612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_101
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2541c335f1190ea0800000000000000
+      internalID: -5906169691486730965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_102
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a141a7ef644a2b40800000000000000
+      internalID: 5416216749284606375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_103
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec098d79457c1580800000000000000
+      internalID: -8855073808818041620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ee4d91cf5904dcd0800000000000000
+      internalID: -2534390383427891481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_105
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611c71cdb9e0a8900800000000000000
+      internalID: 687377955702685974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_106
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1f7a1887acacc50800000000000000
+      internalID: 6686379215705076201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_107
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e18a8adc4fbf2e60800000000000000
+      internalID: 7939775004882403811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_108
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9164beebb9a762c90800000000000000
+      internalID: -7194928545336179175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9f570557f67a90800000000000000
+      internalID: -7316388600048804330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_110
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f3215d31c666880800000000000000
+      internalID: -8618082004491944144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_111
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbd542197ca81580800000000000000
+      internalID: -8856139031226491907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed41ef46f517c0f60800000000000000
+      internalID: 8001895292460733662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_113
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4b531ef70f013e0800000000000000
+      internalID: -2084902195442633532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88831803724c7fa0800000000000000
+      internalID: -5801689158135871349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_115
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164e0d45bb000de60800000000000000
+      internalID: 7984882943909749857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_116
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5132692982598960800000000000000
+      internalID: 7604700194850091354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_117
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22294d6ceff7c6e60800000000000000
+      internalID: 7956875373891064354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1cf1e34e26a08710800000000000000
+      internalID: 1693536177528896538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_119
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75825aa297dd3cf60800000000000000
+      internalID: 8053524071144826967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_120
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f9961d2c6175740800000000000000
+      internalID: 5140602525659537199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_121
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd8f3d0808cf1ea0800000000000000
+      internalID: -5899777049924497955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_122
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd630ab175e87b10800000000000000
+      internalID: 1979584312844185038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_123
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94b1c57b1df63c50800000000000000
+      internalID: 6644776594613318815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5f771d84b876a00800000000000000
+      internalID: 749721007848683004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b47e164d3099050800000000000000
+      internalID: 5807677405181463446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8c7aa6b9b9a75e0800000000000000
+      internalID: -1911044000053737250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5aa9c64193e65040800000000000000
+      internalID: 4636143079521888862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fe5a902011e28e0800000000000000
+      internalID: -1716415707532103807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c247fc99cd3c8d930800000000000000
+      internalID: 4168296807372125228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aafa201ee5d2c780800000000000000
+      internalID: -8664127514657228128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5178655a423545770800000000000000
+      internalID: 8598589005414958869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b92148143b517750800000000000000
+      internalID: 6300917632971385272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ec2d2bbd5bfe9c0800000000000000
+      internalID: -3895695197449564591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166ffeff40c974d50800000000000000
+      internalID: 6721512514161473121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b361b4e6341d65d20800000000000000
+      internalID: 3267028667247302203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3862be5f053b750800000000000000
+      internalID: 6319483719273317324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_137
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8057c54ff9bd1b0e0800000000000000
+      internalID: -2255780458289924856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c99f641aa605676a0800000000000000
+      internalID: -6451880997259118180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_139
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e3a067a60641910800000000000000
+      internalID: 1807175360845594257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_140
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb5a17b95e877710800000000000000
+      internalID: 1690976701076102114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_141
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819c4c8cf2028e8f0800000000000000
+      internalID: -511123168102659816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_142
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6cb185ca8080c20800000000000000
+      internalID: 3172795473788126950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_143
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5c4059ab1f83110800000000000000
+      internalID: 1241007481006900680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_144
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a46c73605d1ef50800000000000000
+      internalID: 6909037526045313632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_145
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6562123958acc82d0800000000000000
+      internalID: -3275020153957308842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_146
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e453b8d53ac43c80800000000000000
+      internalID: -8343821876992977691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_147
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c8f8f35a35c8480800000000000000
+      internalID: -8895643194762490768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dd1e89b1f73a330800000000000000
+      internalID: 3720957473643945285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_149
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21f7795edd1aab5f0800000000000000
+      internalID: -740101214337269998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_150
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291d9c01a344e8df0800000000000000
+      internalID: -176128319240416878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9343a2729ec1f4330800000000000000
+      internalID: 3697205606804501561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_152
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e446fdceafc01080800000000000000
+      internalID: -9218640087540677401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b350eb69b6893ec0800000000000000
+      internalID: -3586687497286954062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355810bb90a55c80800000000000000
+      internalID: -8334578944844475074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_155
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e3b8af715ea0f50800000000000000
+      internalID: 6848538074520698424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cdd1c6d01a362090800000000000000
+      internalID: -8059690639136006714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_157
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8b43df7ef2b6230800000000000000
+      internalID: 3633050197836478625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_158
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b53d8d202ee65680800000000000000
+      internalID: -8766557802659498574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_159
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8774a4ab4baddad0800000000000000
+      internalID: -2675794262215067765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8b0377c2debcb80800000000000000
+      internalID: -8373338306931279624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_161
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61c00c82c48bf100800000000000000
+      internalID: 142853784299684203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_162
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8dac4f8540f7820800000000000000
+      internalID: 2918055863669938384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_163
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00aef3590bf117170800000000000000
+      internalID: 8174349641932859904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7de84120cad67f0800000000000000
+      internalID: -617648448945072224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_165
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8fecaea4d6cf2b0800000000000000
+      internalID: -5549440472292853567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_166
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1262585d86cc94470800000000000000
+      internalID: 8379453332330456609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_167
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9fce7395440a440800000000000000
+      internalID: 4945027540833860067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_168
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ec03d06c202f7e0800000000000000
+      internalID: -1733319856936137061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_169
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ada25fab75cd960800000000000000
+      internalID: 7628068329347537439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_170
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b7f307541ae03e0800000000000000
+      internalID: -2085552257817937053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_171
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c876c4745227e6c0800000000000000
+      internalID: -4114281988447897406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7950ce8e484756790800000000000000
+      internalID: -7537490287142369897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_197
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5e6f99e2e02d040800000000000000
+      internalID: 4670811356851004887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_198
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57fdcc4f0175fba0800000000000000
+      internalID: -6055809813402749090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_199
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d08f705bbfdf0b0800000000000000
+      internalID: -5693117598985089735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_200
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f797315233fac90b0800000000000000
+      internalID: -5720504792467146369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_201
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ef28f156316110800000000000000
+      internalID: 1252341897069848311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cead1281e818e00800000000000000
+      internalID: 1045272822825020527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_203
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea6d4ea027b8ece0800000000000000
+      internalID: -1375648335170540821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_204
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f74fde428bba080800000000000000
+      internalID: -9175037347086696583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_205
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d8d22c9deec16c0800000000000000
+      internalID: -4171196535818842876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_206
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c4ce8b3e67bcf30800000000000000
+      internalID: 4596898565093870734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_207
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a430cc827b7bc8940800000000000000
+      internalID: 5299812858799588170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_208
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8babf2b6e1a6843c0800000000000000
+      internalID: -4375130359110583624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_209
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394acf6c443eea960800000000000000
+      internalID: 7615273904465814675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_210
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c93fde5300a391c0800000000000000
+      internalID: -4498075666475959865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_211
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c9a09abb492130800000000000000
+      internalID: 3542445846566651568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02af8084e33f64930800000000000000
+      internalID: 4127253557353708064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_213
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44f65ead2dd2a050800000000000000
+      internalID: 5810449657529562187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_214
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af3ebc84593533f0800000000000000
+      internalID: -921767513426083928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_215
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11818d558ea9d0f90800000000000000
+      internalID: -6985757124318455791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e88faeb069f3760800000000000000
+      internalID: 7439830087370313319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_217
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f61894aa0d3bb10800000000000000
+      internalID: 1996168489651498886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_218
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f4fb755e5efcef0800000000000000
+      internalID: -85597094714323142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_219
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9737ac9e95b4b0a0800000000000000
+      internalID: -6866663838995499108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_220
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426173e518eccc120800000000000000
+      internalID: 2435548553527367204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_221
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1f07da7c32f9750800000000000000
+      internalID: 6313804543112049120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d98cc6c2aaec750800000000000000
+      internalID: 6327181634282495335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_223
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37678bb1f0b23d880800000000000000
+      internalID: -8587472720575826317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_224
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f543766d30fbf40800000000000000
+      internalID: 5746315868937412393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_225
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c346992942662e350800000000000000
+      internalID: 6044505957149008956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_226
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad11b055065a1570800000000000000
+      internalID: 8438151432660655533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_227
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4440fb7c4b0d1ecb0800000000000000
+      internalID: -4836355049955326908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_228
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29be70459c340a4e0800000000000000
+      internalID: -1972502104810984558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_229
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ceedbe98716bd0800000000000000
+      internalID: -2638695283475692075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_230
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24340be0b6a948bc0800000000000000
+      internalID: -3781728002485763262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_231
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3ffa276a5643f50800000000000000
+      internalID: 6860219897955218405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_232
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a1113ee691a7660800000000000000
+      internalID: 7384242503073995338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_233
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32f66990577ea5c0800000000000000
+      internalID: -4202290214235344325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_234
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb0f1b29873feb4c0800000000000000
+      internalID: -4269707697517891396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_235
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4ee5ca7c66d5d40800000000000000
+      internalID: 5574724921530967275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_236
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb99d63e2f9d7970800000000000000
+      internalID: 8754328271515655145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_237
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1553a1dc3e9bdb920800000000000000
+      internalID: 3007764514203120977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_238
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d81577584bfed890800000000000000
+      internalID: -7431226046991230761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_239
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4c16089393e8200800000000000000
+      internalID: 184147553898579163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_240
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04979d3f50332f020800000000000000
+      internalID: 2374016054236641600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_241
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8759db963b9c3a0800000000000000
+      internalID: -6644582508474828575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_242
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe8d9414c74ccb0800000000000000
+      internalID: -4844610679290138834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_243
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd81c80f24f32f350800000000000000
+      internalID: 6048966806248102108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_244
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6967fdc1d800fdb40800000000000000
+      internalID: 5467089078725867158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_245
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010cb59f56372ec20800000000000000
+      internalID: 3234274364217868304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_246
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e46a715da39a076d0800000000000000
+      internalID: -2994707682053085618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_247
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafc6d65d69942430800000000000000
+      internalID: 3757296684021239724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_248
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377dc90f4a666f540800000000000000
+      internalID: 5041329691485329267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_249
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d2e81ab09049c70800000000000000
+      internalID: 8976809902815980821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_250
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3173b545cdf4a5120800000000000000
+      internalID: 2403321158882244371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_251
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3098d43f9265b9190800000000000000
+      internalID: -7954669578644256509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_252
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97291a8afec3818e0800000000000000
+      internalID: -1722559857445203335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_253
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1517f5bd9a28b10800000000000000
+      internalID: 1982333545660633544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_254
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cca6d13a2b046e0800000000000000
+      internalID: -1855286632833692515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_255
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c3708d132f16300800000000000000
+      internalID: 243742150746389514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7db06623aeaaf90800000000000000
+      internalID: -6941478373456881718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_257
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be507787a256f0800800000000000000
+      internalID: 580794110038181355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_258
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771d54ff9f425ee70800000000000000
+      internalID: 9143755274593882487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_259
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79924ad1723f25e20800000000000000
+      internalID: 3337997623161530775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_260
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038f55483553afbd0800000000000000
+      internalID: -2595703602406885328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_261
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d039be715f6ba1e80800000000000000
+      internalID: -8207046207144750323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_262
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8d945b130cb0c10800000000000000
+      internalID: 2020920177533245690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_263
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb1a2253840a02c0800000000000000
+      internalID: -4464751118518707215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_264
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e83694276d48b90800000000000000
+      internalID: -7240426514559037899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_265
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d7ac69995366460800000000000000
+      internalID: 7234528785193401731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_266
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9de8fd78730b4820800000000000000
+      internalID: 2903418200814841247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_267
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405bab5f536cbd180800000000000000
+      internalID: -9089453487858993916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_268
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80826a19ca974160800000000000000
+      internalID: 7009741533547233421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_269
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e889367908b7d8300800000000000000
+      internalID: 255996546055903374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_270
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afd8a9e0cc0387f0800000000000000
+      internalID: -611631101698842716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_271
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0666d4169b19140800000000000000
+      internalID: 4724761311649882311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_272
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd8f823e9f77e5f0800000000000000
+      internalID: -727472497367216698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_273
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c50f82d73cf12170800000000000000
+      internalID: 8152074117203297736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_274
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379dbc82963bf4150800000000000000
+      internalID: 5859098904469690739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_275
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cca7db54ed0d230800000000000000
+      internalID: 3661670888165264427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_276
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a83b150e7f016b0800000000000000
+      internalID: -5327485816363840946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_277
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be7210f1b27d4740800000000000000
+      internalID: 5137888858462125750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_278
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230cecfe7c0951ca0800000000000000
+      internalID: -6046767736278826958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_279
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87157bc3e1f7f89e0800000000000000
+      internalID: -1616933973358325384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_280
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2440c7dbc56a9ed0800000000000000
+      internalID: -2406499124703640531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_281
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33f94d3a4e04e490800000000000000
+      internalID: -7718028149387562182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_282
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55e14f260e1afea0800000000000000
+      internalID: -5838320955020941988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_283
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89cde7398deef7280800000000000000
+      internalID: -9043246912781755240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_284
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44171144d5563e3a0800000000000000
+      internalID: -6637349974565621436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_285
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb48633df72927c0800000000000000
+      internalID: -4095698417674073104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_286
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cc5112e37f1dd00800000000000000
+      internalID: 995848838840699969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_287
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5386ef4ea37c5870800000000000000
+      internalID: 8672934174910743389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_288
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57aee7a7084e81650800000000000000
+      internalID: 6203959727164942965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_289
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ae37f98716a0500800000000000000
+      internalID: 363209890655890052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_290
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3349cead9a53d7670800000000000000
+      internalID: 8538039472203011123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_291
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c94fb77d69213e60800000000000000
+      internalID: 7940173168168094145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_292
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3092d0a4a939b66e0800000000000000
+      internalID: -1843217331601463037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_293
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6094b5d134cd6d0800000000000000
+      internalID: -2964420661352003891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_294
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97bafcb34cac37b0800000000000000
+      internalID: -5243126459232766050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_295
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bbaa8eb5191eed0800000000000000
+      internalID: -2386466503598097601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_296
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da79c6f14dc88800800000000000000
+      internalID: 614967032333040341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_297
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2425fe50f855d20800000000000000
+      internalID: 3266674360379917026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_298
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9b7f6c642001c70800000000000000
+      internalID: 8939647763339524589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_299
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b330d58cfbf50a0800000000000000
+      internalID: -6890578037578712219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_300
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64d5a74e0d0cde0800000000000000
+      internalID: -1314821411468130577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_301
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ae698e9084024a0800000000000000
+      internalID: -6620212244840519033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_302
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7815bc5a71abb6d80800000000000000
+      internalID: -8256300881125092985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_303
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a96f85c0d4a7f2b0800000000000000
+      internalID: -5550786799136183897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_304
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b663effc3b422ecd0800000000000000
+      internalID: -2530419685921507733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_305
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7c1ccbb8da35d30800000000000000
+      internalID: 4419066475059464178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_306
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56d874c834ae3300800000000000000
+      internalID: 233804794391221850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_307
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0471839dc48c63f0800000000000000
+      internalID: -906203406530415604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_308
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818501da5094e2490800000000000000
+      internalID: -7769192018440333288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_309
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec0413bf3507e180800000000000000
+      internalID: -9086287952051172118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_310
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d3db5a169309250800000000000000
+      internalID: 5949318199311678732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_311
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29534922abff17de0800000000000000
+      internalID: -1337006439443188334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_312
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6241dba8e27b000800000000000000
+      internalID: 51561094150629112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_313
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578ad12578798a750800000000000000
+      internalID: 6316465084841175157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_314
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d8b5cdfbbae3ee0800000000000000
+      internalID: -1279396403602551474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_315
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff98b9805921020800000000000000
+      internalID: 2311073422996274959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_316
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d703252bc13de4930800000000000000
+      internalID: 4129470028549599357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_317
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00fef94ac0cfde6f0800000000000000
+      internalID: -653589239667101952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_318
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f71956e20667e920800000000000000
+      internalID: 3019494237815773173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_319
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36b349eeebb1e2c0800000000000000
+      internalID: -4404032325801494977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_320
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8551e0effba419da0800000000000000
+      internalID: -5939884245063428776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_321
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fde74d4b1989f00800000000000000
+      internalID: 1123808312874164113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_322
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea5a23859456c810800000000000000
+      internalID: 1785207303426431715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_323
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edbd5689a66af2f0800000000000000
+      internalID: -938324694063530520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_324
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc578d2b878b7b3e0800000000000000
+      internalID: -2037957477825743413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_325
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d784689f7d0deb30800000000000000
+      internalID: 4318122459386906577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_326
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d718a52f34ab2600800000000000000
+      internalID: 444629579347793878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_327
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93e5a8f2708d9a80800000000000000
+      internalID: -8458463293845675107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_328
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d664ca3cb7d5650800000000000000
+      internalID: 6223266340435029352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_329
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2ee309b60036d50800000000000000
+      internalID: 6729222730203194097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_330
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d8c5dd93e868240800000000000000
+      internalID: 4793675232560581984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_331
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c882895062be990800000000000000
+      internalID: -7355743760910087076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_332
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b4509b01e156140800000000000000
+      internalID: 4712205642285533968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_333
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b58059cc3d993c90800000000000000
+      internalID: -7189542445719190087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_334
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02278bd01265a78d0800000000000000
+      internalID: -2847869114394316256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_335
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93f9ec4106995940800000000000000
+      internalID: 5285420570025522078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_336
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f682b760099c3c70800000000000000
+      internalID: 8952198386324506359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_337
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e66e502638110d70800000000000000
+      internalID: 9007507350468060904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_338
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5726b13468ee030800000000000000
+      internalID: 3525903181058045370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_339
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82e23dbfbff77720800000000000000
+      internalID: 2844022888685822606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_340
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c6c670c191e96a0800000000000000
+      internalID: -6440682808918905834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_341
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10488af0dde49cc30800000000000000
+      internalID: 4380118823951959041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_342
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 118b91790c7794d70800000000000000
+      internalID: 9027878597093341201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rempart_1_343
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0af4a355715290d0800000000000000
+      internalID: -3417579602864440818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
