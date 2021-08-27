@@ -16,11 +16,11 @@ ScriptedImporter:
   _intGridValueColorsVisible: 1
   _useCompositeCollider: 1
   _intGridValues:
-  - _key: Collisions_1
+  - _key: Coast_1
     _asset: {fileID: 11400000, guid: b9e2ffc66ca6f6843a462070f2915eb6, type: 2}
-  - _key: Collisions_2
+  - _key: Coast_2
     _asset: {instanceID: 0}
   _entities: []
-  _enumGenerate: 0
+  _enumGenerate: 1
   _enumPath: 
   _enumNamespace: 
