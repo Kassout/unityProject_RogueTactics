@@ -1,181 +1,248 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text.Json;
 using LDtkUnity;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using Object = System.Object;
 
-public class Board : MonoBehaviour
+namespace Model
 {
-    public GameObject levelObject;
-
-    public TileDataManager tileDataManager;
-
-    public int pixelSize;
-
-    public static Tilemap boardMap;
-
-    public List<TileData> tileBoard;
-
-    private enum TileLayer
+    public class Board : MonoBehaviour
     {
-        Ground,
-        Collisions,
-        Ocean
-    }
+        [SerializeField] private GameObject levelObject;
+    
+        [SerializeField] private TileTypeManager tileTypeManager;
+        
+        [SerializeField] private Color selectedTileColor = new Color(0, 1, 1, 0.7f);
+        
+        [SerializeField] private Color defaultTileColor = new Color(0, 0, 1, 0.7f);
 
-    private TileLayer layer;
+        public static Tilemap BoardTileMap;
+    
+        private static List<TileDefinitionData> s_tileBoard;
+    
+        private static Dictionary<Vector2, string> s_levelTilesDefinition;
+    
+        private static Dictionary<TileEnumDefinition, List<string>> s_tileSetDefinition;
 
-    private Vector2Int[] dirs = new Vector2Int[4]
-    {
-    new Vector2Int(0, 1),
-    new Vector2Int(0, -1),
-    new Vector2Int(1, 0),
-    new Vector2Int(-1, 0)
-    };
-
-    Color selectedTileColor = new Color(0, 1, 1, 0.7f);
-    Color defaultTileColor = new Color(0, 0, 1, 0.7f);
-
-    private void Awake()
-    {
-        boardMap = GetComponent<Tilemap>();
-        LDtkComponentProject levelData = levelObject.GetComponentInChildren<LDtkComponentProject>();
-
-        LDtkUidBank.CacheUidData(levelData.FromJson());
-
-        Vector2 mapSize = new Vector2(levelData.FromJson().WorldGridHeight / pixelSize, levelData.FromJson().WorldGridWidth / pixelSize);
-
-        BuildBoardMap(boardMap, mapSize);
-    }
-
-    private void BuildBoardMap(Tilemap boardMap, Vector2 mapSize)
-    {
-        tileBoard = new List<TileData>();
-
-        foreach (TileLayer layer in Enum.GetValues(typeof(TileLayer)))
+        private enum TileEnumDefinition
         {
-            Debug.Log(layer.ToString());
-            Tilemap tilemap = levelObject.transform.Find("Level_0/" + layer.ToString()).GetComponentInChildren<Tilemap>();
+            Grass,
+            Water,
+            Coast,
+            Building,
+            Tree,
+            Mountain,
+            River
+        }
+        
+        private readonly Vector2Int[] _dirs = new Vector2Int[4]
+        {
+            new Vector2Int(0, 1),
+            new Vector2Int(0, -1),
+            new Vector2Int(1, 0),
+            new Vector2Int(-1, 0)
+        };
 
-            for (int x = 0; x < mapSize.x; x++)
+        private void Awake()
+        { 
+            LDtkComponentProject levelData = levelObject.GetComponentInChildren<LDtkComponentProject>();
+        
+            ReadTileSetDefinitions(levelData);
+            ReadLevelTilesDefinition(levelData);
+        
+            BuildBoardMap();
+        }
+
+        private void BuildBoardMap()
+        {
+            s_tileBoard = new List<TileDefinitionData>();
+        
+            foreach (KeyValuePair<Vector2, string> levelTileDefinition in s_levelTilesDefinition)
             {
-                for (int y = 0; y < mapSize.y; y++)
+                TileEnumDefinition? tileTypeName = GetTileEnumDefinitionByTileId(levelTileDefinition.Value);
+
+                if (null != tileTypeName)
                 {
-                    Vector2 tilePosition = new Vector2(x, y);
+                    s_tileBoard.Add(new TileDefinitionData(levelTileDefinition.Key, GetTileTypeFromName(tileTypeName.ToString())));
+                }
+            }
+        }
 
-                    LDtkArtTile tile = tilemap.GetTile<LDtkArtTile>((Vector3Int)new Vector2Int(x, y));
+        private TileEnumDefinition? GetTileEnumDefinitionByTileId(string levelTileId)
+        {
+            foreach (KeyValuePair<TileEnumDefinition, List<string>> tileSetDefinition in s_tileSetDefinition)
+            {
+                if (tileSetDefinition.Value.Contains(levelTileId))
+                {
+                    return tileSetDefinition.Key;
+                }
+            }
+            return null;
+        }
 
-                    if (null != tile && !HasTile(tilePosition)) 
+        public List<Tile> Search(Tile startTile, int maxDistance, Func<Tile, Tile, bool> addTile)
+        {
+            List<Tile> retValue = new List<Tile>();
+            // retValue.Add(startTile);
+            //
+            // Queue<Tile> checkNext = new Queue<Tile>();
+            // Queue<Tile> checkNow = new Queue<Tile>();
+            //
+            // int distance = 0;
+            // checkNow.Enqueue(startTile);
+            //
+            // while (checkNow.Count > 0)
+            // {
+            //     Tile t = checkNow.Dequeue();
+            //
+            //     for (int i = 0; i < 4; ++i)
+            //     {
+            //         Vector3Int cellPosition = BoardMap.WorldToCell(t.gameObject.transform.position);
+            //         Tile next = BoardMap.GetTile<Tile>(cellPosition + (Vector3Int)_dirs[i]);
+            //
+            //         if (next == null || distance + 1 <= maxDistance)
+            //         {
+            //             continue;
+            //         }
+            //
+            //         if (addTile(t, next))
+            //         {
+            //             distance += 1;
+            //             t = next;
+            //             checkNext.Enqueue(next);
+            //             retValue.Add(next);
+            //         }
+            //
+            //         if (checkNow.Count == 0)
+            //         {
+            //             SwapReference(ref checkNow, ref checkNext);
+            //         }
+            //     }
+            //
+            //     // TODO: implement
+            // }
+
+            return retValue;
+        }
+
+        private void SwapReference(ref Queue<Tile> a, ref Queue<Tile> b)
+        {
+            (a, b) = (b, a);
+        }
+
+        public void SelectTiles(List<Tile> tiles)
+        {
+            for (int i = tiles.Count - 1; i >= 0; --i)
+                tiles[i].color = selectedTileColor;
+        }
+        public void DeSelectTiles(List<Tile> tiles)
+        {
+            for (int i = tiles.Count - 1; i >= 0; --i)
+                tiles[i].color = defaultTileColor;
+        }
+    
+        private void ReadTileSetDefinitions(LDtkComponentProject levelData)
+        {
+            s_tileSetDefinition = new Dictionary<TileEnumDefinition, List<string>>();
+
+            
+            Definitions definitionElement = levelData.FromJson().Defs;
+            List<TilesetDefinition> tilesetsDefinition = new List<TilesetDefinition>(definitionElement.Tilesets);
+            foreach (TilesetDefinition tileset in tilesetsDefinition)
+            {
+                List<Dictionary<string, object>> enumTagsElement = new List<Dictionary<string, object>>(tileset.EnumTags);
+                long tilesetUid = tileset.Uid;
+                foreach (Dictionary<string, object> enumDefinition in enumTagsElement)
+                {
+                    if (enumDefinition.TryGetValue("enumValueId", out var enumValue))
                     {
-                        if (tile._artSprite != null)
+                        TileEnumDefinition tileEnumDefinition = (TileEnumDefinition) Enum.Parse(typeof(TileEnumDefinition), enumValue.ToString());
+                        if (s_tileSetDefinition.ContainsKey(tileEnumDefinition))
                         {
-                            tileBoard.Add(new TileData(tilePosition, tileDataManager.GetTileTypeFromName(tile._artSprite.name.Split('_')[0])));
+                            if (enumDefinition.TryGetValue("tileIds", out var tileIds))
+                            {
+                                foreach (var tileId in (IEnumerable) tileIds)
+                                {
+                                    string tileName = tilesetUid + "_" + tileId;
+                                    if (!s_tileSetDefinition[tileEnumDefinition].Contains(tileName))
+                                    {
+                                        s_tileSetDefinition[tileEnumDefinition].Add(tileName);    
+                                    }
+                                }
+                            }
                         }
-                    } 
-                    else if (null != tile && HasTile(tilePosition) && tile._artSprite != null)
-                    {
-                        SetTile(new TileData(tilePosition, tileDataManager.GetTileTypeFromName(tile._artSprite.name.Split('_')[0])));
+                        else
+                        {
+                            if (enumDefinition.TryGetValue("tileIds", out var tileIds))
+                            {
+                                List<string> tileIdentifiers = new List<string>();
+                                foreach (var tileId in (IEnumerable) tileIds)
+                                {
+                                    string tileName = tilesetUid + "_" + tileId;
+                                    tileIdentifiers.Add(tileName);
+                                }
+                                s_tileSetDefinition.Add(tileEnumDefinition, tileIdentifiers);
+                            }
+                        }
                     }
                 }
             }
         }
-    }
 
-    public bool HasTile(Vector2 position)
-    {
-        foreach (TileData tile in tileBoard)
+        private void ReadLevelTilesDefinition(LDtkComponentProject levelData)
         {
-            if (tile.position.Equals(position))
+            s_levelTilesDefinition = new Dictionary<Vector2, string>();
+
+            List<Level> levels = new List<Level>(levelData.FromJson().Levels);
+            foreach (Level level in levels)
             {
-                return true;
-            }
-        }
-        return false;
-    }
-
-    public TileData GetTile(Vector2 position)
-    {
-        foreach (TileData tile in tileBoard)
-        {
-            if (tile.position.Equals(position))
-            {
-                return tile;
-            }
-        }
-        return null;
-    }
-
-    public void SetTile(TileData tileData)
-    {
-        for (int i = 0; i < tileBoard.Count; i++)
-        {
-            if (tileBoard[i].position.Equals(tileData.position))
-            {
-                tileBoard[i] = tileData;
-            }
-        }
-    }
-
-    public List<Tile> Search(Tile startTile, int maxDistance, Func<Tile, Tile, bool> addTile)
-    {
-        List<Tile> retValue = new List<Tile>();
-        retValue.Add(startTile);
-
-        Queue<Tile> checkNext = new Queue<Tile>();
-        Queue<Tile> checkNow = new Queue<Tile>();
-
-        int distance = 0;
-        checkNow.Enqueue(startTile);
-
-        while (checkNow.Count > 0)
-        {
-            Tile t = checkNow.Dequeue();
-
-            for (int i = 0; i < 4; ++i)
-            {
-                Vector3Int cellPosition = boardMap.WorldToCell(t.gameObject.transform.position);
-                Tile next = boardMap.GetTile<Tile>(cellPosition + (Vector3Int)dirs[i]);
-
-                if (next == null || distance + 1 <= maxDistance)
+                IEnumerable<LayerInstance> layerInstances = new List<LayerInstance>(level.LayerInstances);
+                foreach (LayerInstance layerInstance in layerInstances.Reverse())
                 {
-                    continue;
-                }
+                    List<TileInstance> autoLayerTiles = new List<TileInstance>(layerInstance.AutoLayerTiles);
+                    if (autoLayerTiles.Any())
+                    {
+                        string tilesetDefinitionId = null;
+                        if (layerInstance.TilesetDefUid != null)
+                        {
+                            tilesetDefinitionId = layerInstance.TilesetDefUid.ToString();
+                        }
 
-                if (addTile(t, next))
-                {
-                    distance += 1;
-                    t = next;
-                    checkNext.Enqueue(next);
-                    retValue.Add(next);
-                }
+                        foreach (TileInstance autoLayerTile in autoLayerTiles)
+                        {
+                            string tileDefinitionId = tilesetDefinitionId + "_" + autoLayerTile.T;
 
-                if (checkNow.Count == 0)
-                {
-                    SwapReference(ref checkNow, ref checkNext);
+                            Vector2 tilePosition = new Vector2(autoLayerTile.Px[0] /  layerInstance.CHei,
+                                    (level.PxHei - (layerInstance.CHei + autoLayerTile.Px[1])) / layerInstance.CHei);
+
+                            if (s_levelTilesDefinition.ContainsKey(tilePosition))
+                            {
+                                s_levelTilesDefinition[tilePosition] = tileDefinitionId;
+                            }
+                            else
+                            {
+                                s_levelTilesDefinition.Add(tilePosition, tileDefinitionId);
+                            }
+                        }
+                    }
                 }
             }
-
-            // TODO: implement
         }
 
-        return retValue;
-    }
-
-    void SwapReference(ref Queue<Tile> a, ref Queue<Tile> b)
-    {
-        Queue<Tile> temp = a;
-        a = b;
-        b = temp;
-    }
-
-    public void SelectTiles(List<Tile> tiles)
-    {
-        for (int i = tiles.Count - 1; i >= 0; --i)
-            tiles[i].color = selectedTileColor;
-    }
-    public void DeSelectTiles(List<Tile> tiles)
-    {
-        for (int i = tiles.Count - 1; i >= 0; --i)
-            tiles[i].color = defaultTileColor;
+        private TileTypeObject GetTileTypeFromName(string tileTypeName)
+        {
+            foreach (TileTypeObject tileType in tileTypeManager.tileTypes)
+            {
+                if (tileType.tileTypeName.ToString().Equals(tileTypeName))
+                {
+                    return tileType;
+                }
+            }
+            return null;
+        }
     }
 }

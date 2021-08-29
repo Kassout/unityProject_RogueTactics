@@ -1,5 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44ffc9ad-3474-467c-b76e-af8eb8237166" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Model/TileDefinitionData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TileTypeManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LDTK.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LDTK/Island_1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LDTK/Island_1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LDTK/Island_1.ldtk" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LDTK/Island_1.ldtk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LDTK/Island_1.ldtk.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LDTK/Island_1.ldtk.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LDTK/Island_1/0000-Level_0.ldtkl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LDTK/Island_1/0000-Level_0.ldtkl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/LDtkExamplePhysMat_ZeroFriction.physicsMaterial2D" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/LDtkExamplePhysMat_ZeroFriction.physicsMaterial2D.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/LDtkExampleTile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/LDtkExampleTile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs/Abstract.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs/Abstract.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs/CommonCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs/CommonCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs/CommonTextMesh.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Prefabs/CommonTextMesh.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts/ExampleCameraFollow.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts/ExampleCameraFollow.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts/ExampleImportedRenderer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts/ExampleImportedRenderer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts/ExampleMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Scripts/ExampleMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/AbstractShape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/AbstractShape.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/Circle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/Circle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/EmptyPivotCenter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/EmptyPivotCenter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/EntityPivotBottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/EntityPivotBottom.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/EntityPivotTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/EntityPivotTop.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/Square.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Common/Sprites/Square.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/LDtkUnity.Samples.asmdef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/LDtkUnity.Samples.asmdef.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic/Atlas_AutoLayers_1_basic.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic/Atlas_AutoLayers_1_basic.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic/AutoLayers_1_basic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_1_basic/AutoLayers_1_basic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps/Atlas_AutoLayers_2_stamps.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps/Atlas_AutoLayers_2_stamps.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps/AutoLayers_2_stamps.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_2_stamps/AutoLayers_2_stamps.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic/Atlas_AutoLayers_3_Mosaic.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic/Atlas_AutoLayers_3_Mosaic.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic/AutoLayers_3_Mosaic.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_3_Mosaic/AutoLayers_3_Mosaic.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced/Atlas_AutoLayers_4_Advanced.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced/Atlas_AutoLayers_4_Advanced.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced/AutoLayers_4_Advanced.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_4_Advanced/AutoLayers_4_Advanced.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules/Atlas_AutoLayers_5_OptionalRules.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules/Atlas_AutoLayers_5_OptionalRules.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules/AutoLayers_5_OptionalRules.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules/AutoLayers_5_OptionalRules.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules/AutoLayers_5_OptionalRules.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/AutoLayers_5_OptionalRules/AutoLayers_5_OptionalRules.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Atlas_Entities.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Atlas_Entities.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Button.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Button.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Chest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Chest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Door.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Door.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Enemy.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Enemy.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_SpotLight.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_SpotLight.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Trigger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Entities/Entities_Trigger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/0000-Level_0.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/0000-Level_0.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/0001-Level_1.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/0001-Level_1.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/0002-Level_2.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/0002-Level_2.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/SeperateLevelFiles.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/SeparateLevelFiles/SeperateLevelFiles.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/ExampleTestAllFields.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/ExampleTestAllFields.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields_Entity.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields_Entity.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields_NoFields.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAllFields/TestAllFields_NoFields.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/Atlas_TestAseprite.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/Atlas_TestAseprite.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/SunnyLand_Aseprite.ase" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/SunnyLand_Aseprite.ase.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/TestAseprite.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/TestAseprite.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/TestAseprite.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestAseprite/TestAseprite.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot/TestPivot.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot/TestPivot.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot/TestPivot_Entity.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/TestPivot/TestPivot_Entity.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0000-Level_0.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0000-Level_0.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0001-Level_1.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0001-Level_1.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0002-Level_2.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0002-Level_2.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0003-Level_3.ldtkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/0003-Level_3.ldtkl.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/Atlas_Test_file_for_API_showing_all_features.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/Atlas_Test_file_for_API_showing_all_features.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/ExampleLabels.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/ExampleLabels.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_CircleRegion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_CircleRegion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_EntityFieldsTest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_EntityFieldsTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_Labels.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_Labels.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_RectRegion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/TestAPI_RectRegion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/Test_file_for_API_showing_all_features.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/Test_file_for_API_showing_all_features.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/Test_file_for_API_showing_all_features.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Test_file_for_API_showing_all_features/Test_file_for_API_showing_all_features.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Atlas_Typical_2D_platformer_example.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Atlas_Typical_2D_platformer_example.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Chest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Chest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Door.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Door.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Mob.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Mob.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical2DPlatformer_Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical_2D_platformer_example.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical_2D_platformer_example.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical_2D_platformer_example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_2D_platformer_example/Typical_2D_platformer_example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/Atlas_Typical_TopDown_example.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/Atlas_Typical_TopDown_example.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/TypicalTopDown_Door.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/TypicalTopDown_Door.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/TypicalTopDown_Interactive.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/TypicalTopDown_Interactive.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/TypicalTopDown_Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/TypicalTopDown_Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/Typical_TopDown_example.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/Typical_TopDown_example.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/Typical_TopDown_example.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/Typical_TopDown_example/Typical_TopDown_example.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout/Atlas_WorldMap_Free_layout.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout/Atlas_WorldMap_Free_layout.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout/WorldMapFreeTest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout/WorldMapFreeTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout/WorldMap_Free_layout.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_Free_layout/WorldMap_Free_layout.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout.ldtk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout.ldtk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/Atlas_WorldMap_GridVania_layout.spriteatlas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/Atlas_WorldMap_GridVania_layout.spriteatlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_Exit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_Exit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_Item.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_Item.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_Player.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_Player.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_SecretArea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/GridVania_SecretArea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/WorldMap_GridVania_layout.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/WorldMap_GridVania_layout.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/WorldMap_GridVania_layout.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/WorldMap_GridVania_layout/WorldMap_GridVania_layout.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Beach by deepnight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Beach by deepnight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Cavernas_by_Adam_Saltsman.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Cavernas_by_Adam_Saltsman.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Inca_back2_by_Kronbits.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Inca_back2_by_Kronbits.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Inca_front_by_Kronbits-extended.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Inca_front_by_Kronbits-extended.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Monsters_and_Minions_by_Beowulf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/Monsters_and_Minions_by_Beowulf.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/RPG Graphics Icons by 7Soul's.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/RPG Graphics Icons by 7Soul's.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/SunnyLand_by_Ansimuz-extended.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/SunnyLand_by_Ansimuz-extended.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/TopDown_by_deepnight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/Samples/atlas/TopDown_by_deepnight.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/_CREDIT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/_CREDIT.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/_README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Samples/LDtk to Unity/2.1.5/Sample/_README.md.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BattleState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveTargetState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveTargetState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/TileData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/TileData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/TileDefinitionData.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/TileType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/TileTypeObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/TileType.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/TileTypeObject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileDataManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileDataManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TileTypeManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/UnityAssets/Assets/LDtkArtTile.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/e2/aab69855/TileData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51c9fc2d1be048cfa2dd679deaa7d4f717a300/95/a4afaf76/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Instance/LayerInstance.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/92/f488c0ab/TileBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Definition/TilesetDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/ff/fcbbc79e/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Instance/TileInstance.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Definition/Definitions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/LdtkJson.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Extensions/Instance/TileInstance.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Definition/FieldDefinition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/70/d1621caf/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Tools/LDtkUidBank.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04bc688249c845aea981a2dee96e0d4b74a68/18/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Level/Level.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1xOFM9X0HSxgbxj8IclqCsfWN0C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
@@ -21,5 +345,39 @@
       </option>
       <method v="2" />
     </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44ffc9ad-3474-467c-b76e-af8eb8237166" name="Changes" comment="" />
+      <created>1630218183808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630218183808</updated>
+      <workItem from="1630218204325" duration="2111000" />
+      <workItem from="1630220638635" duration="844000" />
+      <workItem from="1630221509798" duration="17875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

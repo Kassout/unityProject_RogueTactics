@@ -31,7 +31,7 @@ public class MoveTargetState : BattleState
 
     protected override void OnInteraction(InputAction.CallbackContext context)
     {
-        if (tiles.Contains(owner.currentTile))
+        if (tiles.Contains(owner.CurrentTile))
         owner.ChangeState<MoveSequenceState>();
     }
 }

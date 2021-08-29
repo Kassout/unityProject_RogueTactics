@@ -1,4 +1,5 @@
 using System.Collections;
+using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
 public class BattleState : State

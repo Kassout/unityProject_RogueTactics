@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Model;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -26,9 +27,10 @@ public abstract class UnitMovement : MonoBehaviour
 
     protected virtual bool ExpandSearch (Tile from, Tile to)
     {
-        Vector3 fromPosition = Board.boardMap.CellToWorld(Vector3Int.FloorToInt(from.gameObject.transform.position));
-        Vector3 toPosition = Board.boardMap.CellToWorld(Vector3Int.FloorToInt(to.gameObject.transform.position));
-        return (fromPosition.x - toPosition.x) + (fromPosition.y - toPosition.y) <= range;
+        // Vector3 fromPosition = Board.BoardMap.CellToWorld(Vector3Int.FloorToInt(from.gameObject.transform.position));
+        // Vector3 toPosition = Board.BoardMap.CellToWorld(Vector3Int.FloorToInt(to.gameObject.transform.position));
+        // return (fromPosition.x - toPosition.x) + (fromPosition.y - toPosition.y) <= range;
+        return false;
     }
 
     protected virtual void Filter (List<Tile> tiles)
