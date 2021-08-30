@@ -1,6 +1,7 @@
+using BattleStates;
+using Common.StateMachine;
 using Model;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
 public class BattleController : StateMachine
 {
@@ -11,14 +12,11 @@ public class BattleController : StateMachine
     public Vector2 position;
 
     public GameObject heroPrefab;
-    public Unit currentUnit;
+    
+    [HideInInspector] public Unit currentUnit;
 
-    public Board board;
-
-    public Tile CurrentTile =>
-        ScriptableObject
-            .CreateInstance<Tile>(); //Board.BoardMap.GetTile<Tile>(Vector3Int.FloorToInt(position)); }}
-
+    public TileDefinitionData currentTile;
+    
     // Start is called before the first frame update
     void Start()
     {

@@ -1,34 +1,35 @@
-using System.Collections;
-using System.Collections.Generic;
+using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class SelectUnitState : BattleState
+namespace BattleStates
 {
-    protected override void OnMovement(InputAction.CallbackContext context)
+    public class SelectUnitState : BattleState
     {
-        Vector2 mouseScreenPos = battleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
-        tileSelectionCursor.position = new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
-    }
-    
-    protected override void OnInteraction(InputAction.CallbackContext context)
-    {
-        GameObject content = null;
-        RaycastHit hitInfo = new RaycastHit();
-        bool hit = Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hitInfo);
-        if (hit) 
+        protected override void OnMovement(InputAction.CallbackContext context)
         {
-            Debug.Log("Hit " + hitInfo.transform.gameObject.name);
-            content = hitInfo.transform.gameObject;
-        } else {
-            Debug.Log("No hit");
+            Vector2 mouseScreenPos = battleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
+            tileSelectionCursor.position = new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
         }
-
-
-        if (content != null)
+    
+        protected override void OnInteraction(InputAction.CallbackContext context)
         {
-            owner.currentUnit = content.GetComponent<Unit>();
-            owner.ChangeState<MoveTargetState>();
+            GameObject content = null;
+
+            RaycastHit2D hit = Physics2D.Raycast(tileSelectionCursor.position, Vector2.zero);
+            if (hit.transform != null) 
+            {
+                Debug.Log("Hit " + hit.transform.gameObject.name);
+                content = hit.transform.gameObject;
+            } else {
+                Debug.Log("No hit");
+            }
+            
+            if (content != null)
+            {
+                owner.currentUnit = content.GetComponent<Unit>();
+                owner.ChangeState<MoveTargetState>();
+            }
         }
     }
 }

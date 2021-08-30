@@ -1,54 +1,55 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class StateMachine : MonoBehaviour
+namespace Common.StateMachine
 {
-    public virtual State CurrentState
+    public class StateMachine : MonoBehaviour
     {
-        get { return _currentState; }
-        set { Transition(value); }
-    }
-
-    protected State _currentState;
-
-    protected bool _inTransition;
-
-    public virtual T getState<T>() where T : State
-    {
-        T target = GetComponent<T>();
-
-        if (target == null) {
-            target = gameObject.AddComponent<T>();
-        }
-
-        return target;
-    }
-
-    public virtual void ChangeState<T>() where T : State
-    {
-        CurrentState = getState<T>();
-    }
-
-    protected virtual void Transition(State value)
-    {
-        if (_currentState == value || _inTransition) {
-            return;
-        }
-
-        _inTransition = true;
-
-        if (null != _currentState)
+        protected virtual State CurrentState
         {
-            _currentState.Exit();
+            get => _currentState;
+            set => Transition(value);
         }
 
-        _currentState = value;
+        private State _currentState;
 
-        if (null != _currentState) {
-            _currentState.Enter();
+        private bool _inTransition;
+
+        public virtual T getState<T>() where T : State
+        {
+            T target = GetComponent<T>();
+
+            if (target == null) {
+                target = gameObject.AddComponent<T>();
+            }
+
+            return target;
         }
 
-        _inTransition = false;
+        public virtual void ChangeState<T>() where T : State
+        {
+            CurrentState = getState<T>();
+        }
+
+        protected virtual void Transition(State value)
+        {
+            if (_currentState == value || _inTransition) {
+                return;
+            }
+
+            _inTransition = true;
+
+            if (null != _currentState)
+            {
+                _currentState.Exit();
+            }
+
+            _currentState = value;
+
+            if (null != _currentState) {
+                _currentState.Enter();
+            }
+
+            _inTransition = false;
+        }
     }
 }

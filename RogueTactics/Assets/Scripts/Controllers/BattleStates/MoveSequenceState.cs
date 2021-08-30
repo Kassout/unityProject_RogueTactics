@@ -1,19 +1,21 @@
 using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using ViewModelComponent;
 
-public class MoveSequenceState : BattleState 
+namespace BattleStates
 {
-    public override void Enter ()
+    public class MoveSequenceState : BattleState 
     {
-        base.Enter ();
-        StartCoroutine("Sequence");
-    }
+        public override void Enter()
+        {
+            base.Enter ();
+            StartCoroutine("Sequence");
+        }
   
-    IEnumerator Sequence ()
-    {
-        UnitMovement m = owner.currentUnit.GetComponent<UnitMovement>();
-        yield return StartCoroutine(m.Traverse(owner.CurrentTile));
-        owner.ChangeState<SelectUnitState>();
+        IEnumerator Sequence()
+        {
+            UnitMovement m = owner.currentUnit.GetComponent<UnitMovement>();
+            yield return StartCoroutine(m.Traverse(currentTile));
+            owner.ChangeState<SelectUnitState>();
+        }
     }
 }

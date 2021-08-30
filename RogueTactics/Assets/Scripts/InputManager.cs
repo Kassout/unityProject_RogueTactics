@@ -33,6 +33,14 @@ public class @InputManager : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""Cancel"",
+                    ""type"": ""Button"",
+                    ""id"": ""287e60a0-5844-49c5-9da5-78940435ce3c"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -55,6 +63,17 @@ public class @InputManager : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Mouse"",
                     ""action"": ""Interaction"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""f71b2980-f373-4cd3-9090-556f61e985d0"",
+                    ""path"": ""<Mouse>/rightButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Mouse"",
+                    ""action"": ""Cancel"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -101,6 +120,7 @@ public class @InputManager : IInputActionCollection, IDisposable
         m_Cursor = asset.FindActionMap("Cursor", throwIfNotFound: true);
         m_Cursor_Movement = m_Cursor.FindAction("Movement", throwIfNotFound: true);
         m_Cursor_Interaction = m_Cursor.FindAction("Interaction", throwIfNotFound: true);
+        m_Cursor_Cancel = m_Cursor.FindAction("Cancel", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -152,12 +172,14 @@ public class @InputManager : IInputActionCollection, IDisposable
     private ICursorActions m_CursorActionsCallbackInterface;
     private readonly InputAction m_Cursor_Movement;
     private readonly InputAction m_Cursor_Interaction;
+    private readonly InputAction m_Cursor_Cancel;
     public struct CursorActions
     {
         private @InputManager m_Wrapper;
         public CursorActions(@InputManager wrapper) { m_Wrapper = wrapper; }
         public InputAction @Movement => m_Wrapper.m_Cursor_Movement;
         public InputAction @Interaction => m_Wrapper.m_Cursor_Interaction;
+        public InputAction @Cancel => m_Wrapper.m_Cursor_Cancel;
         public InputActionMap Get() { return m_Wrapper.m_Cursor; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -173,6 +195,9 @@ public class @InputManager : IInputActionCollection, IDisposable
                 @Interaction.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
                 @Interaction.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
                 @Interaction.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
+                @Cancel.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
+                @Cancel.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
+                @Cancel.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
             }
             m_Wrapper.m_CursorActionsCallbackInterface = instance;
             if (instance != null)
@@ -183,6 +208,9 @@ public class @InputManager : IInputActionCollection, IDisposable
                 @Interaction.started += instance.OnInteraction;
                 @Interaction.performed += instance.OnInteraction;
                 @Interaction.canceled += instance.OnInteraction;
+                @Cancel.started += instance.OnCancel;
+                @Cancel.performed += instance.OnCancel;
+                @Cancel.canceled += instance.OnCancel;
             }
         }
     }
@@ -218,5 +246,6 @@ public class @InputManager : IInputActionCollection, IDisposable
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnInteraction(InputAction.CallbackContext context);
+        void OnCancel(InputAction.CallbackContext context);
     }
 }

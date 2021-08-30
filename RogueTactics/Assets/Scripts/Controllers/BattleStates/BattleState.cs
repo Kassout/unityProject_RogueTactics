@@ -1,51 +1,81 @@
-using System.Collections;
 using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
-public class BattleState : State
+using UnityEngine.UIElements;
+
+namespace BattleStates
 {
-    protected BattleController owner;
-
-    protected InputManager inputManager;
-
-    public Board board { get { return owner.board; }}
-
-    public Camera battleCamera { get { return owner.battleCamera; }}
-
-    public Transform tileSelectionCursor { get { return owner.tileSelectionCursor; }}
-
-    public Vector2 position { get { return owner.position; }}
-
-    protected virtual void Awake() 
+    public class BattleState : State
     {
-        owner = GetComponent<BattleController>();
-        inputManager = new InputManager();
-    }
+        protected BattleController owner;
 
-    protected override void AddListeners()
-    {
-        inputManager.Cursor.Movement.performed += OnMovement;
-        inputManager.Cursor.Movement.Enable();
+        private InputManager inputManager;
 
-        inputManager.Cursor.Interaction.performed += OnInteraction;
-        inputManager.Cursor.Interaction.Enable();
-    }
+        protected Camera battleCamera => owner.battleCamera;
 
-    protected override void RemoveListeners()
-    {
-        inputManager.Cursor.Movement.performed -= OnMovement;
-        inputManager.Cursor.Movement.Disable();
+        protected Transform tileSelectionCursor => owner.tileSelectionCursor;
 
-        inputManager.Cursor.Interaction.performed -= OnInteraction;
-        inputManager.Cursor.Interaction.Disable();
-    }
+        protected TileDefinitionData currentTile => owner.currentTile;
 
-    protected virtual void OnMovement(InputAction.CallbackContext context)
-    {
-    }
+        private Vector2 position
+        {
+            get => owner.position;
+            set => owner.position = value;
+        }
 
-    protected virtual void OnInteraction(InputAction.CallbackContext context)
-    {
+        protected virtual void Awake() 
+        {
+            owner = GetComponent<BattleController>();
+            inputManager = new InputManager();
+        }
+
+        protected override void AddListeners()
+        {
+            inputManager.Cursor.Movement.performed += OnMovement;
+            inputManager.Cursor.Movement.Enable();
+
+            inputManager.Cursor.Interaction.performed += OnInteraction;
+            inputManager.Cursor.Interaction.Enable();
+            
+            inputManager.Cursor.Cancel.performed += OnCancel;
+            inputManager.Cursor.Cancel.Enable();
+        }
+
+        protected override void RemoveListeners()
+        {
+            inputManager.Cursor.Movement.performed -= OnMovement;
+            inputManager.Cursor.Movement.Disable();
+
+            inputManager.Cursor.Interaction.performed -= OnInteraction;
+            inputManager.Cursor.Interaction.Disable();
+            
+            inputManager.Cursor.Cancel.performed -= OnCancel;
+            inputManager.Cursor.Cancel.Disable();
+        }
+
+        protected virtual void OnMovement(InputAction.CallbackContext context)
+        {
+        }
+
+        protected virtual void OnInteraction(InputAction.CallbackContext context)
+        {
         
+        }
+
+        protected virtual void OnCancel(InputAction.CallbackContext context)
+        {
+            
+        }
+
+        protected virtual void SelectTile(Vector2 targetPosition)
+        {
+            if (targetPosition == position || Board.GetTile(targetPosition) is null)
+            {
+                return;
+            }
+
+            position = targetPosition;
+            tileSelectionCursor.localPosition = Board.GetTile(targetPosition).position;
+        }
     }
 }

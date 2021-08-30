@@ -1,43 +1,57 @@
 using System.Collections;
 using System.Collections.Generic;
+using Model;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public class WalkMovement : UnitMovement
+namespace ViewModelComponent
 {
-    protected override bool ExpandSearch (Tile from, Tile to)
+    public class WalkMovement : UnitMovement
     {
-        // Skip if the tile is occupied by an enemy
-        if (to.sprite != null) {
-            return false;
-        }
+        protected override bool ExpandSearch (TileDefinitionData from, TileDefinitionData to)
+        {
+            // Skip if the tile is occupied by an enemy
+            if (to.content != null || to.doCollide) {
+                return false;
+            }
         
-        return base.ExpandSearch(from, to);
-    }
-
-    public override IEnumerator Traverse (Tile tile)
-    {
-        unit.Place(tile.gameObject.transform.position);
-        // Build a list of way points from the unit's 
-        // starting tile to the destination tile
-        List<Tile> targets = new List<Tile>();
-        while (tile != null)
-        {
-            targets.Insert(0, tile);
+            return base.ExpandSearch(from, to);
         }
-        // Move to each way point in succession
-        for (int i = 1; i < targets.Count; ++i)
-        {
-            Tile from = targets[i-1];
-            Tile to = targets[i];
-            yield return StartCoroutine(Walk(to));
-        }
-        yield return null;
-    }
 
-    IEnumerator Walk (Tile target)
-    {
-        transform.Translate(target.gameObject.transform.position);
-        yield return null;
+        public override IEnumerator Traverse (TileDefinitionData targetTile)
+        {
+            Bresenham path = new Bresenham(unitInstance.TileDefinition.position, targetTile.position);
+            
+            unitInstance.Place(targetTile);
+            // Build a list of way points from the unit's 
+            // starting tile to the destination tile
+            List<TileDefinitionData> tilePath = new List<TileDefinitionData>();
+            foreach (Vector2 point in path)
+            {
+                tilePath.Add(Board.GetTile(point));
+            }
+            
+            for (int i = 1; i < tilePath.Count; ++i)
+            {
+                TileDefinitionData from = tilePath[i-1];
+                TileDefinitionData to = tilePath[i];
+                yield return StartCoroutine(Walk(to));
+            }
+            yield return null;
+        }
+
+        IEnumerator Walk (TileDefinitionData target)
+        {
+            float timeToStart = Time.time;
+            while(Vector3.Distance(transform.position, target.position) > 0.05f)
+            {
+                transform.position = Vector3.Lerp(transform.position, target.position, (Time.time - timeToStart ) * 0.5f ); //Here speed is the 1 or any number which decides the how fast it reach to one to other end.
+         
+                yield return null;
+            }
+     
+            Debug.Log("Reached the target.");
+            transform.localPosition = target.position;
+            yield return null;
+        }
     }
 }

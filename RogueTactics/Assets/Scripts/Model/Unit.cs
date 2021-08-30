@@ -1,26 +1,31 @@
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public class Unit : MonoBehaviour
+namespace Model
 {
-    public Vector2 position { get; protected set; }
-
-    public Tilemap collisionMap;
-
-    public Tilemap groundMap;
-
-    public void Place(Vector2 position)
+    public class Unit : MonoBehaviour
     {
-        // // Make sure old tile location is not still pointing to this unit
-        // if (position != null && tile.content == gameObject) 
-        // {
-        //     tile.content = null;
-        // }
+        public TileDefinitionData TileDefinition { get; private set; }
+
+        public void Place(TileDefinitionData targetTile)
+        {
+            // Make sure old tile location is not still pointing to this unit
+            if (TileDefinition != null && TileDefinition.content.Equals(gameObject)) 
+            {
+                TileDefinition.content = null;
+            }
     
-        // // Link unit and tile references
-        // tile = target;
-    
-        // if (target != null)
-        //     target.content = gameObject;
+            // Link unit and tile references
+            TileDefinition = targetTile;
+
+            if (targetTile != null)
+            {
+                TileDefinition.content = gameObject;
+            }
+        }
+
+        public void Match()
+        {
+            transform.localPosition = TileDefinition.position;
+        }
     }
 }

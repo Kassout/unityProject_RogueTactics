@@ -2,47 +2,42 @@ using System.Collections;
 using System.Collections.Generic;
 using Model;
 using UnityEngine;
-using UnityEngine.Tilemaps;
 
-public abstract class UnitMovement : MonoBehaviour
+namespace ViewModelComponent
 {
-    public int range;
-    public int jumpHeight;
-    protected Unit unit;
-    protected Transform jumper;
-
-    protected virtual void Awake ()
+    public abstract class UnitMovement : MonoBehaviour
     {
-        unit = GetComponent<Unit>();
-        jumper = transform.Find("Jumper");
-    }
+        public int range;
+        protected Unit unitInstance;
 
-    public virtual List<Tile> GetTilesInRange (Board board)
-    {
-/*         List<Tile> retValue = board.Search(unit.tile, range, ExpandSearch);
-        Filter(retValue); */
-        List<Tile> retValue = new List<Tile>();
-        return retValue;
-    }
-
-    protected virtual bool ExpandSearch (Tile from, Tile to)
-    {
-        // Vector3 fromPosition = Board.BoardMap.CellToWorld(Vector3Int.FloorToInt(from.gameObject.transform.position));
-        // Vector3 toPosition = Board.BoardMap.CellToWorld(Vector3Int.FloorToInt(to.gameObject.transform.position));
-        // return (fromPosition.x - toPosition.x) + (fromPosition.y - toPosition.y) <= range;
-        return false;
-    }
-
-    protected virtual void Filter (List<Tile> tiles)
-    {
-        for (int i = tiles.Count - 1; i >= 0; --i)
+        protected virtual void Awake ()
         {
-            if (tiles[i].sprite != null)
+            unitInstance = GetComponent<Unit>();
+        }
+
+        public virtual List<TileDefinitionData> GetTilesInRange()
+        {
+            List<TileDefinitionData> retValue = Board.Instance.Search(unitInstance.TileDefinition, range, ExpandSearch);
+            Filter(retValue); 
+            return retValue;
+        }
+
+        protected virtual bool ExpandSearch (TileDefinitionData from, TileDefinitionData to)
+        {
+            return Mathf.Abs(from.position.x - to.position.x) + Mathf.Abs(from.position.y - to.position.y) <= range;
+        }
+
+        protected virtual void Filter (List<TileDefinitionData> tiles)
+        {
+            for (int i = tiles.Count - 1; i >= 0; --i)
             {
-                tiles.RemoveAt(i);
+                if (tiles[i].content != null)
+                {
+                    tiles.RemoveAt(i);
+                }
             }
         }
-    }
 
-    public abstract IEnumerator Traverse(Tile tile);
+        public abstract IEnumerator Traverse(TileDefinitionData targetTile);
+    }
 }

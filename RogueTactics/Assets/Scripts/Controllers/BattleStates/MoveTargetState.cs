@@ -1,37 +1,52 @@
-using System.Collections;
 using System.Collections.Generic;
+using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Tilemaps;
+using ViewModelComponent;
 
-public class MoveTargetState : BattleState
+namespace BattleStates
 {
-    List<Tile> tiles;
-
-    public override void Enter ()
+    public class MoveTargetState : BattleState
     {
-        base.Enter ();
-        UnitMovement mover = owner.currentUnit.GetComponent<UnitMovement>();
-        tiles = mover.GetTilesInRange(board);
-        board.SelectTiles(tiles);
-    }
+        private List<TileDefinitionData> _tiles;
+
+        public override void Enter()
+        {
+            base.Enter();
+            UnitMovement mover = owner.currentUnit.GetComponent<UnitMovement>();
+            _tiles = mover.GetTilesInRange();
+            Board.Instance.SelectTiles(_tiles);
+        }
   
-    public override void Exit ()
-    {
-        base.Exit ();
-        board.DeSelectTiles(tiles);
-        tiles = null;
-    }
+        public override void Exit ()
+        {
+            base.Exit ();
+            Board.Instance.DeSelectTiles(_tiles);
+            _tiles = null;
+        }
     
-    protected override void OnMovement(InputAction.CallbackContext context)
-    {
-        Vector2 mouseScreenPos = battleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
-        tileSelectionCursor.position = new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
-    }
+        protected override void OnMovement(InputAction.CallbackContext context)
+        {
+            Vector2 mouseScreenPos = battleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
+            if (_tiles.FindIndex(tile => tile.position.Equals(new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y)))) >= 0)
+            {
+                tileSelectionCursor.position = new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
+            }
+        }
 
-    protected override void OnInteraction(InputAction.CallbackContext context)
-    {
-        if (tiles.Contains(owner.CurrentTile))
-        owner.ChangeState<MoveSequenceState>();
+        protected override void OnInteraction(InputAction.CallbackContext context)
+        {
+            if (_tiles.FindIndex(tile => tile.position.Equals(tileSelectionCursor.position)) >= 0)
+            {
+                owner.currentTile = Board.GetTile(tileSelectionCursor.position);
+                owner.ChangeState<MoveSequenceState>();
+            }
+        }
+
+        protected override void OnCancel(InputAction.CallbackContext context)
+        {
+            Debug.Log("Cancel unit movement");
+            owner.ChangeState<SelectUnitState>();
+        }
     }
 }

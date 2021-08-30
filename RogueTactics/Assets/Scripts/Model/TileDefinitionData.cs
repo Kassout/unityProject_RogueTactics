@@ -1,11 +1,12 @@
 using System;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 namespace Model
 {
     [Serializable]
     public class TileDefinitionData
-    {   
+    {
         public GameObject content;
 
         public Vector2 position;
@@ -14,14 +15,16 @@ namespace Model
 
         public bool doCollide;
 
-        public TileDefinitionData(Vector2 position) {
+        public TileDefinitionData(Vector2 position)
+        {
             content = null;
             this.position = position;
             tileType = null;
             doCollide = false;
         }
 
-        public TileDefinitionData(Vector2 position, TileTypeObject tileTileType) {
+        public TileDefinitionData(Vector2 position, TileTypeObject tileTileType)
+        {
             content = null;
             this.position = position;
             tileType = tileTileType;
