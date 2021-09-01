@@ -1,47 +1,48 @@
 using UnityEngine;
 
-/// <summary>
-/// TODO: comments
-/// </summary>
-public abstract class State : MonoBehaviour
+namespace Common.StateMachine
 {
     /// <summary>
-    /// TODO: comments
+    ///     TODO: comments
     /// </summary>
-    public virtual void Enter() 
+    public abstract class State : MonoBehaviour
     {
-        AddListeners();
-    }
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        protected virtual void OnDestroy()
+        {
+            RemoveListeners();
+        }
 
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    public virtual void Exit() 
-    {
-        RemoveListeners();
-    }
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        public virtual void Enter()
+        {
+            AddListeners();
+        }
 
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    protected virtual void OnDestroy() 
-    {
-        RemoveListeners();
-    }
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        public virtual void Exit()
+        {
+            RemoveListeners();
+        }
 
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    protected virtual void AddListeners() 
-    {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        protected virtual void AddListeners()
+        {
+        }
 
-    }
-
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    protected virtual void RemoveListeners() 
-    {
-
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        protected virtual void RemoveListeners()
+        {
+        }
     }
 }

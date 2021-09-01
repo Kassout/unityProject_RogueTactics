@@ -5,46 +5,59 @@ using ViewModelComponent;
 
 namespace BattleStates
 {
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public class InitBattleState : BattleState
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         public override void Enter()
         {
             base.Enter();
             StartCoroutine(Init());
         }
 
-        IEnumerator Init()
+        /// <summary>
+        /// TODO: comments
+        /// </summary>
+        /// <returns>TODO: comments</returns>
+        private IEnumerator Init()
         {
-            Vector2 initPosition = new Vector2(0, 0);
+            var initPosition = new Vector2(0, 0);
             SelectTile(initPosition);
-            SpawnTestUnits(); 
+            SpawnTestUnits();
             yield return null;
-            owner.ChangeState<SelectUnitState>();
+            owner.ChangeState<CutSceneState>();
         }
 
-        void SpawnTestUnits ()
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        private void SpawnTestUnits()
         {
             //System.Type[] components = new System.Type[]{typeof(WalkMovement)};
-            for (int i = 0; i < 3; ++i)
+            for (var i = 0; i < 3; ++i)
             {
-                GameObject instance = Instantiate(owner.heroPrefab);
+                var instance = Instantiate(owner.heroPrefab);
 
                 TileDefinitionData spawnTile;
-            
+
                 do
                 {
-                    Vector2 spawnPos = new Vector2(Random.Range(0, 16), Random.Range(0, 16));
+                    var spawnPos = new Vector2(Random.Range(0, 16), Random.Range(0, 16));
                     spawnTile = Board.GetTile(spawnPos);
-                } while (spawnTile.doCollide || spawnTile.tileType.tileTypeName.Equals(TileTypeObject.TileTypeEnum.Water));
+                } while (spawnTile.doCollide ||
+                         spawnTile.tileType.tileTypeName.Equals(TileTypeObject.TileTypeEnum.Water));
 
-                Unit unit = instance.GetComponent<Unit>();
+                var unit = instance.GetComponent<Unit>();
                 unit.Place(spawnTile);
                 unit.Match();
 
-                if (instance.AddComponent(typeof(WalkMovement)) is UnitMovement m)
-                {
-                    m.range = 5;
-                }
+                if (instance.AddComponent(typeof(WalkMovement)) is UnitMovement m) m.range = 5;
+
+                units.Add(unit);
             }
         }
     }

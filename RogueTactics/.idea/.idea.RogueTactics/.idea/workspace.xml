@@ -1,57 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="44ffc9ad-3474-467c-b76e-af8eb8237166" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Managers.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Microsoft.Bcl.AsyncInterfaces.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Buffers.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Buffers.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Memory.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Runtime.CompilerServices.Unsafe.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Text.Encodings.Web.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Text.Encodings.Web.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Text.Json.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Text.Json.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/System.Threading.Tasks.Extensions.dll.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Hero.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives/GridCursorController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives/GridCursorController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives/InputController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives/InputController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives/TileSelector.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Archives/TileSelector.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bresenham.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bresenham.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/StateMachine/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/StateMachine/State.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/StateMachine/StateMachine.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/StateMachine/StateMachine.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleController.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleController.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BattleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/InitBattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/InitBattleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveTargetState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveTargetState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/SelectUnitState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/SelectUnitState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/CoastTileType.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/CoastTileType.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/DirtTileType.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/DirtTileType.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/GrassTileType.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/GrassTileType.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/OceanTileType.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/OceanTileType.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/TileTypeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DataObjects/TileTypeManager.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InputManager.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/CameraController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EventArgs/InfoEventArgs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EventArgs/InfoEventArgs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InputManager.inputactions.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/TileDefinitionData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/TileDefinitionData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/TileTypeObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/TileTypeObject.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Unit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileTypeManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TileTypeManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/WalkMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/WalkMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground 6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/006_whiteBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/007_whiteGradientBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/007_whiteGradientBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/008_whiteBorderBackground 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/008_whiteBorderBackground 1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/008_whiteBorderBackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/008_whiteBorderBackground.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Scrollings/Scrolling.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Scrollings/Scrolling.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/Windows/Window.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Windows/Window.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/Packages-Update.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/Packages-Update.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/lib/net461/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/lib/net461/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/Microsoft.Bcl.AsyncInterfaces.6.0.0-preview.7.21377.19/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/System.Buffers.4.5.1.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/net461/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/net461/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/net45/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/net45/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Buffers.4.5.1/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/System.Memory.4.5.4.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/net461/System.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/net461/System.Memory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard1.1/System.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard1.1/System.Memory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Memory.4.5.4/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/System.Numerics.Vectors.4.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Numerics.Vectors.4.5.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/buildTransitive/netcoreapp3.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/net461/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/net461/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/net461/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/net461/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/net6.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/net6.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Runtime.CompilerServices.Unsafe.6.0.0-preview.7.21377.19/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/System.Text.Encodings.Web.6.0.0-preview.7.21377.19.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/net461/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/net461/System.Text.Encodings.Web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/net6.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/net6.0/System.Text.Encodings.Web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/netcoreapp3.1/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/netcoreapp3.1/System.Text.Encodings.Web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/netstandard2.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/lib/netstandard2.0/System.Text.Encodings.Web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Encodings.Web.6.0.0-preview.7.21377.19/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/Icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/System.Text.Json.6.0.0-preview.7.21377.19.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/analyzers/dotnet/cs/System.Text.Json.SourceGeneration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/buildTransitive/netcoreapp2.0/System.Text.Json.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/buildTransitive/netcoreapp3.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/net461/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/net461/System.Text.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/net6.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/net6.0/System.Text.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/netcoreapp3.1/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/netcoreapp3.1/System.Text.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/netstandard2.0/System.Text.Json.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/lib/netstandard2.0/System.Text.Json.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Text.Json.6.0.0-preview.7.21377.19/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/System.Threading.Tasks.Extensions.4.5.4.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoAndroid10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/MonoTouch10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/net461/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/net461/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/netcoreapp2.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard1.0/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard1.0/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/netstandard2.0/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinios10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinmac20/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarintvos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/lib/xamarinwatchos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoAndroid10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/MonoTouch10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/netcoreapp2.1/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinios10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinmac20/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarintvos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/ref/xamarinwatchos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.Threading.Tasks.Extensions.4.5.4/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/LICENSE.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/System.ValueTuple.4.5.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/THIRD-PARTY-NOTICES.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/MonoAndroid10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/MonoTouch10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net461/System.ValueTuple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/net47/System.ValueTuple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netcoreapp2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netstandard1.0/System.ValueTuple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/netstandard2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarinios10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarinmac20/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarintvos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/lib/xamarinwatchos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/MonoAndroid10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/MonoTouch10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/net461/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/net47/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/netcoreapp2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/netstandard2.0/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/uap10.0.16299/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarinios10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarinmac20/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarintvos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/ref/xamarinwatchos10/_._" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/useSharedDesignerContext.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/System.ValueTuple.4.5.0/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/SceneTemplateSettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,33 +295,76 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/UnityAssets/Assets/LDtkArtTile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51c9fc2d1be048cfa2dd679deaa7d4f717a300/95/a4afaf76/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/b2/ff7b7931/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Definition/TilesetDefinition.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/ff/fcbbc79e/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Definition/Definitions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b0e795e48cf04d7a9193ea9447af406a1b800/e9/475fa3d6/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Definition/FieldDefinition.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/f7/e9ba6e9e/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Tools/LDtkUidBank.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AbilityMenuEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/TransformLocalEulerTweener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/AbilityMenuPanelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Editor/CustomEditor/LDtkIntGridTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04bc688249c845aea981a2dee96e0d4b74a68/18/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Level/Level.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/62/13a8af66/Sprite.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/e2/aab69855/TileData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Instance/LayerInstance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/92/f488c0ab/TileBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/Modifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ClampValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/c9/91d67017/Int32.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/ActionSelectionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/b0/b491a59f/Tile.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/Instance/TileInstance.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Bresenham.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Schema/LdtkJson.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Editor/Utility/LDtkAssetMovedDialog.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Runtime/Data/Extensions/Instance/TileInstance.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ValueChangeException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Tactics RPG/Tactics RPG/Assets/Scripts/Common/Animation/TransformScaleTweener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/ConversationPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/StatTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Tactics RPG/Tactics RPG/Assets/Scripts/Common/Animation/TransformLocalPositionTweener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/CustomTimelineEditorCache.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Downloads/Tactics RPG/Tactics RPG/Assets/Scripts/Common/Animation/TransformLocalEulerTweener.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/MultValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/ConversationData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/70/d1621caf/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Turn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/BaseException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnimationExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51c9fc2d1be048cfa2dd679deaa7d4f717a300/95/a4afaf76/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/AssetCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/Tweener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CategorySelectionState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/ff/fcbbc79e/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CutSceneState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/ExperienceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/MinValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/AddValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b0e795e48cf04d7a9193ea9447af406a1b800/e9/475fa3d6/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/ConversationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnchorPositionTweener.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/SpeakerData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/f7/e9ba6e9e/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Rank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/2c/cac50c6e/EventArgs.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/e2/aab69855/TileData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/UI/LayoutAnchor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/LayoutElementEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/92/f488c0ab/TileBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MultipleDisplayUtilities.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/UnitTesting/RiderTestRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/UI/Panel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ObjectPooling/PoolData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/MaxValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Editor/Canvas/AssertionFailureOnOutputVertexCount.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/NotificationCenter/NotificationExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BaseAbilityMenuState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Editor/Builders/LDtkBuilderTileset.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1xOFM9X0HSxgbxj8IclqCsfWN0C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,7 +381,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -118,10 +395,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="2924">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15816">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="2924" />
+      <option name="pid" value="15816" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -141,7 +418,12 @@
       <workItem from="1630220638635" duration="844000" />
       <workItem from="1630221509798" duration="25192000" />
       <workItem from="1630300409242" duration="5833000" />
-      <workItem from="1630306563754" duration="9476000" />
+      <workItem from="1630306563754" duration="17750000" />
+      <workItem from="1630391506057" duration="6292000" />
+      <workItem from="1630399773244" duration="358000" />
+      <workItem from="1630400298829" duration="596000" />
+      <workItem from="1630400919891" duration="19744000" />
+      <workItem from="1630476101266" duration="13858000" />
     </task>
     <servers />
   </component>
@@ -170,32 +452,106 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/WalkMovement.cs</url>
-          <line>21</line>
-          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\ViewModelComponent\WalkMovement.cs" initialLine="21" containingFunctionPresentation="method 'Traverse'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CommandSelectionState.cs</url>
+          <line>71</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Controllers\BattleStates\CommandSelectionState.cs" initialLine="45" containingFunctionPresentation="method 'Cancel'">
             <startOffsets>
-              <option value="600" />
+              <option value="1787" />
             </startOffsets>
             <endOffsets>
-              <option value="690" />
+              <option value="1803" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CommandSelectionState.cs</url>
+          <line>65</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Controllers\BattleStates\CommandSelectionState.cs" initialLine="39" containingFunctionPresentation="method 'Cancel'">
+            <startOffsets>
+              <option value="1605" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1621" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Tests/TestLevelGrowth.cs</url>
+          <line>72</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Tests\TestLevelGrowth.cs" initialLine="70" containingFunctionPresentation="method 'OnExperienceException'">
+            <startOffsets>
+              <option value="2411" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2453" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs</url>
-          <line>10</line>
-          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Controllers\BattleStates\MoveSequenceState.cs" initialLine="10" containingFunctionPresentation="method 'Enter'">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Controllers/ExperienceManager.cs</url>
+          <line>45</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Controllers\ExperienceManager.cs" initialLine="45" containingFunctionPresentation="method 'AwardExperience'">
             <startOffsets>
-              <option value="220" />
+              <option value="1608" />
             </startOffsets>
             <endOffsets>
-              <option value="247" />
+              <option value="1634" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Rank.cs</url>
+          <line>21</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\ViewModelComponent\Actor\Rank.cs" initialLine="21" containingFunctionPresentation="property 'LVL'">
+            <startOffsets>
+              <option value="363" />
+            </startOffsets>
+            <endOffsets>
+              <option value="392" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Tests/TestLevelGrowth.cs</url>
+          <line>44</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Tests\TestLevelGrowth.cs" initialLine="44" containingFunctionPresentation="method 'VerifySharedExperienceDistribution'">
+            <startOffsets>
+              <option value="1539" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1557" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Rank.cs</url>
+          <line>95</line>
+          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\ViewModelComponent\Actor\Rank.cs" initialLine="95" containingFunctionPresentation="method 'Init'">
+            <startOffsets>
+              <option value="2286" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2351" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Rank" memberName="_stats" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

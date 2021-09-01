@@ -1,78 +1,126 @@
+using System.Collections.Generic;
+using Common.StateMachine;
 using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.UIElements;
 
 namespace BattleStates
 {
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public class BattleState : State
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        private InputManager _inputManager;
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         protected BattleController owner;
 
-        private InputManager inputManager;
-
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         protected Camera battleCamera => owner.battleCamera;
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         protected Transform tileSelectionCursor => owner.tileSelectionCursor;
 
-        protected TileDefinitionData currentTile => owner.currentTile;
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        protected TileDefinitionData currentSelectedTile => owner.currentSelectedTile;
 
+        public AbilityMenuPanelController abilityMenuPanelController => owner.abilityMenuPanelController;
+
+        public Turn turn => owner.turn;
+
+        public List<Unit> units => owner.units;
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         private Vector2 position
         {
             get => owner.position;
             set => owner.position = value;
         }
 
-        protected virtual void Awake() 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        protected virtual void Awake()
         {
             owner = GetComponent<BattleController>();
-            inputManager = new InputManager();
+            _inputManager = new InputManager();
         }
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         protected override void AddListeners()
         {
-            inputManager.Cursor.Movement.performed += OnMovement;
-            inputManager.Cursor.Movement.Enable();
+            _inputManager.Cursor.Movement.performed += OnMovement;
+            _inputManager.Cursor.Movement.Enable();
 
-            inputManager.Cursor.Interaction.performed += OnInteraction;
-            inputManager.Cursor.Interaction.Enable();
-            
-            inputManager.Cursor.Cancel.performed += OnCancel;
-            inputManager.Cursor.Cancel.Enable();
+            _inputManager.Cursor.Interaction.performed += OnInteraction;
+            _inputManager.Cursor.Interaction.Enable();
+
+            _inputManager.Cursor.Cancel.performed += OnCancel;
+            _inputManager.Cursor.Cancel.Enable();
         }
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         protected override void RemoveListeners()
         {
-            inputManager.Cursor.Movement.performed -= OnMovement;
-            inputManager.Cursor.Movement.Disable();
+            _inputManager.Cursor.Movement.performed -= OnMovement;
+            _inputManager.Cursor.Movement.Disable();
 
-            inputManager.Cursor.Interaction.performed -= OnInteraction;
-            inputManager.Cursor.Interaction.Disable();
-            
-            inputManager.Cursor.Cancel.performed -= OnCancel;
-            inputManager.Cursor.Cancel.Disable();
+            _inputManager.Cursor.Interaction.performed -= OnInteraction;
+            _inputManager.Cursor.Interaction.Disable();
+
+            _inputManager.Cursor.Cancel.performed -= OnCancel;
+            _inputManager.Cursor.Cancel.Disable();
         }
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="context">TODO: comments</param>
         protected virtual void OnMovement(InputAction.CallbackContext context)
         {
         }
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="context">TODO: comments</param>
         protected virtual void OnInteraction(InputAction.CallbackContext context)
         {
-        
         }
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="context">TODO: comments</param>
         protected virtual void OnCancel(InputAction.CallbackContext context)
         {
-            
         }
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="targetPosition">TODO: comments</param>
         protected virtual void SelectTile(Vector2 targetPosition)
         {
-            if (targetPosition == position || Board.GetTile(targetPosition) is null)
-            {
-                return;
-            }
+            if (targetPosition == position || Board.GetTile(targetPosition) is null) return;
 
             position = targetPosition;
             tileSelectionCursor.localPosition = Board.GetTile(targetPosition).position;

@@ -7,12 +7,9 @@ namespace Model
     [CreateAssetMenu(fileName = "TileTypeInstance", menuName = "ScriptableObjects/TileType", order = 1)]
     public class TileTypeObject : ScriptableObject
     {
-        public TileTypeEnum tileTypeName;
-
-        public Modifier[] propertyModifiers;
-
         [Serializable]
-        public enum TileTypeEnum {
+        public enum TileTypeEnum
+        {
             Tree,
             Grass,
             Dirt,
@@ -20,8 +17,13 @@ namespace Model
             Coast
         }
 
+        public TileTypeEnum tileTypeName;
+
+        public Modifier[] propertyModifiers;
+
         [Serializable]
-        public struct Modifier {
+        public struct Modifier
+        {
             public string property;
             public int value;
         }

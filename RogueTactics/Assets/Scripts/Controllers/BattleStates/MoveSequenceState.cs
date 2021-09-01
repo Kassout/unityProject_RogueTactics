@@ -1,21 +1,32 @@
 using System.Collections;
+using UnityEngine.InputSystem;
 using ViewModelComponent;
 
 namespace BattleStates
 {
-    public class MoveSequenceState : BattleState 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public class MoveSequenceState : BattleState
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         public override void Enter()
         {
-            base.Enter ();
+            base.Enter();
             StartCoroutine("Sequence");
         }
-  
-        IEnumerator Sequence()
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <returns>TODO: comments</returns>
+        private IEnumerator Sequence()
         {
-            UnitMovement m = owner.currentUnit.GetComponent<UnitMovement>();
-            yield return StartCoroutine(m.Traverse(currentTile));
-            owner.ChangeState<SelectUnitState>();
+            var m = owner.turn.actor.GetComponent<UnitMovement>();
+            yield return StartCoroutine(m.Traverse(currentSelectedTile));
+            owner.ChangeState<CommandSelectionState>();
         }
     }
 }
