@@ -103,7 +103,7 @@ public class Panel : MonoBehaviour
 
         if (InTransition)
         {
-            Transition.easingControl.Stop();
+            Transition.animationEasingControl.Stop();
         }
 
         if (animated)

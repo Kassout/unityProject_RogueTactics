@@ -8,7 +8,7 @@ public abstract class Tweener : MonoBehaviour
     public static float defaultDuration = 1.0f;
     public static Func<float, float, float, float> defaultEquation = EasingEquations.EaseInOutQuad;
 
-    public EasingControl easingControl;
+    public AnimationEasingControl animationEasingControl;
     public bool destroyOnComplete = true;
 
     #endregion
@@ -17,24 +17,24 @@ public abstract class Tweener : MonoBehaviour
 
     protected virtual void Awake()
     {
-        easingControl = gameObject.AddComponent<EasingControl>();
+        animationEasingControl = gameObject.AddComponent<AnimationEasingControl>();
     }
 
     protected virtual void OnEnable()
     {
-        easingControl.updateEvent += OnUpdate;
-        easingControl.completedEvent += OnComplete;
+        animationEasingControl.updateEvent += OnUpdate;
+        animationEasingControl.completedEvent += OnComplete;
     }
 
     protected virtual void OnDisable()
     {
-        easingControl.updateEvent -= OnUpdate;
-        easingControl.completedEvent -= OnComplete;
+        animationEasingControl.updateEvent -= OnUpdate;
+        animationEasingControl.completedEvent -= OnComplete;
     }
 
     protected virtual void OnDestroy()
     {
-        if (easingControl != null) Destroy(easingControl);
+        if (animationEasingControl != null) Destroy(animationEasingControl);
     }
 
     #endregion

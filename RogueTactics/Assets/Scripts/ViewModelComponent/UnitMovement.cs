@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Model;
@@ -7,12 +8,23 @@ namespace ViewModelComponent
 {
     public abstract class UnitMovement : MonoBehaviour
     {
-        public int range;
+        public int range
+        {
+            get { return _stats[StatTypes.MOV]; }
+        }
+
+        protected Stats _stats;
+        
         protected Unit unitInstance;
 
         protected virtual void Awake()
         {
             unitInstance = GetComponent<Unit>();
+        }
+
+        protected virtual void Start()
+        {
+            _stats = GetComponent<Stats>();
         }
 
         public virtual List<TileDefinitionData> GetTilesInRange()

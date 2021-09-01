@@ -37,11 +37,23 @@ namespace BattleStates
         /// </summary>
         private void SpawnTestUnits()
         {
-            //System.Type[] components = new System.Type[]{typeof(WalkMovement)};
-            for (var i = 0; i < 3; ++i)
+            string[] classes = new string[]{"Swordsman", "Pikeman", "Monk"};
+            for (int i = 0; i < classes.Length; ++i)
             {
-                var instance = Instantiate(owner.heroPrefab);
-
+                GameObject instance = Instantiate(owner.heroPrefab) as GameObject;
+                
+                Stats s = instance.AddComponent<Stats>();
+                s[StatTypes.LVL] = 1;
+                
+                GameObject jobPrefab = Resources.Load<GameObject>( "Classes/" + classes[i] );
+                
+                GameObject jobInstance = Instantiate(jobPrefab) as GameObject;
+                
+                jobInstance.transform.SetParent(instance.transform);
+                Class classObject = jobInstance.GetComponent<Class>();
+                classObject.Promote();
+                classObject.LoadDefaultStats();
+                
                 TileDefinitionData spawnTile;
 
                 do
@@ -50,13 +62,13 @@ namespace BattleStates
                     spawnTile = Board.GetTile(spawnPos);
                 } while (spawnTile.doCollide ||
                          spawnTile.tileType.tileTypeName.Equals(TileTypeObject.TileTypeEnum.Water));
-
-                var unit = instance.GetComponent<Unit>();
+                
+                Unit unit = instance.GetComponent<Unit>();
                 unit.Place(spawnTile);
                 unit.Match();
-
-                if (instance.AddComponent(typeof(WalkMovement)) is UnitMovement m) m.range = 5;
-
+                
+                instance.AddComponent<WalkMovement>();
+                
                 units.Add(unit);
             }
         }

@@ -10,6 +10,6 @@ public abstract class Vector3Tweener : Tweener
 
     protected override void OnUpdate(object sender, System.EventArgs e)
     {
-        currentValue = (endValue - startValue) * easingControl.currentValue + startValue;
+        currentValue = (endValue - startValue) * animationEasingControl.currentValue + startValue;
     }
 }

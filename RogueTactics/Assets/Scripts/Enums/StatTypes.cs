@@ -10,7 +10,7 @@ public enum StatTypes
     MHP, /// Max Hit Points
     MP, // Magic Points
     MMP, // Max Magic Points
-    ATK, // Physical Attack
+    STR, // Physical Attack
     DEF, // Physical Defense
     MAG, // Magic Attack
     RES, // Magic Defense

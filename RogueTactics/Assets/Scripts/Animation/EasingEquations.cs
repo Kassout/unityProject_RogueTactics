@@ -77,12 +77,26 @@ public static class EasingEquations
         return end * value * value + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutQuad(float start, float end, float value)
     {
         end -= start;
         return -end * value * (value - 2) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutQuad(float start, float end, float value)
     {
         value /= .5f;
@@ -93,12 +107,26 @@ public static class EasingEquations
         return -end / 2 * (value * (value - 2) - 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInCubic(float start, float end, float value)
     {
         end -= start;
         return end * value * value * value + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutCubic(float start, float end, float value)
     {
         value--;
@@ -106,6 +134,13 @@ public static class EasingEquations
         return end * (value * value * value + 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutCubic(float start, float end, float value)
     {
         value /= .5f;
@@ -116,12 +151,26 @@ public static class EasingEquations
         return end / 2 * (value * value * value + 2) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInQuart(float start, float end, float value)
     {
         end -= start;
         return end * value * value * value * value + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutQuart(float start, float end, float value)
     {
         value--;
@@ -129,6 +178,13 @@ public static class EasingEquations
         return -end * (value * value * value * value - 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutQuart(float start, float end, float value)
     {
         value /= .5f;
@@ -139,12 +195,26 @@ public static class EasingEquations
         return -end / 2 * (value * value * value * value - 2) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInQuint(float start, float end, float value)
     {
         end -= start;
         return end * value * value * value * value * value + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutQuint(float start, float end, float value)
     {
         value--;
@@ -152,6 +222,13 @@ public static class EasingEquations
         return end * (value * value * value * value * value + 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutQuint(float start, float end, float value)
     {
         value /= .5f;
@@ -162,36 +239,78 @@ public static class EasingEquations
         return end / 2 * (value * value * value * value * value + 2) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInSine(float start, float end, float value)
     {
         end -= start;
         return -end * Mathf.Cos(value / 1 * (Mathf.PI / 2)) + end + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutSine(float start, float end, float value)
     {
         end -= start;
         return end * Mathf.Sin(value / 1 * (Mathf.PI / 2)) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutSine(float start, float end, float value)
     {
         end -= start;
         return -end / 2 * (Mathf.Cos(Mathf.PI * value / 1) - 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInExpo(float start, float end, float value)
     {
         end -= start;
         return end * Mathf.Pow(2, 10 * (value / 1 - 1)) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutExpo(float start, float end, float value)
     {
         end -= start;
         return end * (-Mathf.Pow(2, -10 * value / 1) + 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutExpo(float start, float end, float value)
     {
         value /= .5f;
@@ -202,12 +321,26 @@ public static class EasingEquations
         return end / 2 * (-Mathf.Pow(2, -10 * value) + 2) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInCirc(float start, float end, float value)
     {
         end -= start;
         return -end * (Mathf.Sqrt(1 - value * value) - 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutCirc(float start, float end, float value)
     {
         value--;
@@ -215,6 +348,13 @@ public static class EasingEquations
         return end * Mathf.Sqrt(1 - value * value) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutCirc(float start, float end, float value)
     {
         value /= .5f;
@@ -225,14 +365,28 @@ public static class EasingEquations
         return end / 2 * (Mathf.Sqrt(1 - value * value) + 1) + start;
     }
 
-    public static float EaseInBounce(float start, float end, float value)
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
+    private static float EaseInBounce(float start, float end, float value)
     {
         end -= start;
         var d = 1f;
         return end - EaseOutBounce(0, end, d - value) + start;
     }
 
-    public static float EaseOutBounce(float start, float end, float value)
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
+    private static float EaseOutBounce(float start, float end, float value)
     {
         value /= 1f;
         end -= start;
@@ -254,6 +408,13 @@ public static class EasingEquations
         return end * (7.5625f * value * value + .984375f) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutBounce(float start, float end, float value)
     {
         end -= start;
@@ -263,6 +424,13 @@ public static class EasingEquations
         return EaseOutBounce(0, end, value * 2 - d) * 0.5f + end * 0.5f + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInBack(float start, float end, float value)
     {
         end -= start;
@@ -271,6 +439,13 @@ public static class EasingEquations
         return end * value * value * ((s + 1) * value - s) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutBack(float start, float end, float value)
     {
         var s = 1.70158f;
@@ -279,6 +454,13 @@ public static class EasingEquations
         return end * (value * value * ((s + 1) * value + s) + 1) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutBack(float start, float end, float value)
     {
         var s = 1.70158f;
@@ -295,6 +477,13 @@ public static class EasingEquations
         return end / 2 * (value * value * ((s + 1) * value + s) + 2) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float Punch(float amplitude, float value)
     {
         float s = 9;
@@ -307,6 +496,13 @@ public static class EasingEquations
         return amplitude * Mathf.Pow(2, -10 * value) * Mathf.Sin((value * 1 - s) * (2 * Mathf.PI) / period);
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInElastic(float start, float end, float value)
     {
         end -= start;
@@ -335,6 +531,13 @@ public static class EasingEquations
         return -(a * Mathf.Pow(2, 10 * (value -= 1)) * Mathf.Sin((value * d - s) * (2 * Mathf.PI) / p)) + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseOutElastic(float start, float end, float value)
     {
         end -= start;
@@ -363,6 +566,13 @@ public static class EasingEquations
         return a * Mathf.Pow(2, -10 * value) * Mathf.Sin((value * d - s) * (2 * Mathf.PI) / p) + end + start;
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     public static float EaseInOutElastic(float start, float end, float value)
     {
         end -= start;

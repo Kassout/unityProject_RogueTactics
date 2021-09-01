@@ -92,7 +92,7 @@ public class TestItems : MonoBehaviour
         GameObject actor = new GameObject(title);
         Stats s = actor.AddComponent<Stats>();
         s[StatTypes.HP] = s[StatTypes.MHP] = UnityEngine.Random.Range(500, 1000);
-        s[StatTypes.ATK] = UnityEngine.Random.Range(30, 50);
+        s[StatTypes.STR] = UnityEngine.Random.Range(30, 50);
         s[StatTypes.DEF] = UnityEngine.Random.Range(30, 50);
         return actor;
     }
@@ -105,8 +105,8 @@ public class TestItems : MonoBehaviour
     {
         inventory.Add( CreateConsumableItem("Health Potion", StatTypes.HP, 300) );
         inventory.Add( CreateConsumableItem("Bomb", StatTypes.HP, -150) );
-        inventory.Add( CreateEquippableItem("Sword", StatTypes.ATK, 10, EquipSlots.Weapon) );
-        inventory.Add( CreateEquippableItem("Broad Sword", StatTypes.ATK, 15, (EquipSlots.Weapon) ) );
+        inventory.Add( CreateEquippableItem("Sword", StatTypes.STR, 10, EquipSlots.Weapon) );
+        inventory.Add( CreateEquippableItem("Broad Sword", StatTypes.STR, 15, (EquipSlots.Weapon) ) );
         inventory.Add( CreateEquippableItem("Shield", StatTypes.DEF, 10, EquipSlots.Accessory) );
     }
   
@@ -152,7 +152,7 @@ public class TestItems : MonoBehaviour
     {
         Stats s1 = attacker.GetComponent<Stats>();
         Stats s2 = defender.GetComponent<Stats>();
-        int damage = Mathf.FloorToInt((s1[StatTypes.ATK] * 4 - s2[StatTypes.DEF] * 2) * UnityEngine.Random.Range(0.9f, 1.1f));
+        int damage = Mathf.FloorToInt((s1[StatTypes.STR] * 4 - s2[StatTypes.DEF] * 2) * UnityEngine.Random.Range(0.9f, 1.1f));
         s2[StatTypes.HP] -= damage;
         string message = string.Format("{0} hits {1} for {2} damage!", attacker.name, defender.name, damage);
         Debug.Log(message);
@@ -215,7 +215,7 @@ public class TestItems : MonoBehaviour
     void LogToConsole (GameObject actor)
     {
         Stats s = actor.GetComponent<Stats>();
-        string message = string.Format("Name:{0} HP:{1}/{2} ATK:{3} DEF:{4}", actor.name, s[StatTypes.HP], s[StatTypes.MHP], s[StatTypes.ATK], s[StatTypes.DEF]);
+        string message = string.Format("Name:{0} HP:{1}/{2} ATK:{3} DEF:{4}", actor.name, s[StatTypes.HP], s[StatTypes.MHP], s[StatTypes.STR], s[StatTypes.DEF]);
         Debug.Log( message );
     }
     

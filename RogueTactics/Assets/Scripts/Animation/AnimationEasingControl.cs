@@ -3,22 +3,24 @@ using System.Collections;
 using UnityEngine;
 
 /// <summary>
-/// Class <c>EasingControl</c> is a Unity component script used to manage the rotation platform trap behaviour.
+/// Class <c>EasingControl</c> is a Unity component script used to manage animation easing behaviour.
 /// </summary>
-public class EasingControl : MonoBehaviour
+public class AnimationEasingControl : MonoBehaviour
 {
+    #region Fields / Properties
+
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>timeType</c> represents the time pass category of our animation regarding the Unity Engine clock options.
     /// </summary>
     public TimeType timeType = TimeType.Normal;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>endBehaviour</c> represents the animation behaviour to adopt at the end of the clip.
     /// </summary>
     public EndBehaviour endBehaviour = EndBehaviour.Constant;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>loopType</c> represents the looping behaviour to adopt for the animation.
     /// </summary>
     public LoopType loopType = LoopType.Repeat;
 
@@ -82,6 +84,8 @@ public class EasingControl : MonoBehaviour
     /// </summary>
     public int loops { get; private set; }
 
+    #endregion
+    
     /// <summary>
     ///     TODO: comments
     /// </summary>

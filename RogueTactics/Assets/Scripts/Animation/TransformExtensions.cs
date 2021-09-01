@@ -19,9 +19,9 @@ public static class TransformExtensions
         var tweener = t.gameObject.AddComponent<TransformPositionTweener>();
         tweener.startValue = t.position;
         tweener.endValue = position;
-        tweener.easingControl.duration = duration;
-        tweener.easingControl.equation = equation;
-        tweener.easingControl.Play();
+        tweener.animationEasingControl.duration = duration;
+        tweener.animationEasingControl.equation = equation;
+        tweener.animationEasingControl.Play();
         return tweener;
     }
 
@@ -41,9 +41,9 @@ public static class TransformExtensions
         var tweener = t.gameObject.AddComponent<TransformLocalPositionTweener>();
         tweener.startValue = t.localPosition;
         tweener.endValue = position;
-        tweener.easingControl.duration = duration;
-        tweener.easingControl.equation = equation;
-        tweener.easingControl.Play();
+        tweener.animationEasingControl.duration = duration;
+        tweener.animationEasingControl.equation = equation;
+        tweener.animationEasingControl.Play();
         return tweener;
     }
 
@@ -63,9 +63,9 @@ public static class TransformExtensions
         var tweener = t.gameObject.AddComponent<TransformScaleTweener>();
         tweener.startValue = t.localScale;
         tweener.endValue = scale;
-        tweener.easingControl.duration = duration;
-        tweener.easingControl.equation = equation;
-        tweener.easingControl.Play();
+        tweener.animationEasingControl.duration = duration;
+        tweener.animationEasingControl.equation = equation;
+        tweener.animationEasingControl.Play();
         return tweener;
     }
 }
