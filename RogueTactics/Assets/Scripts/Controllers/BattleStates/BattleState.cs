@@ -4,126 +4,158 @@ using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace BattleStates
+/// <summary>
+///     TODO: comments
+/// </summary>
+public class BattleState : State
 {
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    public class BattleState : State
+    private InputManager _inputManager;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected BattleController owner;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected Camera battleCamera => owner.battleCamera;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected Transform tileSelectionCursor => owner.tileSelectionCursor;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected TileDefinitionData currentSelectedTile => owner.currentSelectedTile;
+
+    public AbilityMenuPanelController abilityMenuPanelController => owner.abilityMenuPanelController;
+
+    public StatPanelController statPanelController => owner.statPanelController;
+
+    public Turn turn => owner.turn;
+
+    public List<Unit> units => owner.units;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    private Vector2 position
     {
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        private InputManager _inputManager;
+        get => owner.position;
+        set => owner.position = value;
+    }
 
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected BattleController owner;
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected virtual void Awake()
+    {
+        owner = GetComponent<BattleController>();
+        _inputManager = new InputManager();
+    }
 
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected Camera battleCamera => owner.battleCamera;
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected override void AddListeners()
+    {
+        _inputManager.Cursor.Movement.performed += OnMovement;
+        _inputManager.Cursor.Movement.Enable();
 
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected Transform tileSelectionCursor => owner.tileSelectionCursor;
+        _inputManager.Cursor.Interaction.performed += OnInteraction;
+        _inputManager.Cursor.Interaction.Enable();
 
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected TileDefinitionData currentSelectedTile => owner.currentSelectedTile;
+        _inputManager.Cursor.Cancel.performed += OnCancel;
+        _inputManager.Cursor.Cancel.Enable();
+    }
 
-        public AbilityMenuPanelController abilityMenuPanelController => owner.abilityMenuPanelController;
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    protected override void RemoveListeners()
+    {
+        _inputManager.Cursor.Movement.performed -= OnMovement;
+        _inputManager.Cursor.Movement.Disable();
 
-        public Turn turn => owner.turn;
+        _inputManager.Cursor.Interaction.performed -= OnInteraction;
+        _inputManager.Cursor.Interaction.Disable();
 
-        public List<Unit> units => owner.units;
+        _inputManager.Cursor.Cancel.performed -= OnCancel;
+        _inputManager.Cursor.Cancel.Disable();
+    }
 
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        private Vector2 position
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="context">TODO: comments</param>
+    protected virtual void OnMovement(InputAction.CallbackContext context)
+    {
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="context">TODO: comments</param>
+    protected virtual void OnInteraction(InputAction.CallbackContext context)
+    {
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="context">TODO: comments</param>
+    protected virtual void OnCancel(InputAction.CallbackContext context)
+    {
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="targetPosition">TODO: comments</param>
+    protected virtual void SelectTile(Vector2 targetPosition)
+    {
+        if (targetPosition == position || Board.GetTile(targetPosition) is null) return;
+
+        position = targetPosition;
+        tileSelectionCursor.localPosition = Board.GetTile(targetPosition).position;
+    }
+
+    protected virtual Unit GetUnit(Vector2 unitPosition)
+    {
+        TileDefinitionData t = Board.GetTile(unitPosition);
+        GameObject content = t?.content;
+        return content != null ? content.GetComponent<Unit>() : null;
+    }
+
+    protected virtual void RefreshPrimaryStatPanel(Vector2 unitPosition)
+    {
+        Unit target = GetUnit(unitPosition);
+        if (target != null)
         {
-            get => owner.position;
-            set => owner.position = value;
+            statPanelController.ShowPrimary(target.gameObject);
         }
-
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected virtual void Awake()
+        else
         {
-            owner = GetComponent<BattleController>();
-            _inputManager = new InputManager();
+            statPanelController.HidePrimary();
         }
+    }
 
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected override void AddListeners()
+    protected virtual void RefreshSecondaryStatPanel(Vector2 unitPosition)
+    {
+        Unit target = GetUnit(unitPosition);
+        if (target != null)
         {
-            _inputManager.Cursor.Movement.performed += OnMovement;
-            _inputManager.Cursor.Movement.Enable();
-
-            _inputManager.Cursor.Interaction.performed += OnInteraction;
-            _inputManager.Cursor.Interaction.Enable();
-
-            _inputManager.Cursor.Cancel.performed += OnCancel;
-            _inputManager.Cursor.Cancel.Enable();
+            statPanelController.ShowSecondary(target.gameObject);
         }
-
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected override void RemoveListeners()
+        else
         {
-            _inputManager.Cursor.Movement.performed -= OnMovement;
-            _inputManager.Cursor.Movement.Disable();
-
-            _inputManager.Cursor.Interaction.performed -= OnInteraction;
-            _inputManager.Cursor.Interaction.Disable();
-
-            _inputManager.Cursor.Cancel.performed -= OnCancel;
-            _inputManager.Cursor.Cancel.Disable();
-        }
-
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        /// <param name="context">TODO: comments</param>
-        protected virtual void OnMovement(InputAction.CallbackContext context)
-        {
-        }
-
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        /// <param name="context">TODO: comments</param>
-        protected virtual void OnInteraction(InputAction.CallbackContext context)
-        {
-        }
-
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        /// <param name="context">TODO: comments</param>
-        protected virtual void OnCancel(InputAction.CallbackContext context)
-        {
-        }
-
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        /// <param name="targetPosition">TODO: comments</param>
-        protected virtual void SelectTile(Vector2 targetPosition)
-        {
-            if (targetPosition == position || Board.GetTile(targetPosition) is null) return;
-
-            position = targetPosition;
-            tileSelectionCursor.localPosition = Board.GetTile(targetPosition).position;
+            statPanelController.HideSecondary();
         }
     }
 }

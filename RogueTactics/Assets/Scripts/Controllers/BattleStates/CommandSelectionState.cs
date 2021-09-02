@@ -15,6 +15,12 @@ public class CommandSelectionState : BaseAbilityMenuState
         Cursor.visible = false;
     }
 
+    public override void Exit()
+    {
+        base.Exit();
+        Cursor.visible = true;
+    }
+
     protected override void OnMovement(InputAction.CallbackContext context)
     {
         Vector2 loop = Vector2.zero;
@@ -31,6 +37,11 @@ public class CommandSelectionState : BaseAbilityMenuState
         {
             abilityMenuPanelController.Previous();
         }
+    }
+
+    protected override void OnInteraction(InputAction.CallbackContext context)
+    {
+        Confirm();
     }
 
     protected override void LoadMenu()

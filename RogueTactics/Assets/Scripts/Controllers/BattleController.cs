@@ -32,6 +32,11 @@ public class BattleController : StateMachine
     /// <summary>
     /// TODO: comments
     /// </summary>
+    public StatPanelController statPanelController;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     public Turn turn = new Turn();
 
     /// <summary>
