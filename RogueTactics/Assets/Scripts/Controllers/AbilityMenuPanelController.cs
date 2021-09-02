@@ -150,7 +150,7 @@ public class AbilityMenuPanelController : MonoBehaviour
     public void Hide()
     {
         Tweener t = TogglePos(HideKey);
-        t.animationEasingControl.completedEvent += delegate(object sender, System.EventArgs e)
+        t.animationEasingControl.CompletedEvent += delegate(object sender, System.EventArgs e)
         {
             if (panel.CurrentPosition == panel[HideKey])
             {

@@ -25,27 +25,29 @@ public class AnimationEasingControl : MonoBehaviour
     public LoopType loopType = LoopType.Repeat;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>startValue</c> represents the time value (expressed as a percentage of the clip duration,
+    /// between 0 and 1) at which the clip of the animation should start from.
     /// </summary>
     public float startValue;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>endValue</c> represents the time value (expressed as a percentage of the clip duration,
+    /// between 0 and 1) at which the clip of the animation should end to.
     /// </summary>
     public float endValue = 1.0f;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>duration</c> represents the duration time value of the animation.
     /// </summary>
     public float duration = 1.0f;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>loopCount</c> represents times the animation has get played and repeat.
     /// </summary>
     public int loopCount;
 
     /// <summary>
-    ///     TODO: comments
+    /// Instance variable <c>equation</c> represents the easing equation the animation should follow while playing.
     /// </summary>
     public Func<float, float, float, float> equation = EasingEquations.Linear;
 
@@ -85,42 +87,28 @@ public class AnimationEasingControl : MonoBehaviour
     public int loops { get; private set; }
 
     #endregion
-    
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    private void OnEnable()
-    {
-        Resume();
-    }
+
+    #region Public Methods
 
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    public void OnDisable()
-    {
-        Pause();
-    }
+    public event EventHandler UpdateEvent;
 
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    public event EventHandler updateEvent;
+    public event EventHandler StateChangeEvent;
 
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    public event EventHandler stateChangeEvent;
+    public event EventHandler CompletedEvent;
 
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    public event EventHandler completedEvent;
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public event EventHandler loopedEvent;
+    public event EventHandler LoopedEvent;
     
     /// <summary>
     ///     TODO: comments
@@ -214,7 +202,7 @@ public class AnimationEasingControl : MonoBehaviour
         currentOffset = newValue - currentValue;
         currentValue = newValue;
 
-        if (updateEvent != null) updateEvent(this, System.EventArgs.Empty);
+        if (UpdateEvent != null) UpdateEvent(this, System.EventArgs.Empty);
     }
 
     /// <summary>
@@ -233,6 +221,30 @@ public class AnimationEasingControl : MonoBehaviour
         SeekToTime(duration);
     }
 
+    #endregion
+
+    #region MonoBehaviour
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    private void OnEnable()
+    {
+        Resume();
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public void OnDisable()
+    {
+        Pause();
+    }
+
+    #endregion
+    
+    #region Private Methods
+
     /// <summary>
     ///     TODO: comments
     /// </summary>
@@ -244,10 +256,10 @@ public class AnimationEasingControl : MonoBehaviour
         previousPlayState = playState;
         playState = target;
 
-        if (stateChangeEvent != null) stateChangeEvent(this, System.EventArgs.Empty);
+        if (StateChangeEvent != null) StateChangeEvent(this, System.EventArgs.Empty);
 
-        StopCoroutine("Ticker");
-        if (IsPlaying) StartCoroutine("Ticker");
+        StopCoroutine(nameof(Ticker));
+        if (IsPlaying) StartCoroutine(nameof(Ticker));
     }
 
     /// <summary>
@@ -256,6 +268,7 @@ public class AnimationEasingControl : MonoBehaviour
     private IEnumerator Ticker()
     {
         while (true)
+        {
             switch (timeType)
             {
                 case TimeType.Normal:
@@ -271,6 +284,7 @@ public class AnimationEasingControl : MonoBehaviour
                     Tick(Time.fixedDeltaTime);
                     break;
             }
+        }
     }
 
     /// <summary>
@@ -279,7 +293,7 @@ public class AnimationEasingControl : MonoBehaviour
     /// <param name="time">TODO: comments</param>
     private void Tick(float time)
     {
-        var finished = false;
+        bool finished;
         if (playState.Equals(PlayState.Playing))
         {
             currentTime = Mathf.Clamp01(currentTime + time / duration);
@@ -295,7 +309,7 @@ public class AnimationEasingControl : MonoBehaviour
         currentOffset = frameValue - currentValue;
         currentValue = frameValue;
 
-        if (updateEvent != null) updateEvent(this, System.EventArgs.Empty);
+        if (UpdateEvent != null) UpdateEvent(this, System.EventArgs.Empty);
 
         if (finished)
         {
@@ -307,14 +321,16 @@ public class AnimationEasingControl : MonoBehaviour
                 else // PingPong
                     SetPlayState(playState.Equals(PlayState.Playing) ? PlayState.Reversing : PlayState.Playing);
 
-                if (loopedEvent != null) loopedEvent(this, System.EventArgs.Empty);
+                if (LoopedEvent != null) LoopedEvent(this, System.EventArgs.Empty);
             }
             else
             {
-                if (completedEvent != null) completedEvent(this, System.EventArgs.Empty);
+                if (CompletedEvent != null) CompletedEvent(this, System.EventArgs.Empty);
 
                 Stop();
             }
         }
     }
+
+    #endregion
 }

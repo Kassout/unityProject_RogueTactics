@@ -77,7 +77,7 @@ public class ConversationController : MonoBehaviour
             while (presenter.MoveNext())
                 yield return null;
             MovePanel(currentPanel, hide);
-            transition.animationEasingControl.completedEvent += delegate(object sender, System.EventArgs e) {
+            transition.animationEasingControl.CompletedEvent += delegate(object sender, System.EventArgs e) {
                 conversation.MoveNext();
             };
             yield return null;

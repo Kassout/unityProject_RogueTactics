@@ -8,32 +8,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ffc9ad-3474-467c-b76e-af8eb8237166" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/ClassGrowthStats.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/ClassStartingStats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/EasingControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationEasingControl.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/EasingControl.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationEasingControl.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/EasingEquations.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/EasingEquations.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationEasingControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/AnimationEasingControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnchorPositionTweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnchorPositionTweener.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnimationExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnimationExtensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformLocalEulerTweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformLocalEulerTweener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformLocalPositionTweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformLocalPositionTweener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformPositionTweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformPositionTweener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformScaleTweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/TransformScaleTweener.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/Tweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/Tweener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/Vector2Tweener.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/Vector2Tweener.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Animation/Vector3Tweener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Animation/Vector3Tweener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/UI/Panel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/UI/Panel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/AbilityMenuPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/AbilityMenuPanelController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/InitBattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/InitBattleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/ConversationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/ConversationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/StatTypes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/StatTypes.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/PanelTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/PanelTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/TestItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/TestItems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/ConversationPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/ConversationPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +60,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Merchandise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/c9/91d67017/Int32.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/ActionSelectionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/b0/b491a59f/Tile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ValueChangeException.cs" root0="FORCE_HIGHLIGHTING" />
@@ -155,10 +145,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="10416">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="10416" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -185,6 +175,7 @@
       <workItem from="1630400919891" duration="19744000" />
       <workItem from="1630476101266" duration="18537000" />
       <workItem from="1630525200416" duration="5011000" />
+      <workItem from="1630563472743" duration="1604000" />
     </task>
     <servers />
   </component>
