@@ -510,8 +510,8 @@ MonoBehaviour:
     parentAnchor: 6
     offset: {x: 0, y: 20}
   - name: Show
-    myAnchor: 6
-    parentAnchor: 6
+    myAnchor: 3
+    parentAnchor: 3
     offset: {x: 0, y: 20}
 --- !u!114 &3864296110672426212
 MonoBehaviour:
@@ -1679,12 +1679,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionList:
   - name: Hide
-    myAnchor: 8
-    parentAnchor: 6
+    myAnchor: 6
+    parentAnchor: 8
     offset: {x: 0, y: 20}
   - name: Show
-    myAnchor: 6
-    parentAnchor: 6
+    myAnchor: 5
+    parentAnchor: 5
     offset: {x: 0, y: 20}
 --- !u!114 &3864296111680967054
 MonoBehaviour:

@@ -33,6 +33,8 @@ public class Board : MonoBehaviour
 
     [SerializeField] private Sprite attackableTileSprite;
 
+    [SerializeField] private Sprite targetedTileSprite;
+
     [SerializeField] private Color defaultTileColor = new Color(0, 1, 1, 0.7f);
 
     private static Vector2 s_min;
@@ -251,6 +253,19 @@ public class Board : MonoBehaviour
     {
         var defaultTile = ScriptableObject.CreateInstance<Tile>();
         defaultTile.sprite = attackableTileSprite;
+        for (var i = tiles.Count - 1; i >= 0; --i)
+        {
+            var tilePosition = new Vector3Int((int)tiles[i].position.x, (int)tiles[i].position.y, 0);
+            s_boardTileMap.SetTile(tilePosition, defaultTile);
+            s_boardTileMap.SetTileFlags(tilePosition, TileFlags.None);
+            s_boardTileMap.SetColor(tilePosition, defaultTileColor);
+        }
+    }
+
+    public void SelectAreaTargetTiles(List<TileDefinitionData> tiles)
+    {
+        var defaultTile = ScriptableObject.CreateInstance<Tile>();
+        defaultTile.sprite = targetedTileSprite;
         for (var i = tiles.Count - 1; i >= 0; --i)
         {
             var tilePosition = new Vector3Int((int)tiles[i].position.x, (int)tiles[i].position.y, 0);

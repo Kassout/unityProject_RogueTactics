@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Model;
 using UnityEngine;
 
@@ -8,7 +9,8 @@ public class Turn
     public bool hasUnitActed;
     public bool lockMove;
     public GameObject ability;
-    
+    public List<TileDefinitionData> targets;
+
     private TileDefinitionData _startTile;
 
     public void Change(Unit current)

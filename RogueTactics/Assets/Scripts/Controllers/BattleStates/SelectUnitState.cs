@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -10,6 +11,24 @@ namespace BattleStates
     /// </summary>
     public class SelectUnitState : BattleState
     {
+        public override void Enter()
+        {
+            base.Enter();
+            if (units.All(unit => unit.hasEndTurn))
+            {
+                SetupNextTurn();
+            }
+        }
+
+        private void SetupNextTurn()
+        {
+            foreach (var unit in units)
+            {
+                unit.hasEndTurn = false;
+                unit.GetComponentInChildren<SpriteRenderer>().color = Color.white;
+            }
+        }
+
         /// <summary>
         ///     TODO: comments
         /// </summary>
@@ -40,7 +59,7 @@ namespace BattleStates
                 Debug.Log("No hit");
             }
 
-            if (content != null)
+            if (content != null && !content.GetComponent<Unit>().hasEndTurn)
             {
                 StartCoroutine("ChangeCurrentUnit", content.GetComponent<Unit>());
             }

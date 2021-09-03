@@ -13,6 +13,11 @@ namespace Common.StateMachine
         private State _currentState;
 
         /// <summary>
+        /// TODO: comments
+        /// </summary>
+        private State _previousState;
+
+        /// <summary>
         ///     TODO: comments
         /// </summary>
         private bool _inTransition;
@@ -49,6 +54,16 @@ namespace Common.StateMachine
             CurrentState = GETState<T>();
         }
 
+        public virtual string GetCurrentState()
+        {
+            return _currentState.GetType().Name;
+        }
+
+        public virtual string GetPreviousState()
+        {
+            return _previousState.GetType().Name;
+        }
+
         /// <summary>
         ///     TODO: comments
         /// </summary>
@@ -61,6 +76,7 @@ namespace Common.StateMachine
 
             if (null != _currentState) _currentState.Exit();
 
+            _previousState = _currentState;
             _currentState = value;
 
             if (null != _currentState) _currentState.Enter();

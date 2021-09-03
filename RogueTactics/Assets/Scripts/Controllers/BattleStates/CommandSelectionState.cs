@@ -1,16 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using BattleStates;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.Animations;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Controls;
 
 public class CommandSelectionState : BaseAbilityMenuState
 {
-    private Vector2 _lastMousePos = Vector2.zero;
-
     public override void Enter()
     {
         base.Enter();
@@ -74,9 +70,13 @@ public class CommandSelectionState : BaseAbilityMenuState
             menuOptions.Add("Objects");
             menuOptions.Add("Wait");
         }
-        
+
         abilityMenuPanelController.Show(menuOptions);
         abilityMenuPanelController.SetLocked(0, turn.hasUnitActed);
+        
+        var ar = turn.ability.GetComponent<AbilityRange>().GetTilesInRange();
+        turn.targets = units.Where(unit => ar.Any(tile => tile.position.Equals(unit.TileDefinition.position)) && !unit.Equals(turn.actor)).Select(unit => unit.TileDefinition).ToList();
+        abilityMenuPanelController.SetLocked(0, !turn.targets.Any());
     }
 
     protected override void Confirm()
@@ -87,6 +87,11 @@ public class CommandSelectionState : BaseAbilityMenuState
                 Attack();
                 break;
             case 1:
+                owner.ChangeState<CategorySelectionState>();
+                break;
+            case 3:
+                turn.actor.hasEndTurn = true;
+                turn.actor.GetComponentInChildren<SpriteRenderer>().color = Color.grey;
                 owner.ChangeState<SelectUnitState>();
                 break;
         }
@@ -111,6 +116,6 @@ public class CommandSelectionState : BaseAbilityMenuState
     void Attack ()
     {
         turn.ability = turn.actor.GetComponentInChildren<AbilityRange>().gameObject;
-        owner.ChangeState<AbilityTargetState>();
+        owner.ChangeState<ConfirmAbilityTargetState>();
     }
 }

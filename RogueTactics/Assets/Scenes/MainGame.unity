@@ -4841,6 +4841,7 @@ MonoBehaviour:
     position: {x: 0, y: 0}
     tileType: {fileID: 0}
     doCollide: 0
+    distanceFromStartTile: 0
   position: {x: 0, y: 0}
 --- !u!1 &741972912
 GameObject:
@@ -5177,6 +5178,7 @@ MonoBehaviour:
   tileTypeManager: {fileID: 11400000, guid: cee05ed7d914d5445860e726c7539854, type: 2}
   movableTileSprite: {fileID: 21300000, guid: 32a15c0f2a0d88e40940a5aa82af2189, type: 3}
   attackableTileSprite: {fileID: 21300000, guid: 00213d535c344d844b52640c723f296e, type: 3}
+  targetedTileSprite: {fileID: 21300000, guid: ab7a5665099fac8448ff875a6bb0e43f, type: 3}
   defaultTileColor: {r: 1, g: 1, b: 1, a: 0.6666667}
 --- !u!4 &1297327334 stripped
 Transform:

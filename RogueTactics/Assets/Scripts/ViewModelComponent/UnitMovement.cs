@@ -13,8 +13,6 @@ namespace ViewModelComponent
             get { return _stats[StatTypes.MOV]; }
         }
 
-        private int _actionRange = 0;
-
         protected Stats _stats;
         
         protected Unit unitInstance;
