@@ -13,6 +13,8 @@ namespace ViewModelComponent
             get { return _stats[StatTypes.MOV]; }
         }
 
+        private int _actionRange = 0;
+
         protected Stats _stats;
         
         protected Unit unitInstance;
@@ -36,7 +38,7 @@ namespace ViewModelComponent
 
         protected virtual bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)
         {
-            return Mathf.Abs(from.position.x - to.position.x) + Mathf.Abs(from.position.y - to.position.y) <= range;
+            return (from.distanceFromStartTile + 1) <= range;
         }
 
         protected virtual void Filter(List<TileDefinitionData> tiles)

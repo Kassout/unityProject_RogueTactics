@@ -91,13 +91,18 @@ public class AbilityMenuPanelController : MonoBehaviour
         for (int i = selection + 1; i < selection + _menuEntries.Count; ++i)
         {
             int index = i % _menuEntries.Count;
-            if (index !< selection)
+            if (SetSelection(index))
             {
-                if (SetSelection(index))
-                {
-                    break;
-                }
+                break;
             }
+        }
+    }
+
+    public void NextMenuSelection()
+    {
+        if (selection + 1 <= _menuEntries.Count - 1)
+        {
+            SetSelection(selection + 1);
         }
     }
 
@@ -106,13 +111,18 @@ public class AbilityMenuPanelController : MonoBehaviour
         for (int i = selection - 1 + _menuEntries.Count; i > selection; --i)
         {
             int index = i % _menuEntries.Count;
-            if (index !> selection)
+            if (SetSelection(index))
             {
-                if (SetSelection(index))
-                {
-                    break;
-                }
+                break;
             }
+        }
+    }
+
+    public void PreviousMenuSelection()
+    {
+        if (selection - 1 >= 0)
+        {
+            SetSelection(selection - 1);
         }
     }
 

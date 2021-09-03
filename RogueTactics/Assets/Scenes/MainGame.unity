@@ -128,6 +128,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3864296111243903500, guid: 84dba1798e173374292734d7e385bff7, type: 3}
   m_PrefabInstance: {fileID: 3864296111248122117}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4449034 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3864296111243903503, guid: 84dba1798e173374292734d7e385bff7, type: 3}
+  m_PrefabInstance: {fileID: 3864296111248122117}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544e3a0f8e9d3be4c8337a9e9f0a6e07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &141404271
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4823,6 +4834,7 @@ MonoBehaviour:
   tileSelectionCursor: {fileID: 741972913}
   heroPrefab: {fileID: 4238064085445948558, guid: 8e44eef4463e9884b90a23265ce7b938, type: 3}
   abilityMenuPanelController: {fileID: 444627129}
+  statPanelController: {fileID: 4449034}
   units: []
   currentSelectedTile:
     content: {fileID: 0}
@@ -5163,8 +5175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelObject: {fileID: 414423682}
   tileTypeManager: {fileID: 11400000, guid: cee05ed7d914d5445860e726c7539854, type: 2}
-  selectedTileColor: {r: 1, g: 0, b: 0, a: 0.7}
-  defaultSprite: {fileID: 21300000, guid: 4ee7ce31da8687b4fb55318cf2608254, type: 3}
+  movableTileSprite: {fileID: 21300000, guid: 32a15c0f2a0d88e40940a5aa82af2189, type: 3}
+  attackableTileSprite: {fileID: 21300000, guid: 00213d535c344d844b52640c723f296e, type: 3}
   defaultTileColor: {r: 1, g: 1, b: 1, a: 0.6666667}
 --- !u!4 &1297327334 stripped
 Transform:
@@ -5492,10 +5504,6 @@ PrefabInstance:
     - target: {fileID: 5549820785271548562, guid: 787d3349f937b1849878ed18068b7ca8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5549820785698187676, guid: 787d3349f937b1849878ed18068b7ca8, type: 3}
-      propertyPath: m_MatchWidthOrHeight
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 787d3349f937b1849878ed18068b7ca8, type: 3}

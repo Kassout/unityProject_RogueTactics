@@ -12,7 +12,7 @@ public class BattleState : State
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    private InputManager _inputManager;
+    protected InputManager _inputManager;
 
     /// <summary>
     ///     TODO: comments

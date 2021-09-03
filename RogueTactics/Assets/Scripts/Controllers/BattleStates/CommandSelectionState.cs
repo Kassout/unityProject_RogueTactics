@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using BattleStates;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Controls;
 
 public class CommandSelectionState : BaseAbilityMenuState
 {
@@ -12,31 +14,49 @@ public class CommandSelectionState : BaseAbilityMenuState
     public override void Enter()
     {
         base.Enter();
+        
+        _inputManager.Cursor.Selection.performed += OnSelection;
+        _inputManager.Cursor.Selection.Enable();
+        
         Cursor.visible = false;
     }
 
     public override void Exit()
     {
         base.Exit();
+        
+        _inputManager.Cursor.Selection.performed -= OnSelection;
+        _inputManager.Cursor.Selection.Disable();
+        
         Cursor.visible = true;
     }
 
-    protected override void OnMovement(InputAction.CallbackContext context)
+    protected void OnSelection(InputAction.CallbackContext context)
     {
-        Vector2 loop = Vector2.zero;
-        var mouse = Mouse.current;
-        if (mouse != null)
+        Vector2 mouseDelta = context.ReadValue<Vector2>().normalized * Time.fixedDeltaTime;
+
+        if (context.performed)
         {
-            loop = mouse.delta.ReadValue();
+            StartCoroutine(nameof(ChangeSelection), mouseDelta.y);
         }
+    }
+
+    IEnumerator ChangeSelection(float axis)
+    {
+        if (axis > 0)
+        {
+            abilityMenuPanelController.PreviousMenuSelection();
+        } 
+        else if (axis < 0)
+        {
+            abilityMenuPanelController.NextMenuSelection();
+        }
+
+        _inputManager.Cursor.Selection.Disable();
+
+        yield return new WaitForSeconds(0.2f);
         
-        if (loop.y > 3)
-        {
-            abilityMenuPanelController.Next();
-        } else if (loop.y < -3)
-        {
-            abilityMenuPanelController.Previous();
-        }
+        _inputManager.Cursor.Selection.Enable();
     }
 
     protected override void OnInteraction(InputAction.CallbackContext context)
@@ -48,8 +68,10 @@ public class CommandSelectionState : BaseAbilityMenuState
     {
         if (menuOptions == null)
         {
-            menuOptions = new List<string>(3);
-            menuOptions.Add("Action");
+            menuOptions = new List<string>(4);
+            menuOptions.Add("Attack");
+            menuOptions.Add("Abilities");
+            menuOptions.Add("Objects");
             menuOptions.Add("Wait");
         }
         
@@ -62,7 +84,7 @@ public class CommandSelectionState : BaseAbilityMenuState
         switch (abilityMenuPanelController.selection)
         {
             case 0:
-                owner.ChangeState<CategorySelectionState>();
+                Attack();
                 break;
             case 1:
                 owner.ChangeState<SelectUnitState>();
@@ -84,5 +106,11 @@ public class CommandSelectionState : BaseAbilityMenuState
             SelectTile(turn.actor.TileDefinition.position); 
             owner.ChangeState<SelectUnitState>();
         }
+    }
+    
+    void Attack ()
+    {
+        turn.ability = turn.actor.GetComponentInChildren<AbilityRange>().gameObject;
+        owner.ChangeState<AbilityTargetState>();
     }
 }

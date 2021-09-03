@@ -1,4 +1,5 @@
 using Model;
+using UnityEngine;
 
 public class Turn
 {
@@ -6,6 +7,7 @@ public class Turn
     public bool hasUnitMoved;
     public bool hasUnitActed;
     public bool lockMove;
+    public GameObject ability;
     
     private TileDefinitionData _startTile;
 

@@ -1,25 +1,15 @@
-// GENERATED AUTOMATICALLY FROM 'Assets/Scripts/InputManager.inputactions'
+// GENERATED AUTOMATICALLY FROM 'Assets/Scripts/Managers/InputManager.inputactions'
 
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.Utilities;
-using Object = UnityEngine.Object;
 
-public class InputManager : IInputActionCollection, IDisposable
+public class @InputManager : IInputActionCollection, IDisposable
 {
-    // Cursor
-    private readonly InputActionMap m_Cursor;
-    private readonly InputAction m_Cursor_Cancel;
-    private readonly InputAction m_Cursor_Interaction;
-    private readonly InputAction m_Cursor_Movement;
-    private ICursorActions m_CursorActionsCallbackInterface;
-    private int m_GamepadSchemeIndex = -1;
-    private int m_KeyboardSchemeIndex = -1;
-    private int m_MouseSchemeIndex = -1;
-
-    public InputManager()
+    public InputActionAsset asset { get; }
+    public @InputManager()
     {
         asset = InputActionAsset.FromJson(@"{
     ""name"": ""InputManager"",
@@ -49,6 +39,14 @@ public class InputManager : IInputActionCollection, IDisposable
                     ""type"": ""Button"",
                     ""id"": ""287e60a0-5844-49c5-9da5-78940435ce3c"",
                     ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Selection"",
+                    ""type"": ""Value"",
+                    ""id"": ""dfedc9bc-bfab-47db-8aa3-8d4f6c2e6d1e"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -84,6 +82,17 @@ public class InputManager : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Mouse"",
                     ""action"": ""Cancel"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0cca49a6-94fd-4f4a-805c-eeb727b77e91"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Mouse"",
+                    ""action"": ""Selection"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -127,45 +136,16 @@ public class InputManager : IInputActionCollection, IDisposable
     ]
 }");
         // Cursor
-        m_Cursor = asset.FindActionMap("Cursor", true);
-        m_Cursor_Movement = m_Cursor.FindAction("Movement", true);
-        m_Cursor_Interaction = m_Cursor.FindAction("Interaction", true);
-        m_Cursor_Cancel = m_Cursor.FindAction("Cancel", true);
-    }
-
-    public InputActionAsset asset { get; }
-    public CursorActions Cursor => new CursorActions(this);
-
-    public InputControlScheme KeyboardScheme
-    {
-        get
-        {
-            if (m_KeyboardSchemeIndex == -1) m_KeyboardSchemeIndex = asset.FindControlSchemeIndex("Keyboard");
-            return asset.controlSchemes[m_KeyboardSchemeIndex];
-        }
-    }
-
-    public InputControlScheme GamepadScheme
-    {
-        get
-        {
-            if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
-            return asset.controlSchemes[m_GamepadSchemeIndex];
-        }
-    }
-
-    public InputControlScheme MouseScheme
-    {
-        get
-        {
-            if (m_MouseSchemeIndex == -1) m_MouseSchemeIndex = asset.FindControlSchemeIndex("Mouse");
-            return asset.controlSchemes[m_MouseSchemeIndex];
-        }
+        m_Cursor = asset.FindActionMap("Cursor", throwIfNotFound: true);
+        m_Cursor_Movement = m_Cursor.FindAction("Movement", throwIfNotFound: true);
+        m_Cursor_Interaction = m_Cursor.FindAction("Interaction", throwIfNotFound: true);
+        m_Cursor_Cancel = m_Cursor.FindAction("Cancel", throwIfNotFound: true);
+        m_Cursor_Selection = m_Cursor.FindAction("Selection", throwIfNotFound: true);
     }
 
     public void Dispose()
     {
-        Object.Destroy(asset);
+        UnityEngine.Object.Destroy(asset);
     }
 
     public InputBinding? bindingMask
@@ -207,76 +187,94 @@ public class InputManager : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
+    // Cursor
+    private readonly InputActionMap m_Cursor;
+    private ICursorActions m_CursorActionsCallbackInterface;
+    private readonly InputAction m_Cursor_Movement;
+    private readonly InputAction m_Cursor_Interaction;
+    private readonly InputAction m_Cursor_Cancel;
+    private readonly InputAction m_Cursor_Selection;
     public struct CursorActions
     {
-        private readonly InputManager m_Wrapper;
-
-        public CursorActions(InputManager wrapper)
-        {
-            m_Wrapper = wrapper;
-        }
-
-        public InputAction Movement => m_Wrapper.m_Cursor_Movement;
-        public InputAction Interaction => m_Wrapper.m_Cursor_Interaction;
-        public InputAction Cancel => m_Wrapper.m_Cursor_Cancel;
-
-        public InputActionMap Get()
-        {
-            return m_Wrapper.m_Cursor;
-        }
-
-        public void Enable()
-        {
-            Get().Enable();
-        }
-
-        public void Disable()
-        {
-            Get().Disable();
-        }
-
+        private @InputManager m_Wrapper;
+        public CursorActions(@InputManager wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Movement => m_Wrapper.m_Cursor_Movement;
+        public InputAction @Interaction => m_Wrapper.m_Cursor_Interaction;
+        public InputAction @Cancel => m_Wrapper.m_Cursor_Cancel;
+        public InputAction @Selection => m_Wrapper.m_Cursor_Selection;
+        public InputActionMap Get() { return m_Wrapper.m_Cursor; }
+        public void Enable() { Get().Enable(); }
+        public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-
-        public static implicit operator InputActionMap(CursorActions set)
-        {
-            return set.Get();
-        }
-
+        public static implicit operator InputActionMap(CursorActions set) { return set.Get(); }
         public void SetCallbacks(ICursorActions instance)
         {
             if (m_Wrapper.m_CursorActionsCallbackInterface != null)
             {
-                Movement.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnMovement;
-                Movement.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnMovement;
-                Movement.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnMovement;
-                Interaction.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
-                Interaction.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
-                Interaction.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
-                Cancel.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
-                Cancel.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
-                Cancel.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
+                @Movement.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnMovement;
+                @Movement.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnMovement;
+                @Movement.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnMovement;
+                @Interaction.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
+                @Interaction.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
+                @Interaction.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnInteraction;
+                @Cancel.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
+                @Cancel.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
+                @Cancel.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnCancel;
+                @Selection.started -= m_Wrapper.m_CursorActionsCallbackInterface.OnSelection;
+                @Selection.performed -= m_Wrapper.m_CursorActionsCallbackInterface.OnSelection;
+                @Selection.canceled -= m_Wrapper.m_CursorActionsCallbackInterface.OnSelection;
             }
-
             m_Wrapper.m_CursorActionsCallbackInterface = instance;
             if (instance != null)
             {
-                Movement.started += instance.OnMovement;
-                Movement.performed += instance.OnMovement;
-                Movement.canceled += instance.OnMovement;
-                Interaction.started += instance.OnInteraction;
-                Interaction.performed += instance.OnInteraction;
-                Interaction.canceled += instance.OnInteraction;
-                Cancel.started += instance.OnCancel;
-                Cancel.performed += instance.OnCancel;
-                Cancel.canceled += instance.OnCancel;
+                @Movement.started += instance.OnMovement;
+                @Movement.performed += instance.OnMovement;
+                @Movement.canceled += instance.OnMovement;
+                @Interaction.started += instance.OnInteraction;
+                @Interaction.performed += instance.OnInteraction;
+                @Interaction.canceled += instance.OnInteraction;
+                @Cancel.started += instance.OnCancel;
+                @Cancel.performed += instance.OnCancel;
+                @Cancel.canceled += instance.OnCancel;
+                @Selection.started += instance.OnSelection;
+                @Selection.performed += instance.OnSelection;
+                @Selection.canceled += instance.OnSelection;
             }
         }
     }
-
+    public CursorActions @Cursor => new CursorActions(this);
+    private int m_KeyboardSchemeIndex = -1;
+    public InputControlScheme KeyboardScheme
+    {
+        get
+        {
+            if (m_KeyboardSchemeIndex == -1) m_KeyboardSchemeIndex = asset.FindControlSchemeIndex("Keyboard");
+            return asset.controlSchemes[m_KeyboardSchemeIndex];
+        }
+    }
+    private int m_GamepadSchemeIndex = -1;
+    public InputControlScheme GamepadScheme
+    {
+        get
+        {
+            if (m_GamepadSchemeIndex == -1) m_GamepadSchemeIndex = asset.FindControlSchemeIndex("Gamepad");
+            return asset.controlSchemes[m_GamepadSchemeIndex];
+        }
+    }
+    private int m_MouseSchemeIndex = -1;
+    public InputControlScheme MouseScheme
+    {
+        get
+        {
+            if (m_MouseSchemeIndex == -1) m_MouseSchemeIndex = asset.FindControlSchemeIndex("Mouse");
+            return asset.controlSchemes[m_MouseSchemeIndex];
+        }
+    }
     public interface ICursorActions
     {
         void OnMovement(InputAction.CallbackContext context);
         void OnInteraction(InputAction.CallbackContext context);
         void OnCancel(InputAction.CallbackContext context);
+        void OnSelection(InputAction.CallbackContext context);
     }
 }
