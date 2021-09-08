@@ -9,7 +9,7 @@
 		"url": "https://ldtk.io"
 	},
 	"jsonVersion": "0.9.3",
-	"nextUid": 133,
+	"nextUid": 140,
 	"worldLayout": "Free",
 	"worldGridWidth": 256,
 	"worldGridHeight": 256,
@@ -30,6 +30,25 @@
 	"levelNamePattern": "Level_%idx",
 	"flags": [],
 	"defs": { "layers": [
+		{
+			"__type": "Tiles",
+			"identifier": "Tiles",
+			"type": "Tiles",
+			"uid": 139,
+			"gridSize": 16,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 136,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
 		{
 			"__type": "Tiles",
 			"identifier": "Custom_ground_buildings",
@@ -70,9 +89,47 @@
 		},
 		{
 			"__type": "Tiles",
+			"identifier": "Custom_river_tiles",
+			"type": "Tiles",
+			"uid": 134,
+			"gridSize": 16,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 11,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
 			"identifier": "Custom_grounds_tiles",
 			"type": "Tiles",
 			"uid": 89,
+			"gridSize": 16,
+			"displayOpacity": 1,
+			"pxOffsetX": 0,
+			"pxOffsetY": 0,
+			"requiredTags": [],
+			"excludedTags": [],
+			"intGridValues": [{ "value": 1, "identifier": null, "color": "#000000" }],
+			"autoTilesetDefUid": null,
+			"autoRuleGroups": [],
+			"autoSourceLayerDefUid": null,
+			"tilesetDefUid": 1,
+			"tilePivotX": 0,
+			"tilePivotY": 0
+		},
+		{
+			"__type": "Tiles",
+			"identifier": "Custom_grounds_tiles2",
+			"type": "Tiles",
+			"uid": 138,
 			"gridSize": 16,
 			"displayOpacity": 1,
 			"pxOffsetX": 0,
@@ -846,6 +903,43 @@
 			"cachedPixelData": {
 				"opaqueTiles": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
 				"averageColors": "0000c889e889d8890000c876e876d8760000c654e654d654b999d999e999d999b876d876e876d876b654d654e654d654ca99da99fa99da99c865d875f876d875c554d654f554d554b989d999e999d999b876d876e876d876b554d554e554d554b753a853a8538654a654b655a654b655b644d544a654a6559556b6670000c986b976da86ca86c986b986b987c987c987000000000000a7647753a7538643965300000000000000000000000000008766a767b667a777b667b667d556a666a767"
+			}
+		},
+		{
+			"__cWid": 8,
+			"__cHei": 2,
+			"identifier": "River",
+			"uid": 135,
+			"relPath": "../Tiles/Water/River.png",
+			"pxWid": 128,
+			"pxHei": 32,
+			"tileGridSize": 16,
+			"spacing": 0,
+			"padding": 0,
+			"tagsSourceEnumUid": 129,
+			"enumTags": [ { "enumValueId": "Grass", "tileIds": [] }, { "enumValueId": "Water", "tileIds": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15] }, { "enumValueId": "Coast", "tileIds": [] } ],
+			"customData": [],
+			"savedSelections": [],
+			"cachedPixelData": { "opaqueTiles": "0000000000000000", "averageColors": "0000838b638b637b227a347ba37ba27c728c0000637c637c347b447aa27cb37b" }
+		},
+		{
+			"__cWid": 16,
+			"__cHei": 11,
+			"identifier": "Road",
+			"uid": 136,
+			"relPath": "../Tiles/Roads/Road.png",
+			"pxWid": 256,
+			"pxHei": 176,
+			"tileGridSize": 16,
+			"spacing": 0,
+			"padding": 0,
+			"tagsSourceEnumUid": null,
+			"enumTags": [],
+			"customData": [],
+			"savedSelections": [],
+			"cachedPixelData": {
+				"opaqueTiles": "00000000000000000000001000000010000000000000000000000000000000000000000000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000",
+				"averageColors": "000000007db89db87db8adb8cec99db800000000787699767976a986c9869986dec98db8bdc99db89db8cec9fec9cec9d9868976b98699769986c986fa86c986bdb89db8bdb89db89db89db8cec9aec9b9869976b986998699869986c986a986bdc98db86db86db8eec9eec9fec9fec9b986898669766986e986ea86fa86fa865ca8dec96db96db8eec9eec9fec9fec95876d98669866986e986ea86fa86fa8600000000788998897889a88ac89a988a000000007eca9eda7ecaaedaceda9edad89a8889b89a988a988ac89af99bc89adeda8ecabeda9eda9edacedafedacedab88a988ab88a988a988a988ac89aa89abeda9edabeda9eda9eda9edacedaaedab89a888a688a688ae89ae89af89af99abeda8eca6eda6edaeedaeedafedafeda5789d89a688a688ae89ae89af89af99a5dcadeda6eda6edaeedaeedafedafeda000000000000000000000000000000000000000000000000c765b875b779b789"
 			}
 		}
 	], "enums": [{ "identifier": "Surface", "uid": 129, "values": [

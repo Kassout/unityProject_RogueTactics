@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,7 +8,7 @@ public class AbilityTargetState : BattleState
     private List<TileDefinitionData> abilityRangeTiles;
 
     private List<TileDefinitionData> targetAreaTiles;
-    
+
     private AbilityRange ar;
 
     private AbilityArea aa;
@@ -18,6 +19,28 @@ public class AbilityTargetState : BattleState
         ar = turn.ability.GetComponent<AbilityRange>();
         aa = turn.ability.GetComponent<AbilityArea>();
         SelectTiles();
+
+        if (_driver.Current == Drivers.Computer)
+        {
+            StartCoroutine(ComputerHighlightTarget());
+        }
+    }
+
+    private IEnumerator ComputerHighlightTarget()
+    {
+        Vector2 cursorPos = tileSelectionCursor.position;
+        while (cursorPos != turn.plan.fireLocation)
+        {
+            if (cursorPos.x < turn.plan.fireLocation.x) cursorPos.x++;
+            if (cursorPos.x > turn.plan.fireLocation.x) cursorPos.x--;
+            if (cursorPos.y < turn.plan.fireLocation.y) cursorPos.y++;
+            if (cursorPos.y > turn.plan.fireLocation.y) cursorPos.y--;
+            SelectTile(cursorPos);
+            yield return new WaitForSeconds(0.25f);
+        }
+
+        yield return new WaitForSeconds(0.5f);
+        owner.ChangeState<ConfirmAbilityTargetState>();
     }
 
     public override void Exit()
@@ -55,14 +78,14 @@ public class AbilityTargetState : BattleState
             owner.ChangeState<CommandSelectionState>();
         }
     }
-    
+
     protected override void OnCancel(InputAction.CallbackContext context)
     {
         owner.ChangeState<CommandSelectionState>();
     }
 
-    
-    void SelectTiles ()
+
+    void SelectTiles()
     {
         abilityRangeTiles = ar.GetTilesInRange();
         Board.Instance.SelectAbilityTiles(abilityRangeTiles);

@@ -57,5 +57,16 @@ public class Equipment : MonoBehaviour
         }
     }
     
+    public Equippable GetItem (EquipSlots slots)
+    {
+        for (int i = _items.Count - 1; i >= 0; --i)
+        {
+            Equippable item = _items[i];
+            if ( (item.slots & slots) != EquipSlots.None )
+                return item;
+        }
+        return null;
+    }
+    
     #endregion
 }

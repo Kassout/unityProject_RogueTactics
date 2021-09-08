@@ -11,8 +11,8 @@ public class ClampValueModifier : ValueModifier
         _max = max;
     }
 
-    public override float Modify(float value)
+    public override float Modify(float fromValue, float toValue)
     {
-        return Mathf.Clamp(value, _min, _max);
+        return Mathf.Clamp(toValue, _min, _max);
     }
 }

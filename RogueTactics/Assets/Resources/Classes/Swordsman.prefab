@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8332944977798061981}
   - component: {fileID: 748329947657284108}
   - component: {fileID: -6219149917808702116}
+  - component: {fileID: -4444457731190469626}
+  - component: {fileID: -3944172211451153548}
   m_Layer: 0
   m_Name: Swordsman
   m_TagString: Untagged
@@ -44,6 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7359e553bc178c344a04c6c3c08e1528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  classModel: {fileID: 21300000, guid: 5fb35fd23701d90468900466812a18c3, type: 3}
+  classAnimator: {fileID: 22100000, guid: 86d35e762efa2d846b105c8f03ac5658, type: 2}
   baseStats: 100000001e0000000400000002000000000000000100000009000000
   growStats:
   - 1.7
@@ -67,3 +71,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 13
   amount: 4
+--- !u!114 &-4444457731190469626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5048336002504351488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 10
+  amount: 50
+--- !u!114 &-3944172211451153548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5048336002504351488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 11
+  amount: 50

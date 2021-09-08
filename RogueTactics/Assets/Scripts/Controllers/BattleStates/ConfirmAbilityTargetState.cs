@@ -8,20 +8,41 @@ public class ConfirmAbilityTargetState : BattleState
     private List<TileDefinitionData> _tiles;
     private AbilityArea _aa;
     private int _index = 0;
-
+    
     public override void Enter()
     {
         base.Enter();
-        //_aa = turn.ability.GetComponent<AbilityArea>();
-        //_tiles = _aa.GetTilesInArea(tileSelectionCursor.position);
         FindTargets();
         RefreshPrimaryStatPanel(turn.actor.TileDefinition.position);
-        SetTarget(0);
+
+        if (turn.targets.Count > 0)
+        {
+            if (_driver.Current == Drivers.Human)
+            {
+                hitSuccessIndicator.Show();
+            }
+            SetTarget(0);
+        }
+
+        if (_driver.Current == Drivers.Computer)
+        {
+            StartCoroutine(ComputerDisplayAbilitySelection());
+        }
         
-        _inputManager.Cursor.Selection.performed += OnSelection;
-        _inputManager.Cursor.Selection.Enable();
+        if (_driver.Current == Drivers.Human)
+        {
+            inputManager.Cursor.Selection.performed += OnSelection;
+            inputManager.Cursor.Selection.Enable();
         
-        Cursor.visible = false;
+            Cursor.visible = false;
+        }
+    }
+
+    private IEnumerator ComputerDisplayAbilitySelection()
+    {
+        owner.battleMessageController.Display(turn.ability.name);
+        yield return new WaitForSeconds(2f);
+        owner.ChangeState<PerformAbilityState>();
     }
 
     public override void Exit()
@@ -29,9 +50,10 @@ public class ConfirmAbilityTargetState : BattleState
         base.Exit();
         statPanelController.HidePrimary();
         statPanelController.HideSecondary();
+        hitSuccessIndicator.Hide();
         
-        _inputManager.Cursor.Selection.performed -= OnSelection;
-        _inputManager.Cursor.Selection.Disable();
+        inputManager.Cursor.Selection.performed -= OnSelection;
+        inputManager.Cursor.Selection.Disable();
         
         Cursor.visible = true;
     }
@@ -57,11 +79,11 @@ public class ConfirmAbilityTargetState : BattleState
             SetTarget(_index - 1);
         }
 
-        _inputManager.Cursor.Selection.Disable();
+        inputManager.Cursor.Selection.Disable();
 
         yield return new WaitForSeconds(0.2f);
         
-        _inputManager.Cursor.Selection.Enable();
+        inputManager.Cursor.Selection.Enable();
     }
 
     protected override void OnInteraction(InputAction.CallbackContext context)
@@ -92,7 +114,7 @@ public class ConfirmAbilityTargetState : BattleState
     void FindTargets ()
     {
         var allowedTargets = new List<TileDefinitionData>();
-        AbilityEffectTarget[] targeters = turn.ability.GetComponentsInChildren<AbilityEffectTarget>();
+        AbilityEffectTarget[] targeters = turn.actor.GetComponentsInChildren<AbilityEffectTarget>();
         for (int i = 0; i < turn.targets.Count; ++i)
             if (IsTarget(turn.targets[i], targeters))
                 allowedTargets.Add(turn.targets[i]);
@@ -120,6 +142,32 @@ public class ConfirmAbilityTargetState : BattleState
         {
             RefreshSecondaryStatPanel(turn.targets[_index].position);
             tileSelectionCursor.localPosition = turn.targets[_index].position;
+            UpdateHitSuccessIndicator();
         }
+    }
+
+    void UpdateHitSuccessIndicator()
+    {
+        TileDefinitionData target = turn.targets[_index];
+
+        int chanceAttacker = CalculateHitRate(turn.actor, target);
+        int amoutAttacker = EstimateDamage(turn.actor, target);
+        hitSuccessIndicator.SetAttackerStats(chanceAttacker, amoutAttacker);
+        
+        int chanceDefender = CalculateHitRate(target.content.GetComponent<Unit>(), turn.actor.TileDefinition);
+        int amoutDefender = EstimateDamage(target.content.GetComponent<Unit>(), turn.actor.TileDefinition);
+        hitSuccessIndicator.SetDefenderStats(chanceDefender, amoutDefender);
+    }
+
+    int CalculateHitRate(Unit attacker, TileDefinitionData target)
+    {
+        HitRate hr = attacker.GetComponentInChildren<HitRate>();
+        return hr.Calculate(target);
+    }
+
+    int EstimateDamage(Unit attacker, TileDefinitionData target)
+    {
+        BaseAbilityEffect effect = attacker.GetComponentInChildren<BaseAbilityEffect>();
+        return effect.Predict(target);
     }
 }

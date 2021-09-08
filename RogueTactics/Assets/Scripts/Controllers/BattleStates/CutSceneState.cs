@@ -1,50 +1,68 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace BattleStates
+public class CutSceneState : BattleState
 {
-    public class CutSceneState : BattleState 
+    ConversationController _conversationController;
+    ConversationData _data;
+
+    public override void Enter()
     {
-        ConversationController _conversationController;
-        ConversationData _data;
-        protected override void Awake ()
+        base.Enter();
+        _conversationController = owner.GetComponentInChildren<ConversationController>();
+        if (IsBattleOver())
         {
-            base.Awake ();
-            _conversationController = owner.GetComponentInChildren<ConversationController>();
-            _data = Resources.Load<ConversationData>("Conversations/IntroScene");
-        }
-        protected override void OnDestroy ()
-        {
-            base.OnDestroy ();
-            if (_data)
+            if (DidPlayerWin())
             {
-                Resources.UnloadAsset(_data);   
+                _data = Resources.Load<ConversationData>("Conversations/OutroSceneWin");
+            }
+            else
+            {
+                _data = Resources.Load<ConversationData>("Conversations/OutroSceneLose");
             }
         }
-        public override void Enter ()
+        else
         {
-            base.Enter ();
-            _conversationController.Show(_data);
+            _data = Resources.Load<ConversationData>("Conversations/IntroScene");
         }
-        protected override void AddListeners()
+        _conversationController.Show(_data);
+    }
+
+    public override void Exit()
+    {
+        base.Exit();
+        if (_data)
         {
-            base.AddListeners();
-            ConversationController.completeEvent += OnCompleteConversation;
+            Resources.UnloadAsset(_data);
         }
-        protected override void RemoveListeners()
-        {
-            base.RemoveListeners();
-            ConversationController.completeEvent -= OnCompleteConversation;
-        }
+    }
         
-        protected override void OnInteraction(InputAction.CallbackContext context)
+    protected override void AddListeners()
+    {
+        base.AddListeners();
+        ConversationController.completeEvent += OnCompleteConversation;
+    }
+
+    protected override void RemoveListeners()
+    {
+        base.RemoveListeners();
+        ConversationController.completeEvent -= OnCompleteConversation;
+    }
+
+    protected override void OnInteraction(InputAction.CallbackContext context)
+    {
+        _conversationController.Next();
+    }
+
+    void OnCompleteConversation(object sender, System.EventArgs e)
+    {
+        if (IsBattleOver())
         {
-            _conversationController.Next();
+            owner.ChangeState<EndBattleState>();
         }
-        
-        void OnCompleteConversation (object sender, System.EventArgs e)
+        else
         {
-            owner.ChangeState<SelectUnitState>();
+            owner.ChangeState<TurnManagerState>();
         }
     }
 }

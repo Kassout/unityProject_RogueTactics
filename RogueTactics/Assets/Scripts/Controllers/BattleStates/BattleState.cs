@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using Common.StateMachine;
-using Model;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -12,8 +11,10 @@ public class BattleState : State
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    protected InputManager _inputManager;
+    protected InputManager inputManager;
 
+    protected Driver _driver;
+    
     /// <summary>
     ///     TODO: comments
     /// </summary>
@@ -38,6 +39,8 @@ public class BattleState : State
 
     public StatPanelController statPanelController => owner.statPanelController;
 
+    public HitSuccessIndicator hitSuccessIndicator => owner.hitSuccessIndicator;
+
     public Turn turn => owner.turn;
 
     public List<Unit> units => owner.units;
@@ -57,7 +60,7 @@ public class BattleState : State
     protected virtual void Awake()
     {
         owner = GetComponent<BattleController>();
-        _inputManager = new InputManager();
+        inputManager = new InputManager();
     }
 
     /// <summary>
@@ -65,14 +68,17 @@ public class BattleState : State
     /// </summary>
     protected override void AddListeners()
     {
-        _inputManager.Cursor.Movement.performed += OnMovement;
-        _inputManager.Cursor.Movement.Enable();
+        if (_driver == null || _driver.Current == Drivers.Human)
+        {
+            inputManager.Cursor.Movement.performed += OnMovement;
+            inputManager.Cursor.Movement.Enable();
 
-        _inputManager.Cursor.Interaction.performed += OnInteraction;
-        _inputManager.Cursor.Interaction.Enable();
+            inputManager.Cursor.Interaction.performed += OnInteraction;
+            inputManager.Cursor.Interaction.Enable();
 
-        _inputManager.Cursor.Cancel.performed += OnCancel;
-        _inputManager.Cursor.Cancel.Enable();
+            inputManager.Cursor.Cancel.performed += OnCancel;
+            inputManager.Cursor.Cancel.Enable();
+        }
     }
 
     /// <summary>
@@ -80,14 +86,14 @@ public class BattleState : State
     /// </summary>
     protected override void RemoveListeners()
     {
-        _inputManager.Cursor.Movement.performed -= OnMovement;
-        _inputManager.Cursor.Movement.Disable();
+        inputManager.Cursor.Movement.performed -= OnMovement;
+        inputManager.Cursor.Movement.Disable();
 
-        _inputManager.Cursor.Interaction.performed -= OnInteraction;
-        _inputManager.Cursor.Interaction.Disable();
+        inputManager.Cursor.Interaction.performed -= OnInteraction;
+        inputManager.Cursor.Interaction.Disable();
 
-        _inputManager.Cursor.Cancel.performed -= OnCancel;
-        _inputManager.Cursor.Cancel.Disable();
+        inputManager.Cursor.Cancel.performed -= OnCancel;
+        inputManager.Cursor.Cancel.Disable();
     }
 
     /// <summary>
@@ -157,5 +163,15 @@ public class BattleState : State
         {
             statPanelController.HideSecondary();
         }
+    }
+
+    protected virtual bool DidPlayerWin()
+    {
+        return owner.GetComponent<BaseVictoryCondition>().Victory == Alliances.Hero;
+    }
+
+    protected virtual bool IsBattleOver()
+    {
+        return owner.GetComponent<BaseVictoryCondition>().Victory != Alliances.None;
     }
 }

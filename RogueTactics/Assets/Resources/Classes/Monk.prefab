@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 668404603899207801}
   - component: {fileID: 5384863869913023371}
   - component: {fileID: 856884773092672993}
+  - component: {fileID: 8007245500141795132}
+  - component: {fileID: -8515567662055427863}
   m_Layer: 0
   m_Name: Monk
   m_TagString: Untagged
@@ -44,6 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7359e553bc178c344a04c6c3c08e1528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  classModel: {fileID: 21300000, guid: 2eb3f4e1879fff5449f7b31418143036, type: 3}
+  classAnimator: {fileID: 22100000, guid: 094b090de74a1f145ac4ce2c2af6889d, type: 2}
   baseStats: 120000003c0000000000000001000000010000000500000002000000
   growStats:
   - 1.5
@@ -67,3 +71,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 13
   amount: 4
+--- !u!114 &8007245500141795132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3195432649131651565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 10
+  amount: 50
+--- !u!114 &-8515567662055427863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3195432649131651565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 11
+  amount: 50

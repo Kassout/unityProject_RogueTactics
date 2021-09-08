@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -18,6 +19,10 @@ public class Class : MonoBehaviour
         StatTypes.RES,
         StatTypes.SPD
     };
+
+    public Sprite classModel;
+
+    public AnimatorOverrideController classAnimator;
 
     public int[] baseStats = new int[statOrder.Length];
 
@@ -40,7 +45,9 @@ public class Class : MonoBehaviour
 
     public void Promote()
     {
-
+        gameObject.transform.parent.GetComponentInChildren<SpriteRenderer>().sprite = classModel;
+        gameObject.GetComponentInParent<Animator>().runtimeAnimatorController = classAnimator;
+        
         _stats = gameObject.GetComponentInParent<Stats>();
         this.AddObserver(OnLevelChangeNotification, Stats.DidChangeNotification(StatTypes.LVL), _stats);
 

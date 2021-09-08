@@ -7,8 +7,8 @@ public class MultValueModifier : ValueModifier
         _toMultiply = toMultiply;
     }
     
-    public override float Modify (float value)
+    public override float Modify (float fromValue, float toValue)
     {
-        return value * _toMultiply;
+        return toValue * _toMultiply;
     }
 }

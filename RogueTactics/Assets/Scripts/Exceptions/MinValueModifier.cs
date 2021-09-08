@@ -9,8 +9,8 @@ public class MinValueModifier : ValueModifier
         _min = min;
     }
   
-    public override float Modify (float value)
+    public override float Modify (float fromValue, float toValue)
     {
-        return Mathf.Min(_min, value);
+        return Mathf.Min(_min, toValue);
     }
 }

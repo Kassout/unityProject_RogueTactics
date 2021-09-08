@@ -8,8 +8,10 @@ public class Turn
     public bool hasUnitMoved;
     public bool hasUnitActed;
     public bool lockMove;
-    public GameObject ability;
+    public Ability ability;
     public List<TileDefinitionData> targets;
+    public PlanOfAttack plan;
+    public Drivers currentDriver;
 
     private TileDefinitionData _startTile;
 
@@ -20,6 +22,7 @@ public class Turn
         hasUnitActed = false;
         lockMove = false;
         _startTile = actor.TileDefinition;
+        plan = null;
     }
 
     public void UndoMove()

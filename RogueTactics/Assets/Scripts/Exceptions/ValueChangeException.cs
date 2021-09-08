@@ -43,18 +43,17 @@ public class ValueChangeException : BaseException
 
     public float GetModifiedValue()
     {
-        float value = toValue;
-
         if (_modifiers == null)
         {
-            return value;
+            return toValue;
         }
-        
+
+        float value = toValue;
         _modifiers.Sort(Compare);
 
         for (int i = 0; i < _modifiers.Count; ++i)
         {
-            value = _modifiers[i].Modify(value);
+            value = _modifiers[i].Modify(fromValue, value);
         }
 
         return value;

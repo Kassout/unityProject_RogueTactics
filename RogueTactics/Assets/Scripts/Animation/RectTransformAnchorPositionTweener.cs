@@ -1,32 +1,18 @@
 using UnityEngine;
+using System.Collections;
 
-/// <summary>
-/// TODO: comments
-/// </summary>
-public class RectTransformAnchorPositionTweener : Vector3Tweener
+public class RectTransformAnchorPositionTweener : Vector3Tweener 
 {
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    private RectTransform rt;
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    protected override void Awake()
+    RectTransform rt;
+	
+    void Awake ()
     {
-        base.Awake();
         rt = transform as RectTransform;
     }
 
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    /// <param name="sender">TODO: comments</param>
-    /// <param name="e">TODO: comments</param>
-    protected override void OnUpdate(object sender, System.EventArgs e)
+    protected override void OnUpdate ()
     {
-        base.OnUpdate(sender, e);
-        rt.anchoredPosition = currentValue;
+        base.OnUpdate ();
+        rt.anchoredPosition = currentTweenValue;
     }
 }

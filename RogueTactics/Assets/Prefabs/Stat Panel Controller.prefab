@@ -512,7 +512,7 @@ MonoBehaviour:
   - name: Show
     myAnchor: 3
     parentAnchor: 3
-    offset: {x: 0, y: 20}
+    offset: {x: 50, y: 20}
 --- !u!114 &3864296110672426212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   - name: Show
     myAnchor: 5
     parentAnchor: 5
-    offset: {x: 0, y: 20}
+    offset: {x: -50, y: 20}
 --- !u!114 &3864296111680967054
 MonoBehaviour:
   m_ObjectHideFlags: 0

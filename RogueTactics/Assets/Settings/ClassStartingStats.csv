@@ -1,4 +1,4 @@
-﻿Name,MHP,MMP,STR,DEF,MAG,RES,SPD,MOV
-Swordsman,16,30,4,2,0,1,9,4
-Monk,18,60,0,1,1,5,2,4
-Pikeman,22,30,3,0,0,0,1,5
+﻿Name,MHP,MMP,STR,DEF,MAG,RES,SPD,EVD,TEN,MOV
+Swordsman,16,30,10,2,0,1,9,20,50,4
+Monk,18,60,6,1,1,5,2,10,70,4
+Pikeman,22,30,8,0,0,0,1,20,40,5

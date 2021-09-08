@@ -72,14 +72,14 @@ public class StatPanelController : MonoBehaviour
         Panel.Position target = obj.panel[pos];
         if (obj.panel.CurrentPosition != target)
         {
-            if (t != null && t.animationEasingControl != null)
+            if (t != null)
             {
-                t.animationEasingControl.Stop();
+                t.Stop();
             }
 
             t = obj.panel.SetPosition(pos, true);
-            t.animationEasingControl.duration = 0.5f;
-            t.animationEasingControl.equation = EasingEquations.EaseOutQuad;
+            t.duration = 0.5f;
+            t.equation = EasingEquations.EaseOutQuad;
         }
     }
 

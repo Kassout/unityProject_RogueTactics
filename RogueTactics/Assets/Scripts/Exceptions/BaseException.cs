@@ -6,16 +6,16 @@ public class BaseException
 {
     public bool toggle { get; private set; }
 
-    private bool defaultToggle;
+    private readonly bool _defaultToggle;
 
     public BaseException(bool defaultToggle)
     {
-        this.defaultToggle = defaultToggle;
+        this._defaultToggle = defaultToggle;
         toggle = defaultToggle;
     }
 
     public void FlipToggle()
     {
-        toggle = !defaultToggle;
+        toggle = !_defaultToggle;
     }
 }

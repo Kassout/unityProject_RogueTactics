@@ -77,7 +77,7 @@ public class ConversationController : MonoBehaviour
             while (presenter.MoveNext())
                 yield return null;
             MovePanel(currentPanel, hide);
-            transition.animationEasingControl.CompletedEvent += delegate(object sender, System.EventArgs e) {
+            transition.CompletedEvent += delegate(object sender, System.EventArgs e) {
                 conversation.MoveNext();
             };
             yield return null;
@@ -90,7 +90,7 @@ public class ConversationController : MonoBehaviour
     void MovePanel (ConversationPanel obj, string pos)
     {
         transition = obj.panel.SetPosition(pos, true);
-        transition.animationEasingControl.duration = 0.5f;
-        transition.animationEasingControl.equation = EasingEquations.EaseOutQuad;
+        transition.duration = 0.5f;
+        transition.equation = EasingEquations.EaseOutQuad;
     }
 }

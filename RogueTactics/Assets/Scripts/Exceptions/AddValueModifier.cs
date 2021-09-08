@@ -8,8 +8,8 @@ public class AddValueModifier : ValueModifier
         _toAdd = toAdd;
     }
 
-    public override float Modify(float value)
+    public override float Modify(float fromValue, float toValue)
     {
-        return value + _toAdd;
+        return toValue + _toAdd;
     }
 }

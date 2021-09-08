@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using BattleStates;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,7 +12,11 @@ public abstract class BaseAbilityMenuState : BattleState
     {
         base.Enter();
         SelectTile(turn.actor.TileDefinition.position);
-        LoadMenu();
+
+        if (_driver.Current == Drivers.Human)
+        {
+            LoadMenu();
+        }
     }
 
     public override void Exit()

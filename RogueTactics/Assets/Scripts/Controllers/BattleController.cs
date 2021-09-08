@@ -1,5 +1,5 @@
+using System;
 using System.Collections.Generic;
-using BattleStates;
 using Common.StateMachine;
 using Model;
 using UnityEngine;
@@ -9,6 +9,20 @@ using UnityEngine;
 /// </summary>
 public class BattleController : StateMachine
 {
+    public static BattleController Instance { get; private set; }
+    
+    #region Notifications
+    
+    public const string BattleBeganNotification = "BattleController.roundBegan";
+    
+    public const string TurnBeganNotification = "BattleController.turnBegan";
+    
+    public const string TurnCompletedNotification = "BattleController.turnCompleted";
+    
+    public const string BattleEndedNotification = "BattleController.roundEnded";
+    
+    #endregion
+    
     /// <summary>
     ///     TODO: comments
     /// </summary>
@@ -20,11 +34,6 @@ public class BattleController : StateMachine
     public Transform tileSelectionCursor;
 
     /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public GameObject heroPrefab;
-
-    /// <summary>
     /// TODO: comments
     /// </summary>
     public AbilityMenuPanelController abilityMenuPanelController;
@@ -33,6 +42,21 @@ public class BattleController : StateMachine
     /// TODO: comments
     /// </summary>
     public StatPanelController statPanelController;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public BattleMessageController battleMessageController;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public ComputerPlayer cpu;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public HitSuccessIndicator hitSuccessIndicator;
 
     /// <summary>
     /// TODO: comments
@@ -53,6 +77,16 @@ public class BattleController : StateMachine
     ///     TODO: comments
     /// </summary>
     [HideInInspector] public Vector2 position;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+        Instance = this;
+    }
 
     /// <summary>
     ///     TODO: comments

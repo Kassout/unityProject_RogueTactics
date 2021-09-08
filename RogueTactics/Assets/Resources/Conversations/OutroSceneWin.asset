@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56117c8cead37d04dafdd5fd052f82ce, type: 3}
+  m_Name: OutroSceneWin
+  m_EditorClassIdentifier: 
+  list:
+  - messages:
+    - I lost? How could this happen?
+    - You'll regret this day!
+    speaker: {fileID: 8025508180375795962, guid: efd667b585f088a4a9ee5987d85df09e, type: 3}
+    anchor: 6
+  - messages:
+    - Probably not. Just give up already.
+    speaker: {fileID: -2199001092836818869, guid: 18510ead09d18d54fab534c9672c181a, type: 3}
+    anchor: 2
+  - messages:
+    - I'll be back - mark my words!
+    - Like a cheesy RPG bad guy!
+    speaker: {fileID: 8025508180375795962, guid: efd667b585f088a4a9ee5987d85df09e, type: 3}
+    anchor: 6

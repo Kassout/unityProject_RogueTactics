@@ -1,6 +1,6 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BattleStates;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using ViewModelComponent;
@@ -31,8 +31,6 @@ public class MoveTargetState : BattleState
         var ability = turn.actor.GetComponentInChildren<AbilityRange>();
         if (ability != null)
         {
-            turn.ability = ability.gameObject;
-                
             List<TileDefinitionData> boundTiles = ComputeMovementBoundTiles(_movableTiles);
             _actionableTiles = ability.GetTilesInRange(boundTiles);
 
@@ -46,6 +44,28 @@ public class MoveTargetState : BattleState
                 
             Board.Instance.SelectAbilityTiles(_actionableTiles);
         }
+
+        if (_driver.Current == Drivers.Computer)
+        {
+            StartCoroutine(ComputerHighlightMoveTarget());
+        }
+    }
+
+    private IEnumerator ComputerHighlightMoveTarget()
+    {
+        Vector2 cursorPos = tileSelectionCursor.position;
+        while (cursorPos != turn.plan.moveLocation)
+        {
+            if (cursorPos.x < turn.plan.moveLocation.x) cursorPos.x++;
+            if (cursorPos.x > turn.plan.moveLocation.x) cursorPos.x--;
+            if (cursorPos.y < turn.plan.moveLocation.y) cursorPos.y++;
+            if (cursorPos.y > turn.plan.moveLocation.y) cursorPos.y--;
+            SelectTile(cursorPos);
+            yield return new WaitForSeconds(0.25f);
+        }
+
+        yield return new WaitForSeconds(0.5f);
+        owner.ChangeState<MoveSequenceState>();
     }
 
     private List<TileDefinitionData> ComputeMovementBoundTiles(List<TileDefinitionData> movableRadiusTiles)

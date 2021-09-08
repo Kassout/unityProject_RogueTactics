@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using BattleStates;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -13,40 +12,30 @@ public class PerformAbilityState : BattleState
         turn.lockMove = true;
 
         StartCoroutine(Animate());
+        
+        if (IsBattleOver())
+        {
+            owner.ChangeState<CutSceneState>();
+        }
+        else
+        {
+            owner.ChangeState<TurnManagerState>();
+        }
     }
 
     IEnumerator Animate()
     {
-        // TODO: play animations, etc
+        turn.actor.animator.SetTrigger("attack");
 
-        yield return null;
+        yield return new WaitForSeconds(turn.actor.animator.GetCurrentAnimatorStateInfo(0).length + turn.actor.animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
         
-        // TODO: apply ability effects, etc
-        TemporaryAttackExample();
+        ApplyAbility();
 
-        EndUnitTurn();
-        
-        owner.ChangeState<SelectUnitState>();
+        owner.ChangeState<TurnManagerState>();
     }
 
-    private void EndUnitTurn()
+    private void ApplyAbility()
     {
-        turn.actor.hasEndTurn = true;
-        turn.actor.GetComponentInChildren<SpriteRenderer>().color = Color.grey;
-    }
-
-    void TemporaryAttackExample()
-    {
-        for (int i = 0; i < turn.targets.Count; ++i)
-        {
-            GameObject obj = turn.targets[i].content;
-            Stats stats = obj != null ? obj.GetComponentInChildren<Stats>() : null;
-            if (stats != null)
-            {
-                stats[StatTypes.HP] -= 50;
-                if (stats[StatTypes.HP] <= 0)
-                    Debug.Log("KO'd Uni!", obj);
-            }
-        }
+        turn.ability.Perform(turn.targets);
     }
 }

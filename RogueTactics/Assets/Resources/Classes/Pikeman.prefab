@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4982163923334943628}
   - component: {fileID: 7097410261742313473}
   - component: {fileID: 5784714738653106323}
+  - component: {fileID: 1844095673407825031}
+  - component: {fileID: 3050740799792025467}
   m_Layer: 0
   m_Name: Pikeman
   m_TagString: Untagged
@@ -44,6 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7359e553bc178c344a04c6c3c08e1528, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  classModel: {fileID: 21300000, guid: 6bdb024ca73ae9244a3f6ee7047fa70a, type: 3}
+  classAnimator: {fileID: 22100000, guid: 52ac329d46fc1df4484b770293097f70, type: 2}
   baseStats: 160000001e0000000300000000000000000000000000000001000000
   growStats:
   - 1.8
@@ -67,3 +71,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 13
   amount: 5
+--- !u!114 &1844095673407825031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5789285081516781681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 10
+  amount: 50
+--- !u!114 &3050740799792025467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5789285081516781681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 11
+  amount: 50

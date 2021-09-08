@@ -7,7 +7,6 @@ public class Equippable : MonoBehaviour
     #region Fields
 
     public EquipSlots defaultSlots;
-    public EquipSlots secondarySlots;
     public EquipSlots slots;
     private bool _isEquipped;
 

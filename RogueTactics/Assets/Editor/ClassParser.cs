@@ -3,6 +3,7 @@ using UnityEditor;
 using System;
 using System.Globalization;
 using System.IO;
+using UnityEditor.Animations;
 
 public static class ClassParser 
 {
@@ -21,24 +22,49 @@ public static class ClassParser
         if (!AssetDatabase.IsValidFolder("Assets/Resources/Classes"))
             AssetDatabase.CreateFolder("Assets/Resources", "Classes");
     }
+
+    static void ParseModel(GameObject obj)
+    {
+        Class classObject = obj.GetComponent<Class>();
+
+        string modelPath = string.Format("Assets/Resources/Classes/Sprites/{0}.png", obj.name);
+        Sprite sprite = AssetDatabase.LoadAssetAtPath<Sprite>(modelPath);
+        
+        string animatorControllerPath = string.Format("Assets/Resources/Classes/AnimatorControllers/{0}.overrideController", obj.name);
+        AnimatorOverrideController animatorController =
+            AssetDatabase.LoadAssetAtPath<AnimatorOverrideController>(animatorControllerPath);
+        
+        classObject.classModel = sprite;
+        classObject.classAnimator = animatorController;
+    }
     
     static void ParseStartingStats ()
     {
         string readPath = string.Format("{0}/Settings/ClassStartingStats.csv", Application.dataPath);
         string[] readText = File.ReadAllLines(readPath);
         for (int i = 1; i < readText.Length; ++i)
-            PartsStartingStats(readText[i]);
+            ParseStartingStats(readText[i]);
     }
     
-    static void PartsStartingStats (string line)
+    static void ParseStartingStats (string line)
     {
         string[] elements = line.Split(',');
         GameObject obj = GetOrCreate(elements[0]);
+        
+        ParseModel(obj);
+        
         Class classObject = obj.GetComponent<Class>();
         for (int i = 1; i < Class.statOrder.Length + 1; ++i)
             classObject.baseStats[i-1] = Convert.ToInt32(elements[i]);
+        
+        StatModifierFeature evade = GetFeature (obj, StatTypes.EVD);
+        evade.amount = Convert.ToInt32(elements[8]);
+        
+        StatModifierFeature tenacity = GetFeature (obj, StatTypes.TEN);
+        tenacity.amount = Convert.ToInt32(elements[9]);
+        
         StatModifierFeature move = GetFeature (obj, StatTypes.MOV);
-        move.amount = Convert.ToInt32(elements[8]);
+        move.amount = Convert.ToInt32(elements[10]);
     }
     
     static void ParseGrowthStats ()

@@ -9,8 +9,8 @@ public class MaxValueModifier : ValueModifier
         _max = max;
     }
     
-    public override float Modify (float value)
+    public override float Modify (float fromValue, float toValue)
     {
-        return Mathf.Max(value, _max);
+        return Mathf.Max(toValue, _max);
     }
 }

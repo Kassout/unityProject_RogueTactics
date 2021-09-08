@@ -1,28 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BattleStates;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.Utilities;
 
 public class CommandSelectionState : BaseAbilityMenuState
 {
     public override void Enter()
     {
         base.Enter();
+
+        if (_driver.Current == Drivers.Human)
+        {
+            inputManager.Cursor.Selection.performed += OnSelection;
+            inputManager.Cursor.Selection.Enable();
         
-        _inputManager.Cursor.Selection.performed += OnSelection;
-        _inputManager.Cursor.Selection.Enable();
-        
-        Cursor.visible = false;
+            Cursor.visible = false;
+        }
     }
 
     public override void Exit()
     {
         base.Exit();
         
-        _inputManager.Cursor.Selection.performed -= OnSelection;
-        _inputManager.Cursor.Selection.Disable();
+        inputManager.Cursor.Selection.performed -= OnSelection;
+        inputManager.Cursor.Selection.Disable();
         
         Cursor.visible = true;
     }
@@ -48,11 +51,11 @@ public class CommandSelectionState : BaseAbilityMenuState
             abilityMenuPanelController.NextMenuSelection();
         }
 
-        _inputManager.Cursor.Selection.Disable();
+        inputManager.Cursor.Selection.Disable();
 
         yield return new WaitForSeconds(0.2f);
         
-        _inputManager.Cursor.Selection.Enable();
+        inputManager.Cursor.Selection.Enable();
     }
 
     protected override void OnInteraction(InputAction.CallbackContext context)
@@ -64,17 +67,22 @@ public class CommandSelectionState : BaseAbilityMenuState
     {
         if (menuOptions == null)
         {
-            menuOptions = new List<string>(4);
-            menuOptions.Add("Attack");
-            menuOptions.Add("Abilities");
-            menuOptions.Add("Objects");
-            menuOptions.Add("Wait");
+            menuOptions = new List<string>();
         }
+        else
+        {
+            menuOptions.Clear();
+        }
+        
+        menuOptions.Add("Attack");
+        menuOptions.Add("Abilities");
+        menuOptions.Add("Objects");
+        menuOptions.Add("Wait");
 
         abilityMenuPanelController.Show(menuOptions);
         abilityMenuPanelController.SetLocked(0, turn.hasUnitActed);
         
-        var ar = turn.ability.GetComponent<AbilityRange>().GetTilesInRange();
+        var ar = turn.actor.GetComponentInChildren<AbilityRange>().GetTilesInRange();
         turn.targets = units.Where(unit => ar.Any(tile => tile.position.Equals(unit.TileDefinition.position)) && !unit.Equals(turn.actor)).Select(unit => unit.TileDefinition).ToList();
         abilityMenuPanelController.SetLocked(0, !turn.targets.Any());
     }
@@ -115,7 +123,7 @@ public class CommandSelectionState : BaseAbilityMenuState
     
     void Attack ()
     {
-        turn.ability = turn.actor.GetComponentInChildren<AbilityRange>().gameObject;
+        turn.ability = turn.actor.GetComponentInChildren<Ability>();
         owner.ChangeState<ConfirmAbilityTargetState>();
     }
 }

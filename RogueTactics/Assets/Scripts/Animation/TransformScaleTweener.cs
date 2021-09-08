@@ -1,16 +1,11 @@
-﻿/// <summary>
-/// TODO: comments
-/// </summary>
+﻿using UnityEngine;
+using System.Collections;
+
 public class TransformScaleTweener : Vector3Tweener
 {
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    /// <param name="sender">TODO: comments</param>
-    /// <param name="e">TODO: comments</param>
-    protected override void OnUpdate(object sender, System.EventArgs e)
+    protected override void OnUpdate()
     {
-        base.OnUpdate(sender, e);
-        transform.localScale = currentValue;
+        base.OnUpdate();
+        transform.localScale = currentTweenValue;
     }
 }
