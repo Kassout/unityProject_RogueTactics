@@ -8,7 +8,7 @@ public class ConstantAbilityRange : AbilityRange
 {
     public override List<TileDefinitionData> GetTilesInRange()
     {
-        return Board.Instance.Search(unit.TileDefinition, horizontal, ExpandSearch);
+        return Board.Instance.Search(unit.TileDefinition, ExpandSearch);
     }
     
     public override List<TileDefinitionData> GetTilesInRange(List<TileDefinitionData> movementRadiusTiles)
@@ -16,7 +16,8 @@ public class ConstantAbilityRange : AbilityRange
         List<TileDefinitionData> tileInRange = new List<TileDefinitionData>();
         foreach (var tile in movementRadiusTiles)
         {
-            tileInRange.AddRange(Board.Instance.Search(tile, horizontal, ExpandSearch).Where(currentTile => !tileInRange.Any(tile => currentTile.position.Equals(tile.position))));
+            tileInRange.AddRange(Board.Instance.Search(tile, ExpandSearch).Where(currentTile => 
+                !tileInRange.Any(tile => currentTile.position.Equals(tile.position))));
         }
 
         return tileInRange;

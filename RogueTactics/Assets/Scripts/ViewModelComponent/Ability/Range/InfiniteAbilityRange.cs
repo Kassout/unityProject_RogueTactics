@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class InfiniteAbilityRange : AbilityRange
 {
+    public override bool positionOriented => false;
+    
     public override List<TileDefinitionData> GetTilesInRange()
     {
         return new List<TileDefinitionData>(Board.tileBoard);

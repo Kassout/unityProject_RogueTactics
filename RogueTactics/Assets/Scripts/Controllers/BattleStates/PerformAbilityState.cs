@@ -12,7 +12,16 @@ public class PerformAbilityState : BattleState
         turn.lockMove = true;
 
         StartCoroutine(Animate());
+    }
+
+    IEnumerator Animate()
+    {
+        turn.actor.animator.SetTrigger("attack");
+
+        yield return new WaitForSeconds(turn.actor.animator.GetCurrentAnimatorStateInfo(0).length);
         
+        ApplyAbility();
+
         if (IsBattleOver())
         {
             owner.ChangeState<CutSceneState>();
@@ -21,17 +30,6 @@ public class PerformAbilityState : BattleState
         {
             owner.ChangeState<TurnManagerState>();
         }
-    }
-
-    IEnumerator Animate()
-    {
-        turn.actor.animator.SetTrigger("attack");
-
-        yield return new WaitForSeconds(turn.actor.animator.GetCurrentAnimatorStateInfo(0).length + turn.actor.animator.GetCurrentAnimatorStateInfo(0).normalizedTime);
-        
-        ApplyAbility();
-
-        owner.ChangeState<TurnManagerState>();
     }
 
     private void ApplyAbility()

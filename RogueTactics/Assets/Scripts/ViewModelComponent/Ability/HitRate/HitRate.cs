@@ -23,7 +23,7 @@ public abstract class HitRate : MonoBehaviour
     #endregion
 
     #region Fields
-
+    
     protected Unit attacker;
 
     #endregion

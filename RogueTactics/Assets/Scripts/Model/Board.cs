@@ -181,7 +181,7 @@ public class Board : MonoBehaviour
         return null;
     }
 
-    public List<TileDefinitionData> Search(TileDefinitionData startTile, int maxDistance,
+    public List<TileDefinitionData> Search(TileDefinitionData startTile,
         Func<TileDefinitionData, TileDefinitionData, bool> addTile)
     {
         var retValue = new List<TileDefinitionData> { startTile };

@@ -100,7 +100,7 @@ public class CommandSelectionState : BaseAbilityMenuState
             case 3:
                 turn.actor.hasEndTurn = true;
                 turn.actor.GetComponentInChildren<SpriteRenderer>().color = Color.grey;
-                owner.ChangeState<SelectUnitState>();
+                owner.ChangeState<TurnManagerState>();
                 break;
         }
     }

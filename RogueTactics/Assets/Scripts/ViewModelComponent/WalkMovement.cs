@@ -7,6 +7,8 @@ namespace ViewModelComponent
 {
     public class WalkMovement : UnitMovement
     {
+        [SerializeField] private float walkTime = 0.2f;
+        
         protected override bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)
         {
             // Skip if the tile is occupied by an enemy
@@ -45,7 +47,7 @@ namespace ViewModelComponent
                 transform.position =
                     Vector3.Lerp(transform.position, target.position,
                         (Time.time - timeToStart) *
-                        0.3f); //Here speed is the 1 or any number which decides the how fast it reach to one to other end.
+                        walkTime); //Here speed is the 1 or any number which decides the how fast it reach to one to other end.
 
                 yield return null;
             }

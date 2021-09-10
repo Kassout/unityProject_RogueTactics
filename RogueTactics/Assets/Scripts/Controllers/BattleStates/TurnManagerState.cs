@@ -9,8 +9,6 @@ public class TurnManagerState : BattleState
         base.Enter();
         
         StartCoroutine(ManageTurn());
-
-
     }
 
     private IEnumerator ManageTurn()

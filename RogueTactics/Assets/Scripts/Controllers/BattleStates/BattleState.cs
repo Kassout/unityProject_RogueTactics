@@ -62,13 +62,19 @@ public class BattleState : State
         owner = GetComponent<BattleController>();
         inputManager = new InputManager();
     }
+    
+    public override void Enter ()
+    {
+        _driver = (turn.actor != null) ? turn.actor.GetComponent<Driver>() : null;
+        base.Enter ();
+    }
 
     /// <summary>
     ///     TODO: comments
     /// </summary>
     protected override void AddListeners()
     {
-        if (_driver == null || _driver.Current == Drivers.Human)
+        if (turn.currentDriver == Drivers.None || turn.currentDriver == Drivers.Human)
         {
             inputManager.Cursor.Movement.performed += OnMovement;
             inputManager.Cursor.Movement.Enable();
@@ -129,7 +135,8 @@ public class BattleState : State
         if (targetPosition == position || Board.GetTile(targetPosition) is null) return;
 
         position = targetPosition;
-        tileSelectionCursor.localPosition = Board.GetTile(targetPosition).position;
+        owner.currentSelectedTile = Board.GetTile(targetPosition);
+        tileSelectionCursor.localPosition = currentSelectedTile.position;
     }
 
     protected virtual Unit GetUnit(Vector2 unitPosition)

@@ -7,6 +7,8 @@ public abstract class AbilityRange : MonoBehaviour
 {
     public int horizontal = 1;
     
+    public virtual bool positionOriented => true;
+
     protected Unit unit
     {
         get { return GetComponentInParent<Unit>(); }

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class SelfAbilityRange : AbilityRange
 {
+    public override bool positionOriented => false;
+    
     public override List<TileDefinitionData> GetTilesInRange()
     {
         List<TileDefinitionData> retValue = new List<TileDefinitionData>();

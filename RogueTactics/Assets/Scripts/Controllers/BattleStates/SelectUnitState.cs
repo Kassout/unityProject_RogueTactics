@@ -1,6 +1,10 @@
+using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Random = System.Random;
 
 /// <summary>
 ///     TODO: comments
@@ -11,7 +15,7 @@ public class SelectUnitState : BattleState
     {
         base.Enter();
 
-        if (_driver.Current == Drivers.Computer)
+        if (turn.currentDriver == Drivers.Computer)
         {
             StartCoroutine(ComputerTurn());
         }
@@ -19,21 +23,22 @@ public class SelectUnitState : BattleState
 
     private IEnumerator ComputerTurn()
     {
-        if (turn.plan == null)
-        {
-            turn.plan = owner.cpu.Evaluate();
-            turn.ability = turn.plan.ability;
-        }
+        List<Unit> validUnitList = units
+            .Where(unit => unit.GetComponent<Driver>().Current == Drivers.Computer && !unit.hasEndTurn).ToList();
+        turn.actor = validUnitList[new Random().Next(validUnitList.Count)]; 
+        
+        turn.plan = owner.cpu.Evaluate();
+        turn.ability = turn.plan.ability;
 
         yield return new WaitForSeconds(1f);
 
-        if (turn.hasUnitMoved == false && turn.plan.moveLocation != turn.actor.TileDefinition.position)
+        if (turn.plan.moveLocation != turn.actor.TileDefinition.position)
         {
             owner.ChangeState<MoveTargetState>();
         }
         else
         {
-            owner.ChangeState<EndTurnState>();
+            owner.ChangeState<ConfirmAbilityTargetState>();
         }
     }
 
@@ -61,21 +66,21 @@ public class SelectUnitState : BattleState
         {
             Debug.Log("Hit " + hit.transform.gameObject.name);
             content = hit.transform.gameObject;
+
+            if (content.GetComponent<Unit>() && !content.GetComponent<Unit>().hasEndTurn &&
+                content.GetComponent<Driver>() && content.GetComponent<Driver>().Current == Drivers.Human)
+            {
+                StartCoroutine(nameof(ChangeCurrentUnit), content.GetComponent<Unit>());
+            }
         }
         else
         {
             Debug.Log("No hit");
         }
-
-        if (content != null && units.Contains(content.GetComponent<Unit>()) && !content.GetComponent<Unit>().hasEndTurn)
-        {
-            StartCoroutine("ChangeCurrentUnit", content.GetComponent<Unit>());
-        }
     }
 
     private IEnumerator ChangeCurrentUnit(Unit target)
     {
-        _driver = (turn.actor != null) ? turn.actor.GetComponent<Driver>() : null;
         turn.Change(units[units.FindIndex(unit => unit.Equals(target))]);
         yield return null;
         owner.ChangeState<MoveTargetState>();

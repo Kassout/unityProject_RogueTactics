@@ -5,12 +5,12 @@ using UnityEngine;
 public class SpecifyAbilityArea : AbilityArea
 {
     public int horizontal;
-    private TileDefinitionData tile;
+    private TileDefinitionData _tile;
 
     public override List<TileDefinitionData> GetTilesInArea(Vector2 position)
     {
-        tile = Board.GetTile(position);
-        return Board.Instance.Search(tile, horizontal, ExpandSearch);
+        _tile = Board.GetTile(position);
+        return Board.Instance.Search(_tile, ExpandSearch);
     }
 
     private bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)

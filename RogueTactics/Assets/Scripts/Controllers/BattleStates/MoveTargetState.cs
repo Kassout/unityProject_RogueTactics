@@ -23,31 +23,34 @@ public class MoveTargetState : BattleState
     public override void Enter()
     {
         base.Enter();
-        var mover = owner.turn.actor.GetComponent<UnitMovement>();
-        _movableTiles = mover.GetTilesInRange();
-        _movableTiles.Add(owner.turn.actor.TileDefinition);
-        Board.Instance.SelectTiles(_movableTiles);
-            
-        var ability = turn.actor.GetComponentInChildren<AbilityRange>();
-        if (ability != null)
-        {
-            List<TileDefinitionData> boundTiles = ComputeMovementBoundTiles(_movableTiles);
-            _actionableTiles = ability.GetTilesInRange(boundTiles);
-
-            foreach (var movableTile in _movableTiles)
-            {
-                if (_actionableTiles.Any(tile => tile.position.Equals(movableTile.position)))
-                {
-                    _actionableTiles.RemoveAll(tile => tile.position.Equals(movableTile.position));
-                }
-            }
-                
-            Board.Instance.SelectAbilityTiles(_actionableTiles);
-        }
-
-        if (_driver.Current == Drivers.Computer)
+        
+        if (turn.currentDriver == Drivers.Computer)
         {
             StartCoroutine(ComputerHighlightMoveTarget());
+        }
+        else
+        {
+            var mover = owner.turn.actor.GetComponent<UnitMovement>();
+            _movableTiles = mover.GetTilesInRange();
+            _movableTiles.Add(owner.turn.actor.TileDefinition);
+            Board.Instance.SelectTiles(_movableTiles);
+            
+            var ability = turn.actor.GetComponentInChildren<AbilityRange>();
+            if (ability != null)
+            {
+                List<TileDefinitionData> boundTiles = ComputeMovementBoundTiles(_movableTiles);
+                _actionableTiles = ability.GetTilesInRange(boundTiles);
+
+                foreach (var movableTile in _movableTiles)
+                {
+                    if (_actionableTiles.Any(tile => tile.position.Equals(movableTile.position)))
+                    {
+                        _actionableTiles.RemoveAll(tile => tile.position.Equals(movableTile.position));
+                    }
+                }
+                
+                Board.Instance.SelectAbilityTiles(_actionableTiles);
+            }
         }
     }
 
@@ -61,7 +64,6 @@ public class MoveTargetState : BattleState
             if (cursorPos.y < turn.plan.moveLocation.y) cursorPos.y++;
             if (cursorPos.y > turn.plan.moveLocation.y) cursorPos.y--;
             SelectTile(cursorPos);
-            yield return new WaitForSeconds(0.25f);
         }
 
         yield return new WaitForSeconds(0.5f);
@@ -127,9 +129,12 @@ public class MoveTargetState : BattleState
     public override void Exit()
     {
         base.Exit();
-        Board.Instance.DeSelectTiles(_movableTiles);
-        Board.Instance.DeSelectTiles(_actionableTiles);
-        _movableTiles = null;
+        if (turn.currentDriver != Drivers.Computer)
+        {
+            Board.Instance.DeSelectTiles(_movableTiles);
+            Board.Instance.DeSelectTiles(_actionableTiles);
+            _movableTiles = null;
+        }
     }
 
     /// <summary>

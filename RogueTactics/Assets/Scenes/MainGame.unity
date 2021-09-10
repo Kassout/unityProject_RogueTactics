@@ -4853,6 +4853,7 @@ GameObject:
   - component: {fileID: 674644802}
   - component: {fileID: 674644803}
   - component: {fileID: 674644805}
+  - component: {fileID: 674644804}
   m_Layer: 0
   m_Name: Battle Controller
   m_TagString: Untagged
@@ -4898,7 +4899,7 @@ MonoBehaviour:
   abilityMenuPanelController: {fileID: 444627129}
   statPanelController: {fileID: 4449034}
   battleMessageController: {fileID: 194895751}
-  cpu: {fileID: 0}
+  cpu: {fileID: 674644804}
   hitSuccessIndicator: {fileID: 1391421002}
   units: []
   currentSelectedTile:
@@ -4908,6 +4909,18 @@ MonoBehaviour:
     doCollide: 0
     distanceFromStartTile: 0
   position: {x: 0, y: 0}
+--- !u!114 &674644804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674644801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994dc78fb28332341ab48e8c841b9720, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &674644805
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -24,6 +24,14 @@ public class MoveSequenceState : BattleState
     {
         var m = owner.turn.actor.GetComponent<UnitMovement>();
         yield return StartCoroutine(m.Traverse(currentSelectedTile));
-        owner.ChangeState<CommandSelectionState>();
+        if (_driver.Current == Drivers.Human)
+        {
+            owner.ChangeState<CommandSelectionState>();
+        }
+        else
+        {
+            owner.ChangeState<PerformAbilityState>();
+        }
+
     }
 }
