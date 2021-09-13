@@ -33,6 +33,6 @@ public class CameraController : MonoBehaviour
     /// </summary>
     private void Update()
     {
-        if (follow) _transform.position = Vector3.Lerp(_transform.position, follow.position, speed * Time.deltaTime);
+        if (follow) _transform.position = Vector3.Lerp(_transform.position, new Vector3(follow.position.x, follow.position.y, _transform.position.z), speed * Time.fixedDeltaTime);
     }
 }

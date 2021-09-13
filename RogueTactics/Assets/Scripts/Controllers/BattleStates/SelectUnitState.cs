@@ -15,10 +15,19 @@ public class SelectUnitState : BattleState
     {
         base.Enter();
 
+        Cursor.visible = false;
+        
         if (turn.currentDriver == Drivers.Computer)
         {
             StartCoroutine(ComputerTurn());
         }
+    }
+
+    public override void Exit()
+    {
+        base.Exit();
+
+        Cursor.visible = true;
     }
 
     private IEnumerator ComputerTurn()

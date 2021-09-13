@@ -23,6 +23,8 @@ public class MoveTargetState : BattleState
     {
         base.Enter();
         
+        Cursor.visible = false;
+        
         if (turn.currentDriver == Drivers.Computer)
         {
             StartCoroutine(ComputerHighlightMoveTarget());
@@ -128,6 +130,8 @@ public class MoveTargetState : BattleState
     public override void Exit()
     {
         base.Exit();
+
+        Cursor.visible = true;
         if (turn.currentDriver != Drivers.Computer)
         {
             Board.Instance.DeSelectTiles(_movableTiles);
