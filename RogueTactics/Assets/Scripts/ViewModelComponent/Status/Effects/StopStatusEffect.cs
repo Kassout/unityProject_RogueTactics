@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class StopStatusEffect : StatusEffect
 {
-    Stats _myStats;
+    UnitStats _myUnitStats;
     
     void OnEnable()
     {
-        _myStats = GetComponentInParent<Stats>();
-        if (_myStats)
+        _myUnitStats = GetComponentInParent<UnitStats>();
+        if (_myUnitStats)
             this.AddObserver(OnAddedStatus, Status.AddedNotification, this);
         this.AddObserver(OnAutomaticHitCheck, HitRate.AutomaticHitCheckNotification);
     }
@@ -22,8 +22,8 @@ public class StopStatusEffect : StatusEffect
   
     void OnAddedStatus (object sender, object args)
     {
-        int currentMov = _myStats[StatTypes.MOV];
-        _myStats.SetValue(StatTypes.MOV, int.MinValue, false);
+        int currentMov = _myUnitStats[UnitStatTypes.MOV];
+        _myUnitStats.SetValue(UnitStatTypes.MOV, int.MinValue, false);
     }
 
     void OnAutomaticHitCheck(object sender, object args)

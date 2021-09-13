@@ -21,8 +21,8 @@ public class HealAbilityEffect : BaseAbilityEffect
         value = Mathf.Clamp(value, minDamage, maxDamage);
 
         // Apply the amount to the target
-        Stats s = defender.GetComponent<Stats>();
-        s[StatTypes.HP] += value;
+        UnitStats s = defender.GetComponent<UnitStats>();
+        s[UnitStatTypes.HP] += value;
         return value;
     }
 }

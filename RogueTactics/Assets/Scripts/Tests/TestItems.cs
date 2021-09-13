@@ -56,23 +56,23 @@ public class TestItems : MonoBehaviour
   
     #region Factory
   
-    GameObject CreateItem (string title, StatTypes type, int amount)
+    GameObject CreateItem (string title, UnitStatTypes type, int amount)
     {
         GameObject item = new GameObject(title);
-        StatModifierFeature smf = item.AddComponent<StatModifierFeature>();
+        UnitStatModifierFeature smf = item.AddComponent<UnitStatModifierFeature>();
         smf.type = type;
         smf.amount = amount;
         return item;
     }
   
-    GameObject CreateConsumableItem (string title, StatTypes type, int amount)
+    GameObject CreateConsumableItem (string title, UnitStatTypes type, int amount)
     {
         GameObject item = CreateItem(title, type, amount);
         item.AddComponent<Consumable>();
         return item;
     }
   
-    GameObject CreateEquippableItem (string title, StatTypes type, int amount, EquipSlots slot)
+    GameObject CreateEquippableItem (string title, UnitStatTypes type, int amount, EquipSlots slot)
     {
         GameObject item = CreateItem(title, type, amount);
         Equippable equip = item.AddComponent<Equippable>();
@@ -90,10 +90,10 @@ public class TestItems : MonoBehaviour
     GameObject CreateActor (string title)
     {
         GameObject actor = new GameObject(title);
-        Stats s = actor.AddComponent<Stats>();
-        s[StatTypes.HP] = s[StatTypes.MHP] = UnityEngine.Random.Range(500, 1000);
-        s[StatTypes.STR] = UnityEngine.Random.Range(30, 50);
-        s[StatTypes.DEF] = UnityEngine.Random.Range(30, 50);
+        UnitStats s = actor.AddComponent<UnitStats>();
+        s[UnitStatTypes.HP] = s[UnitStatTypes.MHP] = UnityEngine.Random.Range(500, 1000);
+        s[UnitStatTypes.STR] = UnityEngine.Random.Range(30, 50);
+        s[UnitStatTypes.DEF] = UnityEngine.Random.Range(30, 50);
         return actor;
     }
     
@@ -103,11 +103,11 @@ public class TestItems : MonoBehaviour
     
     void CreateItems ()
     {
-        inventory.Add( CreateConsumableItem("Health Potion", StatTypes.HP, 300) );
-        inventory.Add( CreateConsumableItem("Bomb", StatTypes.HP, -150) );
-        inventory.Add( CreateEquippableItem("Sword", StatTypes.STR, 10, EquipSlots.Weapon) );
-        inventory.Add( CreateEquippableItem("Broad Sword", StatTypes.STR, 15, (EquipSlots.Weapon) ) );
-        inventory.Add( CreateEquippableItem("Shield", StatTypes.DEF, 10, EquipSlots.Accessory) );
+        inventory.Add( CreateConsumableItem("Health Potion", UnitStatTypes.HP, 300) );
+        inventory.Add( CreateConsumableItem("Bomb", UnitStatTypes.HP, -150) );
+        inventory.Add( CreateEquippableItem("Sword", UnitStatTypes.STR, 10, EquipSlots.Weapon) );
+        inventory.Add( CreateEquippableItem("Broad Sword", UnitStatTypes.STR, 15, (EquipSlots.Weapon) ) );
+        inventory.Add( CreateEquippableItem("Shield", UnitStatTypes.DEF, 10, EquipSlots.Accessory) );
     }
   
     void CreateCombatants ()
@@ -150,10 +150,10 @@ public class TestItems : MonoBehaviour
     
     void Attack (GameObject attacker, GameObject defender)
     {
-        Stats s1 = attacker.GetComponent<Stats>();
-        Stats s2 = defender.GetComponent<Stats>();
-        int damage = Mathf.FloorToInt((s1[StatTypes.STR] * 4 - s2[StatTypes.DEF] * 2) * UnityEngine.Random.Range(0.9f, 1.1f));
-        s2[StatTypes.HP] -= damage;
+        UnitStats s1 = attacker.GetComponent<UnitStats>();
+        UnitStats s2 = defender.GetComponent<UnitStats>();
+        int damage = Mathf.FloorToInt((s1[UnitStatTypes.STR] * 4 - s2[UnitStatTypes.DEF] * 2) * UnityEngine.Random.Range(0.9f, 1.1f));
+        s2[UnitStatTypes.HP] -= damage;
         string message = string.Format("{0} hits {1} for {2} damage!", attacker.name, defender.name, damage);
         Debug.Log(message);
     }
@@ -172,7 +172,7 @@ public class TestItems : MonoBehaviour
     {
         inventory.Remove(item);
         // This is dummy code - a user would know how to use an item and who to target with it
-        StatModifierFeature smf = item.GetComponent<StatModifierFeature>();
+        UnitStatModifierFeature smf = item.GetComponent<UnitStatModifierFeature>();
         if (smf.amount > 0)
         {
             item.GetComponent<Consumable>().Consume( combatants[0] );
@@ -197,8 +197,8 @@ public class TestItems : MonoBehaviour
     {
         for (int i = 0; i < 2; ++i)
         {
-            Stats s = combatants[i].GetComponent<Stats>();
-            if (s[StatTypes.HP] <= 0)
+            UnitStats s = combatants[i].GetComponent<UnitStats>();
+            if (s[UnitStatTypes.HP] <= 0)
                 return true;
         }
         return false;
@@ -214,8 +214,8 @@ public class TestItems : MonoBehaviour
     
     void LogToConsole (GameObject actor)
     {
-        Stats s = actor.GetComponent<Stats>();
-        string message = string.Format("Name:{0} HP:{1}/{2} ATK:{3} DEF:{4}", actor.name, s[StatTypes.HP], s[StatTypes.MHP], s[StatTypes.STR], s[StatTypes.DEF]);
+        UnitStats s = actor.GetComponent<UnitStats>();
+        string message = string.Format("Name:{0} HP:{1}/{2} ATK:{3} DEF:{4}", actor.name, s[UnitStatTypes.HP], s[UnitStatTypes.MHP], s[UnitStatTypes.STR], s[UnitStatTypes.DEF]);
         Debug.Log( message );
     }
     

@@ -6,13 +6,13 @@ public class TestLevelGrowth : MonoBehaviour
 {
   void OnEnable ()
   {
-    this.AddObserver(OnLevelChange, Stats.DidChangeNotification(StatTypes.LVL));
-    this.AddObserver(OnExperienceException, Stats.WillChangeNotification(StatTypes.EXP));
+    this.AddObserver(OnLevelChange, UnitStats.DidChangeNotification(UnitStatTypes.LVL));
+    this.AddObserver(OnExperienceException, UnitStats.WillChangeNotification(UnitStatTypes.EXP));
   }
   void OnDisable ()
   {
-    this.RemoveObserver(OnLevelChange, Stats.DidChangeNotification(StatTypes.LVL));
-    this.RemoveObserver(OnExperienceException, Stats.WillChangeNotification(StatTypes.EXP));
+    this.RemoveObserver(OnLevelChange, UnitStats.DidChangeNotification(UnitStatTypes.LVL));
+    this.RemoveObserver(OnExperienceException, UnitStats.WillChangeNotification(UnitStatTypes.EXP));
   }
   void Start () 
   {
@@ -39,7 +39,7 @@ public class TestLevelGrowth : MonoBehaviour
     for (int i = 0; i < names.Length; ++i)
     {
       GameObject actor = new GameObject(names[i]);
-      actor.AddComponent<Stats>();
+      actor.AddComponent<UnitStats>();
       Rank rank = actor.AddComponent<Rank>();
       rank.Init((int)UnityEngine.Random.Range(1, 5));
       heroes.Add(actor);
@@ -63,12 +63,12 @@ public class TestLevelGrowth : MonoBehaviour
   }
   void OnLevelChange (object sender, object args)
   {
-    Stats stats = sender as Stats;
-    Debug.Log(stats.name + " leveled up!");
+    UnitStats unitStats = sender as UnitStats;
+    Debug.Log(unitStats.name + " leveled up!");
   }
   void OnExperienceException (object sender, object args)
   {
-    GameObject actor = (sender as Stats).gameObject;
+    GameObject actor = (sender as UnitStats).gameObject;
     ValueChangeException vce = args as ValueChangeException;
     int roll = UnityEngine.Random.Range(0, 5);
     switch (roll)

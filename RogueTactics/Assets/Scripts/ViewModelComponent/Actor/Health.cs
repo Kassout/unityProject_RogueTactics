@@ -7,18 +7,18 @@ public class Health : MonoBehaviour
 
     public int HP
     {
-        get { return stats[StatTypes.HP]; }
-        set { stats[StatTypes.HP] = value; }
+        get { return _unitStats[UnitStatTypes.HP]; }
+        set { _unitStats[UnitStatTypes.HP] = value; }
     }
 
     public int MHP
     {
-        get { return stats[StatTypes.MHP]; }
-        set { stats[StatTypes.MHP] = value; }
+        get { return _unitStats[UnitStatTypes.MHP]; }
+        set { _unitStats[UnitStatTypes.MHP] = value; }
     }
 
     public int MinHP = 0;
-    Stats stats;
+    UnitStats _unitStats;
 
     #endregion
 
@@ -26,19 +26,19 @@ public class Health : MonoBehaviour
 
     void Awake()
     {
-        stats = GetComponent<Stats>();
+        _unitStats = GetComponent<UnitStats>();
     }
 
     void OnEnable()
     {
-        this.AddObserver(OnHPWillChange, Stats.WillChangeNotification(StatTypes.HP), stats);
-        this.AddObserver(OnMHPDidChange, Stats.DidChangeNotification(StatTypes.MHP), stats);
+        this.AddObserver(OnHPWillChange, UnitStats.WillChangeNotification(UnitStatTypes.HP), _unitStats);
+        this.AddObserver(OnMHPDidChange, UnitStats.DidChangeNotification(UnitStatTypes.MHP), _unitStats);
     }
 
     void OnDisable()
     {
-        this.RemoveObserver(OnHPWillChange, Stats.WillChangeNotification(StatTypes.HP), stats);
-        this.RemoveObserver(OnMHPDidChange, Stats.DidChangeNotification(StatTypes.MHP), stats);
+        this.RemoveObserver(OnHPWillChange, UnitStats.WillChangeNotification(UnitStatTypes.HP), _unitStats);
+        this.RemoveObserver(OnMHPDidChange, UnitStats.DidChangeNotification(UnitStatTypes.MHP), _unitStats);
     }
 
     #endregion
@@ -48,7 +48,7 @@ public class Health : MonoBehaviour
     void OnHPWillChange(object sender, object args)
     {
         ValueChangeException vce = args as ValueChangeException;
-        vce.AddModifier(new ClampValueModifier(int.MaxValue, MinHP, stats[StatTypes.MHP]));
+        vce.AddModifier(new ClampValueModifier(int.MaxValue, MinHP, _unitStats[UnitStatTypes.MHP]));
     }
 
     void OnMHPDidChange(object sender, object args)

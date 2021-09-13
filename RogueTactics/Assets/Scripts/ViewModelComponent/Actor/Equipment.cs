@@ -1,15 +1,47 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Equipment : MonoBehaviour
 {
+    public static GameObject defaultWeapon;
+    private bool _inTransition;
+    
     #region Notifications
 
     public const string EquippedNotification = "Equipment.EquippedNotification";
     public const string UnEquippedNotification = "Equipment.UnEquippedNotification";
 
     #endregion
+
+    private void Start()
+    {
+        if (defaultWeapon == null)
+        {
+            defaultWeapon = Resources.Load<GameObject>("Weapons/Default/Fist (Unarmed)");
+            defaultWeapon.name = "Fist (Unarmed)";
+        }
+
+        GameObject weapon = Instantiate(defaultWeapon, transform, true);
+        weapon.name = defaultWeapon.name;
+        Equip(weapon.GetComponent<Weapon>(), EquipSlots.Weapon);
+    }
+
+    private void OnEnable()
+    {
+       this.AddObserver(OnUnEquippedWeapon, UnEquippedNotification, this);
+    }
+    
+    private void OnUnEquippedWeapon(object arg1, object arg2)
+    {
+        if (!GetItem(EquipSlots.Weapon) && !_inTransition)
+        {
+            GameObject weapon = Instantiate(defaultWeapon, transform, true);
+            weapon.name = defaultWeapon.name;
+            Equip(weapon.GetComponent<Weapon>(), EquipSlots.Weapon);
+        }
+    }
 
     #region Fields / Properties
 
@@ -26,13 +58,19 @@ public class Equipment : MonoBehaviour
 
     public void Equip(Equippable item, EquipSlots slots)
     {
-        UnEquip(slots);
+        _inTransition = true;
+        
+        if (GetItem(slots))
+        {
+            UnEquip(slots);
+        }
         
         _items.Add(item);
         item.transform.SetParent(transform);
         item.slots = slots;
         item.OnEquip();
-        
+
+        _inTransition = false;
         this.PostNotification(EquippedNotification, item);
     }
     
@@ -40,7 +78,6 @@ public class Equipment : MonoBehaviour
     {
         item.OnUnEquip();
         item.slots = EquipSlots.None;
-        item.transform.SetParent(transform);
         _items.Remove(item);
         this.PostNotification(UnEquippedNotification, item);
     }

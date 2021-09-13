@@ -7,13 +7,13 @@ public class StatComparisonCondition : StatusCondition
 {
     #region Fields
 
-    public StatTypes type { get; private set; }
+    public UnitStatTypes type { get; private set; }
 
     public int value { get; private set; }
     
     public Func<bool> condition { get; private set; }
 
-    private Stats _stats;
+    private UnitStats _unitStats;
 
     #endregion
 
@@ -21,49 +21,49 @@ public class StatComparisonCondition : StatusCondition
 
     private void Awake()
     {
-        _stats = GetComponentInParent<Stats>();
+        _unitStats = GetComponentInParent<UnitStats>();
     }
 
     private void OnDisable()
     {
-        this.RemoveObserver(OnStatChanged, Stats.DidChangeNotification(type), _stats);
+        this.RemoveObserver(OnStatChanged, UnitStats.DidChangeNotification(type), _unitStats);
     }
 
     #endregion
 
     #region Public
 
-    public void Init(StatTypes type, int value, Func<bool> condition)
+    public void Init(UnitStatTypes type, int value, Func<bool> condition)
     {
         this.type = type;
         this.value = value;
         this.condition = condition;
-        this.AddObserver(OnStatChanged, Stats.DidChangeNotification(type), _stats);
+        this.AddObserver(OnStatChanged, UnitStats.DidChangeNotification(type), _unitStats);
     }
 
     public bool EqualTo ()
     {
-        return _stats[type] == value;
+        return _unitStats[type] == value;
     }
   
     public bool LessThan ()
     {
-        return _stats[type] < value;
+        return _unitStats[type] < value;
     }
   
     public bool LessThanOrEqualTo ()
     {
-        return _stats[type] <= value;
+        return _unitStats[type] <= value;
     }
   
     public bool GreaterThan ()
     {
-        return _stats[type] > value;
+        return _unitStats[type] > value;
     }
   
     public bool GreaterThanOrEqualTo ()
     {
-        return _stats[type] >= value;
+        return _unitStats[type] >= value;
     }
     #endregion
     

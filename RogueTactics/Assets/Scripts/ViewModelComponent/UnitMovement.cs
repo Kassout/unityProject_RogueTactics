@@ -6,9 +6,9 @@ using UnityEngine;
 
 public abstract class UnitMovement : MonoBehaviour
 {
-    private int range => _stats[StatTypes.MOV];
+    private int range => _unitStats[UnitStatTypes.MOV];
 
-    private Stats _stats;
+    private UnitStats _unitStats;
         
     protected Unit unitInstance;
 
@@ -19,7 +19,7 @@ public abstract class UnitMovement : MonoBehaviour
 
     protected virtual void Start()
     {
-        _stats = GetComponent<Stats>();
+        _unitStats = GetComponent<UnitStats>();
     }
 
     public virtual List<TileDefinitionData> GetTilesInRange()

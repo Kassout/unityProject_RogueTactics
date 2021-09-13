@@ -8,20 +8,20 @@ public class Equippable : MonoBehaviour
 
     public EquipSlots defaultSlots;
     public EquipSlots slots;
-    private bool _isEquipped;
+    protected bool isEquipped;
 
     #endregion
 
     #region Public
 
-    public void OnEquip()
+    public virtual void OnEquip()
     {
-        if (_isEquipped)
+        if (isEquipped)
         {
             return;
         }
 
-        _isEquipped = true;
+        isEquipped = true;
 
         Feature[] features = GetComponentsInChildren<Feature>();
         for (int i = 0; i < features.Length; ++i)
@@ -30,14 +30,14 @@ public class Equippable : MonoBehaviour
         }
     }
 
-    public void OnUnEquip ()
+    public virtual void OnUnEquip ()
     {
-        if (!_isEquipped)
+        if (!isEquipped)
         {
             return;
         }
 
-        _isEquipped = false;
+        isEquipped = false;
         
         Feature[] features = GetComponentsInChildren<Feature>();
         for (int i = 0; i < features.Length; ++i)

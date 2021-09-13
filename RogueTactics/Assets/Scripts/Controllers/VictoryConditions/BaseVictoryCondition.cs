@@ -16,12 +16,12 @@ public abstract class BaseVictoryCondition : MonoBehaviour
 
     protected virtual void OnEnable()
     {
-        this.AddObserver(OnHPDidChangeNotification, Stats.DidChangeNotification(StatTypes.HP));
+        this.AddObserver(OnHPDidChangeNotification, UnitStats.DidChangeNotification(UnitStatTypes.HP));
     }
 
     protected virtual void OnDisable()
     {
-        this.RemoveObserver(OnHPDidChangeNotification, Stats.DidChangeNotification(StatTypes.HP));
+        this.RemoveObserver(OnHPDidChangeNotification, UnitStats.DidChangeNotification(UnitStatTypes.HP));
     }
 
     protected virtual void OnHPDidChangeNotification(object sender, object args)
@@ -37,8 +37,8 @@ public abstract class BaseVictoryCondition : MonoBehaviour
             return health.MinHP == health.HP;
         }
 
-        Stats stats = unit.GetComponent<Stats>();
-        return stats[StatTypes.HP] == 0;
+        UnitStats unitStats = unit.GetComponent<UnitStats>();
+        return unitStats[UnitStatTypes.HP] == 0;
     }
 
     protected virtual bool PartyDefeated(Alliances type)

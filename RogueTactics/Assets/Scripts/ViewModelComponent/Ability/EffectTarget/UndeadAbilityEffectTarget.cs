@@ -18,7 +18,7 @@ public class UndeadAbilityEffectTarget : AbilityEffectTarget
         if (hasComponent != toggle)
             return false;
 
-        Stats s = tile.content.GetComponent<Stats>();
-        return s != null && s[StatTypes.HP] > 0;
+        UnitStats s = tile.content.GetComponent<UnitStats>();
+        return s != null && s[UnitStatTypes.HP] > 0;
     }
 }

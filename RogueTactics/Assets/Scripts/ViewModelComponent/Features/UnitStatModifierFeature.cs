@@ -2,18 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StatModifierFeature : Feature
+public class UnitStatModifierFeature : Feature
 {
     #region Fields / Properties
 
-    public StatTypes type;
+    public UnitStatTypes type;
     public int amount;
 
-    Stats stats
+    UnitStats unitStats
     {
         get
         {
-            return _target.GetComponentInParent<Stats>();
+            return _target.GetComponentInParent<UnitStats>();
         }
     }
     
@@ -23,12 +23,12 @@ public class StatModifierFeature : Feature
 
     protected override void OnApply()
     {
-        stats[type] += amount;
+        unitStats[type] += amount;
     }
 
     protected override void OnRemove()
     {
-        stats[type] -= amount;
+        unitStats[type] -= amount;
     }
 
     #endregion

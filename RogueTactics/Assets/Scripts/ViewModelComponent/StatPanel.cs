@@ -22,13 +22,13 @@ public class StatPanel : MonoBehaviour
         
         // Avatar.sprite = null; Need a component which provides this data
         nameLabel.text = obj.name;
-        Stats stats = obj.GetComponent<Stats>();
+        UnitStats unitStats = obj.GetComponent<UnitStats>();
 
-        if (stats)
+        if (unitStats)
         {
-            hpLabel.text = string.Format("HP {0} / {1}", stats[StatTypes.HP], stats[StatTypes.MHP]);
-            mpLabel.text = string.Format("MP {0} / {1}", stats[StatTypes.MP], stats[StatTypes.MMP]);
-            lvLabel.text = string.Format("LV. {0}", stats[StatTypes.LVL]);
+            hpLabel.text = string.Format("HP {0} / {1}", unitStats[UnitStatTypes.HP], unitStats[UnitStatTypes.MHP]);
+            mpLabel.text = string.Format("MP {0} / {1}", unitStats[UnitStatTypes.MP], unitStats[UnitStatTypes.MMP]);
+            lvLabel.text = string.Format("LV. {0}", unitStats[UnitStatTypes.LVL]);
         }
     }
 }

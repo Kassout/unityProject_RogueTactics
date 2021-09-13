@@ -8,15 +8,15 @@ public class MagicalAbilityPower : BaseAbilityPower
 
     protected override int GetBaseAttack()
     {
-        return GetComponentInParent<Stats>()[StatTypes.MAG];
+        return GetComponentInParent<UnitStats>()[UnitStatTypes.MAG];
     }
 
     protected override int GetBaseDefense(Unit target)
     {
-        return target.GetComponent<Stats>()[StatTypes.RES];
+        return target.GetComponent<UnitStats>()[UnitStatTypes.RES];
     }
 
-    protected override int GetPower()
+    protected override int GetPower(Unit target)
     {
         return level;
     }

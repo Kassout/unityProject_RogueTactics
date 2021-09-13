@@ -5,37 +5,37 @@ public class Mana : MonoBehaviour
     #region Fields
     public int MP
     {
-        get { return stats[StatTypes.MP]; }
-        set { stats[StatTypes.MP] = value; }
+        get { return _unitStats[UnitStatTypes.MP]; }
+        set { _unitStats[UnitStatTypes.MP] = value; }
     }
   
     public int MMP
     {
-        get { return stats[StatTypes.MMP]; }
-        set { stats[StatTypes.MMP] = value; }
+        get { return _unitStats[UnitStatTypes.MMP]; }
+        set { _unitStats[UnitStatTypes.MMP] = value; }
     }
     Unit unit;
-    Stats stats;
+    UnitStats _unitStats;
     #endregion
   
     #region MonoBehaviour
     void Awake ()
     {
-        stats = GetComponent<Stats>();
+        _unitStats = GetComponent<UnitStats>();
         unit = GetComponent<Unit>();
     }
   
     void OnEnable ()
     {
-        this.AddObserver(OnMPWillChange, Stats.WillChangeNotification(StatTypes.MP), stats);
-        this.AddObserver(OnMMPDidChange, Stats.DidChangeNotification(StatTypes.MMP), stats);
+        this.AddObserver(OnMPWillChange, UnitStats.WillChangeNotification(UnitStatTypes.MP), _unitStats);
+        this.AddObserver(OnMMPDidChange, UnitStats.DidChangeNotification(UnitStatTypes.MMP), _unitStats);
         this.AddObserver(OnTurnBegan, BattleController.TurnBeganNotification, unit);
     }
   
     void OnDisable ()
     {
-        this.RemoveObserver(OnMPWillChange, Stats.WillChangeNotification(StatTypes.MP), stats);
-        this.RemoveObserver(OnMMPDidChange, Stats.DidChangeNotification(StatTypes.MMP), stats);
+        this.RemoveObserver(OnMPWillChange, UnitStats.WillChangeNotification(UnitStatTypes.MP), _unitStats);
+        this.RemoveObserver(OnMMPDidChange, UnitStats.DidChangeNotification(UnitStatTypes.MMP), _unitStats);
         this.RemoveObserver(OnTurnBegan, BattleController.TurnBeganNotification, unit);
     }
     #endregion
@@ -44,7 +44,7 @@ public class Mana : MonoBehaviour
     void OnMPWillChange (object sender, object args)
     {
         ValueChangeException vce = args as ValueChangeException;
-        vce.AddModifier(new ClampValueModifier(int.MaxValue, 0, stats[StatTypes.MHP]));
+        vce.AddModifier(new ClampValueModifier(int.MaxValue, 0, _unitStats[UnitStatTypes.MHP]));
     }
   
     void OnMMPDidChange (object sender, object args)

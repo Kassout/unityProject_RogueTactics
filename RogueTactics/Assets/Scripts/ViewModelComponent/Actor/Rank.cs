@@ -19,13 +19,13 @@ public class Rank : MonoBehaviour
 
     public int LVL
     {
-        get { return _stats[StatTypes.LVL]; }
+        get { return _unitStats[UnitStatTypes.LVL]; }
     }
 
     public int EXP
     {
-        get { return _stats[StatTypes.EXP]; }
-        set { _stats[StatTypes.EXP] = value; }
+        get { return _unitStats[UnitStatTypes.EXP]; }
+        set { _unitStats[UnitStatTypes.EXP] = value; }
     }
 
     public float LevelPercent
@@ -33,7 +33,7 @@ public class Rank : MonoBehaviour
         get { return (float)(LVL - MINLevel) / (float)(MAXLevel - MINLevel); }
     }
 
-    private Stats _stats;
+    private UnitStats _unitStats;
 
     #endregion
 
@@ -41,19 +41,19 @@ public class Rank : MonoBehaviour
 
     private void Awake()
     {
-        _stats = GetComponent<Stats>();
+        _unitStats = GetComponent<UnitStats>();
     }
 
     private void OnEnable()
     {
-        this.AddObserver(OnExpWillChange, Stats.WillChangeNotification(StatTypes.EXP), _stats);
-        this.AddObserver(OnExpDidChange, Stats.DidChangeNotification(StatTypes.EXP), _stats);
+        this.AddObserver(OnExpWillChange, UnitStats.WillChangeNotification(UnitStatTypes.EXP), _unitStats);
+        this.AddObserver(OnExpDidChange, UnitStats.DidChangeNotification(UnitStatTypes.EXP), _unitStats);
     }
 
     private void OnDisable()
     {
-        this.RemoveObserver(OnExpWillChange, Stats.WillChangeNotification(StatTypes.EXP), _stats);
-        this.RemoveObserver(OnExpDidChange, Stats.DidChangeNotification(StatTypes.EXP), _stats);
+        this.RemoveObserver(OnExpWillChange, UnitStats.WillChangeNotification(UnitStatTypes.EXP), _unitStats);
+        this.RemoveObserver(OnExpDidChange, UnitStats.DidChangeNotification(UnitStatTypes.EXP), _unitStats);
     }
 
     #endregion
@@ -68,7 +68,7 @@ public class Rank : MonoBehaviour
   
     void OnExpDidChange (object sender, object args)
     {
-        _stats.SetValue(StatTypes.LVL, LevelForExperience(EXP), false);
+        _unitStats.SetValue(UnitStatTypes.LVL, LevelForExperience(EXP), false);
     }
 
     #endregion
@@ -92,8 +92,8 @@ public class Rank : MonoBehaviour
     
     public void Init (int level)
     {
-        _stats.SetValue(StatTypes.LVL, level, false);
-        _stats.SetValue(StatTypes.EXP, ExperienceForLevel(level), false);
+        _unitStats.SetValue(UnitStatTypes.LVL, level, false);
+        _unitStats.SetValue(UnitStatTypes.EXP, ExperienceForLevel(level), false);
     }
     
     #endregion

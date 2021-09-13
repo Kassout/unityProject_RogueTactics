@@ -1,36 +1,35 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stats : MonoBehaviour
+public class UnitStats : MonoBehaviour
 {
-    static readonly Dictionary<StatTypes, string> WillChangeNotifications = new Dictionary<StatTypes, string>();
+    static readonly Dictionary<UnitStatTypes, string> WillChangeNotifications = new Dictionary<UnitStatTypes, string>();
     
-    static readonly Dictionary<StatTypes, string> DidChangeNotifications = new Dictionary<StatTypes, string>();
+    static readonly Dictionary<UnitStatTypes, string> DidChangeNotifications = new Dictionary<UnitStatTypes, string>();
     
-    private readonly int[] _data = new int[(int)StatTypes.Count];
+    private readonly int[] _data = new int[(int)UnitStatTypes.Count];
     
-    public int this[StatTypes s]
+    public int this[UnitStatTypes s]
     {
         get { return _data[(int)s]; }
         set { SetValue(s, value, true); }
     }
 
-    public static string WillChangeNotification(StatTypes type)
+    public static string WillChangeNotification(UnitStatTypes type)
     {
         if (!WillChangeNotifications.ContainsKey(type))
             WillChangeNotifications.Add(type, string.Format("Stats.{0}WillChange", type.ToString()));
         return WillChangeNotifications[type];
     }
     
-    public static string DidChangeNotification (StatTypes type)
+    public static string DidChangeNotification (UnitStatTypes type)
     {
         if (!DidChangeNotifications.ContainsKey(type))
             DidChangeNotifications.Add(type, string.Format("Stats.{0}DidChange", type.ToString()));
         return DidChangeNotifications[type];
     }
 
-    public void SetValue(StatTypes type, int value, bool allowExceptions)
+    public void SetValue(UnitStatTypes type, int value, bool allowExceptions)
     {
         int oldValue = this[type];
         if (oldValue == value)

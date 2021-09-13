@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using ViewModelComponent;
 using Random = System.Random;
 
 
@@ -210,8 +209,8 @@ public class ComputerPlayer : MonoBehaviour
                 if (other != null && _alliance.IsMatch(other, Targets.Foe))
                 {
                     Unit unit = other.GetComponent<Unit>();
-                    Stats stats = unit.GetComponent<Stats>();
-                    if (stats[StatTypes.HP] > 0)
+                    UnitStats unitStats = unit.GetComponent<UnitStats>();
+                    if (unitStats[UnitStatTypes.HP] > 0)
                     {
                         _neareastFoe = unit;
                         return true;

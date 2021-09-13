@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class HasteStatusEffect : StatusEffect
 {
-    private Stats _myStats;
+    private UnitStats _myUnitStats;
 
     private void OnEnable()
     {
-        _myStats = GetComponentInParent<Stats>();
-        if (_myStats)
+        _myUnitStats = GetComponentInParent<UnitStats>();
+        if (_myUnitStats)
             this.AddObserver(OnAddedStatus, Status.AddedNotification, this);
     }
 
@@ -21,7 +21,7 @@ public class HasteStatusEffect : StatusEffect
 
     private void OnAddedStatus(object sender, object args)
     {
-        int currentMov = _myStats[StatTypes.MOV];
-        _myStats.SetValue(StatTypes.MOV, (currentMov + 1), false);
+        int currentMov = _myUnitStats[UnitStatTypes.MOV];
+        _myUnitStats.SetValue(UnitStatTypes.MOV, (currentMov + 1), false);
     }
 }

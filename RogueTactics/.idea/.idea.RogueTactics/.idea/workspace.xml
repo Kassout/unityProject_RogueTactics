@@ -8,31 +8,97 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44ffc9ad-3474-467c-b76e-af8eb8237166" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/UnitStatTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/WeaponStatTypes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/WeaponStatTypes.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/MagicalDamageAbilityEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/MagicalDamageAbilityEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/WeaponAbilityRange.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/WeaponAbilityRange.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/WeaponStatModifierFeature.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/WeaponStatModifierFeature.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/WeaponStats.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/WeaponStats.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Settings/ClassStatCaps.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Settings/WeaponStats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RogueTactics/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnitRecipes/EnemyMonk.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UnitRecipes/EnemyMonk.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnitRecipes/EnemyPikeman.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UnitRecipes/EnemyPikeman.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/UnitRecipes/EnemySwordsman.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/UnitRecipes/EnemySwordsman.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj.DotSettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ClassParser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/ClassParser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Abilities/Common/Attack.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Abilities/Common/Attack.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classes/Monk.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classes/Monk.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classes/Monk.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classes/Monk.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classes/Pikeman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classes/Pikeman.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classes/Pikeman.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classes/Pikeman.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classes/Swordsman.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classes/Swordsman.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Classes/Swordsman.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Classes/Swordsman.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Units/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Units/Hero.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Units/Hero.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BattleState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CommandSelectionState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CommandSelectionState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/AutoStatusController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/AutoStatusController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleMessageController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleMessageController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/ConfirmAbilityTargetState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/ConfirmAbilityTargetState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/InitBattleState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/InitBattleState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveSequenceState.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveTargetState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/MoveTargetState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/PerformAbilityState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/PerformAbilityState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/SelectUnitState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/SelectUnitState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/TurnManagerState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/TurnManagerState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Model/Board.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/StatPanelController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/StatPanelController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/VictoryConditions/BaseVictoryCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/VictoryConditions/BaseVictoryCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/StatTypes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enums/StatTypes.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enums/UnitStatTypes.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Factory/UnitFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Factory/UnitFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/Demo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/Demo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/TestItems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/TestItems.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Tests/TestLevelGrowth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Tests/TestLevelGrowth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/ComputerPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/ComputerPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Ability.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Ability.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AreaOfEffect/SpecifyAbilityArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AreaOfEffect/SpecifyAbilityArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AbilityMagicCost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AbilityMagicCost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/DefaultAbilityEffectTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/DefaultAbilityEffectTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/KOdAbilityEffectTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/KOdAbilityEffectTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/UndeadAbilityEffectTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/UndeadAbilityEffectTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/AbsorbDamageAbilityEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/AbsorbDamageAbilityEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/BaseAbilityEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/BaseAbilityEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/DamageAbilityEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/PhysicalDamageAbilityEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/DamageAbilityEffect.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/PhysicalDamageAbilityEffect.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/HealAbilityEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/HealAbilityEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/ReviveAbilityEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/ReviveAbilityEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/ATypeHitRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/AbilityTypeHitRate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/ATypeHitRate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/AbilityTypeHitRate.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/HitRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/HitRate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/AbilityRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/AbilityRange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/ConstantAbilityRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/ConstantAbilityRange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/InfiniteAbilityRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/InfiniteAbilityRange.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/SelfAbilityRange.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/SelfAbilityRange.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/STypeHitRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/StatusTypeHitRate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/STypeHitRate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/HitRate/StatusTypeHitRate.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/BaseAbilityPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/BaseAbilityPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/MagicalAbilityPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/MagicalAbilityPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/PhysicalAbilityPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/PhysicalAbilityPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/WeaponAbilityPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/WeaponAbilityPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Class.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Class.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Equipment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Equipment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Mana.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Mana.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Rank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Rank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Stats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/UnitStats.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Stats.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/UnitStats.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/StatModifierFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/UnitStatModifierFeature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/StatModifierFeature.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/UnitStatModifierFeature.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Consumable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Consumable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Equippable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Equippable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/StatPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/StatPanel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/DurationStatusCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/DurationStatusCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/StatComparisonCondition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/StatComparisonCondition.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/HasteStatusEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/HasteStatusEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/KnockOutStatusEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/KnockOutStatusEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/PoisonStatusEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/PoisonStatusEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/SlowStatusEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/SlowStatusEffect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/StopStatusEffect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/StopStatusEffect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/UnitMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/WalkMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/WalkMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/ClassGrowthStats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/ClassGrowthStats.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/ClassStartingStats.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/ClassStartingStats.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,21 +119,24 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_ScrollbarEventHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/b2/ff7b7931/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/89/21e3affb/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/WeaponAbilityPower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/VictoryConditions/DefeatAllEnemiesVictoryCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/AbilityPicker/FixedAbilityPicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/VictoryConditions/DefeatAllEnemiesVictoryCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AreaOfEffect/AbilityArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/DurationStatusCondition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/AbilityMenuPanelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/25e9afc147634a5ca855ab83fab425dd75d400/5a/c75bc891/MenuItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/d7/fccbc29b/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/AbilityMenuPanelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/e7/33c67ddc/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/BaseAbilityEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/62/97fa5691/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteSecondaryTexturesModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/AbilityTargetState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/ComputerPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/AbilityPicker/BaseAbilityPicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/62/13a8af66/Sprite.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/StatusCondition.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/AbilityPicker/BaseAbilityPicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ClampValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ScriptableObjectUtility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Factory/AbilityCatalogRecipe.cs" root0="FORCE_HIGHLIGHTING" />
@@ -76,17 +145,18 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/AbilityRange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/b0/b491a59f/Tile.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ValueChangeException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/State/SequenceHierarchy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/ConversationPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tests/TestItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/e2/97977f25/Convert.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/StatTypes.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/UnitStatTypes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Driver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/CustomTimelineEditorCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/Samples~/CustomDevice/CustomDevice.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Editor/CustomEditors/CustomTimelineEditorCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AbilityCatalog.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/MultValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/PoisonStatusEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/MultValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/ConversationData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Equipment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/70/d1621caf/Object.cs" root0="SKIP_HIGHLIGHTING" />
@@ -94,7 +164,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/MagicalAbilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventTrigger.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Model/Turn.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/Modifiers/MultDeltaModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnimationExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51c9fc2d1be048cfa2dd679deaa7d4f717a300/95/a4afaf76/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -106,13 +175,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/EndBattleState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/StatPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/ff/fcbbc79e/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Runtime/ILayerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/36/02b85da6/List`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CutSceneState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/AttackPattern.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Drivers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/MinValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/25e9afc147634a5ca855ab83fab425dd75d400/cf/25022a7b/PrefabUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/AddValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/SelfAbilityRange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/ShapeEditor/ShapeEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Animation/RectTransformAnchorPositionTweener.cs" root0="FORCE_HIGHLIGHTING" />
@@ -126,8 +196,9 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b6a0e6615ee04ea7ad535b38f9316104568788/2c/cac50c6e/EventArgs.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/e2/aab69855/TileData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/UI/LayoutAnchor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/StatPanelController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Targets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/StatPanelController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/7b/8e060851/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/TurnManagerState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/UI/LayoutElementEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/351e49e2a5bf4fd6beabb458ce2255f3ff600/ca/7363510e/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
@@ -142,8 +213,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Conditions/StatComparisonCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Range/ConstantAbilityRange.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Utilities/DelegateHelpers.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Editor/Builders/LDtkBuilderTileset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/EsunaAbilityEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Editor/Builders/LDtkBuilderTileset.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/ValueModifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Mana.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tests/Demo.cs" root0="FORCE_HIGHLIGHTING" />
@@ -157,19 +228,22 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Consumable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/DefaultAbilityEffectTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/AbilityPicker/RandomAbilityPicker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.8/Runtime/Playables/TimeNotificationBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.cammin.ldtkunity@2.1.5/Editor/CustomEditor/LDtkIntGridTileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/04bc688249c845aea981a2dee96e0d4b74a68/18/JsonElement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/ClassParser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/Modifier.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Merchandise.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Text.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/State/InputStateBlock.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/AbilityEffectTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/HasteStatusEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/ActionSelectionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/EnemyAbilityEffectTarget.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/ActionSelectionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Power/BaseAbilityPower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/3a/c51a5ca4/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/AddStatusFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Controls/CommonUsages.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Class.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Effects/StatusEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Alliance.cs" root0="FORCE_HIGHLIGHTING" />
@@ -178,40 +252,51 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/3f/2c94d243/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Exceptions/BaseException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AreaOfEffect/FullAbilityArea.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/ReviveAbilityEffect.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/StatModifierFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Dropdown.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/UnitStatModifierFeature.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Editor/Internal/AdvancedDropdown/AdvancedDropdownWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/AI/AttackOption.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/CategorySelectionState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/ExperienceManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/HitSuccessIndicator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b0e795e48cf04d7a9193ea9447af406a1b800/e9/475fa3d6/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/ConversationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b0e795e48cf04d7a9193ea9447af406a1b800/e9/475fa3d6/Physics2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Ability.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695d1cc93cca45069c528c15c9fdd7493e2800/39/c6d78da7/Consistency.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Item/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bce5e9cf72a64554937d40e2ce78291e7e00/f7/e9ba6e9e/Tilemap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/VictoryConditions/BaseVictoryCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleMessageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/VictoryConditions/BaseVictoryCondition.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Devices/Pointer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/e8/e65d2b03/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Actor/Rank.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Devices/Mouse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AreaOfEffect/SpecifyAbilityArea.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_Style.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/PerformAbilityState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Status/Status.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Weapons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Tests/Runtime/Layout/HorizonalLayoutGroupTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/MultipleDisplayUtilities.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@2.0.7/Rider/Editor/UnitTesting/RiderTestRunner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Controls/Processors/ClampProcessor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/EffectTarget/UndeadAbilityEffectTarget.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/UI/Panel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/ObjectPooling/PoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enums/Locomotions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.test-framework@1.1.27/UnityEditor.TestRunner/Api/CallbacksHolder.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/HealAbilityEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Extensions/GameObjectExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Plugins/PlayerInput/PlayerNotifications.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/NotificationCenter/NotificationExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/BaseAbilityMenuState.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_DefaultControls.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/DamageAbilityEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Inventory/Inventory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/Effects/PhysicalDamageAbilityEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/9b/3c2bc6e3/UnitySynchronizationContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Plugins/PlayerInput/PlayerInputManagerEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Ability/AreaOfEffect/UnitAbilityArea.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ViewModelComponent/Features/Feature.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cfc1ad890650411e946cff2e6f27671113b400/63/c712cf29/Component.cs" root0="SKIP_HIGHLIGHTING" />
@@ -232,10 +317,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../Builds/Windows_x64\RogueTactics.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\Builds\Windows_x64" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -246,10 +339,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15824">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="5824">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15824" />
+      <option name="pid" value="5824" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -288,6 +381,12 @@
       <workItem from="1631080992941" duration="12703000" />
       <workItem from="1631102495681" duration="8215000" />
       <workItem from="1631255773808" duration="19290000" />
+      <workItem from="1631307157591" duration="6177000" />
+      <workItem from="1631341871311" duration="16694000" />
+      <workItem from="1631372255889" duration="16101000" />
+      <workItem from="1631434232866" duration="21032000" />
+      <workItem from="1631515766039" duration="8921000" />
+      <workItem from="1631534825679" duration="8064000" />
     </task>
     <servers />
   </component>
@@ -333,10 +432,10 @@
           <line>19</line>
           <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\ViewModelComponent\Status\Effects\KnockOutStatusEffect.cs" initialLine="19" containingFunctionPresentation="method 'OnEnable'">
             <startOffsets>
-              <option value="444" />
+              <option value="460" />
             </startOffsets>
             <endOffsets>
-              <option value="511" />
+              <option value="527" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="19" />
@@ -346,10 +445,10 @@
           <line>27</line>
           <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\ViewModelComponent\Status\Effects\KnockOutStatusEffect.cs" initialLine="27" containingFunctionPresentation="method 'OnDisable'">
             <startOffsets>
-              <option value="735" />
+              <option value="751" />
             </startOffsets>
             <endOffsets>
-              <option value="803" />
+              <option value="819" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="22" />
@@ -367,24 +466,12 @@
           </properties>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/Controllers/BattleStates/PerformAbilityState.cs</url>
-          <line>30</line>
-          <properties documentPath="D:\__PROJETS\__GITHUB\unityProject_RogueTactics\RogueTactics\Assets\Scripts\Controllers\BattleStates\PerformAbilityState.cs" initialLine="30" containingFunctionPresentation="method 'Animate'">
-            <startOffsets>
-              <option value="741" />
-            </startOffsets>
-            <endOffsets>
-              <option value="779" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="Type#Rank" memberName="_stats" />
+        <PinnedItemInfo parentTag="Type#Turn" memberName="ability" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
@@ -392,6 +479,8 @@
         <watch expression="movableRadiusTiles" />
         <watch expression="Board.tileBoard" />
         <watch expression="this.&lt;&gt;4__this.turn.plan.target" />
+        <watch expression="features[0]" />
+        <watch expression="this.transform" />
       </configuration>
     </watches-manager>
   </component>

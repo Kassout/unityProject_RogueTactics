@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3195432649131651565
+--- !u!1 &9094163214452472849
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,11 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 668404603899207801}
-  - component: {fileID: 5384863869913023371}
-  - component: {fileID: 856884773092672993}
-  - component: {fileID: 8007245500141795132}
-  - component: {fileID: -8515567662055427863}
+  - component: {fileID: 439426178665886968}
+  - component: {fileID: 6711577114531257810}
+  - component: {fileID: 5395748801677409620}
   m_Layer: 0
   m_Name: Monk
   m_TagString: Untagged
@@ -20,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &668404603899207801
+--- !u!4 &439426178665886968
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3195432649131651565}
+  m_GameObject: {fileID: 9094163214452472849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -34,13 +32,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5384863869913023371
+--- !u!114 &6711577114531257810
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3195432649131651565}
+  m_GameObject: {fileID: 9094163214452472849}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7359e553bc178c344a04c6c3c08e1528, type: 3}
@@ -48,54 +46,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   classModel: {fileID: 21300000, guid: 2eb3f4e1879fff5449f7b31418143036, type: 3}
   classAnimator: {fileID: 22100000, guid: 094b090de74a1f145ac4ce2c2af6889d, type: 2}
-  baseStats: 120000003c0000000000000001000000010000000500000002000000
+  baseStats: 1200000014000000000000000100000001000000020000000000000001000000050000000100000001000000
   growStats:
-  - 1.5
-  - 1.3
-  - 0.1
-  - 0.08
+  - 0.5
+  - 0.7
+  - 0
   - 0.3
-  - 0.4
+  - 0.35
   - 0.32
---- !u!114 &856884773092672993
+  - 0.45
+  - 0.08
+  - 0.4
+  - 0.08
+  - 0.2
+  statCaps: 3c00000046000000050000001400000014000000140000001e00000014000000140000001400000014000000
+--- !u!114 &5395748801677409620
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3195432649131651565}
+  m_GameObject: {fileID: 9094163214452472849}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 13
-  amount: 4
---- !u!114 &8007245500141795132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3195432649131651565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 10
-  amount: 50
---- !u!114 &-8515567662055427863
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3195432649131651565}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a83118b622741ae4a926bc9ad90a8504, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  type: 11
-  amount: 50
+  type: 15
+  amount: 5

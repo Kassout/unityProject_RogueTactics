@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.WSA;
 
-public class STypeHitRate : HitRate
+public class StatusTypeHitRate : HitRate
 {
     public override int Calculate(TileDefinitionData target)
     {
@@ -26,7 +23,7 @@ public class STypeHitRate : HitRate
 
     private int GetResistance(Unit target)
     {
-        Stats s = target.GetComponentInParent<Stats>();
-        return s[StatTypes.TEN];
+        UnitStats s = target.GetComponentInParent<UnitStats>();
+        return s[UnitStatTypes.TEN];
     }
 }

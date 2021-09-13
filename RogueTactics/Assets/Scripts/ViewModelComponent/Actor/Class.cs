@@ -1,34 +1,35 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
-public class Class : MonoBehaviour
+public sealed class Class : MonoBehaviour
 {
     #region Fields / Properties
 
-    public static readonly StatTypes[] statOrder = new StatTypes[]
+    public static readonly UnitStatTypes[] StatOrder = new UnitStatTypes[]
     {
-        StatTypes.MHP,
-        StatTypes.MMP,
-        StatTypes.STR,
-        StatTypes.DEF,
-        StatTypes.MAG,
-        StatTypes.RES,
-        StatTypes.SPD
+        UnitStatTypes.MHP,
+        UnitStatTypes.MMP,
+        UnitStatTypes.STR,
+        UnitStatTypes.MAG,
+        UnitStatTypes.SKL,
+        UnitStatTypes.SPD,
+        UnitStatTypes.LUC,
+        UnitStatTypes.DEF,
+        UnitStatTypes.RES,
+        UnitStatTypes.EVD,
+        UnitStatTypes.TEN
     };
 
     public Sprite classModel;
 
     public AnimatorOverrideController classAnimator;
 
-    public int[] baseStats = new int[statOrder.Length];
+    public int[] baseStats = new int[StatOrder.Length];
 
-    public float[] growStats = new float[statOrder.Length];
+    public float[] growStats = new float[StatOrder.Length];
 
-    private Stats _stats;
+    public int[] statCaps = new int[StatOrder.Length];
+
+    private UnitStats _unitStats;
 
     #endregion
 
@@ -36,7 +37,7 @@ public class Class : MonoBehaviour
 
     private void OnDestroy()
     {
-        this.RemoveObserver(OnLevelChangeNotification, Stats.DidChangeNotification(StatTypes.LVL));
+        this.RemoveObserver(OnLevelChangeNotification, UnitStats.DidChangeNotification(UnitStatTypes.LVL));
     }
 
     #endregion
@@ -48,8 +49,8 @@ public class Class : MonoBehaviour
         gameObject.transform.parent.GetComponentInChildren<SpriteRenderer>().sprite = classModel;
         gameObject.GetComponentInParent<Animator>().runtimeAnimatorController = classAnimator;
         
-        _stats = gameObject.GetComponentInParent<Stats>();
-        this.AddObserver(OnLevelChangeNotification, Stats.DidChangeNotification(StatTypes.LVL), _stats);
+        _unitStats = gameObject.GetComponentInParent<UnitStats>();
+        this.AddObserver(OnLevelChangeNotification, UnitStats.DidChangeNotification(UnitStatTypes.LVL), _unitStats);
 
         Feature[] features = GetComponentsInChildren<Feature>();
         for (int i = 0; i < features.Length; ++i)
@@ -66,30 +67,30 @@ public class Class : MonoBehaviour
             features[i].Deactivate();
         }
         
-        this.RemoveObserver(OnLevelChangeNotification, Stats.DidChangeNotification(StatTypes.LVL), _stats);
-        _stats = null;
+        this.RemoveObserver(OnLevelChangeNotification, UnitStats.DidChangeNotification(UnitStatTypes.LVL), _unitStats);
+        _unitStats = null;
     }
 
     public void LoadDefaultStats()
     {
-        for (int i = 0; i < statOrder.Length; ++i)
+        for (int i = 0; i < StatOrder.Length; ++i)
         {
-            StatTypes type = statOrder[i];
-            _stats.SetValue(type, baseStats[i], false);
+            UnitStatTypes type = StatOrder[i];
+            _unitStats.SetValue(type, baseStats[i], false);
         }
         
-        _stats.SetValue(StatTypes.HP, _stats[StatTypes.MHP], false);
-        _stats.SetValue(StatTypes.MP, _stats[StatTypes.MMP], false);
+        _unitStats.SetValue(UnitStatTypes.HP, _unitStats[UnitStatTypes.MHP], false);
+        _unitStats.SetValue(UnitStatTypes.MP, _unitStats[UnitStatTypes.MMP], false);
     }
 
     #endregion
 
     #region Event Handlers
 
-    protected virtual void OnLevelChangeNotification (object sender, object args)
+    private void OnLevelChangeNotification (object sender, object args)
     {
         int oldValue = (int)args;
-        int newValue = _stats[StatTypes.LVL];
+        int newValue = _unitStats[UnitStatTypes.LVL];
         for (int i = oldValue; i < newValue; ++i)
         {
             LevelUp();
@@ -102,19 +103,19 @@ public class Class : MonoBehaviour
     
     void LevelUp ()
     {
-        for (int i = 0; i < statOrder.Length; ++i)
+        for (int i = 0; i < StatOrder.Length; ++i)
         {
-            StatTypes type = statOrder[i];
+            UnitStatTypes type = StatOrder[i];
             int whole = Mathf.FloorToInt(growStats[i]);
             float fraction = growStats[i] - whole;
-            int value = _stats[type];
+            int value = _unitStats[type];
             value += whole;
             if (UnityEngine.Random.value > (1f - fraction))
                 value++;
-            _stats.SetValue(type, value, false);
+            _unitStats.SetValue(type, value, false);
         }
-        _stats.SetValue(StatTypes.HP, _stats[StatTypes.MHP], false);
-        _stats.SetValue(StatTypes.MP, _stats[StatTypes.MMP], false);
+        _unitStats.SetValue(UnitStatTypes.HP, _unitStats[UnitStatTypes.MHP], false);
+        _unitStats.SetValue(UnitStatTypes.MP, _unitStats[UnitStatTypes.MMP], false);
     }
     
     #endregion

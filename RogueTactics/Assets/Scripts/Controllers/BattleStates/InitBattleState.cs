@@ -30,6 +30,7 @@ public class InitBattleState : BattleState
         yield return null;
             
         this.PostNotification(BattleController.BattleBeganNotification);
+        this.PostNotification(BattleController.TurnBeganNotification);
             
         owner.ChangeState<CutSceneState>();
     }
@@ -60,7 +61,7 @@ public class InitBattleState : BattleState
                 var spawnPos = new Vector2(Random.Range(0, 16), Random.Range(0, 16));
                 spawnTile = Board.GetTile(spawnPos);
             } while (spawnTile.doCollide ||
-                     spawnTile.tileType.tileTypeName.Equals(TileTypeObject.TileTypeEnum.Water));
+                     spawnTile.tileType.tileTypeName.Equals(TileTypeObject.TileTypeEnum.Water) || spawnTile.content != null);
                 
             Unit unit = instance.GetComponent<Unit>();
             unit.Place(spawnTile);

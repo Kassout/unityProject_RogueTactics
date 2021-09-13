@@ -1,6 +1,5 @@
 using System.Collections;
 using UnityEngine.InputSystem;
-using ViewModelComponent;
 
 /// <summary>
 ///     TODO: comments
@@ -30,7 +29,16 @@ public class MoveSequenceState : BattleState
         }
         else
         {
-            owner.ChangeState<PerformAbilityState>();
+            if (turn.ability != null)
+            {
+                owner.battleMessageController.Display(turn.ability.name);
+                owner.ChangeState<PerformAbilityState>();
+            }
+            else
+            {
+                owner.ChangeState<TurnManagerState>();
+            }
+
         }
 
     }

@@ -9,12 +9,12 @@ public class DurationStatusCondition : StatusCondition
 
     private void OnEnable()
     {
-        this.AddObserver(OnNewTurn, BattleController.BattleBeganNotification);
+        this.AddObserver(OnNewTurn, BattleController.TurnBeganNotification);
     }
 
     private void OnDisable()
     {
-        this.RemoveObserver(OnNewTurn, BattleController.BattleBeganNotification);
+        this.RemoveObserver(OnNewTurn, BattleController.TurnBeganNotification);
     }
 
     private void OnNewTurn(object sender, object args)

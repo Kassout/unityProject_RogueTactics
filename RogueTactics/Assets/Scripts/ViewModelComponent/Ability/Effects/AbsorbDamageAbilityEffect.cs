@@ -41,8 +41,8 @@ public class AbsorbDamageAbilityEffect : BaseAbilityEffect
 
     protected override int OnApply(TileDefinitionData target)
     {
-        Stats s = GetComponentInParent<Stats>();
-        s[StatTypes.HP] += amount;
+        UnitStats s = GetComponentInParent<UnitStats>();
+        s[UnitStatTypes.HP] += amount;
         return amount;
     }
 

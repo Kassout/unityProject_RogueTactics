@@ -7,14 +7,14 @@ public class ReviveAbilityEffect : BaseAbilityEffect
 
     public override int Predict(TileDefinitionData target)
     {
-        Stats s = target.content.GetComponent<Stats>();
-        return Mathf.FloorToInt(s[StatTypes.MHP] * percent);
+        UnitStats s = target.content.GetComponent<UnitStats>();
+        return Mathf.FloorToInt(s[UnitStatTypes.MHP] * percent);
     }
 
     protected override int OnApply(TileDefinitionData target)
     {
-        Stats s = target.content.GetComponent<Stats>();
-        int value = s[StatTypes.HP] = Predict(target);
+        UnitStats s = target.content.GetComponent<UnitStats>();
+        int value = s[UnitStatTypes.HP] = Predict(target);
         return value;
     }
 }

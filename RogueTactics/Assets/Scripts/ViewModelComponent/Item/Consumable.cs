@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Consumable : MonoBehaviour
+public class Consumable : MonoBehaviour, IStorable
 {
     public void Consume(GameObject target)
     {

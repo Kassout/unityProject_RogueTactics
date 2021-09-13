@@ -1,8 +1,6 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
-public class DamageAbilityEffect : BaseAbilityEffect 
+public class PhysicalDamageAbilityEffect : BaseAbilityEffect
 {
     #region Public
     public override int Predict (TileDefinitionData target)
@@ -10,25 +8,26 @@ public class DamageAbilityEffect : BaseAbilityEffect
         Unit attacker = GetComponentInParent<Unit>();
         Unit defender = target.content.GetComponent<Unit>();
 
-        // Get the attackers base attack stat considering
-        // mission items, support check, status check, and equipment, etc
-        int attack = GetStat(attacker, defender, GetAttackNotification, 0);
-
+        // Get the abilities power stat considering possible variations
+        // TODO : add weapon effectiveness
+        int power = GetStat(attacker, defender, GetPowerNotification, 0);
+        
         // Get the targets base defense stat considering
         // mission items, support check, status check, and equipment, etc
         int defense = GetStat(attacker, defender, GetDefenseNotification, 0);
+        
+        // Get the attackers base attack stat considering
+        // mission items, support check, status check, and equipment, etc
+        int strength = GetStat(attacker, defender, GetStrengthNotification, 0);
 
+        // Calculate base defense damage
+        // TODO : add terrain modifiers + supports ?
+        int effectiveDefense = defense;
+        
         // Calculate base damage
-        int damage = attack - (defense / 2);
+        int damage = strength + power - effectiveDefense;
         damage = Mathf.Max(damage, 1);
-
-        // Get the abilities power stat considering possible variations
-        int power = GetStat(attacker, defender, GetPowerNotification, 0);
-
-        // Apply power bonus
-        damage = power * damage / 100;
-        damage = Mathf.Max(damage, 1);
-
+        
         // Tweak the damage based on a variety of other checks like
         // Elemental damage, Critical Hits, Damage multipliers, etc.
         damage = GetStat(attacker, defender, TweakDamageNotification, damage);
@@ -49,8 +48,8 @@ public class DamageAbilityEffect : BaseAbilityEffect
         value = Mathf.Clamp(value, minDamage, maxDamage);
 
         // Apply the damage to the target
-        Stats s = defender.GetComponent<Stats>();
-        s[StatTypes.HP] += value;
+        UnitStats s = defender.GetComponent<UnitStats>();
+        s[UnitStatTypes.HP] += value;
         return value;
     }
     #endregion

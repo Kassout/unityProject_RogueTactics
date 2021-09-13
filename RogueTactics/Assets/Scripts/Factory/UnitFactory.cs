@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using ViewModelComponent;
 
 public static class UnitFactory
 {
@@ -57,8 +56,9 @@ public static class UnitFactory
 
     private static void AddStats(GameObject obj)
     {
-        Stats s = obj.AddComponent<Stats>();
-        s.SetValue(StatTypes.LVL, 1, false);
+        UnitStats s = obj.AddComponent<UnitStats>();
+        s.SetValue(UnitStatTypes.LVL, 1, false);
+        WeaponStats ws = obj.AddComponent<WeaponStats>();
     }
 
     private static void AddClass(GameObject obj, string name)
@@ -98,6 +98,7 @@ public static class UnitFactory
     private static void AddAttack(GameObject obj, string name)
     {
         GameObject instance = InstantiatePrefab("Abilities/" + name);
+        instance.name = "Attack";
         instance.transform.SetParent(obj.transform);
     }
 

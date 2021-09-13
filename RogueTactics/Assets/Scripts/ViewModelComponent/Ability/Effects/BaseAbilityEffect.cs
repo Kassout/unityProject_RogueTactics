@@ -9,11 +9,12 @@ public abstract class BaseAbilityEffect : MonoBehaviour
     protected const int minDamage = -99;
     protected const int maxDamage = 99;
 
-    public const string GetAttackNotification = "BaseAbilityEffect.GetAttackNotification";
+    public const string GetStrengthNotification = "BaseAbilityEffect.GetStrengthNotification";
     public const string GetDefenseNotification = "BaseAbilityEffect.GetDefenseNotification";
+    public const string GetResistanceNotification = "BaseAbilityEffect.GetResistanceNotification";
     public const string GetPowerNotification = "BaseAbilityEffect.GetPowerNotification";
-    public const string TweakDamageNotification = "BaseAbilityEffect.TweakDamageNotification";
 
+    public const string TweakDamageNotification = "BaseAbilityEffect.TweakDamageNotification";
     public const string MissedNotification = "BaseAbilityEffect.MissedNotification";
     public const string HitNotification = "BaseAbilityEffect.HitNotification";
 

@@ -6,12 +6,12 @@ using UnityEngine;
 public class KnockOutStatusEffect : StatusEffect
 {
     private Unit _owner;
-    private Stats _stats;
+    private UnitStats _unitStats;
 
     private void Awake()
     {
         _owner = GetComponentInParent<Unit>();
-        _stats = _owner.GetComponent<Stats>();
+        _unitStats = _owner.GetComponent<UnitStats>();
     }
 
     private void OnEnable()

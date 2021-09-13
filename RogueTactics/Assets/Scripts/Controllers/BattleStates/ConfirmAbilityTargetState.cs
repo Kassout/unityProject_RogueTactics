@@ -41,8 +41,15 @@ public class ConfirmAbilityTargetState : BattleState
     private IEnumerator ComputerDisplayAbilitySelection()
     {
         owner.battleMessageController.Display(turn.ability.name);
-        yield return new WaitForSeconds(2f);
-        owner.ChangeState<PerformAbilityState>();
+        yield return new WaitForSeconds(1f);
+        if (null != turn.ability)
+        {
+            owner.ChangeState<PerformAbilityState>();
+        }
+        else
+        {
+            owner.ChangeState<TurnManagerState>();
+        }
     }
 
     public override void Exit()

@@ -23,10 +23,10 @@ public class PoisonStatusEffect : StatusEffect
     
     void OnNewTurn (object sender, object args)
     {
-        Stats s = GetComponentInParent<Stats>();
-        int currentHP = s[StatTypes.HP];
-        int maxHP = s[StatTypes.MHP];
+        UnitStats s = GetComponentInParent<UnitStats>();
+        int currentHP = s[UnitStatTypes.HP];
+        int maxHP = s[UnitStatTypes.MHP];
         int reduce = Mathf.Min(currentHP, Mathf.FloorToInt(maxHP * 0.1f));
-        s.SetValue(StatTypes.HP, (currentHP - reduce), false);
+        s.SetValue(UnitStatTypes.HP, (currentHP - reduce), false);
     }
 }

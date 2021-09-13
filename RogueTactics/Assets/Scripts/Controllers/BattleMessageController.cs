@@ -20,6 +20,11 @@ public class BattleMessageController : MonoBehaviour
         ec.UpdateEvent += OnUpdateEvent;
     }
 
+    private void Start()
+    {
+        canvas.SetActive(false);
+    }
+
     public void Display(string message)
     {
         group.alpha = 0;

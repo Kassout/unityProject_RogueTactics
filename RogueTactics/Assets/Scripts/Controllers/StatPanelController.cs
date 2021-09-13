@@ -33,7 +33,7 @@ public class StatPanelController : MonoBehaviour
 
         if (secondaryPanel.panel.CurrentPosition == null)
         {
-            secondaryPanel.panel.SetPosition(ShowKey, false);
+            secondaryPanel.panel.SetPosition(HideKey, false);
         }
     }
 
