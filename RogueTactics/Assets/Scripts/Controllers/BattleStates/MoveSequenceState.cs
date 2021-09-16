@@ -22,7 +22,9 @@ public class MoveSequenceState : BattleState
     private IEnumerator Sequence()
     {
         var m = owner.turn.actor.GetComponent<UnitMovement>();
+        BattleController.Instance.inTransition = true;
         yield return StartCoroutine(m.Traverse(currentSelectedTile));
+        BattleController.Instance.inTransition = false;
         if (_driver.Current == Drivers.Human)
         {
             owner.ChangeState<CommandSelectionState>();
@@ -38,7 +40,6 @@ public class MoveSequenceState : BattleState
             {
                 owner.ChangeState<TurnManagerState>();
             }
-
         }
 
     }

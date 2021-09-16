@@ -78,6 +78,8 @@ public class BattleController : StateMachine
     /// </summary>
     [HideInInspector] public Vector2 position;
 
+    [HideInInspector] public bool inTransition;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
