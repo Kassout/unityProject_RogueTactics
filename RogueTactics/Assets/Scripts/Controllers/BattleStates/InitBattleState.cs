@@ -32,7 +32,7 @@ public class InitBattleState : BattleState
         this.PostNotification(BattleController.BattleBeganNotification);
         this.PostNotification(BattleController.TurnBeganNotification);
             
-        owner.ChangeState<CutSceneState>();
+        owner.ChangeState<SelectUnitState>();
     }
 
     /// <summary>

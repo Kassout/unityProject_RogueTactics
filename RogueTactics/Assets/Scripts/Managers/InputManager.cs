@@ -65,17 +65,6 @@ public class @InputManager : IInputActionCollection, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""3dea32ac-17c6-4ace-a488-2d3db3730110"",
-                    ""path"": ""<Mouse>/leftButton"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": ""Mouse"",
-                    ""action"": ""Interaction"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": false
-                },
-                {
-                    ""name"": """",
                     ""id"": ""f71b2980-f373-4cd3-9090-556f61e985d0"",
                     ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
@@ -93,6 +82,17 @@ public class @InputManager : IInputActionCollection, IDisposable
                     ""processors"": """",
                     ""groups"": ""Mouse"",
                     ""action"": ""Selection"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""3dea32ac-17c6-4ace-a488-2d3db3730110"",
+                    ""path"": ""<Mouse>/leftButton"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Mouse"",
+                    ""action"": ""Interaction"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }

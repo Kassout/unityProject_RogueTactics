@@ -179,7 +179,7 @@ public class MoveTargetState : BattleState
         if (_actionableTiles.FindIndex(tile => tile.position.Equals(tileSelectionCursor.position)) >= 0 && Board.GetTile(tileSelectionCursor.position).content)
         {
             owner.currentSelectedTile = Board.GetTile(tileSelectionCursor.position);
-            turn.targets = new List<TileDefinitionData> { Board.GetTile(tileSelectionCursor.position) };
+            turn.targets = new List<TileDefinitionData> { owner.currentSelectedTile };
             owner.ChangeState<ConfirmAbilityTargetState>();
         }
     }

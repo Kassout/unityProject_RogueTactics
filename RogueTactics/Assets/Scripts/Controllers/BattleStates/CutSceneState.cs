@@ -9,6 +9,7 @@ public class CutSceneState : BattleState
     public override void Enter()
     {
         base.Enter();
+        
         _conversationController = owner.GetComponentInChildren<ConversationController>();
         if (IsBattleOver())
         {
@@ -31,6 +32,7 @@ public class CutSceneState : BattleState
     public override void Exit()
     {
         base.Exit();
+        
         if (_data)
         {
             Resources.UnloadAsset(_data);

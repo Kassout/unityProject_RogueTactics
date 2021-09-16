@@ -9,7 +9,7 @@ using UnityEngine.InputSystem;
 public class BattleState : State
 {
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected InputManager inputManager;
 
