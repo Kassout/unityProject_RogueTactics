@@ -71,7 +71,7 @@ public class BattleController : StateMachine
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    [HideInInspector] public TileDefinitionData currentSelectedTile;
+    [HideInInspector] public WorldTile currentSelectedWorldTile;
 
     /// <summary>
     ///     TODO: comments

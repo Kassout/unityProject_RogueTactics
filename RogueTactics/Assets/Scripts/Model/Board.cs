@@ -11,7 +11,7 @@ public class Board : MonoBehaviour
 {
     public static Board Instance { get; private set; }
 
-    public static List<TileDefinitionData> tileBoard { get; private set; }
+    public static List<WorldTile> tileBoard { get; private set; }
         
     public static Vector2 min => s_min;
 
@@ -146,7 +146,7 @@ public class Board : MonoBehaviour
 
     private void BuildBoardMap()
     {
-        tileBoard = new List<TileDefinitionData>();
+        tileBoard = new List<WorldTile>();
 
         foreach (var levelTileDefinition in s_levelTilesDefinition)
         {
@@ -154,7 +154,7 @@ public class Board : MonoBehaviour
 
             if (null != tileTypeName)
             {
-                tileBoard.Add(new TileDefinitionData(levelTileDefinition.Key,
+                tileBoard.Add(new WorldTile(levelTileDefinition.Key,
                     GetTileTypeFromName(tileTypeName.ToString())));
 
                 s_min.x = Mathf.Min(s_min.x, levelTileDefinition.Key.x);
@@ -173,7 +173,7 @@ public class Board : MonoBehaviour
         return null;
     }
 
-    private TileTypeObject GetTileTypeFromName(string tileTypeName)
+    private WorldTileType GetTileTypeFromName(string tileTypeName)
     {
         foreach (var tileType in tileTypeManager.tileTypes)
             if (tileType.tileTypeName.ToString().Equals(tileTypeName))
@@ -181,17 +181,17 @@ public class Board : MonoBehaviour
         return null;
     }
 
-    public List<TileDefinitionData> Search(TileDefinitionData startTile,
-        Func<TileDefinitionData, TileDefinitionData, bool> addTile)
+    public List<WorldTile> Search(WorldTile startWorldTile,
+        Func<WorldTile, WorldTile, bool> addTile)
     {
-        var retValue = new List<TileDefinitionData> { startTile };
+        var retValue = new List<WorldTile> { startWorldTile };
 
         ClearSearch();
-        var checkNext = new Queue<TileDefinitionData>();
-        var checkNow = new Queue<TileDefinitionData>();
+        var checkNext = new Queue<WorldTile>();
+        var checkNow = new Queue<WorldTile>();
         
-        startTile.distanceFromStartTile = 0;
-        checkNow.Enqueue(startTile);
+        startWorldTile.distanceFromStartTile = 0;
+        checkNow.Enqueue(startWorldTile);
 
         while (checkNow.Count > 0)
         {
@@ -207,7 +207,7 @@ public class Board : MonoBehaviour
                 if (addTile(t, next))
                 {
                     next.distanceFromStartTile = t.distanceFromStartTile + 1;
-                    next.previousTile = t;
+                    next.parent = t;
                     checkNext.Enqueue(next);
                     retValue.Add(next);
                 }
@@ -224,19 +224,19 @@ public class Board : MonoBehaviour
     
     void ClearSearch ()
     {
-        foreach (TileDefinitionData t in tileBoard)
+        foreach (WorldTile t in tileBoard)
         {
-            t.previousTile = null;
+            t.parent = null;
             t.distanceFromStartTile = int.MaxValue;
         }
     }
 
-    private void SwapReference(ref Queue<TileDefinitionData> a, ref Queue<TileDefinitionData> b)
+    private void SwapReference(ref Queue<WorldTile> a, ref Queue<WorldTile> b)
     {
         (a, b) = (b, a);
     }
 
-    public void SelectTiles(List<TileDefinitionData> tiles)
+    public void SelectTiles(List<WorldTile> tiles)
     {
         var defaultTile = ScriptableObject.CreateInstance<Tile>();
         defaultTile.sprite = movableTileSprite;
@@ -249,7 +249,7 @@ public class Board : MonoBehaviour
         }
     }
     
-    public void SelectAbilityTiles(List<TileDefinitionData> tiles)
+    public void SelectAbilityTiles(List<WorldTile> tiles)
     {
         var defaultTile = ScriptableObject.CreateInstance<Tile>();
         defaultTile.sprite = attackableTileSprite;
@@ -262,7 +262,7 @@ public class Board : MonoBehaviour
         }
     }
 
-    public void SelectAreaTargetTiles(List<TileDefinitionData> tiles)
+    public void SelectAreaTargetTiles(List<WorldTile> tiles)
     {
         var defaultTile = ScriptableObject.CreateInstance<Tile>();
         defaultTile.sprite = targetedTileSprite;
@@ -275,7 +275,7 @@ public class Board : MonoBehaviour
         }
     }
 
-    public void DeSelectTiles(List<TileDefinitionData> tiles)
+    public void DeSelectTiles(List<WorldTile> tiles)
     {
         for (var i = tiles.Count - 1; i >= 0; --i)
         {
@@ -284,7 +284,7 @@ public class Board : MonoBehaviour
         }
     }
 
-    public static TileDefinitionData GetTile(Vector2 position)
+    public static WorldTile GetTile(Vector2 position)
     {
         foreach (var tile in tileBoard)
             if (tile.position.Equals(position))

@@ -60,7 +60,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2721623b1003f934ab6d8d607d1cc019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 20
+  might: 3
 --- !u!114 &9035554013788074784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 2923452640236227110}
   - component: {fileID: 2640451148038133609}
   - component: {fileID: 2412172071519115744}
-  - component: {fileID: 434381105958918758}
+  - component: {fileID: 2592088432958680921}
   m_Layer: 0
   m_Name: Damage
   m_TagString: Untagged
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 731f17c4e8cd98e42952a5e8fc3e3187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &434381105958918758
+--- !u!114 &2592088432958680921
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,6 +165,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 5966320100627870636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a0eb4d71241fcb479f1a70fa66aa534, type: 3}
+  m_Script: {fileID: 11500000, guid: b53e8be653bb4065b7b7a206399ce505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

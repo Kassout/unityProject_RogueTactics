@@ -33,7 +33,7 @@ public class BattleState : State
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    protected TileDefinitionData currentSelectedTile => owner.currentSelectedTile;
+    protected WorldTile currentSelectedWorldTile => owner.currentSelectedWorldTile;
 
     public AbilityMenuPanelController abilityMenuPanelController => owner.abilityMenuPanelController;
 
@@ -135,13 +135,13 @@ public class BattleState : State
         if (targetPosition == position || Board.GetTile(targetPosition) is null) return;
 
         position = targetPosition;
-        owner.currentSelectedTile = Board.GetTile(targetPosition);
-        tileSelectionCursor.localPosition = currentSelectedTile.position;
+        owner.currentSelectedWorldTile = Board.GetTile(targetPosition);
+        tileSelectionCursor.localPosition = currentSelectedWorldTile.position;
     }
 
     protected virtual Unit GetUnit(Vector2 unitPosition)
     {
-        TileDefinitionData t = Board.GetTile(unitPosition);
+        WorldTile t = Board.GetTile(unitPosition);
         GameObject content = t?.content;
         return content != null ? content.GetComponent<Unit>() : null;
     }

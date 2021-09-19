@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class StatusTypeHitRate : HitRate
 {
-    public override int Calculate(TileDefinitionData target)
+    public override int Calculate(WorldTile target)
     {
         Unit defender = target.content.GetComponent<Unit>();
         if (AutomaticMiss(defender))

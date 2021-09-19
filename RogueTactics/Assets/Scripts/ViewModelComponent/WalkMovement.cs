@@ -7,24 +7,32 @@ public class WalkMovement : UnitMovement
 {
     [SerializeField] private float walkTime = 2f;
         
-    protected override bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)
+    protected override bool ExpandSearch(WorldTile from, WorldTile to)
     {
         // Skip if the tile is occupied by an enemy
-        if (to.content != null || to.doCollide) return false;
+        if ((to.content != null && to.content.GetComponent<Alliance>().type != GetComponent<Alliance>().type) || to.doCollide) return false;
 
         return base.ExpandSearch(from, to);
     }
 
-    public override IEnumerator Traverse(TileDefinitionData targetTile)
+    public override IEnumerator Traverse(WorldTile targetWorldTile)
     {
-        var path = new Bresenham(unitInstance.TileDefinition.position, targetTile.position);
-
-        unitInstance.Place(targetTile);
+        bool tileIsTarget = targetWorldTile.content;
+        var path = new Bresenham(unitInstance.tile.position, targetWorldTile.position);
+        
         // Build a list of way points from the unit's 
         // starting tile to the destination tile
-        var tilePath = new List<TileDefinitionData>();
+        var tilePath = new List<WorldTile>();
         foreach (Vector2 point in path) tilePath.Add(Board.GetTile(point));
-
+        
+        if (tileIsTarget)
+        {
+            tilePath.RemoveAt(tilePath.Count - 1);
+            targetWorldTile = Board.GetTile(tilePath[tilePath.Count - 1].position);
+        }
+        
+        unitInstance.Place(targetWorldTile);
+        
         for (var i = 1; i < tilePath.Count; ++i)
         {
             unitInstance.animator.SetBool("isWalking", true);
@@ -37,7 +45,7 @@ public class WalkMovement : UnitMovement
         yield return null;
     }
 
-    private IEnumerator Walk(TileDefinitionData target)
+    private IEnumerator Walk(WorldTile target)
     {
         var timeToStart = Time.fixedTime;
         while (Vector3.Distance(transform.position, target.position) > 0.05f)

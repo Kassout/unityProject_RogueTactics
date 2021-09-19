@@ -12,9 +12,9 @@ public class MoveTargetState : BattleState
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    private List<TileDefinitionData> _movableTiles;
+    private List<WorldTile> _movableTiles;
 
-    private List<TileDefinitionData> _actionableTiles;
+    private List<WorldTile> _actionableTiles;
 
     /// <summary>
     ///     TODO: comments
@@ -33,13 +33,13 @@ public class MoveTargetState : BattleState
         {
             var mover = owner.turn.actor.GetComponent<UnitMovement>();
             _movableTiles = mover.GetTilesInRange();
-            _movableTiles.Add(owner.turn.actor.TileDefinition);
+            _movableTiles.Add(owner.turn.actor.tile);
             Board.Instance.SelectTiles(_movableTiles);
             
             var ability = turn.actor.GetComponentInChildren<AbilityRange>();
             if (ability != null)
             {
-                List<TileDefinitionData> boundTiles = ComputeMovementBoundTiles(_movableTiles);
+                List<WorldTile> boundTiles = ComputeMovementBoundTiles(_movableTiles);
                 _actionableTiles = ability.GetTilesInRange(boundTiles);
 
                 foreach (var movableTile in _movableTiles)
@@ -71,9 +71,9 @@ public class MoveTargetState : BattleState
         owner.ChangeState<MoveSequenceState>();
     }
 
-    private List<TileDefinitionData> ComputeMovementBoundTiles(List<TileDefinitionData> movableRadiusTiles)
+    private List<WorldTile> ComputeMovementBoundTiles(List<WorldTile> movableRadiusTiles)
     {
-        List<TileDefinitionData> boundTiles = new List<TileDefinitionData>();
+        List<WorldTile> boundTiles = new List<WorldTile>();
 
         int minX = (int) movableRadiusTiles.Aggregate((t1, t2) => t1.position.x < t2.position.x ? t1 : t2).position.x;
         int minY = (int) movableRadiusTiles.Aggregate((t1, t2) => t1.position.y < t2.position.y ? t1 : t2).position.y;
@@ -83,20 +83,20 @@ public class MoveTargetState : BattleState
         for (int x = minX; x <= maxX; x++)
         {
             var x1 = x;
-            List<TileDefinitionData> results = movableRadiusTiles.GroupBy(tile => tile.position)
+            List<WorldTile> results = movableRadiusTiles.GroupBy(tile => tile.position)
                 .Where(group => group.All(tile => tile.position.x.Equals(x1))).Select(group => group.First()).ToList();
 
-            TileDefinitionData maxTile = results.Aggregate((t1, t2) => t1.position.y > t2.position.y ? t1 : t2);
-            TileDefinitionData minTile = results.Aggregate((t1, t2) => t1.position.y < t2.position.y ? t1 : t2);
+            WorldTile maxWorldTile = results.Aggregate((t1, t2) => t1.position.y > t2.position.y ? t1 : t2);
+            WorldTile minWorldTile = results.Aggregate((t1, t2) => t1.position.y < t2.position.y ? t1 : t2);
                 
-            if (!boundTiles.Contains(maxTile))
+            if (!boundTiles.Contains(maxWorldTile))
             {
-                boundTiles.Add(maxTile);
+                boundTiles.Add(maxWorldTile);
             }
 
-            if (!boundTiles.Contains(minTile))
+            if (!boundTiles.Contains(minWorldTile))
             {
-                boundTiles.Add(minTile);
+                boundTiles.Add(minWorldTile);
             }
         }
             
@@ -104,20 +104,20 @@ public class MoveTargetState : BattleState
         for (int y = minY; y <= maxY; y++)
         {
             var y1 = y;
-            List<TileDefinitionData> results = movableRadiusTiles.GroupBy(tile => tile.position)
+            List<WorldTile> results = movableRadiusTiles.GroupBy(tile => tile.position)
                 .Where(group => group.All(tile => tile.position.y.Equals(y1))).Select(group => group.First()).ToList();
 
-            TileDefinitionData maxTile = results.Aggregate((t1, t2) => t1.position.x > t2.position.x ? t1 : t2);
-            TileDefinitionData minTile = results.Aggregate((t1, t2) => t1.position.x < t2.position.x ? t1 : t2);
+            WorldTile maxWorldTile = results.Aggregate((t1, t2) => t1.position.x > t2.position.x ? t1 : t2);
+            WorldTile minWorldTile = results.Aggregate((t1, t2) => t1.position.x < t2.position.x ? t1 : t2);
                 
-            if (!boundTiles.Contains(maxTile))
+            if (!boundTiles.Contains(maxWorldTile))
             {
-                boundTiles.Add(maxTile);
+                boundTiles.Add(maxWorldTile);
             }
 
-            if (!boundTiles.Contains(minTile))
+            if (!boundTiles.Contains(minWorldTile))
             {
-                boundTiles.Add(minTile);
+                boundTiles.Add(minWorldTile);
             }
         }
 
@@ -167,20 +167,21 @@ public class MoveTargetState : BattleState
     {
         if (_movableTiles.FindIndex(tile => tile.position.Equals(tileSelectionCursor.position)) >= 0)
         {
-            owner.currentSelectedTile = Board.GetTile(tileSelectionCursor.position);
+            owner.currentSelectedWorldTile = Board.GetTile(tileSelectionCursor.position);
             owner.ChangeState<MoveSequenceState>();
         } 
-        if (tileSelectionCursor.position.Equals(owner.turn.actor.TileDefinition.position))
+        if (tileSelectionCursor.position.Equals(owner.turn.actor.tile.position))
         {
-            owner.currentSelectedTile = Board.GetTile(tileSelectionCursor.position);
+            owner.currentSelectedWorldTile = Board.GetTile(tileSelectionCursor.position);
             owner.ChangeState<CommandSelectionState>();
         }
 
         if (_actionableTiles.FindIndex(tile => tile.position.Equals(tileSelectionCursor.position)) >= 0 && Board.GetTile(tileSelectionCursor.position).content)
         {
-            owner.currentSelectedTile = Board.GetTile(tileSelectionCursor.position);
-            turn.targets = new List<TileDefinitionData> { owner.currentSelectedTile };
-            owner.ChangeState<ConfirmAbilityTargetState>();
+            owner.currentSelectedWorldTile = Board.GetTile(tileSelectionCursor.position);
+            turn.ability = turn.actor.GetComponentInChildren<Ability>();
+            turn.targets = new List<WorldTile> { owner.currentSelectedWorldTile };
+            owner.ChangeState<MoveSequenceState>();
         }
     }
 

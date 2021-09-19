@@ -5,7 +5,7 @@ namespace Model
 {
     [Serializable]
     [CreateAssetMenu(fileName = "TileTypeInstance", menuName = "ScriptableObjects/TileType", order = 1)]
-    public class TileTypeObject : ScriptableObject
+    public class WorldTileType : ScriptableObject
     {
         [Serializable]
         public enum TileTypeEnum

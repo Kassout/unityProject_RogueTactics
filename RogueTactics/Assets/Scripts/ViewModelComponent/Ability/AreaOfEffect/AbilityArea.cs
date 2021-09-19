@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class AbilityArea : MonoBehaviour
 {
-    public abstract List<TileDefinitionData> GetTilesInArea(Vector2 position);
+    public abstract List<WorldTile> GetTilesInArea(Vector2 position);
 }

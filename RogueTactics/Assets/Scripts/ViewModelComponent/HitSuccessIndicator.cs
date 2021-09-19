@@ -24,12 +24,12 @@ public class HitSuccessIndicator : MonoBehaviour
         canvas.gameObject.SetActive(false);
     }
 
-    public void SetAttackerStats(int chance, int amout)
+    public void SetAttackerStats(string chance, string amout)
     {
         primaryLabel.text = string.Format("{0}% {1}pt(s)", chance, amout);
     }
 
-    public void SetDefenderStats(int chance, int amount)
+    public void SetDefenderStats(string chance, string amount)
     {
         secondaryLabel.text = string.Format("{0}% {1}pt(s)", chance, amount);
     }

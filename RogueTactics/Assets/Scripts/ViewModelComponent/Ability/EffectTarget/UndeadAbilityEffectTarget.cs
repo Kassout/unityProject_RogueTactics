@@ -10,15 +10,15 @@ public class UndeadAbilityEffectTarget : AbilityEffectTarget
     /// </summary>
     public bool toggle;
 
-    public override bool IsTarget(TileDefinitionData tile)
+    public override bool IsTarget(WorldTile worldTile)
     {
-        if (tile == null || tile.content == null)
+        if (worldTile == null || worldTile.content == null)
             return false;
-        bool hasComponent = tile.content.GetComponent<Undead>() != null;
+        bool hasComponent = worldTile.content.GetComponent<Undead>() != null;
         if (hasComponent != toggle)
             return false;
 
-        UnitStats s = tile.content.GetComponent<UnitStats>();
+        UnitStats s = worldTile.content.GetComponent<UnitStats>();
         return s != null && s[UnitStatTypes.HP] > 0;
     }
 }

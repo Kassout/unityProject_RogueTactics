@@ -6,14 +6,14 @@ using UnityEngine;
 
 public class ConstantAbilityRange : AbilityRange
 {
-    public override List<TileDefinitionData> GetTilesInRange()
+    public override List<WorldTile> GetTilesInRange()
     {
-        return Board.Instance.Search(unit.TileDefinition, ExpandSearch);
+        return Board.Instance.Search(unit.tile, ExpandSearch);
     }
     
-    public override List<TileDefinitionData> GetTilesInRange(List<TileDefinitionData> movementRadiusTiles)
+    public override List<WorldTile> GetTilesInRange(List<WorldTile> movementRadiusTiles)
     {
-        List<TileDefinitionData> tileInRange = new List<TileDefinitionData>();
+        List<WorldTile> tileInRange = new List<WorldTile>();
         foreach (var tile in movementRadiusTiles)
         {
             tileInRange.AddRange(Board.Instance.Search(tile, ExpandSearch).Where(currentTile => 
@@ -23,8 +23,8 @@ public class ConstantAbilityRange : AbilityRange
         return tileInRange;
     }
 
-    private bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)
+    private bool ExpandSearch(WorldTile from, WorldTile to)
     {
-        return (from.distanceFromStartTile + 1) <= horizontal;
+        return (from.distanceFromStartTile + 1) <= range;
     }
 }

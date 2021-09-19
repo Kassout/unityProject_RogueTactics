@@ -83,7 +83,7 @@ public class CommandSelectionState : BaseAbilityMenuState
         abilityMenuPanelController.SetLocked(0, turn.hasUnitActed);
         
         var ar = turn.actor.GetComponentInChildren<AbilityRange>().GetTilesInRange();
-        turn.targets = units.Where(unit => ar.Any(tile => tile.position.Equals(unit.TileDefinition.position)) && !unit.Equals(turn.actor)).Select(unit => unit.TileDefinition).ToList();
+        turn.targets = units.Where(unit => ar.Any(tile => tile.position.Equals(unit.tile.position)) && !unit.Equals(turn.actor)).Select(unit => unit.tile).ToList();
         abilityMenuPanelController.SetLocked(0, !turn.targets.Any());
     }
 
@@ -111,12 +111,12 @@ public class CommandSelectionState : BaseAbilityMenuState
         {
             turn.UndoMove();
             abilityMenuPanelController.SetLocked(0, false);
-            SelectTile(turn.actor.TileDefinition.position);
+            SelectTile(turn.actor.tile.position);
         }
         else
         {
             turn.UndoMove();
-            SelectTile(turn.actor.TileDefinition.position); 
+            SelectTile(turn.actor.tile.position); 
             owner.ChangeState<SelectUnitState>();
         }
     }

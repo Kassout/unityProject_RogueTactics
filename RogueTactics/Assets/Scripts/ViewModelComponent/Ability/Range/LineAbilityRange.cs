@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class LineAbilityRange : AbilityRange
 {
-    public override List<TileDefinitionData> GetTilesInRange()
+    public override List<WorldTile> GetTilesInRange()
     {
-        Vector2 startPos = unit.TileDefinition.position;
+        Vector2 startPos = unit.tile.position;
         Vector2[] endPos = new Vector2[4];
-        List<TileDefinitionData> retValue = new List<TileDefinitionData>();
+        List<WorldTile> retValue = new List<WorldTile>();
 
         endPos[0] = new Vector2(startPos.x, Board.max.y);
         endPos[1] = new Vector2(Board.max.x, startPos.y);
@@ -18,7 +18,7 @@ public class LineAbilityRange : AbilityRange
         
         for (int i = 0; i < endPos.Length; ++i)
         {
-            startPos = unit.TileDefinition.position;
+            startPos = unit.tile.position;
             
             while (startPos != endPos[i])
             {
@@ -28,7 +28,7 @@ public class LineAbilityRange : AbilityRange
                 if (startPos.y < endPos[i].y) startPos.y++;
                 else if (startPos.y > endPos[i].y) startPos.y--;
                 
-                TileDefinitionData t = Board.GetTile(startPos);
+                WorldTile t = Board.GetTile(startPos);
                 if (t != null)
                     retValue.Add(t);
             }
@@ -37,7 +37,7 @@ public class LineAbilityRange : AbilityRange
         return retValue;
     }
 
-    public override List<TileDefinitionData> GetTilesInRange(List<TileDefinitionData> movementRadiusTiles)
+    public override List<WorldTile> GetTilesInRange(List<WorldTile> movementRadiusTiles)
     {
         throw new System.NotImplementedException();
     }

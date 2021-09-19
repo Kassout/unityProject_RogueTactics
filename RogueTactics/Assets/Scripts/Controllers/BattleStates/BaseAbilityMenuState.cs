@@ -11,7 +11,7 @@ public abstract class BaseAbilityMenuState : BattleState
     public override void Enter()
     {
         base.Enter();
-        SelectTile(turn.actor.TileDefinition.position);
+        SelectTile(turn.actor.tile.position);
 
         if (_driver.Current == Drivers.Human)
         {

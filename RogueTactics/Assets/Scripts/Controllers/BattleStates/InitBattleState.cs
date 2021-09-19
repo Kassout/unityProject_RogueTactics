@@ -55,19 +55,19 @@ public class InitBattleState : BattleState
             int level = Random.Range(9, 12);
             GameObject instance = UnitFactory.Create(recipes[i], level);
                 
-            TileDefinitionData spawnTile;
+            WorldTile spawnWorldTile;
             do
             {
                 var spawnPos = new Vector2(Random.Range(0, 16), Random.Range(0, 16));
-                spawnTile = Board.GetTile(spawnPos);
-            } while (spawnTile.doCollide ||
-                     spawnTile.tileType.tileTypeName.Equals(TileTypeObject.TileTypeEnum.Water) || spawnTile.content != null);
+                spawnWorldTile = Board.GetTile(spawnPos);
+            } while (spawnWorldTile.doCollide ||
+                     spawnWorldTile.worldTileType.tileTypeName.Equals(WorldTileType.TileTypeEnum.Water) || spawnWorldTile.content != null);
                 
             Unit unit = instance.GetComponent<Unit>();
-            unit.Place(spawnTile);
+            unit.Place(spawnWorldTile);
             unit.Match();
 
-            spawnTile.content = instance;
+            spawnWorldTile.content = instance;
                 
             units.Add(unit);
         }

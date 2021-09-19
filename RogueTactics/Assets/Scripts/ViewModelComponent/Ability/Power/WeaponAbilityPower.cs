@@ -1,22 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class WeaponAbilityPower : BaseAbilityPower
 {
     private Weapons _weaponsCat;
     
-    protected override int GetBaseAttack()
+    protected override int GetBaseOffensiveStat()
     {
         return GetComponentInParent<UnitStats>()[UnitStatTypes.STR];
     }
 
-    protected override int GetBaseDefense(Unit target)
+    protected override int GetBaseDefensiveStat(Unit target)
     {
         return target.GetComponent<UnitStats>()[UnitStatTypes.DEF];
     }
-
-    protected override int GetPower(Unit target)
+    protected override int GetAbilityPower(Unit target)
     {
         int power = GetComponentInParent<WeaponStats>()[WeaponStatTypes.POW];
         
@@ -37,17 +32,5 @@ public class WeaponAbilityPower : BaseAbilityPower
     int CheckWeaponTriangleBonus(Weapon attackerWeapon, Weapon defenderWeapon)
     {
         return attackerWeapon.CheckWeaponAdvantage(defenderWeapon);
-    }
-
-    int UnarmedPower()
-    {
-        Class job = GetComponentInParent<Class>();
-        for (int i = 0; i < Class.StatOrder.Length; ++i)
-        {
-            if (Class.StatOrder[i] == UnitStatTypes.STR)
-                return job.baseStats[i];
-        }
-
-        return 0;
     }
 }

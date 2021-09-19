@@ -7,13 +7,13 @@ public class InfiniteAbilityRange : AbilityRange
 {
     public override bool positionOriented => false;
     
-    public override List<TileDefinitionData> GetTilesInRange()
+    public override List<WorldTile> GetTilesInRange()
     {
-        return new List<TileDefinitionData>(Board.tileBoard);
+        return new List<WorldTile>(Board.tileBoard);
     }
 
-    public override List<TileDefinitionData> GetTilesInRange(List<TileDefinitionData> movementRadiusTiles)
+    public override List<WorldTile> GetTilesInRange(List<WorldTile> movementRadiusTiles)
     {
-        return new List<TileDefinitionData>(Board.tileBoard);
+        return new List<WorldTile>(Board.tileBoard);
     }
 }

@@ -9,10 +9,9 @@ public abstract class BaseAbilityEffect : MonoBehaviour
     protected const int minDamage = -99;
     protected const int maxDamage = 99;
 
-    public const string GetStrengthNotification = "BaseAbilityEffect.GetStrengthNotification";
-    public const string GetDefenseNotification = "BaseAbilityEffect.GetDefenseNotification";
-    public const string GetResistanceNotification = "BaseAbilityEffect.GetResistanceNotification";
-    public const string GetPowerNotification = "BaseAbilityEffect.GetPowerNotification";
+    public const string GetOffensiveStatNotification = "BaseAbilityEffect.GetStrengthNotification";
+    public const string GetDefensiveStatNotification = "BaseAbilityEffect.GetDefenseNotification";
+    public const string GetAbilityPowerNotification = "BaseAbilityEffect.GetPowerNotification";
 
     public const string TweakDamageNotification = "BaseAbilityEffect.TweakDamageNotification";
     public const string MissedNotification = "BaseAbilityEffect.MissedNotification";
@@ -22,9 +21,9 @@ public abstract class BaseAbilityEffect : MonoBehaviour
 
     #region Public
 
-    public abstract int Predict(TileDefinitionData target);
+    public abstract int Predict(WorldTile target);
 
-    public void Apply(TileDefinitionData target)
+    public void Apply(WorldTile target)
     {
         if (GetComponent<AbilityEffectTarget>().IsTarget(target) == false)
             return;
@@ -39,7 +38,7 @@ public abstract class BaseAbilityEffect : MonoBehaviour
 
     #region Protected
 
-    protected abstract int OnApply(TileDefinitionData target);
+    protected abstract int OnApply(WorldTile target);
 
     protected virtual int GetStat(Unit attacker, Unit target, string notification, int startValue)
     {

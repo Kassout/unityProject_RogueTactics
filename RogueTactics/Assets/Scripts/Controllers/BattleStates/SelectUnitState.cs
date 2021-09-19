@@ -37,10 +37,11 @@ public class SelectUnitState : BattleState
         
         turn.plan = owner.cpu.Evaluate();
         turn.ability = turn.plan.ability;
+        turn.targets = new List<WorldTile>() { Board.GetTile(turn.plan.fireLocation) };
 
         yield return new WaitForSeconds(1f);
 
-        if (turn.plan.moveLocation != turn.actor.TileDefinition.position)
+        if (turn.plan.moveLocation != turn.actor.tile.position)
         {
             owner.ChangeState<MoveTargetState>();
         }

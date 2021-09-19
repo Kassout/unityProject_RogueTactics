@@ -8,12 +8,12 @@ public class InflictAbilityEffect : BaseAbilityEffect
     public string statusName;
     public int duration;
 
-    public override int Predict (TileDefinitionData target)
+    public override int Predict (WorldTile target)
     {
         return 0;
     }
 
-    protected override int OnApply (TileDefinitionData target)
+    protected override int OnApply (WorldTile target)
     {
         Type statusType = Type.GetType(statusName);
         if (statusType == null || !statusType.IsSubclassOf(typeof(StatusEffect)))

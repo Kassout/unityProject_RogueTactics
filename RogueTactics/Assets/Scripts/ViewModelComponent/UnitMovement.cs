@@ -22,24 +22,24 @@ public abstract class UnitMovement : MonoBehaviour
         _unitStats = GetComponent<UnitStats>();
     }
 
-    public virtual List<TileDefinitionData> GetTilesInRange()
+    public virtual List<WorldTile> GetTilesInRange()
     {
-        var retValue = Board.Instance.Search(unitInstance.TileDefinition, ExpandSearch);
+        var retValue = Board.Instance.Search(unitInstance.tile, ExpandSearch);
         Filter(retValue);
         return retValue;
     }
 
-    protected virtual bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)
+    protected virtual bool ExpandSearch(WorldTile from, WorldTile to)
     {
         return (from.distanceFromStartTile + 1) <= range;
     }
 
-    protected virtual void Filter(List<TileDefinitionData> tiles)
+    protected virtual void Filter(List<WorldTile> tiles)
     {
         for (var i = tiles.Count - 1; i >= 0; --i)
             if (tiles[i].content != null)
                 tiles.RemoveAt(i);
     }
 
-    public abstract IEnumerator Traverse(TileDefinitionData targetTile);
+    public abstract IEnumerator Traverse(WorldTile targetWorldTile);
 }

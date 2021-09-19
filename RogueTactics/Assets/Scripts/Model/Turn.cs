@@ -9,11 +9,11 @@ public class Turn
     public bool hasUnitActed;
     public bool lockMove;
     public Ability ability;
-    public List<TileDefinitionData> targets;
+    public List<WorldTile> targets;
     public PlanOfAttack plan;
     public Drivers currentDriver;
 
-    private TileDefinitionData _startTile;
+    private WorldTile _startWorldTile;
 
     public void Change(Unit current)
     {
@@ -21,14 +21,14 @@ public class Turn
         hasUnitMoved = false;
         hasUnitActed = false;
         lockMove = false;
-        _startTile = actor.TileDefinition;
+        _startWorldTile = actor.tile;
         plan = null;
     }
 
     public void UndoMove()
     {
         hasUnitMoved = false;
-        actor.Place(_startTile);
+        actor.Place(_startWorldTile);
         actor.Match();
     }
 }

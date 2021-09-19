@@ -52,9 +52,9 @@ public abstract class HitRate : MonoBehaviour
     /// <param name="attacker">TODO: comments</param>
     /// <param name="target">TODO: comments</param>
     /// <returns>TODO: comments</returns>
-    public abstract int Calculate(TileDefinitionData target);
+    public abstract int Calculate(WorldTile target);
 
-    public virtual bool RollForHit(TileDefinitionData target)
+    public virtual bool RollForHit(WorldTile target)
     {
         int roll = Random.Range(0, 101);
         int chance = Calculate(target);

@@ -1,23 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class MagicalAbilityPower : BaseAbilityPower
 {
-    public int level;
+    public int might;
 
-    protected override int GetBaseAttack()
+    protected override int GetBaseOffensiveStat()
     {
         return GetComponentInParent<UnitStats>()[UnitStatTypes.MAG];
     }
 
-    protected override int GetBaseDefense(Unit target)
+    protected override int GetBaseDefensiveStat(Unit target)
     {
         return target.GetComponent<UnitStats>()[UnitStatTypes.RES];
     }
 
-    protected override int GetPower(Unit target)
+    protected override int GetAbilityPower(Unit target)
     {
-        return level;
+        return might;
     }
 }

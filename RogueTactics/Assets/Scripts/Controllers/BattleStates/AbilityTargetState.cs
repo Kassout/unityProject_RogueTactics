@@ -5,9 +5,9 @@ using UnityEngine.InputSystem;
 
 public class AbilityTargetState : BattleState
 {
-    private List<TileDefinitionData> abilityRangeTiles;
+    private List<WorldTile> abilityRangeTiles;
 
-    private List<TileDefinitionData> targetAreaTiles;
+    private List<WorldTile> targetAreaTiles;
 
     private AbilityRange ar;
 

@@ -15,7 +15,7 @@ public class Ability : MonoBehaviour
         return exc.toggle;
     }
 
-    public void Perform (List<TileDefinitionData> targets)
+    public void Perform (List<WorldTile> targets)
     {
         if (!CanPerform())
         {
@@ -29,7 +29,7 @@ public class Ability : MonoBehaviour
         this.PostNotification(DidPerformNotification);
     }
 
-    void Perform (TileDefinitionData target)
+    void Perform (WorldTile target)
     {
         for (int i = 0; i < transform.childCount; ++i)
         {
@@ -39,13 +39,13 @@ public class Ability : MonoBehaviour
         }
     }
 
-    public bool IsTarget(TileDefinitionData tile)
+    public bool IsTarget(WorldTile worldTile)
     {
         Transform obj = transform;
         for (int i = 0; i < obj.childCount; ++i)
         {
             AbilityEffectTarget targeter = obj.GetChild(i).GetComponent<AbilityEffectTarget>();
-            if (targeter.IsTarget(tile))
+            if (targeter.IsTarget(worldTile))
             {
                 return true;
             }

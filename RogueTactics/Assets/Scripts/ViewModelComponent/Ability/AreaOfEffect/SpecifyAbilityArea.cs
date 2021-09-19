@@ -5,15 +5,15 @@ using UnityEngine;
 public class SpecifyAbilityArea : AbilityArea
 {
     public int horizontal;
-    private TileDefinitionData _tile;
+    private WorldTile _worldTile;
 
-    public override List<TileDefinitionData> GetTilesInArea(Vector2 position)
+    public override List<WorldTile> GetTilesInArea(Vector2 position)
     {
-        _tile = Board.GetTile(position);
-        return Board.Instance.Search(_tile, ExpandSearch);
+        _worldTile = Board.GetTile(position);
+        return Board.Instance.Search(_worldTile, ExpandSearch);
     }
 
-    private bool ExpandSearch(TileDefinitionData from, TileDefinitionData to)
+    private bool ExpandSearch(WorldTile from, WorldTile to)
     {
         return (from.distanceFromStartTile + 1) <= horizontal;
     }

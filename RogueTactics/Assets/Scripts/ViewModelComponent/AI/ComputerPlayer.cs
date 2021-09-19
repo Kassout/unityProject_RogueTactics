@@ -60,50 +60,50 @@ public class ComputerPlayer : MonoBehaviour
 
     private void PlanPositionIndependent(PlanOfAttack poa)
     {
-        List<TileDefinitionData> moveOptions = GetMoveOptions();
-        TileDefinitionData tile = moveOptions[new Random().Next(moveOptions.Count)];
-        poa.moveLocation = poa.fireLocation = tile.position;
+        List<WorldTile> moveOptions = GetMoveOptions();
+        WorldTile worldTile = moveOptions[new Random().Next(moveOptions.Count)];
+        poa.moveLocation = poa.fireLocation = worldTile.position;
     }
 
     private void PlanDirectionIndependent(PlanOfAttack poa)
     {
-        TileDefinitionData startTile = actor.TileDefinition;
-        Dictionary<TileDefinitionData, AttackOption> map = new Dictionary<TileDefinitionData, AttackOption>();
+        WorldTile startWorldTile = actor.tile;
+        Dictionary<WorldTile, AttackOption> map = new Dictionary<WorldTile, AttackOption>();
         AbilityRange ar = poa.ability.GetComponent<AbilityRange>();
-        List<TileDefinitionData> moveOptions = GetMoveOptions();
+        List<WorldTile> moveOptions = GetMoveOptions();
 
         for (int i = 0; i < moveOptions.Count; ++i)
         {
-            TileDefinitionData moveTile = moveOptions[i];
-            actor.Place(moveTile);
-            List<TileDefinitionData> fireOptions = ar.GetTilesInRange();
+            WorldTile moveWorldTile = moveOptions[i];
+            actor.Place(moveWorldTile);
+            List<WorldTile> fireOptions = ar.GetTilesInRange();
 
             for (int j = 0; j < fireOptions.Count; ++j)
             {
-                TileDefinitionData fireTile = fireOptions[j];
+                WorldTile fireWorldTile = fireOptions[j];
                 AttackOption ao = null;
-                if (map.ContainsKey(fireTile))
+                if (map.ContainsKey(fireWorldTile))
                 {
-                    ao = map[fireTile];
+                    ao = map[fireWorldTile];
                 }
                 else
                 {
                     ao = new AttackOption();
-                    map[fireTile] = ao;
-                    ao.target = fireTile;
+                    map[fireWorldTile] = ao;
+                    ao.target = fireWorldTile;
                     RateFireLocation(poa, ao);
                 }
 
-                ao.AddMoveTarget(moveTile);
+                ao.AddMoveTarget(moveWorldTile);
             }
         }
 
-        actor.Place(startTile);
+        actor.Place(startWorldTile);
         List<AttackOption> list = new List<AttackOption>(map.Values);
         PickBestOptions(poa, list);
     }
 
-    List<TileDefinitionData> GetMoveOptions()
+    List<WorldTile> GetMoveOptions()
     {
         return actor.GetComponent<UnitMovement>().GetTilesInRange();
     }
@@ -111,24 +111,24 @@ public class ComputerPlayer : MonoBehaviour
     private void RateFireLocation(PlanOfAttack poa, AttackOption option)
     {
         AbilityArea area = poa.ability.GetComponent<AbilityArea>();
-        List<TileDefinitionData> tiles = area.GetTilesInArea(option.target.position);
+        List<WorldTile> tiles = area.GetTilesInArea(option.target.position);
         option.areaTargets = tiles;
-        option.isCasterMatch = IsAbilityTargetMatch(poa, actor.TileDefinition);
+        option.isCasterMatch = IsAbilityTargetMatch(poa, actor.tile);
 
         for (int i = 0; i < tiles.Count; ++i)
         {
-            TileDefinitionData tile = tiles[i];
-            if (actor.TileDefinition == tiles[i] || !poa.ability.IsTarget(tile))
+            WorldTile worldTile = tiles[i];
+            if (actor.tile == tiles[i] || !poa.ability.IsTarget(worldTile))
             {
                 continue;
             }
 
-            bool isMatch = IsAbilityTargetMatch(poa, tile);
-            option.AddMark(tile, isMatch);
+            bool isMatch = IsAbilityTargetMatch(poa, worldTile);
+            option.AddMark(worldTile, isMatch);
         }
     }
 
-    private bool IsAbilityTargetMatch(PlanOfAttack poa, TileDefinitionData tile)
+    private bool IsAbilityTargetMatch(PlanOfAttack poa, WorldTile worldTile)
     {
         bool isMatch = false;
         if (poa.target == Targets.Tile)
@@ -137,7 +137,7 @@ public class ComputerPlayer : MonoBehaviour
         }
         else if (poa.target != Targets.None)
         {
-            Alliance other = tile.content.GetComponentInChildren<Alliance>();
+            Alliance other = worldTile.content.GetComponentInChildren<Alliance>();
             if (other != null && _alliance.IsMatch(other, poa.target))
             {
                 isMatch = true;
@@ -195,13 +195,13 @@ public class ComputerPlayer : MonoBehaviour
 
         AttackOption choice = finalPicks[new Random().Next(finalPicks.Count)];
         poa.fireLocation = choice.target.position;
-        poa.moveLocation = choice.bestMoveTile.position;
+        poa.moveLocation = choice.bestMoveWorldTile.position;
     }
 
     private void FindNearestFoe()
     {
         _neareastFoe = null;
-        Board.Instance.Search(actor.TileDefinition, delegate(TileDefinitionData arg1, TileDefinitionData arg2)
+        Board.Instance.Search(actor.tile, delegate(WorldTile arg1, WorldTile arg2)
         {
             if (_neareastFoe == null && arg2.content != null)
             {
@@ -224,11 +224,11 @@ public class ComputerPlayer : MonoBehaviour
 
     private void MoveTowardOpponent(PlanOfAttack poa)
     {
-        List<TileDefinitionData> moveOptions = GetMoveOptions();
+        List<WorldTile> moveOptions = GetMoveOptions();
         FindNearestFoe();
         if (_neareastFoe != null)
         {
-            TileDefinitionData toCheck = _neareastFoe.TileDefinition;
+            WorldTile toCheck = _neareastFoe.tile;
 
             while (toCheck != null)
             {
@@ -238,11 +238,11 @@ public class ComputerPlayer : MonoBehaviour
                     return;
                 }
 
-                toCheck = toCheck.previousTile;
+                toCheck = toCheck.parent;
             }
         }
 
-        poa.moveLocation = actor.TileDefinition.position;
+        poa.moveLocation = actor.tile.position;
     }
     
     private void DefaultAttackPattern (PlanOfAttack poa)

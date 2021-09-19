@@ -7,7 +7,7 @@ public class AbilityTypeHitRate : HitRate
         return GetComponentInParent<WeaponStats>()[WeaponStatTypes.HIT];
     }
 
-    public override int Calculate(TileDefinitionData target)
+    public override int Calculate(WorldTile target)
     {
         Unit attacker = GetComponentInParent<Unit>();
         Unit defender = target.content.GetComponent<Unit>();

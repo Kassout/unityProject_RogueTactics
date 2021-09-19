@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 562708343994082522}
   - component: {fileID: 3578287953249770723}
-  - component: {fileID: 5622478313518709369}
   - component: {fileID: 9058944643131375471}
+  - component: {fileID: 9138575282860161127}
   m_Layer: 0
   m_Name: Damage
   m_TagString: Untagged
@@ -45,18 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f137cf3a93d265a4b91afe5ca7366256, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5622478313518709369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 161214000054757483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a0eb4d71241fcb479f1a70fa66aa534, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &9058944643131375471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67,6 +55,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a5fcf76e8efb21478d94b82c5938565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9138575282860161127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161214000054757483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b53e8be653bb4065b7b7a206399ce505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &4481719309272800436
@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2721623b1003f934ab6d8d607d1cc019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  level: 5
+  might: 6
 --- !u!114 &7622103785449241457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e81189e4304a0c409f59e96248dd658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontal: 3
+  range: 2
 --- !u!114 &7719062264641321592
 MonoBehaviour:
   m_ObjectHideFlags: 0

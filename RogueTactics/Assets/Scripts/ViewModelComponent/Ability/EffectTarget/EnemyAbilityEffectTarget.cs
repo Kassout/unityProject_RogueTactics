@@ -8,14 +8,14 @@ public class EnemyAbilityEffectTarget : AbilityEffectTarget
         _alliance = GetComponentInParent<Alliance>();
     }
 
-    public override bool IsTarget(TileDefinitionData tile)
+    public override bool IsTarget(WorldTile worldTile)
     {
-        if (tile == null || tile.content == null)
+        if (worldTile == null || worldTile.content == null)
         {
             return false;
         }
 
-        Alliance other = tile.content.GetComponentInChildren<Alliance>();
+        Alliance other = worldTile.content.GetComponentInChildren<Alliance>();
         return _alliance.IsMatch(other, Targets.Foe);
     }
 }

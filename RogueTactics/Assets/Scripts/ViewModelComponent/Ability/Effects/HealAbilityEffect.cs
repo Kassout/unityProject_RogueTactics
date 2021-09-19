@@ -3,14 +3,14 @@ using System.Collections;
 
 public class HealAbilityEffect : BaseAbilityEffect
 {
-    public override int Predict(TileDefinitionData target)
+    public override int Predict(WorldTile target)
     {
         Unit attacker = GetComponentInParent<Unit>();
         Unit defender = target.content.GetComponent<Unit>();
-        return GetStat(attacker, defender, GetPowerNotification, 0);
+        return GetStat(attacker, defender, GetAbilityPowerNotification, 0);
     }
 
-    protected override int OnApply(TileDefinitionData target)
+    protected override int OnApply(WorldTile target)
     {
         Unit defender = target.content.GetComponent<Unit>();
 

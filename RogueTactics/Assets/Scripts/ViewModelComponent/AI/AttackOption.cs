@@ -7,44 +7,44 @@ public class AttackOption
 {
     private class Mark
     {
-        private TileDefinitionData _tile;
+        private WorldTile _worldTile;
         public readonly bool isMatch;
 
-        public Mark(TileDefinitionData tile, bool isMatch)
+        public Mark(WorldTile worldTile, bool isMatch)
         {
-            this._tile = tile;
+            this._worldTile = worldTile;
             this.isMatch = isMatch;
         }
     }
 
-    public TileDefinitionData target;
-    public List<TileDefinitionData> areaTargets = new List<TileDefinitionData>();
+    public WorldTile target;
+    public List<WorldTile> areaTargets = new List<WorldTile>();
     public bool isCasterMatch;
-    public TileDefinitionData bestMoveTile { get; private set; }
+    public WorldTile bestMoveWorldTile { get; private set; }
     public int bestScore { get; private set; }
     private readonly List<Mark> _marks = new List<Mark>();
-    private readonly List<TileDefinitionData> _moveTargets = new List<TileDefinitionData>();
+    private readonly List<WorldTile> _moveTargets = new List<WorldTile>();
 
-    public void AddMoveTarget(TileDefinitionData tile)
+    public void AddMoveTarget(WorldTile worldTile)
     {
         // Dont allow moving to a tile that would negatively affect the caster
-        if (!isCasterMatch && areaTargets.Contains(tile))
+        if (!isCasterMatch && areaTargets.Contains(worldTile))
         {
             return;
         }
         
-        _moveTargets.Add(tile);
+        _moveTargets.Add(worldTile);
     }
 
-    public void AddMark(TileDefinitionData tile, bool isMatch)
+    public void AddMark(WorldTile worldTile, bool isMatch)
     {
-        _marks.Add(new Mark(tile, isMatch));
+        _marks.Add(new Mark(worldTile, isMatch));
     }
 
     public int GetScore()
     {
         GetBestMoveTarget();
-        if (bestMoveTile == null)
+        if (bestMoveWorldTile == null)
         {
             return 0;
         }
@@ -62,7 +62,7 @@ public class AttackOption
             }
         }
 
-        if (isCasterMatch && areaTargets.Contains(bestMoveTile))
+        if (isCasterMatch && areaTargets.Contains(bestMoveWorldTile))
         {
             score++;
         }
@@ -77,6 +77,6 @@ public class AttackOption
             return;
         }
 
-        bestMoveTile = _moveTargets[new Random().Next(_moveTargets.Count)];
+        bestMoveWorldTile = _moveTargets[new Random().Next(_moveTargets.Count)];
     }
 }

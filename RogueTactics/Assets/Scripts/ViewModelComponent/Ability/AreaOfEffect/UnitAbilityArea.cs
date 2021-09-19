@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class UnitAbilityArea : AbilityArea
 {
-    public override List<TileDefinitionData> GetTilesInArea(Vector2 position)
+    public override List<WorldTile> GetTilesInArea(Vector2 position)
     {
-        List<TileDefinitionData> retValue = new List<TileDefinitionData>();
-        TileDefinitionData tile = Board.GetTile(position);
-        if (tile != null)
+        List<WorldTile> retValue = new List<WorldTile>();
+        WorldTile worldTile = Board.GetTile(position);
+        if (worldTile != null)
         {
-            retValue.Add(tile);
+            retValue.Add(worldTile);
         }
 
         return retValue;

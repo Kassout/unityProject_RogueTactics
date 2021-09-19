@@ -5,48 +5,48 @@ using UnityEngine;
 
 public abstract class BaseAbilityPower : MonoBehaviour
 {
-    protected abstract int GetBaseAttack();
-    protected abstract int GetBaseDefense(Unit target);
-    protected abstract int GetPower(Unit target);
+    protected abstract int GetBaseOffensiveStat();
+    protected abstract int GetBaseDefensiveStat(Unit target);
+    protected abstract int GetAbilityPower(Unit target);
 
     private void OnEnable()
     {
-        this.AddObserver(OnGetBaseAttack, BaseAbilityEffect.GetStrengthNotification);
-        this.AddObserver(OnGetBaseDefense, BaseAbilityEffect.GetDefenseNotification);
-        this.AddObserver(OnGetPower, BaseAbilityEffect.GetPowerNotification);
+        this.AddObserver(OnGetBaseOffensiveStat, BaseAbilityEffect.GetOffensiveStatNotification);
+        this.AddObserver(OnGetBaseDefensiveStat, BaseAbilityEffect.GetDefensiveStatNotification);
+        this.AddObserver(OnGetAbilityPower, BaseAbilityEffect.GetAbilityPowerNotification);
     }
 
     private void OnDisable()
     {
-        this.RemoveObserver(OnGetBaseAttack, BaseAbilityEffect.GetStrengthNotification);
-        this.RemoveObserver(OnGetBaseDefense, BaseAbilityEffect.GetDefenseNotification);
-        this.RemoveObserver(OnGetPower, BaseAbilityEffect.GetPowerNotification);
+        this.RemoveObserver(OnGetBaseOffensiveStat, BaseAbilityEffect.GetOffensiveStatNotification);
+        this.RemoveObserver(OnGetBaseDefensiveStat, BaseAbilityEffect.GetDefensiveStatNotification);
+        this.RemoveObserver(OnGetAbilityPower, BaseAbilityEffect.GetAbilityPowerNotification);
     }
 
-    private void OnGetBaseAttack(object sender, object args)
+    private void OnGetBaseOffensiveStat(object sender, object args)
     {
         if (IsMyEffect(sender))
         {
             var info = args as Info<Unit, Unit, List<ValueModifier>>;
-            info.arg2.Add( new AddValueModifier(0, GetBaseAttack()) );
+            info.arg2.Add( new AddValueModifier(0, GetBaseOffensiveStat()) );
         }
     }
     
-    void OnGetBaseDefense (object sender, object args)
+    void OnGetBaseDefensiveStat (object sender, object args)
     {
         if (IsMyEffect(sender))
         {
             var info = args as Info<Unit, Unit, List<ValueModifier>>;
-            info.arg2.Add( new AddValueModifier(0, GetBaseDefense(info.arg1)) );
+            info.arg2.Add( new AddValueModifier(0, GetBaseDefensiveStat(info.arg1)) );
         }
     }
     
-    void OnGetPower (object sender, object args)
+    void OnGetAbilityPower (object sender, object args)
     {
         if (IsMyEffect(sender))
         {
             var info = args as Info<Unit, Unit, List<ValueModifier>>;
-            info.arg2.Add( new AddValueModifier(0, GetPower(info.arg1)) );
+            info.arg2.Add( new AddValueModifier(0, GetAbilityPower(info.arg1)) );
         }
     }
     

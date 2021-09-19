@@ -3,22 +3,22 @@ using UnityEngine;
 public class PhysicalDamageAbilityEffect : BaseAbilityEffect
 {
     #region Public
-    public override int Predict (TileDefinitionData target)
+    public override int Predict (WorldTile target)
     {
         Unit attacker = GetComponentInParent<Unit>();
         Unit defender = target.content.GetComponent<Unit>();
 
         // Get the abilities power stat considering possible variations
         // TODO : add weapon effectiveness
-        int power = GetStat(attacker, defender, GetPowerNotification, 0);
+        int power = GetStat(attacker, defender, GetAbilityPowerNotification, 0);
         
         // Get the targets base defense stat considering
         // mission items, support check, status check, and equipment, etc
-        int defense = GetStat(attacker, defender, GetDefenseNotification, 0);
+        int defense = GetStat(attacker, defender, GetDefensiveStatNotification, 0);
         
         // Get the attackers base attack stat considering
         // mission items, support check, status check, and equipment, etc
-        int strength = GetStat(attacker, defender, GetStrengthNotification, 0);
+        int strength = GetStat(attacker, defender, GetOffensiveStatNotification, 0);
 
         // Calculate base defense damage
         // TODO : add terrain modifiers + supports ?
@@ -34,10 +34,10 @@ public class PhysicalDamageAbilityEffect : BaseAbilityEffect
 
         // Clamp the damage to a range
         damage = Mathf.Clamp(damage, minDamage, maxDamage);
-        return -damage;
+        return damage;
     }
 	
-    protected override int OnApply (TileDefinitionData target)
+    protected override int OnApply (WorldTile target)
     {
         Unit defender = target.content.GetComponent<Unit>();
 
@@ -49,7 +49,7 @@ public class PhysicalDamageAbilityEffect : BaseAbilityEffect
 
         // Apply the damage to the target
         UnitStats s = defender.GetComponent<UnitStats>();
-        s[UnitStatTypes.HP] += value;
+        s[UnitStatTypes.HP] -= value;
         return value;
     }
     #endregion
