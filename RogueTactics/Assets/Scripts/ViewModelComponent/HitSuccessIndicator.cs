@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
+using Common.UI;
 using UnityEngine;
 using UnityEngine.UI;
 

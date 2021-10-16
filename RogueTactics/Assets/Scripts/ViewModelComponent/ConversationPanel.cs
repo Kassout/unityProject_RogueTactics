@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Common.UI;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,7 +17,7 @@ public class ConversationPanel : MonoBehaviour
         Vector3 pos = arrow.transform.localPosition;
         arrow.transform.localPosition = new Vector3(pos.x, pos.y + 5, 0);
         Tweener t = arrow.transform.MoveToLocal(new Vector3(pos.x, pos.y - 5, pos.z), 0.5f, EasingEquations.EaseInQuad);
-        t.loopType = AnimationEasingControl.LoopType.PingPong;
+        t.loopType = EasingControl.LoopType.PingPong;
         t.loopCount = -1;
     }
 

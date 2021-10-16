@@ -7,13 +7,7 @@ namespace Common.StateMachine
     /// </summary>
     public abstract class State : MonoBehaviour
     {
-        /// <summary>
-        ///     TODO: comments
-        /// </summary>
-        protected virtual void OnDestroy()
-        {
-            RemoveListeners();
-        }
+        #region Public
 
         /// <summary>
         ///     TODO: comments
@@ -31,6 +25,18 @@ namespace Common.StateMachine
             RemoveListeners();
         }
 
+        #endregion
+
+        #region Protected
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        protected virtual void OnDestroy()
+        {
+            RemoveListeners();
+        }
+
         /// <summary>
         ///     TODO: comments
         /// </summary>
@@ -44,5 +50,7 @@ namespace Common.StateMachine
         protected virtual void RemoveListeners()
         {
         }
+
+        #endregion
     }
 }

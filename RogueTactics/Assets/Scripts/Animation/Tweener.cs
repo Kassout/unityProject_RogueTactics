@@ -1,25 +1,42 @@
-using UnityEngine;
 using System;
-using System.Collections;
 
-public abstract class Tweener : AnimationEasingControl
+/// <summary>
+///     TODO: comments
+/// </summary>
+public abstract class Tweener : EasingControl
 {
-    #region Properties
-
-    public static float DefaultDuration = 1f;
-    public static Func<float, float, float, float> DefaultEquation = EasingEquations.EaseInOutQuad;
-    public bool destroyOnComplete = true;
-
-    #endregion
-
     #region Event Handlers
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     protected override void OnComplete()
     {
         base.OnComplete();
         if (destroyOnComplete)
+        {
             Destroy(this);
+        }
     }
+
+    #endregion
+
+    #region Fields / Properties
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public static float DefaultDuration = 1f;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public static readonly Func<float, float, float, float> DefaultEquation = EasingEquations.EaseInOutQuad;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public bool destroyOnComplete = true;
 
     #endregion
 }

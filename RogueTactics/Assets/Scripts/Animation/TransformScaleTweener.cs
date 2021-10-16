@@ -1,11 +1,18 @@
-﻿using UnityEngine;
-using System.Collections;
-
+﻿/// <summary>
+/// TODO: comments
+/// </summary>
 public class TransformScaleTweener : Vector3Tweener
 {
-    protected override void OnUpdate()
-    {
-        base.OnUpdate();
-        transform.localScale = currentTweenValue;
-    }
+    #region Protected
+
+        /// <summary>
+        /// TODO: comments
+        /// </summary>
+        protected override void OnUpdate()
+        {
+            base.OnUpdate();
+            transform.localScale = currentTweenValue;
+        }
+
+    #endregion
 }

@@ -9,14 +9,14 @@ public class BattleMessageController : MonoBehaviour
     [SerializeField] private Text label;
     [SerializeField] private GameObject canvas;
     [SerializeField] private CanvasGroup group;
-    private AnimationEasingControl ec;
+    private EasingControl ec;
 
     private void Awake()
     {
-        ec = gameObject.AddComponent<AnimationEasingControl>();
+        ec = gameObject.AddComponent<EasingControl>();
         ec.duration = 0.5f;
         ec.equation = EasingEquations.EaseInOutQuad;
-        ec.endBehaviour = AnimationEasingControl.EndBehaviour.Constant;
+        ec.endBehaviour = EasingControl.EndBehaviour.Constant;
         ec.UpdateEvent += OnUpdateEvent;
     }
 

@@ -1,128 +1,228 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
-[RequireComponent(typeof(LayoutAnchor))]
-public class Panel : MonoBehaviour
+namespace Common.UI
 {
-    [Serializable]
-    public class Position
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    [RequireComponent(typeof(LayoutAnchor))]
+    public class Panel : MonoBehaviour
     {
-        public string name;
-
-        public TextAnchor myAnchor;
-
-        public TextAnchor parentAnchor;
-
-        public Vector2 offset;
-
-        public Position(string name)
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        [Serializable]
+        public class Position
         {
-            this.name = name;
-        }
+            #region Fields / Properties
 
-        public Position(string name, TextAnchor myAnchor, TextAnchor parentAnchor) : this(name)
-        {
-            this.myAnchor = myAnchor;
-            this.parentAnchor = parentAnchor;
-        }
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            public string name;
 
-        public Position(string name, TextAnchor myAnchor, TextAnchor parentAnchor, Vector2 offset) : this(name,
-            myAnchor, parentAnchor)
-        {
-            this.offset = offset;
-        }
-    }
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            public TextAnchor myAnchor;
 
-    [SerializeField] private List<Position> positionList;
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            public TextAnchor parentAnchor;
 
-    private Dictionary<string, Position> _positionMap;
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            public Vector2 offset;
 
-    private LayoutAnchor _anchor;
+            #endregion
 
-    private void Awake()
-    {
-        _anchor = GetComponent<LayoutAnchor>();
+            #region Public
 
-        _positionMap = new Dictionary<string, Position>(positionList.Count);
-
-        for (int i = positionList.Count - 1; i >= 0; --i)
-        {
-            AddPosition(positionList[i]);
-        }
-    }
-    
-    public Position CurrentPosition { get; private set; }
-    
-    public Tweener Transition { get; private set; }
-    
-    public bool InTransition
-    {
-        get { return Transition != null; }
-    }
-
-    public Position this[string name]
-    {
-        get
-        {
-            if (_positionMap.ContainsKey(name))
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            /// <param name="name">TODO: comments</param>
+            public Position(string name)
             {
-                return _positionMap[name];
+                this.name = name;
             }
 
-            return null;
-        }
-    }
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            /// <param name="name">TODO: comments</param>
+            /// <param name="myAnchor">TODO: comments</param>
+            /// <param name="parentAnchor">TODO: comments</param>
+            public Position(string name, TextAnchor myAnchor, TextAnchor parentAnchor) : this(name)
+            {
+                this.myAnchor = myAnchor;
+                this.parentAnchor = parentAnchor;
+            }
 
-    public void AddPosition(Position p)
-    {
-        _positionMap[p.name] = p;
-    }
+            /// <summary>
+            ///     TODO: comments
+            /// </summary>
+            /// <param name="name">TODO: comments</param>
+            /// <param name="myAnchor">TODO: comments</param>
+            /// <param name="parentAnchor">TODO: comments</param>
+            /// <param name="offset">TODO: comments</param>
+            public Position(string name, TextAnchor myAnchor, TextAnchor parentAnchor, Vector2 offset) : this(name,
+                myAnchor, parentAnchor)
+            {
+                this.offset = offset;
+            }
 
-    public void RemovePosition(Position p)
-    {
-        if (_positionMap.ContainsKey(p.name))
-        {
-            _positionMap.Remove(p.name);
-        }
-    }
-
-    public Tweener SetPosition(string positionName, bool animated)
-    {
-        return SetPosition(this[positionName], animated);
-    }
-
-    public Tweener SetPosition(Position p, bool animated)
-    {
-        CurrentPosition = p;
-        if (CurrentPosition == null)
-        {
-            return null;
+            #endregion
         }
 
-        if (InTransition)
+        #region Fields / Properties
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        [SerializeField] private List<Position> positionList;
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        private Dictionary<string, Position> _positionMap;
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        private LayoutAnchor _anchor;
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        public Position CurrentPosition { get; private set; }
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        public Tweener Transition { get; private set; }
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        public bool InTransition => Transition != null;
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="key">TODO: comments</param>
+        public Position this[string key]
         {
-            Transition.Stop();
+            get
+            {
+                if (_positionMap.ContainsKey(key))
+                {
+                    return _positionMap[key];
+                }
+
+                return null;
+            }
         }
 
-        if (animated)
+        #endregion
+
+        #region MonoBehaviour
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        private void Awake()
         {
-            Transition = _anchor.MoveToAnchorPosition(p.myAnchor, p.parentAnchor, p.offset);
-            return Transition;
+            _anchor = GetComponent<LayoutAnchor>();
+
+            _positionMap = new Dictionary<string, Position>(positionList.Count);
+
+            for (int i = positionList.Count - 1; i >= 0; --i)
+            {
+                AddPosition(positionList[i]);
+            }
         }
-        else
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        private void Start()
         {
+            if (CurrentPosition == null && positionList.Count > 0)
+            {
+                SetPosition(positionList[0], false);
+            }
+        }
+
+        #endregion
+
+        #region Public
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="p"></param>
+        public void AddPosition(Position p)
+        {
+            _positionMap[p.name] = p;
+        }
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="p">TODO: comments</param>
+        public void RemovePosition(Position p)
+        {
+            if (_positionMap.ContainsKey(p.name))
+            {
+                _positionMap.Remove(p.name);
+            }
+        }
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="positionName">TODO: comments</param>
+        /// <param name="animated">TODO: comments</param>
+        /// <returns>TODO: comments</returns>
+        public Tweener SetPosition(string positionName, bool animated)
+        {
+            return SetPosition(this[positionName], animated);
+        }
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        /// <param name="p">TODO: comments</param>
+        /// <param name="animated">TODO: comments</param>
+        /// <returns>TODO: comments</returns>
+        public Tweener SetPosition(Position p, bool animated)
+        {
+            CurrentPosition = p;
+            if (CurrentPosition == null)
+            {
+                return null;
+            }
+
+            if (InTransition)
+            {
+                Transition.Stop();
+            }
+
+            if (animated)
+            {
+                Transition = _anchor.MoveToAnchorPosition(p.myAnchor, p.parentAnchor, p.offset);
+                return Transition;
+            }
+
             _anchor.SnapToAnchorPosition(p.myAnchor, p.parentAnchor, p.offset);
             return null;
         }
-    }
 
-    private void Start()
-    {
-        if (CurrentPosition == null && positionList.Count > 0)
-        {
-            SetPosition(positionList[0], false);
-        }
+        #endregion
     }
 }

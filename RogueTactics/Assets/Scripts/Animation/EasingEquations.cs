@@ -37,6 +37,8 @@ using UnityEngine;
 /// </summary>
 public static class EasingEquations
 {
+    #region Public
+
     /// <summary>
     ///     TODO: comments
     /// </summary>
@@ -102,7 +104,10 @@ public static class EasingEquations
         value /= .5f;
         end -= start;
         if (value < 1)
+        {
             return end / 2 * value * value + start;
+        }
+
         value--;
         return -end / 2 * (value * (value - 2) - 1) + start;
     }
@@ -146,7 +151,10 @@ public static class EasingEquations
         value /= .5f;
         end -= start;
         if (value < 1)
+        {
             return end / 2 * value * value * value + start;
+        }
+
         value -= 2;
         return end / 2 * (value * value * value + 2) + start;
     }
@@ -190,7 +198,10 @@ public static class EasingEquations
         value /= .5f;
         end -= start;
         if (value < 1)
+        {
             return end / 2 * value * value * value * value + start;
+        }
+
         value -= 2;
         return -end / 2 * (value * value * value * value - 2) + start;
     }
@@ -234,7 +245,10 @@ public static class EasingEquations
         value /= .5f;
         end -= start;
         if (value < 1)
+        {
             return end / 2 * value * value * value * value * value + start;
+        }
+
         value -= 2;
         return end / 2 * (value * value * value * value * value + 2) + start;
     }
@@ -316,7 +330,10 @@ public static class EasingEquations
         value /= .5f;
         end -= start;
         if (value < 1)
+        {
             return end / 2 * Mathf.Pow(2, 10 * (value - 1)) + start;
+        }
+
         value--;
         return end / 2 * (-Mathf.Pow(2, -10 * value) + 2) + start;
     }
@@ -360,52 +377,12 @@ public static class EasingEquations
         value /= .5f;
         end -= start;
         if (value < 1)
+        {
             return -end / 2 * (Mathf.Sqrt(1 - value * value) - 1) + start;
+        }
+
         value -= 2;
         return end / 2 * (Mathf.Sqrt(1 - value * value) + 1) + start;
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    /// <param name="start">TODO: comments</param>
-    /// <param name="end">TODO: comments</param>
-    /// <param name="value">TODO: comments</param>
-    /// <returns>TODO: comments</returns>
-    private static float EaseInBounce(float start, float end, float value)
-    {
-        end -= start;
-        var d = 1f;
-        return end - EaseOutBounce(0, end, d - value) + start;
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    /// <param name="start">TODO: comments</param>
-    /// <param name="end">TODO: comments</param>
-    /// <param name="value">TODO: comments</param>
-    /// <returns>TODO: comments</returns>
-    private static float EaseOutBounce(float start, float end, float value)
-    {
-        value /= 1f;
-        end -= start;
-        if (value < 1 / 2.75f) return end * (7.5625f * value * value) + start;
-
-        if (value < 2 / 2.75f)
-        {
-            value -= 1.5f / 2.75f;
-            return end * (7.5625f * value * value + .75f) + start;
-        }
-
-        if (value < 2.5 / 2.75)
-        {
-            value -= 2.25f / 2.75f;
-            return end * (7.5625f * value * value + .9375f) + start;
-        }
-
-        value -= 2.625f / 2.75f;
-        return end * (7.5625f * value * value + .984375f) + start;
     }
 
     /// <summary>
@@ -418,9 +395,12 @@ public static class EasingEquations
     public static float EaseInOutBounce(float start, float end, float value)
     {
         end -= start;
-        var d = 1f;
+        float d = 1f;
         if (value < d / 2)
+        {
             return EaseInBounce(0, end, value * 2) * 0.5f + start;
+        }
+
         return EaseOutBounce(0, end, value * 2 - d) * 0.5f + end * 0.5f + start;
     }
 
@@ -435,7 +415,7 @@ public static class EasingEquations
     {
         end -= start;
         value /= 1;
-        var s = 1.70158f;
+        float s = 1.70158f;
         return end * value * value * ((s + 1) * value - s) + start;
     }
 
@@ -448,7 +428,7 @@ public static class EasingEquations
     /// <returns>TODO: comments</returns>
     public static float EaseOutBack(float start, float end, float value)
     {
-        var s = 1.70158f;
+        float s = 1.70158f;
         end -= start;
         value = value / 1 - 1;
         return end * (value * value * ((s + 1) * value + s) + 1) + start;
@@ -463,7 +443,7 @@ public static class EasingEquations
     /// <returns>TODO: comments</returns>
     public static float EaseInOutBack(float start, float end, float value)
     {
-        var s = 1.70158f;
+        float s = 1.70158f;
         end -= start;
         value /= .5f;
         if (value < 1)
@@ -480,19 +460,23 @@ public static class EasingEquations
     /// <summary>
     ///     TODO: comments
     /// </summary>
-    /// <param name="start">TODO: comments</param>
-    /// <param name="end">TODO: comments</param>
+    /// <param name="amplitude"></param>
     /// <param name="value">TODO: comments</param>
     /// <returns>TODO: comments</returns>
     public static float Punch(float amplitude, float value)
     {
-        float s = 9;
-        if (value == 0) return 0;
+        if (value == 0)
+        {
+            return 0;
+        }
 
-        if (value == 1) return 0;
+        if (value == 1)
+        {
+            return 0;
+        }
 
-        var period = 1 * 0.3f;
-        s = period / (2 * Mathf.PI) * Mathf.Asin(0);
+        float period = 1 * 0.3f;
+        float s = period / (2 * Mathf.PI) * Mathf.Asin(0);
         return amplitude * Mathf.Pow(2, -10 * value) * Mathf.Sin((value * 1 - s) * (2 * Mathf.PI) / period);
     }
 
@@ -507,16 +491,20 @@ public static class EasingEquations
     {
         end -= start;
 
-        var d = 1f;
-        var p = d * .3f;
-        float s = 0;
+        float d = 1f;
+        float p = d * .3f;
+        float s;
         float a = 0;
 
         if (value == 0)
+        {
             return start;
+        }
 
         if ((value /= d) == 1)
+        {
             return start + end;
+        }
 
         if (a == 0f || a < Mathf.Abs(end))
         {
@@ -542,16 +530,20 @@ public static class EasingEquations
     {
         end -= start;
 
-        var d = 1f;
-        var p = d * .3f;
-        float s = 0;
+        float d = 1f;
+        float p = d * .3f;
+        float s;
         float a = 0;
 
         if (value == 0)
+        {
             return start;
+        }
 
         if ((value /= d) == 1)
+        {
             return start + end;
+        }
 
         if (a == 0f || a < Mathf.Abs(end))
         {
@@ -577,16 +569,20 @@ public static class EasingEquations
     {
         end -= start;
 
-        var d = 1f;
-        var p = d * .3f;
-        float s = 0;
+        float d = 1f;
+        float p = d * .3f;
+        float s;
         float a = 0;
 
         if (value == 0)
+        {
             return start;
+        }
 
         if ((value /= d / 2) == 2)
+        {
             return start + end;
+        }
 
         if (a == 0f || a < Mathf.Abs(end))
         {
@@ -599,9 +595,60 @@ public static class EasingEquations
         }
 
         if (value < 1)
+        {
             return -0.5f * (a * Mathf.Pow(2, 10 * (value -= 1)) * Mathf.Sin((value * d - s) * (2 * Mathf.PI) / p)) +
                    start;
+        }
+
         return a * Mathf.Pow(2, -10 * (value -= 1)) * Mathf.Sin((value * d - s) * (2 * Mathf.PI) / p) * 0.5f + end +
                start;
     }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
+    public static float EaseInBounce(float start, float end, float value)
+    {
+        end -= start;
+        float d = 1f;
+        return end - EaseOutBounce(0, end, d - value) + start;
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="start">TODO: comments</param>
+    /// <param name="end">TODO: comments</param>
+    /// <param name="value">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
+    public static float EaseOutBounce(float start, float end, float value)
+    {
+        value /= 1f;
+        end -= start;
+        if (value < 1 / 2.75f)
+        {
+            return end * (7.5625f * value * value) + start;
+        }
+
+        if (value < 2 / 2.75f)
+        {
+            value -= 1.5f / 2.75f;
+            return end * (7.5625f * value * value + .75f) + start;
+        }
+
+        if (value < 2.5 / 2.75)
+        {
+            value -= 2.25f / 2.75f;
+            return end * (7.5625f * value * value + .9375f) + start;
+        }
+
+        value -= 2.625f / 2.75f;
+        return end * (7.5625f * value * value + .984375f) + start;
+    }
+
+    #endregion
 }

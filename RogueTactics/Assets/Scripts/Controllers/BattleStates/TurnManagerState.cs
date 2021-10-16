@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -42,7 +43,7 @@ public class TurnManagerState : BattleState
             unit.hasEndTurn = false;
             unit.GetComponentInChildren<SpriteRenderer>().color = Color.white;
         }
-        
+
         this.PostNotification(BattleController.TurnBeganNotification);
     }
 
@@ -55,5 +56,7 @@ public class TurnManagerState : BattleState
     {
         turn.actor.hasEndTurn = true;
         turn.actor.GetComponentInChildren<SpriteRenderer>().color = new Color(0.2f, 0.2f, 0.2f);
+        turn.ability = null;
+        turn.targets = new List<WorldTile>();
     }
 }

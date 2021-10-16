@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Common.UI;
 using UnityEngine;
 
 public class PanelTests : MonoBehaviour

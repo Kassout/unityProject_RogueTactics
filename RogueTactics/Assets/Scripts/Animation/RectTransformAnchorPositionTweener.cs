@@ -1,18 +1,41 @@
 using UnityEngine;
-using System.Collections;
 
+/// <summary>
+/// TODO: comments
+/// </summary>
 public class RectTransformAnchorPositionTweener : Vector3Tweener 
 {
-    RectTransform rt;
-	
-    void Awake ()
+    #region Fields / Properties
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    private RectTransform _rectTransform;
+
+    #endregion
+
+    #region MonoBehaviour
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    private void Awake ()
     {
-        rt = transform as RectTransform;
+        _rectTransform = transform as RectTransform;
     }
 
+    #endregion
+
+    #region Protected
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     protected override void OnUpdate ()
     {
         base.OnUpdate ();
-        rt.anchoredPosition = currentTweenValue;
+        _rectTransform.anchoredPosition = currentTweenValue;
     }
+
+    #endregion
 }

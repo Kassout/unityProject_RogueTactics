@@ -1,83 +1,212 @@
-using UnityEngine;
 using System;
 using System.Collections;
+using UnityEngine;
 
-public class AnimationEasingControl : MonoBehaviour
+/// <summary>
+///     TODO: comments
+/// </summary>
+public class EasingControl : MonoBehaviour
 {
     #region Events
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public event EventHandler UpdateEvent;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public event EventHandler StateChangeEvent;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public event EventHandler CompletedEvent;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public event EventHandler LoopedEvent;
 
     #endregion
 
     #region Enums
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public enum TimeType
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         Normal,
-        Real,
-        Fixed,
-    };
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        Real,
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        Fixed
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public enum PlayState
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         Stopped,
-        Paused,
-        Playing,
-        Reversing,
-    };
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        Paused,
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        Playing,
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        Reversing
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public enum EndBehaviour
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         Constant,
-        Reset,
-    };
 
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        Reset
+    }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public enum LoopType
     {
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
         Repeat,
-        PingPong,
-    };
+
+        /// <summary>
+        ///     TODO: comments
+        /// </summary>
+        PingPong
+    }
 
     #endregion
 
-    #region Properties
+    #region Fields / Properties
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public TimeType timeType = TimeType.Normal;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public PlayState playState { get; private set; }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public PlayState previousPlayState { get; private set; }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public EndBehaviour endBehaviour = EndBehaviour.Constant;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public LoopType loopType = LoopType.Repeat;
 
-    public bool IsPlaying
-    {
-        get { return playState == PlayState.Playing || playState == PlayState.Reversing; }
-    }
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public bool IsPlaying => playState == PlayState.Playing || playState == PlayState.Reversing;
 
-    public float startValue = 0.0f;
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public float startValue;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public float endValue = 1.0f;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public float duration = 1.0f;
-    public int loopCount = 0;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    public int loopCount;
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public Func<float, float, float, float> equation = EasingEquations.Linear;
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public float currentTime { get; private set; }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public float currentValue { get; private set; }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public float currentOffset { get; private set; }
+
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public int loops { get; private set; }
 
     #endregion
 
     #region MonoBehaviour
 
-    void OnEnable()
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    private void OnEnable()
     {
         Resume();
     }
 
-    void OnDisable()
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    private void OnDisable()
     {
         Pause();
     }
@@ -86,37 +215,62 @@ public class AnimationEasingControl : MonoBehaviour
 
     #region Public
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void Play()
     {
         SetPlayState(PlayState.Playing);
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void Reverse()
     {
         SetPlayState(PlayState.Reversing);
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void Pause()
     {
         if (IsPlaying)
+        {
             SetPlayState(PlayState.Paused);
+        }
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void Resume()
     {
         if (playState == PlayState.Paused)
+        {
             SetPlayState(previousPlayState);
+        }
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void Stop()
     {
         SetPlayState(PlayState.Stopped);
         previousPlayState = PlayState.Stopped;
         loops = 0;
         if (endBehaviour == EndBehaviour.Reset)
+        {
             SeekToBeginning();
+        }
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="time">TODO: comments</param>
     public void SeekToTime(float time)
     {
         currentTime = Mathf.Clamp01(time / duration);
@@ -126,11 +280,17 @@ public class AnimationEasingControl : MonoBehaviour
         OnUpdate();
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void SeekToBeginning()
     {
         SeekToTime(0.0f);
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     public void SeekToEnd()
     {
         SeekToTime(duration);
@@ -140,47 +300,75 @@ public class AnimationEasingControl : MonoBehaviour
 
     #region Protected
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     protected virtual void OnUpdate()
     {
         if (UpdateEvent != null)
+        {
             UpdateEvent(this, System.EventArgs.Empty);
+        }
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     protected virtual void OnLoop()
     {
         if (LoopedEvent != null)
+        {
             LoopedEvent(this, System.EventArgs.Empty);
+        }
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     protected virtual void OnComplete()
     {
         if (CompletedEvent != null)
+        {
             CompletedEvent(this, System.EventArgs.Empty);
+        }
     }
 
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
     protected virtual void OnStateChange()
     {
         if (StateChangeEvent != null)
+        {
             StateChangeEvent(this, System.EventArgs.Empty);
+        }
     }
 
     #endregion
 
     #region Private
 
-    void SetPlayState(PlayState target)
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="target">TODO: comments</param>
+    private void SetPlayState(PlayState target)
     {
         if (isActiveAndEnabled)
         {
             if (playState == target)
+            {
                 return;
+            }
 
             previousPlayState = playState;
             playState = target;
             OnStateChange();
-            StopCoroutine("Ticker");
+            StopCoroutine(nameof(Ticker));
             if (IsPlaying)
-                StartCoroutine("Ticker");
+            {
+                StartCoroutine(nameof(Ticker));
+            }
         }
         else
         {
@@ -189,7 +377,11 @@ public class AnimationEasingControl : MonoBehaviour
         }
     }
 
-    IEnumerator Ticker()
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <returns>TODO: comments</returns>
+    private IEnumerator Ticker()
     {
         while (true)
         {
@@ -209,19 +401,24 @@ public class AnimationEasingControl : MonoBehaviour
                     break;
             }
         }
+        // ReSharper disable once IteratorNeverReturns
     }
 
-    void Tick(float time)
+    /// <summary>
+    ///     TODO: comments
+    /// </summary>
+    /// <param name="time">TODO: comments</param>
+    private void Tick(float time)
     {
-        bool finished = false;
+        bool finished;
         if (playState == PlayState.Playing)
         {
-            currentTime = Mathf.Clamp01(currentTime + (time / duration));
+            currentTime = Mathf.Clamp01(currentTime + time / duration);
             finished = Mathf.Approximately(currentTime, 1.0f);
         }
         else // Reversing
         {
-            currentTime = Mathf.Clamp01(currentTime - (time / duration));
+            currentTime = Mathf.Clamp01(currentTime - time / duration);
             finished = Mathf.Approximately(currentTime, 0.0f);
         }
 
@@ -236,9 +433,13 @@ public class AnimationEasingControl : MonoBehaviour
             if (loopCount < 0 || loopCount >= loops)
             {
                 if (loopType == LoopType.Repeat)
+                {
                     SeekToBeginning();
+                }
                 else // PingPong
+                {
                     SetPlayState(playState == PlayState.Playing ? PlayState.Reversing : PlayState.Playing);
+                }
 
                 OnLoop();
             }
