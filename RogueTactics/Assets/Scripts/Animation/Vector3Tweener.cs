@@ -1,18 +1,18 @@
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public abstract class Vector3Tweener : Tweener
 {
     #region Protected
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected override void OnUpdate()
     {
-        currentTweenValue = (endTweenValue - startTweenValue) * currentValue + startTweenValue;
+        CurrentTweenValue = (endTweenValue - startTweenValue) * CurrentValue + startTweenValue;
         base.OnUpdate();
     }
 
@@ -21,19 +21,19 @@ public abstract class Vector3Tweener : Tweener
     #region Fields / Properties
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public Vector3 startTweenValue;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public Vector3 endTweenValue;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public Vector3 currentTweenValue { get; private set; }
+    public Vector3 CurrentTweenValue { get; private set; }
 
     #endregion
 }

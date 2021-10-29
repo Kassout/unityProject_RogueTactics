@@ -4,29 +4,29 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class AbilityTargetState : BattleState
 {
     #region Fields / Properties
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private List<WorldTile> _abilityRangeTiles;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private List<WorldTile> _targetAreaTiles;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private AbilityRange _abilityRange;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private AbilityArea _abilityArea;
 
@@ -35,7 +35,7 @@ public class AbilityTargetState : BattleState
     #region InputSystem
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnMovement(InputAction.CallbackContext context)
@@ -55,7 +55,7 @@ public class AbilityTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnInteraction(InputAction.CallbackContext context)
@@ -71,7 +71,7 @@ public class AbilityTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnCancel(InputAction.CallbackContext context)
@@ -84,7 +84,7 @@ public class AbilityTargetState : BattleState
     #region Public
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public override void Enter()
     {
@@ -102,7 +102,7 @@ public class AbilityTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public override void Exit()
     {
@@ -117,7 +117,7 @@ public class AbilityTargetState : BattleState
     #region Private
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <returns>TODO: comments</returns>
     private IEnumerator ComputerHighlightTarget()
@@ -154,7 +154,7 @@ public class AbilityTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private void SelectTiles()
     {

@@ -1,10 +1,9 @@
 using System.Collections.Generic;
-using Common.StateMachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class BattleState : State
 {
@@ -16,22 +15,22 @@ public class BattleState : State
     protected Driver _driver;
     
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected BattleController owner;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected Camera battleCamera => owner.battleCamera;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected Transform tileSelectionCursor => owner.tileSelectionCursor;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected WorldTile currentSelectedWorldTile => owner.currentSelectedWorldTile;
 
@@ -46,7 +45,7 @@ public class BattleState : State
     public List<Unit> units => owner.units;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private Vector2 position
     {
@@ -55,7 +54,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected virtual void Awake()
     {
@@ -70,7 +69,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected override void AddListeners()
     {
@@ -88,7 +87,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected override void RemoveListeners()
     {
@@ -103,7 +102,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected virtual void OnMovement(InputAction.CallbackContext context)
@@ -111,7 +110,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected virtual void OnInteraction(InputAction.CallbackContext context)
@@ -119,7 +118,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected virtual void OnCancel(InputAction.CallbackContext context)
@@ -127,7 +126,7 @@ public class BattleState : State
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="targetPosition">TODO: comments</param>
     protected virtual void SelectTile(Vector2 targetPosition)

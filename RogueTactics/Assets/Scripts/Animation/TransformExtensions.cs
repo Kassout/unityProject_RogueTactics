@@ -2,14 +2,14 @@ using System;
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public static class TransformAnimationExtensions
 {
     #region Public
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="position">TODO: comments</param>
@@ -20,7 +20,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="position">TODO: comments</param>
@@ -32,7 +32,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="position">TODO: comments</param>
@@ -52,7 +52,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="position">TODO: comments</param>
@@ -63,7 +63,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="position">TODO: comments</param>
@@ -75,7 +75,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="position">TODO: comments</param>
@@ -95,7 +95,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="euler">TODO: comments</param>
@@ -115,7 +115,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="scale">TODO: comments</param>
@@ -126,7 +126,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="scale">TODO: comments</param>
@@ -138,7 +138,7 @@ public static class TransformAnimationExtensions
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="t">TODO: comments</param>
     /// <param name="scale">TODO: comments</param>

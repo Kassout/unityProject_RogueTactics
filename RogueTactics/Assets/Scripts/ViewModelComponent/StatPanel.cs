@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using Common.UI;
 using UnityEngine;
 using UnityEngine.UI;
 

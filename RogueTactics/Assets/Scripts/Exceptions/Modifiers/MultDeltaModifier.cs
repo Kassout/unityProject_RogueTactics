@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class MultDeltaModifier : ValueModifier
 {
     public readonly float toMultiply;

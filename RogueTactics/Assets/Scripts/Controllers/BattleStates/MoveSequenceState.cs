@@ -1,13 +1,12 @@
 using System.Collections;
-using UnityEngine.InputSystem;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class MoveSequenceState : BattleState
 {
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public override void Enter()
     {
@@ -16,7 +15,7 @@ public class MoveSequenceState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <returns>TODO: comments</returns>
     private IEnumerator Sequence()

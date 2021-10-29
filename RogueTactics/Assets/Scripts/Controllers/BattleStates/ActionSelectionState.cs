@@ -3,11 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+/// <summary>
+/// TODO: comments
+/// </summary>
 public class ActionSelectionState : BaseAbilityMenuState
 {
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     public static int category;
+    
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     private AbilityCatalog _catalog;
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     public override void Enter()
     {
         base.Enter();
@@ -18,6 +31,9 @@ public class ActionSelectionState : BaseAbilityMenuState
         Cursor.visible = false;
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     public override void Exit()
     {
         base.Exit();
@@ -28,6 +44,9 @@ public class ActionSelectionState : BaseAbilityMenuState
         Cursor.visible = true;
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     protected override void LoadMenu()
     {
         _catalog = turn.actor.GetComponentInChildren<AbilityCatalog>();
@@ -67,6 +86,10 @@ public class ActionSelectionState : BaseAbilityMenuState
         }
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <param name="context"></param>
     protected void OnSelection(InputAction.CallbackContext context)
     {
         Vector2 mouseDelta = context.ReadValue<Vector2>().normalized * Time.fixedDeltaTime;
@@ -77,6 +100,9 @@ public class ActionSelectionState : BaseAbilityMenuState
         }
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     IEnumerator ChangeSelection(float axis)
     {
         if (axis > 0)
@@ -95,12 +121,17 @@ public class ActionSelectionState : BaseAbilityMenuState
         inputManager.Cursor.Selection.Enable();
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     protected override void OnInteraction(InputAction.CallbackContext context)
     {
         Confirm();
     }
 
-
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
     protected override void Confirm()
     {
         turn.ability = _catalog.GetAbility(category, abilityMenuPanelController.selection);

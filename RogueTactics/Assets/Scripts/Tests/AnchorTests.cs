@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using Common.UI;
 
 public class AnchorTests : MonoBehaviour 
 {

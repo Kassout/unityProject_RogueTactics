@@ -1,6 +1,4 @@
 using System.Collections.Generic;
-using Model;
-using UnityEngine;
 
 public class Turn
 {

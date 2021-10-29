@@ -1,17 +1,17 @@
 ﻿/// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class TransformLocalPositionTweener : Vector3Tweener
 {
     #region Protected
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected override void OnUpdate()
     {
         base.OnUpdate();
-        transform.localPosition = currentTweenValue;
+        transform.localPosition = CurrentTweenValue;
     }
 
     #endregion

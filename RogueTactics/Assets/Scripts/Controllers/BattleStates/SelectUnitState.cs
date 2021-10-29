@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 using Random = System.Random;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class SelectUnitState : BattleState
 {
@@ -52,7 +52,7 @@ public class SelectUnitState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnMovement(InputAction.CallbackContext context)
@@ -63,7 +63,7 @@ public class SelectUnitState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnInteraction(InputAction.CallbackContext context)

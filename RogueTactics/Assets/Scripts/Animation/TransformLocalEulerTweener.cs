@@ -1,17 +1,17 @@
 ﻿/// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class TransformLocalEulerTweener : Vector3Tweener
 {
     #region Protected
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     protected override void OnUpdate()
     {
         base.OnUpdate();
-        transform.localEulerAngles = currentTweenValue;
+        transform.localEulerAngles = CurrentTweenValue;
     }
 
     #endregion

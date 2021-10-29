@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -35,7 +33,7 @@ public class BattleMessageController : MonoBehaviour
 
     public void OnUpdateEvent(object sender, System.EventArgs e)
     {
-        group.alpha = ec.currentValue;
+        group.alpha = ec.CurrentValue;
     }
 
     IEnumerator Sequence()

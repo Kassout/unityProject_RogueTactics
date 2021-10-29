@@ -1,7 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
 public class KOdAbilityEffectTarget : AbilityEffectTarget
 {
     public override bool IsTarget(WorldTile worldTile)

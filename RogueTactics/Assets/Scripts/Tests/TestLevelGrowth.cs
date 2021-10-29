@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using Party = System.Collections.Generic.List<UnityEngine.GameObject>;
 public class TestLevelGrowth : MonoBehaviour 
 {

@@ -3,12 +3,12 @@ using Model;
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class InitBattleState : BattleState
 {
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public override void Enter()
     {
@@ -36,7 +36,7 @@ public class InitBattleState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private void SpawnTestUnits()
     {

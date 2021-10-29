@@ -5,19 +5,19 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class MoveTargetState : BattleState
 {
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private List<WorldTile> _movableTiles;
 
     private List<WorldTile> _actionableTiles;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public override void Enter()
     {
@@ -125,7 +125,7 @@ public class MoveTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public override void Exit()
     {
@@ -141,7 +141,7 @@ public class MoveTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnMovement(InputAction.CallbackContext context)
@@ -160,7 +160,7 @@ public class MoveTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnInteraction(InputAction.CallbackContext context)
@@ -186,7 +186,7 @@ public class MoveTargetState : BattleState
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
     protected override void OnCancel(InputAction.CallbackContext context)

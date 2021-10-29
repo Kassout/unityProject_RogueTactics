@@ -34,7 +34,7 @@ public class RectTransformAnchorPositionTweener : Vector3Tweener
     protected override void OnUpdate ()
     {
         base.OnUpdate ();
-        _rectTransform.anchoredPosition = currentTweenValue;
+        _rectTransform.anchoredPosition = CurrentTweenValue;
     }
 
     #endregion

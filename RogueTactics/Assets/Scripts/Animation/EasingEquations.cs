@@ -33,14 +33,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public static class EasingEquations
 {
     #region Public
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -52,7 +52,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -67,7 +67,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -80,7 +80,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -93,7 +93,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -113,7 +113,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -126,7 +126,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -140,7 +140,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -160,7 +160,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -173,7 +173,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -187,7 +187,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -207,7 +207,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -220,7 +220,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -234,7 +234,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -254,7 +254,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -267,7 +267,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -280,7 +280,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -293,7 +293,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -306,7 +306,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -319,7 +319,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -339,7 +339,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -352,7 +352,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -366,7 +366,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -386,7 +386,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -405,7 +405,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -420,7 +420,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -435,7 +435,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -458,7 +458,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="amplitude"></param>
     /// <param name="value">TODO: comments</param>
@@ -481,7 +481,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -520,7 +520,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -559,7 +559,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -605,7 +605,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>
@@ -619,7 +619,7 @@ public static class EasingEquations
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="start">TODO: comments</param>
     /// <param name="end">TODO: comments</param>

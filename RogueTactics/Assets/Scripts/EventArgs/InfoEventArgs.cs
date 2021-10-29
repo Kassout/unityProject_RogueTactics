@@ -1,13 +1,13 @@
 namespace EventArgs
 {
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <typeparam name="T">TODO: comments </typeparam>
     public class InfoEventArgs<T> : System.EventArgs
     {
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         public T info;
 

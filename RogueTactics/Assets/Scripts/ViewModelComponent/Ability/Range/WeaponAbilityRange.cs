@@ -1,7 +1,4 @@
-﻿using System;
-using UnityEngine;
-
-public class WeaponAbilityRange : ConstantAbilityRange
+﻿public class WeaponAbilityRange : ConstantAbilityRange
 {
     private void Start()
     {

@@ -1,11 +1,8 @@
-using System;
 using System.Collections.Generic;
-using Common.StateMachine;
-using Model;
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class BattleController : StateMachine
 {
@@ -24,12 +21,12 @@ public class BattleController : StateMachine
     #endregion
     
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public Camera battleCamera;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public Transform tileSelectionCursor;
 
@@ -69,12 +66,12 @@ public class BattleController : StateMachine
     public List<Unit> units = new List<Unit>();
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     [HideInInspector] public WorldTile currentSelectedWorldTile;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     [HideInInspector] public Vector2 position;
 
@@ -91,7 +88,7 @@ public class BattleController : StateMachine
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private void Start()
     {

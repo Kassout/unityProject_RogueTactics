@@ -1,14 +1,14 @@
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class CameraController : MonoBehaviour
 {
     public int boundary = 50;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public float speed = 3f;
 
@@ -28,6 +28,10 @@ public class CameraController : MonoBehaviour
 
     private void Start()
     {
+#if  UNITY_EDITOR
+        speed = 3f;
+#endif
+    
         _screenHeight = Screen.height;
         _screenWidth = Screen.width;
 
@@ -36,7 +40,7 @@ public class CameraController : MonoBehaviour
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private void LateUpdate()
     {

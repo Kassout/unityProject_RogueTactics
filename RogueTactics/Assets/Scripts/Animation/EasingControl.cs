@@ -3,29 +3,29 @@ using System.Collections;
 using UnityEngine;
 
 /// <summary>
-///     TODO: comments
+/// TODO: comments
 /// </summary>
 public class EasingControl : MonoBehaviour
 {
     #region Events
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public event EventHandler UpdateEvent;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public event EventHandler StateChangeEvent;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public event EventHandler CompletedEvent;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public event EventHandler LoopedEvent;
 
@@ -34,80 +34,80 @@ public class EasingControl : MonoBehaviour
     #region Enums
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public enum TimeType
     {
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Normal,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Real,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Fixed
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public enum PlayState
     {
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Stopped,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Paused,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Playing,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Reversing
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public enum EndBehaviour
     {
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Constant,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Reset
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public enum LoopType
     {
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         Repeat,
 
         /// <summary>
-        ///     TODO: comments
+        /// TODO: comments
         /// </summary>
         PingPong
     }
@@ -117,86 +117,86 @@ public class EasingControl : MonoBehaviour
     #region Fields / Properties
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public TimeType timeType = TimeType.Normal;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public PlayState playState { get; private set; }
+    public PlayState CurrentPlayState { get; private set; }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public PlayState previousPlayState { get; private set; }
+    public PlayState PreviousPlayState { get; private set; }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public EndBehaviour endBehaviour = EndBehaviour.Constant;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public LoopType loopType = LoopType.Repeat;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public bool IsPlaying => playState == PlayState.Playing || playState == PlayState.Reversing;
+    public bool IsPlaying => CurrentPlayState == PlayState.Playing || CurrentPlayState == PlayState.Reversing;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public float startValue;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public float endValue = 1.0f;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public float duration = 1.0f;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public int loopCount;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     public Func<float, float, float, float> equation = EasingEquations.Linear;
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public float currentTime { get; private set; }
+    public float CurrentTime { get; private set; }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public float currentValue { get; private set; }
+    public float CurrentValue { get; private set; }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public float currentOffset { get; private set; }
+    public float CurrentOffset { get; private set; }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
-    public int loops { get; private set; }
+    public int Loops { get; private set; }
 
     #endregion
 
     #region MonoBehaviour
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private void OnEnable()
     {
@@ -204,7 +204,7 @@ public class EasingControl : MonoBehaviour
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     private void OnDisable()
     {
@@ -212,157 +212,24 @@ public class EasingControl : MonoBehaviour
     }
 
     #endregion
-
-    #region Public
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void Play()
-    {
-        SetPlayState(PlayState.Playing);
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void Reverse()
-    {
-        SetPlayState(PlayState.Reversing);
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void Pause()
-    {
-        if (IsPlaying)
-        {
-            SetPlayState(PlayState.Paused);
-        }
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void Resume()
-    {
-        if (playState == PlayState.Paused)
-        {
-            SetPlayState(previousPlayState);
-        }
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void Stop()
-    {
-        SetPlayState(PlayState.Stopped);
-        previousPlayState = PlayState.Stopped;
-        loops = 0;
-        if (endBehaviour == EndBehaviour.Reset)
-        {
-            SeekToBeginning();
-        }
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    /// <param name="time">TODO: comments</param>
-    public void SeekToTime(float time)
-    {
-        currentTime = Mathf.Clamp01(time / duration);
-        float newValue = (endValue - startValue) * currentTime + startValue;
-        currentOffset = newValue - currentValue;
-        currentValue = newValue;
-        OnUpdate();
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void SeekToBeginning()
-    {
-        SeekToTime(0.0f);
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    public void SeekToEnd()
-    {
-        SeekToTime(duration);
-    }
-
-    #endregion
-
-    #region Protected
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    protected virtual void OnUpdate()
-    {
-        if (UpdateEvent != null)
-        {
-            UpdateEvent(this, System.EventArgs.Empty);
-        }
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    protected virtual void OnLoop()
-    {
-        if (LoopedEvent != null)
-        {
-            LoopedEvent(this, System.EventArgs.Empty);
-        }
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    protected virtual void OnComplete()
-    {
-        if (CompletedEvent != null)
-        {
-            CompletedEvent(this, System.EventArgs.Empty);
-        }
-    }
-
-    /// <summary>
-    ///     TODO: comments
-    /// </summary>
-    protected virtual void OnStateChange()
-    {
-        if (StateChangeEvent != null)
-        {
-            StateChangeEvent(this, System.EventArgs.Empty);
-        }
-    }
-
-    #endregion
-
+    
     #region Private
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="target">TODO: comments</param>
     private void SetPlayState(PlayState target)
     {
         if (isActiveAndEnabled)
         {
-            if (playState == target)
+            if (CurrentPlayState == target)
             {
                 return;
             }
 
-            previousPlayState = playState;
-            playState = target;
+            PreviousPlayState = CurrentPlayState;
+            CurrentPlayState = target;
             OnStateChange();
             StopCoroutine(nameof(Ticker));
             if (IsPlaying)
@@ -372,13 +239,13 @@ public class EasingControl : MonoBehaviour
         }
         else
         {
-            previousPlayState = target;
-            playState = PlayState.Paused;
+            PreviousPlayState = target;
+            CurrentPlayState = PlayState.Paused;
         }
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <returns>TODO: comments</returns>
     private IEnumerator Ticker()
@@ -405,32 +272,32 @@ public class EasingControl : MonoBehaviour
     }
 
     /// <summary>
-    ///     TODO: comments
+    /// TODO: comments
     /// </summary>
     /// <param name="time">TODO: comments</param>
     private void Tick(float time)
     {
         bool finished;
-        if (playState == PlayState.Playing)
+        if (CurrentPlayState == PlayState.Playing)
         {
-            currentTime = Mathf.Clamp01(currentTime + time / duration);
-            finished = Mathf.Approximately(currentTime, 1.0f);
+            CurrentTime = Mathf.Clamp01(CurrentTime + time / duration);
+            finished = Mathf.Approximately(CurrentTime, 1.0f);
         }
         else // Reversing
         {
-            currentTime = Mathf.Clamp01(currentTime - time / duration);
-            finished = Mathf.Approximately(currentTime, 0.0f);
+            CurrentTime = Mathf.Clamp01(CurrentTime - time / duration);
+            finished = Mathf.Approximately(CurrentTime, 0.0f);
         }
 
-        float frameValue = (endValue - startValue) * equation(0.0f, 1.0f, currentTime) + startValue;
-        currentOffset = frameValue - currentValue;
-        currentValue = frameValue;
+        float frameValue = (endValue - startValue) * equation(0.0f, 1.0f, CurrentTime) + startValue;
+        CurrentOffset = frameValue - CurrentValue;
+        CurrentValue = frameValue;
         OnUpdate();
 
         if (finished)
         {
-            ++loops;
-            if (loopCount < 0 || loopCount >= loops)
+            ++Loops;
+            if (loopCount < 0 || loopCount >= Loops)
             {
                 if (loopType == LoopType.Repeat)
                 {
@@ -438,7 +305,7 @@ public class EasingControl : MonoBehaviour
                 }
                 else // PingPong
                 {
-                    SetPlayState(playState == PlayState.Playing ? PlayState.Reversing : PlayState.Playing);
+                    SetPlayState(CurrentPlayState == PlayState.Playing ? PlayState.Reversing : PlayState.Playing);
                 }
 
                 OnLoop();
@@ -449,6 +316,139 @@ public class EasingControl : MonoBehaviour
                 Stop();
             }
         }
+    }
+
+    #endregion
+    
+    #region Protected
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected virtual void OnUpdate()
+    {
+        if (UpdateEvent != null)
+        {
+            UpdateEvent(this, System.EventArgs.Empty);
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected virtual void OnLoop()
+    {
+        if (LoopedEvent != null)
+        {
+            LoopedEvent(this, System.EventArgs.Empty);
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected virtual void OnComplete()
+    {
+        if (CompletedEvent != null)
+        {
+            CompletedEvent(this, System.EventArgs.Empty);
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected virtual void OnStateChange()
+    {
+        if (StateChangeEvent != null)
+        {
+            StateChangeEvent(this, System.EventArgs.Empty);
+        }
+    }
+
+    #endregion
+
+    #region Public
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void Play()
+    {
+        SetPlayState(PlayState.Playing);
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void Reverse()
+    {
+        SetPlayState(PlayState.Reversing);
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void Pause()
+    {
+        if (IsPlaying)
+        {
+            SetPlayState(PlayState.Paused);
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void Resume()
+    {
+        if (CurrentPlayState == PlayState.Paused)
+        {
+            SetPlayState(PreviousPlayState);
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void Stop()
+    {
+        SetPlayState(PlayState.Stopped);
+        PreviousPlayState = PlayState.Stopped;
+        Loops = 0;
+        if (endBehaviour == EndBehaviour.Reset)
+        {
+            SeekToBeginning();
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <param name="time">TODO: comments</param>
+    public void SeekToTime(float time)
+    {
+        CurrentTime = Mathf.Clamp01(time / duration);
+        float newValue = (endValue - startValue) * CurrentTime + startValue;
+        CurrentOffset = newValue - CurrentValue;
+        CurrentValue = newValue;
+        OnUpdate();
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void SeekToBeginning()
+    {
+        SeekToTime(0.0f);
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public void SeekToEnd()
+    {
+        SeekToTime(duration);
     }
 
     #endregion
