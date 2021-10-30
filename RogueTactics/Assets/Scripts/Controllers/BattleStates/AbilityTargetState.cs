@@ -40,15 +40,15 @@ public class AbilityTargetState : BattleState
     /// <param name="context">TODO: comments</param>
     protected override void OnMovement(InputAction.CallbackContext context)
     {
-        Vector2 mouseScreenPos = battleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
+        Vector2 mouseScreenPos = BattleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
         if (_abilityRangeTiles.FindIndex(tile =>
                 tile.position.Equals(
                     new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y)))) >=
             0)
         {
-            tileSelectionCursor.position =
+            TileSelectionCursor.position =
                 new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
-            _targetAreaTiles = _abilityArea.GetTilesInArea(tileSelectionCursor.position);
+            _targetAreaTiles = _abilityArea.GetTilesInArea(TileSelectionCursor.position);
             Board.Instance.SelectAbilityTiles(_abilityRangeTiles);
             Board.Instance.SelectAreaTargetTiles(_targetAreaTiles);
         }
@@ -60,7 +60,7 @@ public class AbilityTargetState : BattleState
     /// <param name="context">TODO: comments</param>
     protected override void OnInteraction(InputAction.CallbackContext context)
     {
-        if (_abilityRangeTiles.Contains(Board.GetTile(tileSelectionCursor.position)))
+        if (_abilityRangeTiles.Contains(Board.GetTile(TileSelectionCursor.position)))
         {
             owner.ChangeState<ConfirmAbilityTargetState>();
         }
@@ -81,39 +81,6 @@ public class AbilityTargetState : BattleState
 
     #endregion
 
-    #region Public
-
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    public override void Enter()
-    {
-        base.Enter();
-
-        _abilityRange = turn.ability.GetComponent<AbilityRange>();
-        _abilityArea = turn.ability.GetComponent<AbilityArea>();
-
-        SelectTiles();
-
-        if (_driver.Current == Drivers.Computer)
-        {
-            StartCoroutine(ComputerHighlightTarget());
-        }
-    }
-
-    /// <summary>
-    /// TODO: comments
-    /// </summary>
-    public override void Exit()
-    {
-        base.Exit();
-        Board.Instance.DeSelectTiles(_abilityRangeTiles);
-        statPanelController.HidePrimary();
-        statPanelController.HideSecondary();
-    }
-
-    #endregion
-
     #region Private
 
     /// <summary>
@@ -122,25 +89,25 @@ public class AbilityTargetState : BattleState
     /// <returns>TODO: comments</returns>
     private IEnumerator ComputerHighlightTarget()
     {
-        Vector2 cursorPos = tileSelectionCursor.position;
-        while (cursorPos != turn.plan.fireLocation)
+        Vector2 cursorPos = TileSelectionCursor.position;
+        while (cursorPos != Turn.plan.fireLocation)
         {
-            if (cursorPos.x < turn.plan.fireLocation.x)
+            if (cursorPos.x < Turn.plan.fireLocation.x)
             {
                 cursorPos.x++;
             }
 
-            if (cursorPos.x > turn.plan.fireLocation.x)
+            if (cursorPos.x > Turn.plan.fireLocation.x)
             {
                 cursorPos.x--;
             }
 
-            if (cursorPos.y < turn.plan.fireLocation.y)
+            if (cursorPos.y < Turn.plan.fireLocation.y)
             {
                 cursorPos.y++;
             }
 
-            if (cursorPos.y > turn.plan.fireLocation.y)
+            if (cursorPos.y > Turn.plan.fireLocation.y)
             {
                 cursorPos.y--;
             }
@@ -160,6 +127,39 @@ public class AbilityTargetState : BattleState
     {
         _abilityRangeTiles = _abilityRange.GetTilesInRange();
         Board.Instance.SelectAbilityTiles(_abilityRangeTiles);
+    }
+
+    #endregion
+    
+    #region Public
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public override void Enter()
+    {
+        base.Enter();
+
+        _abilityRange = Turn.ability.GetComponent<AbilityRange>();
+        _abilityArea = Turn.ability.GetComponent<AbilityArea>();
+
+        SelectTiles();
+
+        if (driver.Current == Drivers.Computer)
+        {
+            StartCoroutine(ComputerHighlightTarget());
+        }
+    }
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public override void Exit()
+    {
+        base.Exit();
+        Board.Instance.DeSelectTiles(_abilityRangeTiles);
+        StatPanelController.HidePrimary();
+        StatPanelController.HideSecondary();
     }
 
     #endregion

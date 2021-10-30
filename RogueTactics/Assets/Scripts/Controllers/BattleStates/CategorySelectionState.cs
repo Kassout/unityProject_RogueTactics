@@ -36,13 +36,13 @@ public class CategorySelectionState : BaseAbilityMenuState
             menuOptions.Clear();
         }
 
-        AbilityCatalog catalog = turn.actor.GetComponentInChildren<AbilityCatalog>();
+        AbilityCatalog catalog = Turn.actor.GetComponentInChildren<AbilityCatalog>();
         for (int i = 0; i < catalog.CategoryCount(); ++i)
         {
             menuOptions.Add(catalog.GetCategory(i).name);
         }
 
-        abilityMenuPanelController.Show(menuOptions);
+        AbilityMenuPanelController.Show(menuOptions);
     }
     
     protected void OnSelection(InputAction.CallbackContext context)
@@ -59,11 +59,11 @@ public class CategorySelectionState : BaseAbilityMenuState
     {
         if (axis > 0)
         {
-            abilityMenuPanelController.PreviousMenuSelection();
+            AbilityMenuPanelController.PreviousMenuSelection();
         } 
         else if (axis < 0)
         {
-            abilityMenuPanelController.NextMenuSelection();
+            AbilityMenuPanelController.NextMenuSelection();
         }
 
         inputManager.Cursor.Selection.Disable();
@@ -80,7 +80,7 @@ public class CategorySelectionState : BaseAbilityMenuState
 
     protected override void Confirm()
     {
-        SetCategory(abilityMenuPanelController.selection);
+        SetCategory(AbilityMenuPanelController.selection);
     }
 
     protected override void Cancel()

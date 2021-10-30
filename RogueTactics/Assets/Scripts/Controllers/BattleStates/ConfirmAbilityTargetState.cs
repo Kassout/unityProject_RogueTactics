@@ -15,23 +15,23 @@ public class ConfirmAbilityTargetState : BattleState
         base.Enter();
         
         FindTargets();
-        RefreshPrimaryStatPanel(turn.actor.tile.position);
+        RefreshPrimaryStatPanel(Turn.actor.tile.position);
 
-        if (turn.targets.Count > 0)
+        if (Turn.targets.Count > 0)
         {
-            if (_driver.Current == Drivers.Human)
+            if (driver.Current == Drivers.Human)
             {
-                hitSuccessIndicator.Show();
+                HitSuccessIndicator.Show();
             }
             SetTarget(0);
         }
 
-        if (_driver.Current == Drivers.Computer)
+        if (driver.Current == Drivers.Computer)
         {
             StartCoroutine(ComputerDisplayAbilitySelection());
         }
         
-        if (_driver.Current == Drivers.Human)
+        if (driver.Current == Drivers.Human)
         {
             inputManager.Cursor.Selection.performed += OnSelection;
             inputManager.Cursor.Selection.Enable();
@@ -42,9 +42,9 @@ public class ConfirmAbilityTargetState : BattleState
 
     private IEnumerator ComputerDisplayAbilitySelection()
     {
-        owner.battleMessageController.Display(turn.ability.name);
+        owner.battleMessageController.Display(Turn.ability.name);
         yield return new WaitForSeconds(0.5f);
-        if (null != turn.ability)
+        if (null != Turn.ability)
         {
             owner.ChangeState<PerformAbilityState>();
         }
@@ -57,9 +57,9 @@ public class ConfirmAbilityTargetState : BattleState
     public override void Exit()
     {
         base.Exit();
-        statPanelController.HidePrimary();
-        statPanelController.HideSecondary();
-        hitSuccessIndicator.Hide();
+        StatPanelController.HidePrimary();
+        StatPanelController.HideSecondary();
+        HitSuccessIndicator.Hide();
         
         inputManager.Cursor.Selection.performed -= OnSelection;
         inputManager.Cursor.Selection.Disable();
@@ -97,8 +97,8 @@ public class ConfirmAbilityTargetState : BattleState
 
     protected override void OnInteraction(InputAction.CallbackContext context)
     {
-        turn.targets = new List<WorldTile>() { turn.targets[_index] };
-        if (turn.targets.Count > 0)
+        Turn.targets = new List<WorldTile>() { Turn.targets[_index] };
+        if (Turn.targets.Count > 0)
         {
             owner.ChangeState<PerformAbilityState>();
         }
@@ -110,8 +110,8 @@ public class ConfirmAbilityTargetState : BattleState
 
     protected override void OnCancel(InputAction.CallbackContext context)
     {
-        turn.ability = null;
-        turn.targets = new List<WorldTile>();
+        Turn.ability = null;
+        Turn.targets = new List<WorldTile>();
         if (owner.GetPreviousState().Equals("MoveTargetState"))
         {
             owner.ChangeState<MoveTargetState>();
@@ -125,19 +125,19 @@ public class ConfirmAbilityTargetState : BattleState
 
     void FindTargets ()
     {
-        if (turn.currentDriver == Drivers.Computer || turn.targets.Count != 0)
+        if (Turn.currentDriver == Drivers.Computer || Turn.targets.Count != 0)
         {
-            var ar = turn.ability.GetComponent<AbilityRange>().GetTilesInRange();
-            turn.targets = units.Where(unit => ar.Any(tile => tile.position.Equals(unit.tile.position)) && !unit.Equals(turn.actor)).Select(unit => unit.tile).ToList();
+            var ar = Turn.ability.GetComponent<AbilityRange>().GetTilesInRange();
+            Turn.targets = Units.Where(unit => ar.Any(tile => tile.position.Equals(unit.tile.position)) && !unit.Equals(Turn.actor)).Select(unit => unit.tile).ToList();
         }
 
         var allowedTargets = new List<WorldTile>();
-        AbilityEffectTarget[] targeters = turn.actor.GetComponentsInChildren<AbilityEffectTarget>();
-        for (int i = 0; i < turn.targets.Count; ++i)
-            if (IsTarget(turn.targets[i], targeters))
-                allowedTargets.Add(turn.targets[i]);
+        AbilityEffectTarget[] targeters = Turn.actor.GetComponentsInChildren<AbilityEffectTarget>();
+        for (int i = 0; i < Turn.targets.Count; ++i)
+            if (IsTarget(Turn.targets[i], targeters))
+                allowedTargets.Add(Turn.targets[i]);
 
-        turn.targets = allowedTargets;
+        Turn.targets = allowedTargets;
     }
   
     bool IsTarget (WorldTile worldTile, AbilityEffectTarget[] list)
@@ -153,36 +153,36 @@ public class ConfirmAbilityTargetState : BattleState
     {
         _index = target;
         if (_index < 0)
-            _index = turn.targets.Count - 1;
-        if (_index >= turn.targets.Count)
+            _index = Turn.targets.Count - 1;
+        if (_index >= Turn.targets.Count)
             _index = 0;
-        if (turn.targets.Count > 0)
+        if (Turn.targets.Count > 0)
         {
-            RefreshSecondaryStatPanel(turn.targets[_index].position);
-            tileSelectionCursor.localPosition = turn.targets[_index].position;
+            RefreshSecondaryStatPanel(Turn.targets[_index].position);
+            TileSelectionCursor.localPosition = Turn.targets[_index].position;
             UpdateHitSuccessIndicator();
         }
     }
 
     void UpdateHitSuccessIndicator()
     {
-        WorldTile target = turn.targets[_index];
+        WorldTile target = Turn.targets[_index];
 
-        string chanceAttacker = CalculateHitRate(turn.actor, target).ToString();
+        string chanceAttacker = CalculateHitRate(Turn.actor, target).ToString();
         string amountAttacker = EstimateAbilityDamage(target).ToString();
-        hitSuccessIndicator.SetAttackerStats(chanceAttacker, amountAttacker);
+        HitSuccessIndicator.SetAttackerStats(chanceAttacker, amountAttacker);
 
         string chanceDefender = "-";
         string amountDefender = "-";
         
         if (target.content.GetComponentInChildren<AbilityRange>().range >=
-            Vector3.Magnitude(turn.actor.transform.position - target.content.transform.position))
+            Vector3.Magnitude(Turn.actor.transform.position - target.content.transform.position))
         {
-            chanceDefender = CalculateHitRate(target.content.GetComponent<Unit>(), turn.actor.tile).ToString();
-            amountDefender = EstimateFightBackDamage(target.content.GetComponent<Unit>(), turn.actor.tile)
+            chanceDefender = CalculateHitRate(target.content.GetComponent<Unit>(), Turn.actor.tile).ToString();
+            amountDefender = EstimateFightBackDamage(target.content.GetComponent<Unit>(), Turn.actor.tile)
                 .ToString();
         }
-        hitSuccessIndicator.SetDefenderStats(chanceDefender, amountDefender);
+        HitSuccessIndicator.SetDefenderStats(chanceDefender, amountDefender);
     }
 
     int CalculateHitRate(Unit attacker, WorldTile target)
@@ -193,7 +193,7 @@ public class ConfirmAbilityTargetState : BattleState
 
     int EstimateAbilityDamage(WorldTile target)
     {
-        BaseAbilityEffect effect = turn.ability.GetComponentInChildren<BaseAbilityEffect>();
+        BaseAbilityEffect effect = Turn.ability.GetComponentInChildren<BaseAbilityEffect>();
         return effect.Predict(target);
     }
     

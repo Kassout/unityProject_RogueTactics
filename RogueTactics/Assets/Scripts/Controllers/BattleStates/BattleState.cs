@@ -7,12 +7,17 @@ using UnityEngine.InputSystem;
 /// </summary>
 public class BattleState : State
 {
+    #region Fields / Properties
+    
     /// <summary>
     /// TODO: comments
     /// </summary>
     protected InputManager inputManager;
 
-    protected Driver _driver;
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected Driver driver;
     
     /// <summary>
     /// TODO: comments
@@ -22,36 +27,55 @@ public class BattleState : State
     /// <summary>
     /// TODO: comments
     /// </summary>
-    protected Camera battleCamera => owner.battleCamera;
+    protected Camera BattleCamera => owner.battleCamera;
 
     /// <summary>
     /// TODO: comments
     /// </summary>
-    protected Transform tileSelectionCursor => owner.tileSelectionCursor;
+    protected Transform TileSelectionCursor => owner.tileSelectionCursor;
 
     /// <summary>
     /// TODO: comments
     /// </summary>
-    protected WorldTile currentSelectedWorldTile => owner.currentSelectedWorldTile;
-
-    public AbilityMenuPanelController abilityMenuPanelController => owner.abilityMenuPanelController;
-
-    public StatPanelController statPanelController => owner.statPanelController;
-
-    public HitSuccessIndicator hitSuccessIndicator => owner.hitSuccessIndicator;
-
-    public Turn turn => owner.turn;
-
-    public List<Unit> units => owner.units;
+    protected WorldTile CurrentSelectedWorldTile => owner.currentSelectedWorldTile;
+    
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected AbilityMenuPanelController AbilityMenuPanelController => owner.abilityMenuPanelController;
 
     /// <summary>
     /// TODO: comments
     /// </summary>
-    private Vector2 position
+    protected StatPanelController StatPanelController => owner.statPanelController;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected HitSuccessIndicator HitSuccessIndicator => owner.hitSuccessIndicator;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected Turn Turn => owner.turn;
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    protected List<Unit> Units => owner.units;
+    
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    private Vector2 Position
     {
         get => owner.position;
         set => owner.position = value;
     }
+
+    #endregion
+
+    #region MonoBehaviour
 
     /// <summary>
     /// TODO: comments
@@ -61,19 +85,17 @@ public class BattleState : State
         owner = GetComponent<BattleController>();
         inputManager = new InputManager();
     }
-    
-    public override void Enter ()
-    {
-        _driver = (turn.actor != null) ? turn.actor.GetComponent<Driver>() : null;
-        base.Enter ();
-    }
+
+    #endregion
+
+    #region Protected
 
     /// <summary>
     /// TODO: comments
     /// </summary>
     protected override void AddListeners()
     {
-        if (turn.currentDriver == Drivers.None || turn.currentDriver == Drivers.Human)
+        if (Turn.currentDriver == Drivers.None || Turn.currentDriver == Drivers.Human)
         {
             inputManager.Cursor.Movement.performed += OnMovement;
             inputManager.Cursor.Movement.Enable();
@@ -105,25 +127,19 @@ public class BattleState : State
     /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
-    protected virtual void OnMovement(InputAction.CallbackContext context)
-    {
-    }
+    protected virtual void OnMovement(InputAction.CallbackContext context) {}
 
     /// <summary>
     /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
-    protected virtual void OnInteraction(InputAction.CallbackContext context)
-    {
-    }
+    protected virtual void OnInteraction(InputAction.CallbackContext context) {}
 
     /// <summary>
     /// TODO: comments
     /// </summary>
     /// <param name="context">TODO: comments</param>
-    protected virtual void OnCancel(InputAction.CallbackContext context)
-    {
-    }
+    protected virtual void OnCancel(InputAction.CallbackContext context) {}
 
     /// <summary>
     /// TODO: comments
@@ -131,13 +147,18 @@ public class BattleState : State
     /// <param name="targetPosition">TODO: comments</param>
     protected virtual void SelectTile(Vector2 targetPosition)
     {
-        if (targetPosition == position || Board.GetTile(targetPosition) is null) return;
+        if (targetPosition == Position || Board.GetTile(targetPosition) is null) return;
 
-        position = targetPosition;
+        Position = targetPosition;
         owner.currentSelectedWorldTile = Board.GetTile(targetPosition);
-        tileSelectionCursor.localPosition = currentSelectedWorldTile.position;
+        TileSelectionCursor.localPosition = CurrentSelectedWorldTile.position;
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <param name="unitPosition">TODO: comments</param>
+    /// <returns>TODO: comments</returns>
     protected virtual Unit GetUnit(Vector2 unitPosition)
     {
         WorldTile t = Board.GetTile(unitPosition);
@@ -145,39 +166,70 @@ public class BattleState : State
         return content != null ? content.GetComponent<Unit>() : null;
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <param name="unitPosition">TODO: comments</param>
     protected virtual void RefreshPrimaryStatPanel(Vector2 unitPosition)
     {
         Unit target = GetUnit(unitPosition);
         if (target != null)
         {
-            statPanelController.ShowPrimary(target.gameObject);
+            StatPanelController.ShowPrimary(target.gameObject);
         }
         else
         {
-            statPanelController.HidePrimary();
+            StatPanelController.HidePrimary();
         }
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <param name="unitPosition">TODO: comments</param>
     protected virtual void RefreshSecondaryStatPanel(Vector2 unitPosition)
     {
         Unit target = GetUnit(unitPosition);
         if (target != null)
         {
-            statPanelController.ShowSecondary(target.gameObject);
+            StatPanelController.ShowSecondary(target.gameObject);
         }
         else
         {
-            statPanelController.HideSecondary();
+            StatPanelController.HideSecondary();
         }
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <returns>TODO: comments</returns>
     protected virtual bool DidPlayerWin()
     {
         return owner.GetComponent<BaseVictoryCondition>().Victory == Alliances.Hero;
     }
 
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    /// <returns>TODO: comments</returns>
     protected virtual bool IsBattleOver()
     {
         return owner.GetComponent<BaseVictoryCondition>().Victory != Alliances.None;
     }
+
+    #endregion
+
+    #region Public
+
+    /// <summary>
+    /// TODO: comments
+    /// </summary>
+    public override void Enter ()
+    {
+        driver = (Turn.actor != null) ? Turn.actor.GetComponent<Driver>() : null;
+        base.Enter ();
+    }
+
+    #endregion
 }

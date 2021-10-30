@@ -69,14 +69,14 @@ public class InitBattleState : BattleState
 
             spawnWorldTile.content = instance;
                 
-            units.Add(unit);
+            Units.Add(unit);
         }
     }
     
     private void AddVictoryCondition()
     {
         DefeatTargetVictoryCondition vc = owner.gameObject.AddComponent<DefeatTargetVictoryCondition>();
-        Unit enemy = units[units.Count - 1];
+        Unit enemy = Units[Units.Count - 1];
         vc.target = enemy;
         Health health = enemy.GetComponent<Health>();
         health.MinHP = 10;

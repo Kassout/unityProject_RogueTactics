@@ -7,30 +7,30 @@ public class PerformAbilityState : BattleState
     public override void Enter()
     {
         base.Enter();
-        turn.hasUnitActed = true;
-        turn.lockMove = true;
+        Turn.hasUnitActed = true;
+        Turn.lockMove = true;
 
         StartCoroutine(Animate());
     }
 
     IEnumerator Animate()
     {
-        turn.actor.animator.SetTrigger("attack");
+        Turn.actor.animator.SetTrigger("attack");
 
-        yield return new WaitForSeconds(turn.actor.animator.GetCurrentAnimatorStateInfo(0).length);
+        yield return new WaitForSeconds(Turn.actor.animator.GetCurrentAnimatorStateInfo(0).length);
         
-        ApplyAbility(turn.ability, turn.targets);
+        ApplyAbility(Turn.ability, Turn.targets);
         
-        foreach (WorldTile target in turn.targets)
+        foreach (WorldTile target in Turn.targets)
         {
             if (target.content.GetComponentInChildren<AbilityRange>().range >=
-                Vector3.Magnitude(turn.actor.transform.position - target.content.transform.position))
+                Vector3.Magnitude(Turn.actor.transform.position - target.content.transform.position))
             {
                 target.content.GetComponent<Unit>().animator.SetTrigger("attack");
             
                 yield return new WaitForSeconds(target.content.GetComponent<Unit>().animator.GetCurrentAnimatorStateInfo(0).length);
             
-                ApplyAbility(target.content.GetComponentInChildren<Ability>(), new List<WorldTile>() {Board.GetTile(turn.actor.tile.position)});
+                ApplyAbility(target.content.GetComponentInChildren<Ability>(), new List<WorldTile>() {Board.GetTile(Turn.actor.tile.position)});
             }
         } 
 

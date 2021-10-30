@@ -10,7 +10,7 @@ public class CommandSelectionState : BaseAbilityMenuState
     {
         base.Enter();
 
-        if (_driver.Current == Drivers.Human)
+        if (driver.Current == Drivers.Human)
         {
             inputManager.Cursor.Selection.performed += OnSelection;
             inputManager.Cursor.Selection.Enable();
@@ -43,11 +43,11 @@ public class CommandSelectionState : BaseAbilityMenuState
     {
         if (axis > 0)
         {
-            abilityMenuPanelController.PreviousMenuSelection();
+            AbilityMenuPanelController.PreviousMenuSelection();
         } 
         else if (axis < 0)
         {
-            abilityMenuPanelController.NextMenuSelection();
+            AbilityMenuPanelController.NextMenuSelection();
         }
 
         inputManager.Cursor.Selection.Disable();
@@ -78,17 +78,17 @@ public class CommandSelectionState : BaseAbilityMenuState
         menuOptions.Add("Objects");
         menuOptions.Add("Wait");
 
-        abilityMenuPanelController.Show(menuOptions);
-        abilityMenuPanelController.SetLocked(0, turn.hasUnitActed);
+        AbilityMenuPanelController.Show(menuOptions);
+        AbilityMenuPanelController.SetLocked(0, Turn.hasUnitActed);
         
-        var ar = turn.actor.GetComponentInChildren<AbilityRange>().GetTilesInRange();
-        turn.targets = units.Where(unit => ar.Any(tile => tile.position.Equals(unit.tile.position)) && !unit.Equals(turn.actor)).Select(unit => unit.tile).ToList();
-        abilityMenuPanelController.SetLocked(0, !turn.targets.Any());
+        var ar = Turn.actor.GetComponentInChildren<AbilityRange>().GetTilesInRange();
+        Turn.targets = Units.Where(unit => ar.Any(tile => tile.position.Equals(unit.tile.position)) && !unit.Equals(Turn.actor)).Select(unit => unit.tile).ToList();
+        AbilityMenuPanelController.SetLocked(0, !Turn.targets.Any());
     }
 
     protected override void Confirm()
     {
-        switch (abilityMenuPanelController.selection)
+        switch (AbilityMenuPanelController.selection)
         {
             case 0:
                 Attack();
@@ -97,8 +97,8 @@ public class CommandSelectionState : BaseAbilityMenuState
                 owner.ChangeState<CategorySelectionState>();
                 break;
             case 3:
-                turn.actor.hasEndTurn = true;
-                turn.actor.GetComponentInChildren<SpriteRenderer>().color = Color.grey;
+                Turn.actor.hasEndTurn = true;
+                Turn.actor.GetComponentInChildren<SpriteRenderer>().color = Color.grey;
                 owner.ChangeState<TurnManagerState>();
                 break;
         }
@@ -106,23 +106,23 @@ public class CommandSelectionState : BaseAbilityMenuState
 
     protected override void Cancel()
     {
-        if (turn.hasUnitMoved && !turn.lockMove)
+        if (Turn.hasUnitMoved && !Turn.lockMove)
         {
-            turn.UndoMove();
-            abilityMenuPanelController.SetLocked(0, false);
-            SelectTile(turn.actor.tile.position);
+            Turn.UndoMove();
+            AbilityMenuPanelController.SetLocked(0, false);
+            SelectTile(Turn.actor.tile.position);
         }
         else
         {
-            turn.UndoMove();
-            SelectTile(turn.actor.tile.position); 
+            Turn.UndoMove();
+            SelectTile(Turn.actor.tile.position); 
             owner.ChangeState<SelectUnitState>();
         }
     }
     
     void Attack ()
     {
-        turn.ability = turn.actor.GetComponentInChildren<Ability>();
+        Turn.ability = Turn.actor.GetComponentInChildren<Ability>();
         owner.ChangeState<ConfirmAbilityTargetState>();
     }
 }

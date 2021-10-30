@@ -25,7 +25,7 @@ public class MoveTargetState : BattleState
         
         Cursor.visible = false;
         
-        if (turn.currentDriver == Drivers.Computer)
+        if (Turn.currentDriver == Drivers.Computer)
         {
             StartCoroutine(ComputerHighlightMoveTarget());
         }
@@ -36,7 +36,7 @@ public class MoveTargetState : BattleState
             _movableTiles.Add(owner.turn.actor.tile);
             Board.Instance.SelectTiles(_movableTiles);
             
-            var ability = turn.actor.GetComponentInChildren<AbilityRange>();
+            var ability = Turn.actor.GetComponentInChildren<AbilityRange>();
             if (ability != null)
             {
                 List<WorldTile> boundTiles = ComputeMovementBoundTiles(_movableTiles);
@@ -57,13 +57,13 @@ public class MoveTargetState : BattleState
 
     private IEnumerator ComputerHighlightMoveTarget()
     {
-        Vector2 cursorPos = tileSelectionCursor.position;
-        while (cursorPos != turn.plan.moveLocation)
+        Vector2 cursorPos = TileSelectionCursor.position;
+        while (cursorPos != Turn.plan.moveLocation)
         {
-            if (cursorPos.x < turn.plan.moveLocation.x) cursorPos.x++;
-            if (cursorPos.x > turn.plan.moveLocation.x) cursorPos.x--;
-            if (cursorPos.y < turn.plan.moveLocation.y) cursorPos.y++;
-            if (cursorPos.y > turn.plan.moveLocation.y) cursorPos.y--;
+            if (cursorPos.x < Turn.plan.moveLocation.x) cursorPos.x++;
+            if (cursorPos.x > Turn.plan.moveLocation.x) cursorPos.x--;
+            if (cursorPos.y < Turn.plan.moveLocation.y) cursorPos.y++;
+            if (cursorPos.y > Turn.plan.moveLocation.y) cursorPos.y--;
             SelectTile(cursorPos);
         }
 
@@ -132,7 +132,7 @@ public class MoveTargetState : BattleState
         base.Exit();
 
         Cursor.visible = true;
-        if (turn.currentDriver != Drivers.Computer)
+        if (Turn.currentDriver != Drivers.Computer)
         {
             Board.Instance.DeSelectTiles(_movableTiles);
             Board.Instance.DeSelectTiles(_actionableTiles);
@@ -146,7 +146,7 @@ public class MoveTargetState : BattleState
     /// <param name="context">TODO: comments</param>
     protected override void OnMovement(InputAction.CallbackContext context)
     {
-        Vector2 mouseScreenPos = battleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
+        Vector2 mouseScreenPos = BattleCamera.ScreenToWorldPoint(context.ReadValue<Vector2>());
             
         if (_movableTiles.Any(tile =>
                 tile.position.Equals(new Vector2(Mathf.RoundToInt(mouseScreenPos.x),
@@ -155,7 +155,7 @@ public class MoveTargetState : BattleState
                 tile.position.Equals(new Vector2(Mathf.RoundToInt(mouseScreenPos.x),
                     Mathf.RoundToInt(mouseScreenPos.y)))))
         {
-            tileSelectionCursor.position = new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
+            TileSelectionCursor.position = new Vector2(Mathf.RoundToInt(mouseScreenPos.x), Mathf.RoundToInt(mouseScreenPos.y));
         }
     }
 
@@ -165,22 +165,22 @@ public class MoveTargetState : BattleState
     /// <param name="context">TODO: comments</param>
     protected override void OnInteraction(InputAction.CallbackContext context)
     {
-        if (_movableTiles.FindIndex(tile => tile.position.Equals(tileSelectionCursor.position)) >= 0)
+        if (_movableTiles.FindIndex(tile => tile.position.Equals(TileSelectionCursor.position)) >= 0)
         {
-            owner.currentSelectedWorldTile = Board.GetTile(tileSelectionCursor.position);
+            owner.currentSelectedWorldTile = Board.GetTile(TileSelectionCursor.position);
             owner.ChangeState<MoveSequenceState>();
         } 
-        if (tileSelectionCursor.position.Equals(owner.turn.actor.tile.position))
+        if (TileSelectionCursor.position.Equals(owner.turn.actor.tile.position))
         {
-            owner.currentSelectedWorldTile = Board.GetTile(tileSelectionCursor.position);
+            owner.currentSelectedWorldTile = Board.GetTile(TileSelectionCursor.position);
             owner.ChangeState<CommandSelectionState>();
         }
 
-        if (_actionableTiles.FindIndex(tile => tile.position.Equals(tileSelectionCursor.position)) >= 0 && Board.GetTile(tileSelectionCursor.position).content)
+        if (_actionableTiles.FindIndex(tile => tile.position.Equals(TileSelectionCursor.position)) >= 0 && Board.GetTile(TileSelectionCursor.position).content)
         {
-            owner.currentSelectedWorldTile = Board.GetTile(tileSelectionCursor.position);
-            turn.ability = turn.actor.GetComponentInChildren<Ability>();
-            turn.targets = new List<WorldTile> { owner.currentSelectedWorldTile };
+            owner.currentSelectedWorldTile = Board.GetTile(TileSelectionCursor.position);
+            Turn.ability = Turn.actor.GetComponentInChildren<Ability>();
+            Turn.targets = new List<WorldTile> { owner.currentSelectedWorldTile };
             owner.ChangeState<MoveSequenceState>();
         }
     }

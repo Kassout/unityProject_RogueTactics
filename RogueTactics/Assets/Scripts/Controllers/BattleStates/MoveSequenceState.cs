@@ -22,11 +22,11 @@ public class MoveSequenceState : BattleState
     {
         var m = owner.turn.actor.GetComponent<UnitMovement>();
         BattleController.Instance.inTransition = true;
-        yield return StartCoroutine(m.Traverse(currentSelectedWorldTile));
+        yield return StartCoroutine(m.Traverse(CurrentSelectedWorldTile));
         BattleController.Instance.inTransition = false;
-        if (_driver.Current == Drivers.Human)
+        if (driver.Current == Drivers.Human)
         {
-            if (turn.ability != null && turn.targets.Count != 0)
+            if (Turn.ability != null && Turn.targets.Count != 0)
             {
                 owner.ChangeState<ConfirmAbilityTargetState>();
             }
@@ -37,9 +37,9 @@ public class MoveSequenceState : BattleState
         }
         else
         {
-            if (turn.ability != null)
+            if (Turn.ability != null)
             {
-                owner.battleMessageController.Display(turn.ability.name);
+                owner.battleMessageController.Display(Turn.ability.name);
                 owner.ChangeState<PerformAbilityState>();
             }
             else
